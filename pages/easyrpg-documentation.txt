@@ -1,5 +1,3 @@
-{{indexmenu>..#1|js navbar nocookie }}
-
 ====== EasyRPG documentation ======
 
 This is the documentation wiki of the EasyRPG project.
