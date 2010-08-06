@@ -1,1 +1,1 @@
-{{indexmenu>#1|js navbar noscroll notoc}}
+{{indexmenu>#1|js navbar noscroll}}
