@@ -2,22 +2,22 @@
 
 This is the documentation wiki of the EasyRPG project.
 
-===== Project overview =====
+===== [[project|Project overview]] =====
 
-  * [[Project goals]]
-  * [[Player]]
-  * [[Editor]]
-  * [[RTP replacement]]
+  * [[project/goals|Project goals]]
+  * [[project/Player]]
+  * [[project/Editor]]
+  * [[project/RTP replacement]]
 
 ===== Development =====
 
 ==== For programmers ====
 
-  * [[Getting the source code and compilation instructions]]
-  * [[Code formatting conventions]]
-  * [[RPG Maker file format reference]]
+  * [[development/Getting the source code and compilation instructions]]
+  * [[development/Code formatting conventions]]
+  * [[development/RPG Maker file format reference]]
 
 ==== For artists ====
 
-  * [[RTP replacement contributions]]
-  * [[Media file format specifications]]
+  * [[development/RTP replacement contributions]]
+  * [[development/Media file format specifications]]
