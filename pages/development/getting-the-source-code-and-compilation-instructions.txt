@@ -1,0 +1,34 @@
+====== Getting the source code and compilation instructions ======
+
+===== Getting the source code =====
+
+The source code is available on a Subversion repository hosted on Sourceforge.net. To get the code you need a Subversion client software and check out from an URL. The URL of the EasyRPG subversion repository is ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk''
+
+The procedure is different depending on the operating system used.
+
+For example, if you use a Debian or Ubuntu GNU/Linux system, you need to install the ''subversion'' package and run from the terminal:
+
+''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk DESTINATIONFOLDER''
+
+Replace ''DESTINATIONFOLDER'' with a folder path you want. If the path does not exist, subversion will create it. This will make a checkout of the source code to the specified folder.
+
+If you use Windows operating system you can download a Subversion command line client and run it from CMD with the same command or just use a graphical user interface, for example, TortoiseSVN.
+
+===== Compilation instructions =====
+
+If you use GNU/Linux you will need the following packages:
+
+  subversion
+  build-essential
+  libsdl1.2-dev
+  libsdl-image1.2-dev
+  libsdl-ttf2.0-dev
+  libsdl-mixer1.2-dev
+  libsdl-gfx1.2-dev
+  zlib1g-dev
+  libwxgtk2.8-dev
+  libwxgtk2.8-dbg
+
+If you don't need to build the editor you can skip downloading the libwxgtk2.8 packages. The -dbg version of libwxgtk is only for EasyRPG editor debug compilation.
+
+If you use Windows you can download CodeLite IDE with WxWidgets and then download [[http://easyrpg.rpgmaker.es/media/sdl_libraries.exe|this package]] for SDL dependencies
