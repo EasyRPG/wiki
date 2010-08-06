@@ -29,6 +29,6 @@ If you use GNU/Linux you will need the following packages:
   libwxgtk2.8-dev
   libwxgtk2.8-dbg
 
-If you don't need to build the editor you can skip downloading the libwxgtk2.8 packages. The -dbg version of libwxgtk is only for EasyRPG editor debug compilation.
+If you don't want to build the editor you can skip downloading the libwxgtk2.8 packages. The -dbg version of libwxgtk is only for EasyRPG editor debug compilation.
 
 If you use Windows you can download CodeLite IDE with WxWidgets and then download [[http://easyrpg.rpgmaker.es/media/sdl_libraries.exe|this package]] for SDL dependencies
