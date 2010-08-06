@@ -2,4 +2,5 @@
 
   * Create a RPG Maker 2000/2003 clone, featuring game interpreter, game editor and art replacement
   * Free (as freedom)
-  * Cross platform
+  * Portable and cross platform
+  * Multi-language
