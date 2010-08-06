@@ -8,7 +8,7 @@ The procedure is different depending on the operating system used.
 
 For example, if you use a Debian or Ubuntu GNU/Linux system, you need to install the ''subversion'' package and run from the terminal:
 
-''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk DESTINATIONFOLDER''
+  svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk DESTINATIONFOLDER
 
 Replace ''DESTINATIONFOLDER'' with a folder path you want. If the path does not exist, subversion will create it. This will make a checkout of the source code to the specified folder.
 
