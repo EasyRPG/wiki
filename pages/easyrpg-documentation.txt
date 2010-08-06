@@ -2,9 +2,9 @@
 
 This is the documentation wiki of the EasyRPG project.
 
-===== [[project|Project overview]] =====
+===== [[project/Project overview]] =====
 
-  * [[project/goals|Project goals]]
+  * [[project/Project goals]]
   * [[project/Player]]
   * [[project/Editor]]
   * [[project/RTP replacement]]
