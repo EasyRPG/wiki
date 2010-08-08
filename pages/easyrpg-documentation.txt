@@ -15,6 +15,7 @@ This is the documentation wiki of the EasyRPG project.
 
   * [[development/Getting the source code and compilation instructions]]
   * [[development/Code formatting conventions]]
+  * [[development/RPG_RT.exe technical details]]
 
 ==== For artists ====
 
