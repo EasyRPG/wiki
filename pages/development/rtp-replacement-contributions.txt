@@ -3,3 +3,5 @@
 The [[project/RTP replacement]] will be managed in a specific web site currently in development, the deployment is scheduled in September 2010.
 
 This web site will be interactive, the contributors will manage the file replacements via upload file system.
+
+The RTP replacement will support a file name compatibility table, to track a RTP file name translation table (Original Japanese, Chinese?, Don Miguel, RPG Advocate...).
