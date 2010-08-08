@@ -1,0 +1,5 @@
+====== Media file format specifications ======
+
+TODO:
+
+Here will be the file formats used for every RTP material, and sizes of each image type.
