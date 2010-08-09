@@ -16,8 +16,8 @@ There is a test mode of play. If the test is carried out of the game from the pu
 If you want to display an image on the screen title, is sent ShowTitle parameter. If on the contrary do not want to show any pictures, it sends the parameter HideTitle. 
 
 
-==== [Fullscreen | Window] ====
-If you want full screen, will be sent fullscreen. If on the contrary we want a window, will be sent Window. 
+==== [FullScreen | Window] ====
+If you want full screen, will be sent FullScreen. If on the contrary we want a window, will be sent Window. 
 
 
 ===== Sample usage =====
