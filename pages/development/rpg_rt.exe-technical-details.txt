@@ -28,9 +28,9 @@ By default the game is released in normal mode, showing the image of full-screen
 
 This will begin RPG_RT.exe in test mode of play, without displaying the image of the title and windowed mode. 
 
-  RPG_RT.exe BattleTest ShowTitle fullscreen 1
+  RPG_RT.exe BattleTest ShowTitle FullScreen 1
 
-This will execute the game in test mode of battle, showing the image of full-screen title. 
+This will execute the game in test mode of battle, showing the image of full screen title. 
 
   RPG_RT.exe Dummy Dummy Window
 
