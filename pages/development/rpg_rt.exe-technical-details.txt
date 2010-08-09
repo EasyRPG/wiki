@@ -3,12 +3,12 @@
 
 ===== Specifying the command line =====
 
-''RPG_RT.exe [TestPlay | BattleTest] [ShowTitle | HideTitle] [Fullscreen | Window]''
+''RPG_RT.exe [TestPlay | BattleTest] [ShowTitle | HideTitle] [Fullscreen | Window] [1]''
 
 
 ==== [TestPlay | BattleTest] ====
  
-There is a test mode of play. If the test is carried out of the game from the publisher, is sent TestPlay parameter. If the test is done battle since the publisher, is sent along with the parameter BattleTest the fourth parameter 1. 
+There is a test mode of play. If the test is carried out of the game from the publisher, is sent TestPlay parameter. If the test is done battle since the publisher, is sent along with the parameter BattleTest the fourth parameter ''1''. 
 
 
 ==== [ShowTitle | HideTitle] ====
