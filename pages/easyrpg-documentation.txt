@@ -1,7 +1,6 @@
 ====== EasyRPG documentation ======
 
 This is the documentation wiki of the EasyRPG project.
-
 ===== Project overview =====
 
   * [[project/Project goals]]
