@@ -7,13 +7,8 @@
   *
 
 =================================
-
- * Crear un clon del RPG Maker 2000/2003, con interprete, editor del juego y RTP propio.
- 
- * Libre (Todo el que quiera podrá modificarlo, gracias a su licencia)
-
- * Portable y multiplataforma
-
- * Multilenguaje
-
- * 
+  * Crear un clon de Rpg Maker 2000/2003 con RTP, Interprete y editor propio.
+  * Libre, cualquier programador puede cambiarlo y distribuirlo libremente.
+  * Portable y multiplataforma
+  * Multilenguaje
+  *
