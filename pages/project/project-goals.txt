@@ -4,10 +4,3 @@
   * Free (as freedom)
   * Portable and cross platform
   * Multi-language
-
-=================================
-  * Crear un clon de Rpg Maker 2000/2003 con RTP, Interprete y editor propio.
-  * Libre, cualquier programador puede cambiarlo y distribuirlo libremente.
-  * Portable y multiplataforma
-  * Multilenguaje
-  *
