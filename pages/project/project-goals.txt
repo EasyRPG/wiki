@@ -1,6 +1,19 @@
-====== Project goals ======
+====== Project goals/ Objetivos del proyecto ======
 
   * Create a RPG Maker 2000/2003 clone, featuring game interpreter, game editor and art replacement
   * Free (as freedom)
   * Portable and cross platform
   * Multi-language
+  *
+
+=================================
+
+ * Crear un clon del RPG Maker 2000/2003, con interprete, editor del juego y RTP propio.
+ 
+ * Libre (Todo el que quiera podrá modificarlo, gracias a su licencia)
+
+ * Portable y multiplataforma
+
+ * Multilenguaje
+
+ * 
