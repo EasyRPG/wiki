@@ -1,6 +1,7 @@
 ====== EasyRPG documentation ======
 
 This is the documentation wiki of the EasyRPG project.
+Esta es la Wiki del proyecto EasyRpg.
 
 ===== Project overview =====
 
