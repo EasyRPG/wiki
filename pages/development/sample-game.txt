@@ -1,0 +1,26 @@
+====== Sample game ======
+
+To demonstrate the EasyRPG capabilities, the project wants a sample game made by the community.
+
+===== Project goals =====
+
+  * Create a full, playable game (RPG).
+  * Make use of most part of the features available.
+  * Use RTP material without complexes (of course, the game can own its specific material).
+
+===== Requirements =====
+
+  * Use RPG Maker 2000 v1.51 (more stable, 2003 can be used later using project import) while EasyRPG editor has not been completed yet.
+  * In English (any translation will be done later).
+
+===== Best practices =====
+
+Please do not use custom menu systems, custom battle systems or any other "simulated" replacements to surpass the the RPG Maker limits. Just use the RPG Maker features with the principles they were created: this is a tech demo.
+
+===== Game plot =====
+
+Nothing yet.
+
+===== Current maintainers =====
+
+Nobody yet. Talk with us at EasyRPG forums if you want to contribute in the project.
