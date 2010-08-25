@@ -1,0 +1,11 @@
+====== RPG Maker test suite ======
+
+For a better and faster emulation testing and bug detection, EasyRPG wants a test game containing all possible actions created with RPG Maker 2000 and 2003.
+
+===== Project status =====
+
+In development.
+
+===== Maintainers =====
+
+The current maintainer of the test suite project is ''EN.I''.
