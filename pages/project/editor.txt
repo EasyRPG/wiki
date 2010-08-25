@@ -3,3 +3,11 @@
 Editor is the graphical tool to create games, equivalent to RPG2000.exe or RPG2003.exe editor programs of RPG Maker 2000/2003.
 
 The EasyRPG editor wants to be closer to the RPG Maker 200X interface but not identical and with same features (but at least), capable to import RPG Maker 2000 and 2003 games and saving the projects with a new, extensible format with more features and supported by the EasyRPG player.
+
+===== Project status =====
+
+The editor is on an early stage of development. The editor now needs to work on the RPG Maker 2000 data reading to fill the database fields but it needs to wait until the RPG Maker 2000/2003 file format reader of EasyRPG player code API is being stabilized. Once the reader API part is frozen, the work with editor will continue.
+
+===== Current maintainers =====
+
+''Francisco de la Peña'' is the current maintainer of the editor.
