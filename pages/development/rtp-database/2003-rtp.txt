@@ -1,0 +1,784 @@
+====== 2003 RTP ======
+
+675 files, 19 folders.
+
+===== Translation table =====
+
+If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
+
+==== Backdrop ====
+
+Battle backgrounds. 34 PNG files. 320x240px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| お墓 | graveyard |
+| お寺 | shrine |
+| ダンジョン１ | dungeon1 |
+| ダンジョン２ | dungeon2 |
+| ダンジョン３ | dungeon3 |
+| ダンジョン４ | dungeon4 |
+| ダンジョン５ | dungeon5 |
+| ダンジョン６ | dungeon6 |
+| 宇宙 | space |
+| 山道 | mountain |
+| 岩場 | rockbed |
+| 廃墟 | wasteland |
+| 旧市街 | ghost-town |
+| 森１ | forest1 |
+| 森２ | forest2 |
+| 橋 | bridge |
+| 毒沼 | swamp |
+| 洋館 | building |
+| 海 | ocean |
+| 玉座 | castle |
+| 異空間 | strange |
+| 砂浜 | beach |
+| 砂漠 | desert |
+| 神殿 | ruins1 |
+| 空 | sky |
+| 船上 | shipdeck |
+| 草原 | plains |
+| 荒地 | barren |
+| 街中 | town |
+| 路上 | road |
+| 遺跡 | ruins2 |
+| 銭湯 | bath |
+| 闘技場 | arena |
+| 雪原 | snowfield |
+
+==== Battle ====
+
+Battle animation effects. 54 PNG files. Different sizes.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| 2003その他1 | misc1 |
+| 2003その他2 | misc2 |
+| 2003バリア | barrier1 |
+| 2003ブレス | breath1 |
+| 2003光柱 | lightray |
+| 2003冷気 | ice1 |
+| 2003剣 | sword1 |
+| 2003吸収 | absorb1 |
+| 2003回復 | healing1 |
+| 2003大地 | earth1 |
+| 2003弓 | bow1 |
+| 2003打撃 | strike |
+| 2003斧 | axe1 |
+| 2003暗黒 | dark1 |
+| 2003槍 | spear1 |
+| 2003水 | water1 |
+| 2003治療 | cure1 |
+| 2003炎 | fire1 |
+| 2003爆発 | explode1 |
+| 2003爪 | claw1 |
+| 2003神聖 | holy1 |
+| 2003蘇生 | revive1 |
+| 2003雷 | bolt1 |
+| 2003鞭 | whip1 |
+| 2003風 | wind1 |
+| 2003麻痺 | paralyze1 |
+| その他 | misc3 |
+| バリア | barrier2 |
+| ブレス | breath2 |
+| 上昇 | increase |
+| 下降 | decrease |
+| 冷気 | ice2 |
+| 剣1 | sword2 |
+| 剣2 | sword3 |
+| 吸収 | absorb2 |
+| 回復 | healing2 |
+| 大地 | earth2 |
+| 打撃 | attack |
+| 斧 | axe2 |
+| 暗黒 | dark2 |
+| 槍 | spear2 |
+| 水 | water2 |
+| 治療 | cure2 |
+| 炎1 | fire2 |
+| 炎2 | fire3 |
+| 爆発 | explode2 |
+| 爪 | claw2 |
+| 矢 | bow2 |
+| 神聖 | holy2 |
+| 蘇生 | revive2 |
+| 雷 | bolt2 |
+| 鞭 | whip2 |
+| 風 | wind2 |
+| 麻痺 | paralyze2 |
+
+==== Battle2 ====
+
+Larger battle animation effects. Empty folder.
+
+==== BattleCharSet ====
+
+Allied battle sprites. 64 PNG files. 144x384px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| エルフ女a | elf-f-1 |
+| エルフ女b | elf-f-2 |
+| エルフ男a | elf-m-1 |
+| エルフ男b | elf-m-2 |
+| 中華女a | chinese-f-1 |
+| 中華女b | chinese-f-2 |
+| 中華男a | chinese-m-1 |
+| 中華男b | chinese-m-2 |
+| 侍a | samurai1 |
+| 侍b | samurai2 |
+| 僧侶女a | priestess1 |
+| 僧侶女b | priestess1 |
+| 僧侶男a | priest1 |
+| 僧侶男b | priest2 |
+| 勇者女a | hero-f-1 |
+| 勇者女b | hero-f-2 |
+| 勇者男a | hero-m-1 |
+| 勇者男b | hero-m-2 |
+| 女性１a | woman1-1 |
+| 女性１b | woman1-2 |
+| 女性２a | woman2-1 |
+| 女性２b | woman2-2 |
+| 女性３a | woman3-1 |
+| 女性３b | woman3-2 |
+| 女性４a | woman4-1 |
+| 女性４b | woman4-2 |
+| 女性５a | woman5-1 |
+| 女性５b | woman5-2 |
+| 忍者女a | ninja-f-1 |
+| 忍者女b | ninja-f-1 |
+| 忍者男a | ninja-m-1 |
+| 忍者男b | ninja-m-2 |
+| 戦士女a | soldier-f-1 |
+| 戦士女b | soldier-f-2 |
+| 戦士男a | soldier-m-1 |
+| 戦士男b | soldier-m-2 |
+| 格闘家女a | monk-f-1 |
+| 格闘家女b | monk-f-2 |
+| 格闘家男a | monk-m-1 |
+| 格闘家男b | monk-m-2 |
+| 海賊女a | pirate-f-1 |
+| 海賊女b | pirate-f-2 |
+| 海賊男a | pirate-m-1 |
+| 海賊男b | pirate-m-2 |
+| 男性１a | man1-1 |
+| 男性１b | man1-2 |
+| 男性２a | man2-1 |
+| 男性２b | man2-2 |
+| 男性３a | man3-1 |
+| 男性３b | man3-2 |
+| 男性４a | man4-1 |
+| 男性４b | man4-2 |
+| 男性５a | man5-1 |
+| 男性５b | man5-2 |
+| 盗賊女a | thief-f-1 |
+| 盗賊女b | thief-f-2 |
+| 盗賊男a | thief-m-1 |
+| 盗賊男b | thief-m-2 |
+| 鎧武者a | armor1 |
+| 鎧武者b | armor2 |
+| 魔術師女a | mage-f-1 |
+| 魔術師女b | mage-f-2 |
+| 魔術師男a | mage-m-1 |
+| 魔術師男b | mage-m-2 |
+
+==== BattleWeapon ====
+
+Battle weapon sprites. 1 PNG file. 144x384px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| 武器 | weapons |
+
+==== CharSet ====
+
+Map sprites. 15 PNG files. 288x256px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| オブジェクト1 | monster1 |
+| オブジェクト2 | monster2 |
+| モンスター1 | object1 |
+| モンスター2 | object2 |
+| 一般1 | char1 |
+| 一般2 | char2 |
+| 一般3 | char3 |
+| 一般4 | char4 |
+| 一般5 | char5 |
+| 主人公1 | hero1 |
+| 主人公2 | hero2 |
+| 主人公3 | hero3 |
+| 主人公4 | hero4 |
+| 乗り物 | vehicle |
+| 動物 | animal |
+
+==== ChipSet ====
+
+Map tile sets. 5 PNG files. 480x256px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| ダンジョン | dungeon |
+| 内装 | building |
+| 基本 | main |
+| 外観 | town |
+| 船 | ship |
+
+==== FaceSet ====
+
+Face pictures. 5 PNG files. 192x192px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| モンスター | monster |
+| 一般1 | faces1 |
+| 一般2 | faces2 |
+| 主人公1 | hero1 |
+| 主人公2 | hero2 |
+
+==== GameOver ====
+
+Game Over scene pictures. 1 PNG file. 320x240px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| ゲームオーバー | gameover |
+
+==== Monster ====
+
+Battle sprites. 115 PNG files. Different sizes.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| アーリマン | ariman |
+| アスラ | asura |
+| アナコンダ | anaconda |
+| アリゲーター | alligator |
+| アンデッドナイト | u-knight |
+| イフリート | efreet |
+| インプ | imp |
+| ヴァンパイア | vampire |
+| ウロボロス | oroboros |
+| エルフ | elf |
+| オーガ | ogre |
+| オーク | orc |
+| オーディン | odin |
+| オクトパス | octopus |
+| ガーゴイル | gargoyle |
+| カーバンクル | carbuncle |
+| カーミラ | cojurer |
+| カッパ | kappa |
+| カトブレパス | catoblepas |
+| ガルーダ | garuda |
+| キメラ | chimera |
+| グール | ghoul |
+| クラーケン | kraken |
+| クラブ | cancer |
+| グリフォン | griffon |
+| グレル | grell |
+| クロウラー | crawler |
+| ゲイザー | deathgaze |
+| ケツアルクアトル | quezal |
+| ケットシー | caitsith |
+| ケルベロス | cerberus |
+| ケンタウロス | centaur |
+| ゴーゴン | gorgon |
+| ゴースト | ghost |
+| ゴーレム | golem |
+| コカトリス | cockatrice |
+| ゴブリン | goblin |
+| コボルト | kobold |
+| サイクロプス | cyclops |
+| サタナエル | satan |
+| サハギン | sahagin |
+| サラマンダー | salamander |
+| シャーク | shark |
+| ジャイアント | giant |
+| ジャック・オー・ランタン | jack |
+| シャドウ | shadow |
+| シルフ | sylph |
+| スキュラ | scylla |
+| スケルトン | skeleton |
+| スコーピオン | scorpion |
+| スネーク | snake |
+| スピリッツ | spirit |
+| スフィンクス | sphinx |
+| スペクター | specter |
+| スライム | slime |
+| セイレーン | siren |
+| セラフィム | seraph |
+| センチピード | centipede |
+| ソーサラー | sorcerer |
+| ゾンビ | zombie |
+| ダークエルフ | darkelf |
+| ダークナイト | darkknight |
+| タイタン | titan |
+| タランチュラ | spider |
+| ティアマット | tiamat |
+| デーモン | demon |
+| トード | toad |
+| ドラゴン | dragon |
+| ドラゴンナイト | dragonknight |
+| トレント | treant |
+| トロール | troll |
+| ネクロマンサー | necromancer |
+| ネペンテス | nepenthe |
+| バーサーカー | berserker |
+| ハーピー | harpy |
+| バジリスク | basilisk |
+| バット | bat |
+| バハムート | bahamut |
+| パラサイト | parasite |
+| ビッグフット | bigfoot |
+| ヒュドラ | hydra |
+| フェニックス | phoenix |
+| フェンリル | fenrir |
+| ベヒーモス | behemoth |
+| ホーネット | hornet |
+| マンティコア | manticore |
+| マンティス | mantis |
+| マンモス | mammoth |
+| ミイラ男 | mummy |
+| ミドガルズオルム | midgard-serp |
+| ミノタウロス | minotaur |
+| ミミック | mimic |
+| メデューサ | medusa |
+| ユニコーン | unicorn |
+| ラクシュミ | rakashimi |
+| ラミア | lamia |
+| リヴァイアサン | leviathan |
+| リザード | lizard |
+| リザードマン | lizardman |
+| リッチ | lich |
+| リリス | lilith |
+| レイス | wraith |
+| レモラ | remora |
+| ワーウルフ | werewolf |
+| ワーム | worm |
+| ワイト | wight |
+| ワイバーン | wyvern |
+| 九尾の狐 | ninetail |
+| 朱雀 | redsparrow |
+| 玄武 | blackturtle |
+| 白虎 | whitetiger |
+| 馬 | nightmare |
+| 鬼 | oni |
+| 麒麟 | ki-rin |
+| 龍 | bluedragon |
+
+==== Movie ====
+
+Moving pictures. Empty folder.
+
+==== Music ====
+
+Background music. 151 files: 123 MID songs, 18 MID Jingles (J), 10 WAV Sound Effects (SE).
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| 2003いやしの泉 | spring |
+| 2003カジノ三昧 | casino |
+| 2003コロシアム | arena |
+| 2003サイバーシティ | bustling-city |
+| 2003スノータウン | snowtown |
+| 2003パニック | panic |
+| 2003マキシマム・バトル | fierce-battle |
+| 2003一獲千金の夢 | jackpot |
+| 2003冒険者たち | adventure |
+| 2003勇者の凱旋 | triumph |
+| 2003古城 | ancient-castle |
+| 2003地下迷宮 | labyrinth |
+| 2003夢幻の森 | forest |
+| 2003夢見心地 | moonlight |
+| 2003大混戦 | armyclash |
+| 2003大空への翼 | airborne |
+| 2003大聖堂 | hallowed-halls |
+| 2003妖精の森 | fairies |
+| 2003孤独な旅立ち | lonewolf |
+| 2003小さな兵隊のマーチ | march |
+| 2003山あいの村 | mtn-village |
+| 2003帝国〜エンパイア | empire |
+| 2003幼少の記憶 | memories |
+| 2003忍び寄る闇 | foreboding |
+| 2003悠久の時の流れに | eternal |
+| 2003悲しみ | sadness |
+| 2003戦いの幕開け | intro |
+| 2003教会 | church1 |
+| 2003日だまりの村 | village4 |
+| 2003暗黒の祭壇 | evil-temple |
+| 2003未開の集落 | strangetown |
+| 2003極東の地 | far-east |
+| 2003機械要塞 | mecha-base |
+| 2003氷のラビリンス | icecave |
+| 2003決戦の地 | showdown |
+| 2003無人の館 | haunted |
+| 2003王宮のパーティー | royal-ball |
+| 2003異次元回廊 | dimension |
+| 2003祝福ワルツ | waltz |
+| 2003穏やかな風 | interlude |
+| 2003緊迫 | tension |
+| 2003繰り返される戦い | endless-fight |
+| 2003街の賑わい | town-square |
+| 2003街の酒場 | bar |
+| 2003記憶の彼方に | memories2 |
+| 2003遺跡探索 | ruins |
+| 2003邪神との戦い | godslayer |
+| 2003静寂 | calm |
+| J2003ホルン | horns |
+| Jアイテム | item |
+| Jギャグ1 | mischief1 |
+| Jギャグ2 | mischief2 |
+| Jファンファーレ1 | fanfare1 |
+| Jファンファーレ2 | fanfare2 |
+| Jファンファーレ3 | fanfare3 |
+| Jファンファーレ4 | fanfare4 |
+| Jファンファーレ5 | fanfare5 |
+| Jファンファーレ6 | fanfare6 |
+| J宿1 | inn1 |
+| J宿2 | inn2 |
+| J戦闘終了1 | victory1 |
+| J戦闘終了2 | victory2 |
+| J戦闘終了3 | victory3 |
+| J戦闘終了4 | victory4 |
+| J疑惑 | surprise |
+| J謎 | riddle |
+| SE2003アラーム | se-alarm |
+| SE2003ジャングル | se-jungle |
+| SE2003雑踏 | se-crowd |
+| SE2003風 | se-gale |
+| SE2003鳥 | se-bird |
+| SE地震 | se-quake |
+| SE大雨 | se-torrent |
+| SE時計 | se-clock |
+| SE海 | se-ocean |
+| SE雨 | se-rain |
+| エンディング1 | ending1 |
+| エンディング2 | ending2 |
+| エンディング3 | ending3 |
+| オープニング1 | opening1 |
+| オープニング2 | opening2 |
+| オープニング3 | opening3 |
+| ゲームオーバー1 | gameover1 |
+| ゲームオーバー2 | gameover2 |
+| ゲームオーバー3 | gameover3 |
+| ゴーストタウン1 | ghost-town1 |
+| ゴーストタウン2 | ghost-town2 |
+| ダンジョン1 | dungeon1 |
+| ダンジョン2 | dungeon2 |
+| ダンジョン3 | dungeon3 |
+| ダンジョン4 | dungeon4 |
+| ダンジョン5 | dungeon5 |
+| ピンチ | tightspot |
+| フィールド1 | field1 |
+| フィールド2 | field2 |
+| フィールド3 | field3 |
+| フィールド4 | field4 |
+| ボス1 | boss1 |
+| ボス2 | boss2 |
+| ボス3 | boss3 |
+| ボス4 | boss4 |
+| 乗り物1 | vehicle1 |
+| 乗り物2 | vehicle2 |
+| 乗り物3 | vehicle3 |
+| 別れ1 | parting1 |
+| 別れ2 | parting2 |
+| 勇者1 | hero1 |
+| 勇者2 | hero2 |
+| 動物 | animal |
+| 勝利 | success |
+| 城1 | castle1 |
+| 城2 | castle2 |
+| 城3 | castle3 |
+| 塔1 | tower1 |
+| 塔2 | tower2 |
+| 塔3 | tower3 |
+| 妖精1 | fairy1 |
+| 妖精2 | fairy2 |
+| 安らぎ1 | solace1 |
+| 安らぎ2 | solace2 |
+| 安らぎ3 | solace3 |
+| 店1 | shop1 |
+| 店2 | shop2 |
+| 店3 | shop3 |
+| 怒り | malice |
+| 悲しみ | sad |
+| 戦闘1 | battle1 |
+| 戦闘2 | battle2 |
+| 戦闘3 | battle3 |
+| 探索 | explore |
+| 敗北 | defeat |
+| 教会 | church2 |
+| 明るい市場 | bazaar |
+| 村1 | village1 |
+| 村2 | village2 |
+| 村3 | village3 |
+| 泥棒 | thief |
+| 活気 | strength |
+| 町1 | town1 |
+| 町2 | town2 |
+| 町3 | town3 |
+| 神秘1 | mystery1 |
+| 神秘2 | mystery2 |
+| 神秘3 | mystery3 |
+| 秘宝 | treasure |
+| 船1 | boat1 |
+| 船2 | boat2 |
+| 船3 | boat3 |
+| 試練 | ordeal |
+| 闇市 | eviltown |
+| 魔王 | demonic |
+
+==== Panorama ====
+
+Background images for empty map zones. 13 PNG files. Different sizes.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| 夕焼け1 | dusk1 |
+| 夕焼け2 | dusk2 |
+| 夜明け1 | dawn1 |
+| 夜明け2 | dawn2 |
+| 夜空1 | night1 |
+| 夜空2 | night2 |
+| 宇宙 | space |
+| 惑星1 | planet1 |
+| 惑星2 | planet2 |
+| 惑星3 | planet3 |
+| 異空間 | strange |
+| 空1 | sky1 |
+| 空2 | sky2 |
+
+==== Picture ====
+
+Multiple purpose pictures. Empty folder.
+
+==== Sound ====
+
+Foreground sound effects. 206 WAV (PCM) files. Different qualities.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| アイテム1 | item1 |
+| アイテム2 | item2 |
+| あたり1 | jingle1 |
+| あたり2 | jingle2 |
+| アップ | increase |
+| イヌ | dog |
+| ウシ | cow |
+| ウマ | horse |
+| おたけび | roar |
+| カーソル1 | cursor1 |
+| カーソル2 | cursor2 |
+| ガシャン | shatter |
+| キャンセル1 | cancel1 |
+| キャンセル2 | cancel2 |
+| しびれ1 | paralyze1 |
+| しびれ2 | paralyze2 |
+| しびれ3 | paralyze3 |
+| ジャンプ1 | jump1 |
+| ジャンプ2 | jump2 |
+| ショット1 | shot1 |
+| ショット2 | shot2 |
+| ショット3 | shot3 |
+| スイッチ1 | switch1 |
+| スイッチ2 | switch2 |
+| ダウン | decrease |
+| ダメージ1 | damage1 |
+| ダメージ2 | damage2 |
+| テレポート1 | teleport1 |
+| テレポート2 | teleport2 |
+| トラ | tiger |
+| にらみ | gaze |
+| にわとり | chicken |
+| ネコ | cat |
+| ノック | knock |
+| はずれ1 | failure1 |
+| はずれ2 | failure2 |
+| バリア | barrier |
+| ひつじ | sheep |
+| ブザー1 | buzzer1 |
+| ブザー2 | buzzer2 |
+| フラッシュ1 | flash1 |
+| フラッシュ2 | flash2 |
+| フラッシュ3 | flash3 |
+| ブレス | breath |
+| モンスター1 | monster1 |
+| モンスター2 | monster2 |
+| ライオン | lion |
+| 冷気1 | ice01 |
+| 冷気2 | ice04 |
+| 冷気3 | ice05 |
+| 冷気4 | ice06 |
+| 冷気5 | ice07 |
+| 冷気6 | ice08 |
+| 冷気7 | ice09 |
+| 冷気8 | ice10 |
+| 冷気9 | ice11 |
+| 冷気10 | ice02 |
+| 冷気11 | ice03 |
+| 剣1 | sword1 |
+| 剣2 | sword2 |
+| 剣3 | sword3 |
+| 吸収1 | absorb1 |
+| 吸収2 | absorb2 |
+| 噛む | bloodsuck |
+| 回復1 | heal1 |
+| 回復2 | heal2 |
+| 回復3 | heal3 |
+| 回復4 | heal4 |
+| 回復5 | heal5 |
+| 回復6 | heal6 |
+| 回復7 | heal7 |
+| 回復8 | heal8 |
+| 回避1 | evade1 |
+| 回避2 | evade2 |
+| 地震1 | quake1 |
+| 地震2 | quake2 |
+| 壁1 | bump1 |
+| 壁2 | bump2 |
+| 大地1 | earth01 |
+| 大地2 | earth02 |
+| 大地3 | earth03 |
+| 大地4 | earth04 |
+| 大地5 | earth05 |
+| 大地6 | earth06 |
+| 大地7 | earth07 |
+| 大地8 | earth08 |
+| 大地9 | earth09 |
+| 大地10 | earth10 |
+| 巻き付き | ensnare |
+| 弓1 | bow1 |
+| 弓2 | bow2 |
+| 戦闘1 | battle1 |
+| 戦闘2 | battle2 |
+| 打撃1 | punch1 |
+| 打撃2 | punch2 |
+| 打撃3 | punch3 |
+| 打撃4 | punch4 |
+| 打撃5 | punch5 |
+| 打撃6 | punch6 |
+| 打撃7 | punch7 |
+| 攻撃1 | attack1 |
+| 攻撃2 | attack2 |
+| 斬る1 | strike01 |
+| 斬る10 | strike10 |
+| 斬る11 | strike11 |
+| 斬る2 | strike02 |
+| 斬る3 | strike03 |
+| 斬る4 | strike04 |
+| 斬る5 | strike05 |
+| 斬る6 | strike06 |
+| 斬る7 | strike07 |
+| 斬る8 | strike08 |
+| 斬る9 | strike09 |
+| 時計 | clock |
+| 暗闇 | night |
+| 暗黒1 | dark1 |
+| 暗黒2 | dark2 |
+| 暗黒3 | dark3 |
+| 暗黒4 | dark4 |
+| 暗黒5 | dark5 |
+| 暗黒6 | dark6 |
+| 歌 | song |
+| 毒 | poison |
+| 水1 | water1 |
+| 水2 | water2 |
+| 水3 | water3 |
+| 水4 | water4 |
+| 水5 | water5 |
+| 水6 | water6 |
+| 決定1 | choice1 |
+| 決定2 | choice2 |
+| 沈黙 | silence |
+| 海1 | sea1 |
+| 海2 | sea2 |
+| 消滅1 | vanish1 |
+| 消滅2 | vanish2 |
+| 混乱 | confuse |
+| 炎1 | fire1 |
+| 炎2 | fire2 |
+| 炎3 | fire3 |
+| 炎4 | fire4 |
+| 炎5 | fire5 |
+| 炎6 | fire6 |
+| 炎7 | fire7 |
+| 炎8 | fire8 |
+| 爆発1 | explode1 |
+| 爆発2 | explode2 |
+| 爆発3 | explode3 |
+| 爆発4 | explode4 |
+| 爆発5 | explode5 |
+| 爆発6 | explode6 |
+| 爆発7 | explode7 |
+| 睡眠 | sleep |
+| 砂けむり | sandstorm |
+| 神聖1 | holy1 |
+| 神聖2 | holy2 |
+| 神聖3 | holy3 |
+| 神聖4 | holy4 |
+| 神聖5 | holy5 |
+| 神聖6 | holy6 |
+| 神聖7 | holy7 |
+| 神聖8 | holy8 |
+| 神聖9 | holy9 |
+| 移動 | footstep |
+| 花粉 | pollen |
+| 落ちる1 | fall1 |
+| 落ちる2 | fall2 |
+| 蘇生1 | revive1 |
+| 蘇生2 | revive2 |
+| 蘇生3 | revive3 |
+| 逃走 | flee |
+| 鍵 | key |
+| 鐘 | gong |
+| 閉める1 | close1 |
+| 閉める2 | close2 |
+| 開ける1 | open1 |
+| 開ける2 | open2 |
+| 雨1 | rain01 |
+| 雨2 | rain02 |
+| 雷1 | bolt01 |
+| 雷2 | bolt02 |
+| 雷3 | bolt03 |
+| 雷4 | bolt04 |
+| 雷5 | bolt05 |
+| 雷6 | bolt06 |
+| 雷7 | bolt07 |
+| 雷8 | bolt08 |
+| 雷9 | bolt09 |
+| 雷10 | bolt10 |
+| 霧1 | fog1 |
+| 霧2 | fog2 |
+| 音波1 | wave1 |
+| 音波2 | wave2 |
+| 風1 | wind01 |
+| 風2 | wind02 |
+| 風3 | wind03 |
+| 風4 | wind04 |
+| 風5 | wind05 |
+| 風6 | wind06 |
+| 風7 | wind07 |
+| 風8 | wind08 |
+| 風9 | wind09 |
+| 風10 | wind10 |
+| 風11 | wind11 |
+| 魔法1 | magic1 |
+| 魔法2 | magic2 |
+
+==== System ====
+
+Tile system for window skinning. 4 PNG files. 160x80px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| システム | system1 |
+| システムA | system2 |
+| システムB | system3 |
+| システムC | system4 |
+
+==== System2 ====
+
+System graphics for battles. 4 PNG files. 80x96px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| システム２A | system2a |
+| システム２B | system2b |
+| システム２C | system2c |
+
+==== Title ====
+
+Title scene pictures. 4 PNG files. 320x240px.
+
+^ Japanese (original) ^ English (RPG Advocate) ^
+| タイトル1 | title1 |
+| タイトル2 | title2 |
+| タイトル3 | title3 |
+| タイトル4 | title4 |
