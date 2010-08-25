@@ -1,0 +1,367 @@
+====== Migration (2000-2003) ======
+
+Oficially, the migration between 2000 and 2003 projects is not 100% compatible. You can convert RPG Maker 2000 games into RPG Maker 2003 with the exception of the battles. The battle scenes are different.
+
+EasyRPG wants to be compatible with both RPG Makers and make battle systems compatible and interchangeable. The monster graphic creation, to be the less work and time consuming possible, should be made with each sprite pose valid for both front and side battles using only one sprite.
+
+===== File changes =====
+
+==== Backdrop ====
+
+  * Larger backdrops. Before: 320x160. After: 320x240.
+  * Redesigned backdrops. Still exists the 25 backdrop of RPG Maker 2000 RTP but same files (*)
+  * 9 new backdrops (new 9 files):
+
+  お墓
+  お寺
+  ダンジョン６
+  旧市街
+  洋館
+  路上
+  遺跡
+  銭湯
+  闘技場
+
+(*) There is a problem with the number used in 7 file names of files existing in RPG Maker 2000 RTP:
+
+^ RPG Maker 2000 RTP ^ RPG Maker 2003 RTP ^
+| ダンジョン1 | ダンジョン１ |
+| ダンジョン2 | ダンジョン２ |
+| ダンジョン3 | ダンジョン３ |
+| ダンジョン4 | ダンジョン４ |
+| ダンジョン5 | ダンジョン５ |
+| 森1 | 森１ |
+| 森2 | 森２ |
+
+These files should report problems as different file names because the character numbers are different. The EasyRPG RTP database will need to take this in consideration.
+
+The size recommendation for background artists is make pictures in 4:3 proportion with big size, then resize to 320x240. A bigger size whould be fine for the future, in case to work in 640x480 as a own project material repository.
+
+==== Battle ====
+
+  * Same 28 RPG Maker 2000 RTP Battle graphics
+  * 26 new Battle graphics:
+
+  2003その他1
+  2003その他2
+  2003バリア
+  2003ブレス
+  2003光柱
+  2003冷気
+  2003剣
+  2003吸収
+  2003回復
+  2003大地
+  2003弓
+  2003打撃
+  2003斧
+  2003暗黒
+  2003槍
+  2003水
+  2003治療
+  2003炎
+  2003爆発
+  2003爪
+  2003神聖
+  2003蘇生
+  2003雷
+  2003鞭
+  2003風
+  2003麻痺
+
+==== Battle2 ====
+
+  * New folder, for larger battle animations.
+  * Empty folder. Nothing to design for RTP replacement or migrate from 2000 RTP.
+
+==== BattleCharSet ====
+
+  * New folder, sprites for allied characters in side battle system.
+  * 64 new files, corresponding to 32 characters available on CharSet.
+
+==== BattleWeapon ====
+
+  * New folder, sprites for weapon used for characters in side battle system.
+  * 1 new file.
+
+==== CharSet ====
+
+  * Same 15 file names, no migration problems between 2000 and 2003.
+  * New redesign of the same characters, same graphic sizes.
+
+==== ChipSet ====
+
+  * Same 5 file names, no migration problems between 2000 and 2003.
+  * New redesign of the same tiles, same graphic sizes.
+
+==== FaceSet ====
+
+  * Same 5 file names, no migration problems between 2000 and 2003.
+  * New redesign of the same faces, same graphic sizes.
+
+==== Frame ====
+
+  * New folder, used for frame window and other usages.
+  * Empty folder. Nothing to design for RTP replacement.
+
+==== GameOver ====
+
+  * Same 1 file name, no migration problems between 2000 and 2003.
+  * Same design, same graphic size.
+
+==== Monster ====
+
+  * Officially not compatible between 2000 and 2003.
+  * 85 new file names in 2003.
+  * 35 deleted file names in 2003.
+  * 30 files matching (and equivalent) between 2000 and 2003.
+  * There are some monsters equivalent in 2003 with different file names (about 10).
+
+^ 2000 RTP ^ 2003 RTP ^ Matching ^ Observations ^
+|  | アーリマン | New file |  |
+|  | アスラ | New file |  |
+|  | アナコンダ | New file | Similar to old 大蛇 |
+|  | アリゲーター | New file |  |
+|  | アンデッドナイト | New file |  |
+|  | イフリート | New file |  |
+|  | インプ | New file | Similar to old 使い魔 |
+| ヴァンパイア | ヴァンパイア | :-D Same file name |  |
+|  | ウロボロス | New file |  |
+|  | エルフ | New file |  |
+|  | オーガ | New file |  |
+| オーク | オーク | :-D Same file name |  |
+|  | オーディン | New file | Proposed for nearest to old トルーパー |
+|  | オクトパス | New file | Also similar to クラーケン |
+| ガーゴイル | ガーゴイル | :-D Same file name |  |
+|  | カーバンクル | New file |  |
+|  | カーミラ | New file |  |
+|  | カッパ | New file |  |
+|  | カトブレパス | New file |  |
+|  | ガルーダ | New file |  |
+| キマイラ |  | :!: Not in 2003 | :-) Similar to new キメラ |
+|  | キメラ | New file | Similar to old キマイラ |
+|  | グール | New file |  |
+| クラーケン | クラーケン | :-D Same file name | Also similar to new オクトパス |
+|  | クラブ | New file |  |
+| グリフォン | グリフォン | :-D Same file name |  |
+|  | グレル | New file |  |
+|  | クロウラー | New file |  |
+|  | ゲイザー | New file |  |
+|  | ケツアルクアトル | New file |  |
+|  | ケットシー | New file |  |
+| ケルベロス | ケルベロス | :-D Same file name |  |
+|  | ケンタウロス | New file |  |
+| こうもり |  | :!: Not in 2003 | :-) Similar to new バット |
+|  | ゴーゴン | New file |  |
+| ゴースト | ゴースト | :-D Same file name |  |
+| ゴーレム | ゴーレム | :-D Same file name |  |
+| コカトリス | コカトリス | :-D Same file name |  |
+| ゴブリン | ゴブリン | :-D Same file name |  |
+| コボルト | コボルト | :-D Same file name |  |
+|  | サイクロプス | New file |  |
+|  | サタナエル | New file |  |
+|  | サハギン | New file | Proposed for nearest to old マーマン |
+|  | サラマンダー | New file |  |
+|  | シャーク | New file |  |
+|  | ジャイアント | New file |  |
+|  | ジャック・オー・ランタン | New file |  |
+|  | シャドウ | New file |  |
+|  | シルフ | New file |  |
+|  | スキュラ | New file |  |
+| スケルトン | スケルトン | :-D Same file name |  |
+|  | スコーピオン | New file | Similar to old 大サソリ |
+|  | スネーク | New file |  |
+|  | スピリッツ | New file | Similar to old 鬼火 |
+|  | スフィンクス | New file |  |
+|  | スペクター | New file |  |
+| スライム | スライム | :-D Same file name |  |
+|  | セイレーン | New file |  |
+|  | セラフィム | New file | Similar to old 天使 |
+|  | センチピード | New file |  |
+|  | ソーサラー | New file |  |
+| ゾンビ | ゾンビ | :-D Same file name |  |
+| ダークエルフ | ダークエルフ | :-D Same file name |  |
+|  | ダークナイト | New file | Proposed for nearest to old ブラックナイト |
+|  | タイタン | New file |  |
+|  | タランチュラ | New file | Similar to old 大グモ |
+|  | ティアマット | New file |  |
+| デーモン | デーモン | :-D Same file name |  |
+| トルーパー |  | :!: Not in 2003 | :-? The nearest (no horse) is the new オーディン |
+|  | トード | New file |  |
+| ドラゴン | ドラゴン | :-D Same file name |  |
+| ドラゴンナイト | ドラゴンナイト | :-D Same file name |  |
+| トレント | トレント | :-D Same file name |  |
+|  | トロール | New file |  |
+|  | ネクロマンサー | New file |  |
+|  | ネペンテス | New file |  |
+|  | バーサーカー | New file |  |
+| ハーピー | ハーピー | :-D Same file name |  |
+|  | バジリスク | New file |  |
+|  | バット | New file | Similar to old こうもり |
+|  | バハムート | New file |  |
+|  | パラサイト | New file |  |
+|  | ビッグフット | New file |  |
+| ヒュドラ | ヒュドラ | :-D Same file name |  |
+|  | フェニックス | New file |  |
+|  | フェンリル | New file |  |
+| ブラックナイト |  | :!: Not in 2003 | :-? The nearest (armored) is the new ダークナイト |
+|  | ベヒーモス | New file |  |
+| ホーネット | ホーネット | :-D Same file name |  |
+| マーマン |  | :!: Not in 2003 | :-? The nearest is the new サハギン |
+| マミー |  | :!: Not in 2003 | :-) Similar to new ミイラ男 |
+|  | マンティコア | New file |  |
+|  | マンティス | New file |  |
+|  | マンモス | New file |  |
+|  | ミイラ男 | New file | Similar to old マミー |
+|  | ミドガルズオルム | New file |  |
+| ミノタウロス | ミノタウロス | :-D Same file name | Axe instead of maze, pay attention with skill names |
+| ミミック | ミミック | :-D Same file name |  |
+| メデューサ | メデューサ | :-D Same file name | Legs instead of fish tail |
+|  | ユニコーン | New file |  |
+|  | ラクシュミ | New file |  |
+|  | ラミア | New file |  |
+|  | リヴァイアサン | New file |  |
+|  | リザード | New file |  |
+| リザードマン | リザードマン | :-D Same file name |  |
+| リッチ | リッチ | :-D Same file name |  |
+|  | リリス | New file |  |
+|  | レイス | New file | Proposed for nearest to old 死神 |
+|  | レモラ | New file | Similar to old 怪魚 |
+| ワーウルフ | ワーウルフ | :-D Same file name |  |
+|  | ワーム | New file |  |
+|  | ワイト | New file |  |
+| ワイバーン | ワイバーン | :-D Same file name |  |
+|  | 九尾の狐 | New file |  |
+|  | 朱雀 | New file |  |
+|  | 玄武 | New file |  |
+|  | 白虎 | New file |  |
+|  | 馬 | New file |  |
+|  | 鬼 | New file |  |
+|  | 麒麟 | New file |  |
+| 一般人1 |  | :!: Not in 2003 | :-( Suggested: インプ |
+| 一般人2 |  | :!: Not in 2003 | :-( Suggested: シルフ |
+| 一般人3 |  | :!: Not in 2003 | :-( Suggested: ソーサラー |
+| 一般人4 |  | :!: Not in 2003 | :-( Suggested: エルフ |
+| 一般人5 |  | :!: Not in 2003 | :-( Suggested: ダークエルフ |
+| 一般人6 |  | :!: Not in 2003 | :-( Suggested: カーミラ |
+| 一般人7 |  | :!: Not in 2003 | :-( Suggested: アンデッドナイト |
+| 一般人8 |  | :!: Not in 2003 | :-( Suggested: ラクシュミ |
+| 使い魔 |  | :!: Not in 2003 | :-) Similar to new インプ |
+| 兵士 |  | :!: Not in 2003 | :-( Suggested: ワイト |
+| 大グモ |  | :!: Not in 2003 | :-) Similar to new タランチュラ |
+| 大サソリ |  | :!: Not in 2003 | :-) Similar to new スコーピオン |
+| 大蛇 |  | :!: Not in 2003 | :-) Similar to new アナコンダ |
+| 天使 |  | :!: Not in 2003 | :-) Similar to new セラフィム |
+| 女王 |  | :!: Not in 2003 | :-( Suggested: ラクシュミ |
+| 忍者 |  | :!: Not in 2003 | :-( Suggested: シャドウ |
+| 怪魚 |  | :!: Not in 2003 | :-) Similar to new レモラ |
+| 戦士1 |  | :!: Not in 2003 | :-( Suggested: ダークエルフ |
+| 戦士2 |  | :!: Not in 2003 | :-( Suggested: カーミラ |
+| 武者 |  | :!: Not in 2003 | :-( Suggested: オーディン |
+| 死神 |  | :!: Not in 2003 | :-? The nearest is the new レイス |
+| 海賊 |  | :!: Not in 2003 | :-( Suggested: オーガ |
+| 王 |  | :!: Not in 2003 | :-( Suggested: タイタン |
+| 盗賊 |  | :!: Not in 2003 | :-( Suggested: ケットシー |
+| 鬼火 |  | :!: Not in 2003 | :-) Similar to new スピリッツ |
+| 魔王 |  | :!: Not in 2003 | :-( Suggested: ネクロマンサー |
+| 魔神 |  | :!: Not in 2003 | :-( Suggested: イフリート |
+| 魔術師1 |  | :!: Not in 2003 | :-( Suggested: ソーサラー |
+| 魔術師2 |  | :!: Not in 2003 | :-( Suggested: カーミラ |
+| 龍 | 龍 | :-D Same file name |  |
+
+==== Movie ====
+
+  * Empty folder in both 2000 and 2003 RTPs.
+
+==== Music ====
+
+  * Same 28 RPG Maker 2000 RTP Music files
+  * 54 new Music files: 48 normal MID songs, 1 Jingle MID song, 5 WAV Sound Effects:
+
+  2003いやしの泉
+  2003カジノ三昧
+  2003コロシアム
+  2003サイバーシティ
+  2003スノータウン
+  2003パニック
+  2003マキシマム・バトル
+  2003一獲千金の夢
+  2003冒険者たち
+  2003勇者の凱旋
+  2003古城
+  2003地下迷宮
+  2003夢幻の森
+  2003夢見心地
+  2003大混戦
+  2003大空への翼
+  2003大聖堂
+  2003妖精の森
+  2003孤独な旅立ち
+  2003小さな兵隊のマーチ
+  2003山あいの村
+  2003帝国〜エンパイア
+  2003幼少の記憶
+  2003忍び寄る闇
+  2003悠久の時の流れに
+  2003悲しみ
+  2003戦いの幕開け
+  2003教会
+  2003日だまりの村
+  2003暗黒の祭壇
+  2003未開の集落
+  2003極東の地
+  2003機械要塞
+  2003氷のラビリンス
+  2003決戦の地
+  2003無人の館
+  2003王宮のパーティー
+  2003異次元回廊
+  2003祝福ワルツ
+  2003穏やかな風
+  2003緊迫
+  2003繰り返される戦い
+  2003街の賑わい
+  2003街の酒場
+  2003記憶の彼方に
+  2003遺跡探索
+  2003邪神との戦い
+  2003静寂
+  J2003ホルン
+  SE2003アラーム
+  SE2003ジャングル
+  SE2003雑踏
+  SE2003風
+  SE2003鳥
+
+==== Panorama ====
+
+  * Same 13 file names, no migration problems between 2000 and 2003.
+  * Same designs, same graphic sizes.
+
+==== Picture ====
+
+  * Empty folder in both 2000 and 2003 RTPs.
+
+==== Sound ====
+
+  * Same 206 file names, no migration problems between 2000 and 2003.
+  * Same effects, same qualities.
+
+==== System ====
+
+  * Same 1 RPG Maker 2000 RTP System graphic.
+  * 3 new System graphics:
+
+  システムA
+  システムB
+  システムC
+
+==== System2 ====
+
+  * New folder, system graphics for new battle style battle system.
+  * 3 new files.
+
+==== Title ====
+
+  * Same 4 file names, no migration problems between 2000 and 2003 (and zero problems concerning RTP replacement).
+  * Almost same designs (only watermark logo version changes), same graphic sizes.
