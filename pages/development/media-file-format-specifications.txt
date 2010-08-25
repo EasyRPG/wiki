@@ -1,5 +1,168 @@
 ====== Media file format specifications ======
 
-TODO:
+RPG Maker 2000 and 2003 supports the following file formats:
 
-Here will be the file formats used for every RTP material, and sizes of each image type.
+===== Graphic file formats =====
+
+Used in the following folders:
+
+  * Backdrop
+  * Battle
+  * Battle2 (RPG Maker 2003 only)
+  * BattleCharSet (RPG Maker 2003 only)
+  * BattleWeapon (RPG Maker 2003 only)
+  * CharSet
+  * ChipSet
+  * FaceSet
+  * Frame
+  * GameOver
+  * Monster
+  * Panorama
+  * Picture
+  * System
+  * System2 (RPG Maker 2003 only)
+  * Title
+
+==== BMP ====
+
+BMP is a bitmap format used initially in Windows. There are different types but RPG Maker 2000 and 2003 only support BMP files with the following specifications:
+
+  * Uncompressed BMP (RLE compression is not supported)
+  * 8 bit indexed palette, 256 colors (not 24 bit, not 2, 4 bit or other indexed palette formats)
+
+==== PNG ====
+
+PNG is the Portable Network Graphics format. RPG Maker 2000 and 2003 supports it with following restriction:
+
+  * 8 bit indexed palette, 256 colors (not truecolor 24/32 bit, not 2, 4 bit or other indexed palette formats).
+
+Information chunks about alpha transparency, transparent color key, multiplane (APNG), gamma, color profiles, etc. will be ignored.
+
+This is the recommended format to work with the RTP replacement material.
+
+==== XYZ ====
+
+XYZ is a graphics format made for RPG Maker 2000 and 2003. RPG Maker can import and export graphics supported by RPG Maker in this format. The features are 8 bit palette and a maximum of 65536x65536 pixels.
+
+===== Graphic size requirements =====
+
+==== Backdrop ====
+
+320x 160 pixels (RPG Maker 2000 and 2003)
+320x 240 (RPG Maker 2003)
+
+If you want to contribute graphics to the RTP replacement, best use a proportion 4:3 like 320x240 to do it. A good practice is not to put any important decoration under the 80 last horizontal pixel rows, the battle menu goes there. You can do larger graphics, as 640x480 and larger, if the EasyRPG project wants to go higher resolution in the future, specially if you are not making the battle background using pixel art: it's easy to scale down the graphic up to 320x240.
+
+==== Battle ====
+
+Oficially, 480x480 pixels. You can do 480xMultipleOf96 up to 480, for example: 480x96, 480x192, 480x288, 480x384, 480x480.
+
+If the image height is not a multiple the sprites (a grid of 5 96x96 sprite frames for row) could be shown cut.
+
+FIXME [Graphic template will be there]
+
+==== Battle2 ====
+
+Only supported on 2003, a bit larger battle animations than Battle, 640x640 (128x128 sprite frames for row). There is no material to do for the RTP replacement.
+
+==== BattleCharSet ====
+
+Only supported on 2003, 144x384 pixels. 3 planes each row, 8 rows, each sprite frame is 48x48 pixels.
+
+FIXME [Graphic template will be there]
+
+==== BattleWeapon ====
+
+Only supported on 2003, 192x512 pixels. 3 planes each row, 8 rows, each sprite frame is 64x64 pixels.
+
+The weapon sprite position is centered with the sprite position on the battle.
+
+FIXME [Graphic template will be there]
+
+==== CharSet ====
+
+288x256 pixels. Can hold 8 animated characters, two rows with 4 characters each row. Each sprite character is in a 3x4 sprite grid, 3 animation planes and 4 directions. Each sprite frame is 24x32 pixels.
+
+RPG Maker can open 288x256 (8 characters), 72x128 (1 character), 24x32 (1 inanimated character).
+
+FIXME [Graphic template will be there]
+
+==== ChipSet ====
+
+480x256 pixels. Each tile is 16x16 pixels.
+
+FIXME [Graphic template will be there]
+
+==== FaceSet ====
+
+192x192 pixels. Each face sprite is 48x48 pixels.
+
+FIXME [Graphic template will be there]
+
+==== Frame ====
+
+Only supported on 2003, 320x240 pixels. FIXME No material to do for the RTP replacement.
+
+==== Monster ====
+
+Up to 320x160 pixels FIXME, you can use variable width and height. For example 16x50, 100x40, etc.
+
+==== Panorama ====
+
+Up to 640x480 pixels FIXME, you can use variable width and height. For example 90x80, 101x350, etc.
+
+==== Picture ====
+
+Any size. FIXME Anyways there are not material to do for the RTP replacement.
+
+==== System ====
+
+160x80 pixels.
+
+FIXME [Graphic template will be there]
+
+==== System2 ====
+
+80x96 pixels.
+
+FIXME [Graphic template will be there]
+
+==== Title ====
+
+320x240 pixels. FIXME
+
+===== Music file formats =====
+
+Used in the folder:
+
+  * Music
+
+==== MID ====
+
+MIDI Standard Format. There are two versions, the most common is format 1.
+
+We recommend a software to edit .MID files: Winjammer Shareware 3.0 (32 bit). This is an old piece of software. The web of Winjammer Software dissapeared. The trial version only puts "Winjammer Demo" in the name of the tracks. You can get it at thesonicspot.com
+
+To make a game loop just put an event controller 111 in the desired position of return when the song ends. If you don't put the 111 event, RPG Maker will loop to the initial position. If you want to disable looping just put the 111 event at the end of the song, to make a silent loop to itself without more events.
+
+Use standard General MIDI set. For the percussion use the channel 10 you can use the less standard kits, as Roland Sound Canvas kits, widely supported (several RTP songs make use of them). Use standard drum kit only (patch 1, bank none, channel 10) if you want to maximize compatibility with higher amount of MIDI players. Don't use System Exclusive.
+
+==== WAV ====
+
+WAV is a common used Windows audio RIFF container. RPG Maker only supports PCM and ADPCM codecs. You can use 8/16 bit PCM and some FIXME ADPCM resolutions. MPEG and other codecs are not suported inside the WAV container in RPG Maker. You can use different frequencies, as 8-11-22-44-48 kHz. Mono and Stereo.
+
+==== MP3 ====
+
+RPG Maker supports native MP3 format since RPG Maker 2000 version 1.50 or later and RPG Maker 2003 version 1.05 or later. We recommend at least 1.51 and 1.06 respectively for a serious bug fix when playing MP3 files.
+
+MP3 stands for a MPEG container with the MPEG 1 layer III codec. Is a compressed lossy format. The MP3 audio format is still covered with patents in several countries.
+
+To encode MP3 files we recommend LAME encoder.
+
+===== Sound file formats =====
+
+The folder:
+
+  * Sound
+
+Support WAV file format. FIXME
