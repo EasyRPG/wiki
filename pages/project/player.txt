@@ -1,3 +1,15 @@
 ====== Player ======
 
 The Player is the game interpreter of games made with RPG Maker 2000 or 2003 editors. Technically, the player is the replacement of the RPG_RT.exe program executable and runtime interpreter of RPG Maker, distributed with games.
+
+===== Project status =====
+
+The player reached certain game emulation, supporting map events, all map layers and some map event commands but the code became a mess. The repository opened a new folder called "player2" and the effort is centered on a complete rewrite of the player, featuring new class structure, inspired on RGSS and RGSS2 API, used on RPG Maker XP and VX scripting system.
+
+The motivation for the adoption of the RGSS style is because is a valid design and closer to the RPG Maker 2000/2003 requirements, so the class design is already done. Furthermore, RGSS became popular between RPG Maker developers, so is a good chance for the RPG Maker users to take a step and contribute directly to the player development.
+
+Currently the player2 development branch still needs to render maps, but a lot of work is done around the graphics, sound and other relevant internal classes (the not-RGSS style part).
+
+===== Current maintainers =====
+
+''vgvgf'' is the current main developer of EasyRPG player and he made the most rewrite of the player2 branch.
