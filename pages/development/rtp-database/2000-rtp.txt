@@ -1,0 +1,623 @@
+===== 2000 RTP =====
+
+465 files, 14 folders.
+
+===== Translation table =====
+
+If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
+
+==== Backdrop ====
+
+Battle backgrounds. 25 PNG files. 320x160px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| ダンジョン1 | Cave1 |
+| ダンジョン2 | LavaCave2 |
+| ダンジョン3 | IceCave3 |
+| ダンジョン4 | Cave4 |
+| ダンジョン5 | BrickCave5 |
+| 宇宙 | Galaxy |
+| 山道 | Canyon |
+| 岩場 | SnowCanyon |
+| 廃墟 | WasteRuins |
+| 森1 | Forest1 |
+| 森2 | Forest2 |
+| 橋 | Bridge |
+| 毒沼 | Swamp |
+| 海 | Sea |
+| 玉座 | Castle |
+| 異空間 | LightSpeed |
+| 砂浜 | SeaBeach |
+| 砂漠 | Desert |
+| 神殿 | Greece |
+| 空 | Sky |
+| 船上 | Ship |
+| 草原 | Grass |
+| 荒地 | WasteLand |
+| 街中 | Town |
+| 雪原 | Snow |
+
+==== Battle ====
+
+Battle animation effects. 28 PNG files. Different sizes.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| その他 | Etc |
+| バリア | Barrier |
+| ブレス | Poison |
+| 上昇 | Up |
+| 下降 | Down |
+| 冷気 | Cold |
+| 剣1 | Sword1 |
+| 剣2 | Sword2 |
+| 吸収 | Absorption |
+| 回復 | Sun |
+| 大地 | Earth |
+| 打撃 | Hit |
+| 斧 | Axe |
+| 暗黒 | Dark |
+| 槍 | Spear |
+| 水 | Water |
+| 治療 | Sphere |
+| 炎1 | Fire1 |
+| 炎2 | Fire2 |
+| 爆発 | Explosion |
+| 爪 | Fang |
+| 矢 | Arrow |
+| 神聖 | Holy |
+| 蘇生 | Ray |
+| 雷 | Zip |
+| 鞭 | Whip |
+| 風 | Wind |
+| 麻痺 | Paralysis |
+
+==== CharSet ====
+
+Map sprites. 15 PNG files. 288x256px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| オブジェクト1 | Object1 |
+| オブジェクト2 | Object2 |
+| モンスター1 | Monster1 |
+| モンスター2 | Monster2 |
+| 一般1 | People1 |
+| 一般2 | People7 |
+| 一般3 | People3 |
+| 一般4 | People4 |
+| 一般5 | People5 |
+| 主人公1 | Chara1 |
+| 主人公2 | Chara2 |
+| 主人公3 | Chara3 |
+| 主人公4 | Chara4 |
+| 乗り物 | Vehicle |
+| 動物 | Animal |
+
+==== ChipSet ====
+
+Map tile sets. 5 PNG files. 480x256px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| ダンジョン | Dungeon |
+| 内装 | Inner |
+| 基本 | Basis |
+| 外観 | Outline |
+| 船 | Ship |
+
+==== FaceSet ====
+
+Face pictures. 5 PNG files. 192x192px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| モンスター | Monsters |
+| 一般1 | People1 |
+| 一般2 | People2 |
+| 主人公1 | Chara1 |
+| 主人公2 | Chara2 |
+
+==== GameOver ====
+
+Game Over scene pictures. 1 PNG file. 320x240px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| ゲームオーバー | GameOver |
+
+==== Monster ====
+
+Battle sprites. 65 PNG files. Different sizes.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| ヴァンパイア | Vampire |
+| オーク | Hog |
+| ガーゴイル | Gargoyle |
+| キマイラ | Chimera |
+| クラーケン | Octopus |
+| グリフォン | Griphon |
+| ケルベロス | HellHound |
+| こうもり | Bat |
+| ゴースト | Ghost |
+| ゴーレム | Golem |
+| コカトリス | Rooster |
+| ゴブリン | Troll |
+| コボルト | Wolfman |
+| スケルトン | Skeleton |
+| スライム | Slime |
+| ゾンビ | Zombie |
+| ダークエルフ | Darkelf |
+| デーモン | FlyingDemon |
+| ドラゴン | GreenDragon1 |
+| ドラゴンナイト | DragonKnight |
+| トルーパー | DarkRider |
+| トレント | Oak |
+| ハーピー | Harpy |
+| ヒュドラ | Hydra |
+| ブラックナイト | DarkKnight |
+| ホーネット | Bee |
+| マーマン | Aquamen |
+| マミー | Mummy |
+| ミノタウロス | Minotaur |
+| ミミック | OgreChest |
+| メデューサ | Medusa |
+| リザードマン | Lizardmen |
+| リッチ | DarkSpirit |
+| ワーウルフ | Wolf |
+| ワイバーン | BlueDragon |
+| 一般人1 | Boy1 |
+| 一般人2 | Girl2 |
+| 一般人3 | Boy3 |
+| 一般人4 | Girl4 |
+| 一般人5 | Man5 |
+| 一般人6 | Girl6 |
+| 一般人7 | Oldman7 |
+| 一般人8 | Granny |
+| 使い魔 | Imp |
+| 兵士 | Warrior |
+| 大グモ | Spider |
+| 大サソリ | Redscorpion |
+| 大蛇 | Snake |
+| 天使 | Angel |
+| 女王 | Princess |
+| 忍者 | Ninja |
+| 怪魚 | Fish |
+| 戦士1 | Hero1 |
+| 戦士2 | Hero2 |
+| 武者 | Samurai |
+| 死神 | Death |
+| 海賊 | Gnome |
+| 王 | King |
+| 盗賊 | Thief |
+| 鬼火 | FireScull |
+| 魔王 | CloakDemon |
+| 魔神 | Satan |
+| 魔術師1 | Witch1 |
+| 魔術師2 | Witch2 |
+| 龍 | GreenDragon2 |
+
+==== Movie ====
+
+Moving pictures. Empty folder.
+
+==== Music ====
+
+Background music. 97 files: 75 MID songs, 17 MID Jingles (J), 5 WAV Sound Effects (SE).
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| Jアイテム | Item |
+| Jギャグ1 | Gag1 |
+| Jギャグ2 | Gag2 |
+| Jファンファーレ1 | Fanfare1 |
+| Jファンファーレ2 | Fanfare2 |
+| Jファンファーレ3 | Fanfare3 |
+| Jファンファーレ4 | Fanfare4 |
+| Jファンファーレ5 | Fanfare5 |
+| Jファンファーレ6 | Fanfare6 |
+| J宿1 | Inn1 |
+| J宿2 | Inn2 |
+| J戦闘終了1 | BattleEnd1 |
+| J戦闘終了2 | BattleEnd2 |
+| J戦闘終了3 | BattleEnd3 |
+| J戦闘終了4 | BattleEnd4 |
+| J疑惑 | Doubt |
+| J謎 | Riddle |
+| SE地震 | SEearthquake |
+| SE大雨 | SErain2 |
+| SE時計 | SEclock |
+| SE海 | SEsea |
+| SE雨 | SErain |
+| エンディング1 | Ending1 |
+| エンディング2 | Ending2 |
+| エンディング3 | Ending3 |
+| オープニング1 | Opening1 |
+| オープニング2 | Opening2 |
+| オープニング3 | Opening3 |
+| ゲームオーバー1 | GameOver1 |
+| ゲームオーバー2 | GameOver2 |
+| ゲームオーバー3 | GameOver3 |
+| ゴーストタウン1 | GostTown1 |
+| ゴーストタウン2 | GostTown2 |
+| ダンジョン1 | Dungeon1 |
+| ダンジョン2 | Dungeon2 |
+| ダンジョン3 | Dungeon3 |
+| ダンジョン4 | Dungeon4 |
+| ダンジョン5 | Dungeon5 |
+| ピンチ | Crisis |
+| フィールド1 | Field1 |
+| フィールド2 | Field2 |
+| フィールド3 | Field3 |
+| フィールド4 | Field4 |
+| ボス1 | Boss1 |
+| ボス2 | Boss2 |
+| ボス3 | Boss3 |
+| ボス4 | Boss4 |
+| 乗り物1 | Ride1 |
+| 乗り物2 | Ride2 |
+| 乗り物3 | Ride3 |
+| 別れ1 | Farewell1 |
+| 別れ2 | Farewell2 |
+| 勇者1 | Hero1 |
+| 勇者2 | Hero2 |
+| 動物 | Animal |
+| 勝利 | Get |
+| 城1 | Castle1 |
+| 城2 | Castle2 |
+| 城3 | Castle3 |
+| 塔1 | Tower1 |
+| 塔2 | Tower2 |
+| 塔3 | Tower3 |
+| 妖精1 | Fairy1 |
+| 妖精2 | Fairy2 |
+| 安らぎ1 | Peace1 |
+| 安らぎ2 | Peace2 |
+| 安らぎ3 | Peace3 |
+| 店1 | Shop1 |
+| 店2 | Shop2 |
+| 店3 | Shop3 |
+| 怒り | Anger |
+| 悲しみ | Sad |
+| 戦闘1 | Battle1 |
+| 戦闘2 | Battle2 |
+| 戦闘3 | Battle3 |
+| 探索 | Search |
+| 敗北 | Lose |
+| 教会 | Church |
+| 明るい市場 | Fiesta |
+| 村1 | Village1 |
+| 村2 | Village2 |
+| 村3 | Village3 |
+| 泥棒 | Thief |
+| 活気 | Energy |
+| 町1 | Town1 |
+| 町2 | Town2 |
+| 町3 | Town3 |
+| 神秘1 | Mystery1 |
+| 神秘2 | Mystery2 |
+| 神秘3 | Mystery3 |
+| 秘宝 | Treasure |
+| 船1 | Ship1 |
+| 船2 | Ship2 |
+| 船3 | Ship3 |
+| 試練 | Trial |
+| 闇市 | Dark |
+| 魔王 | Devil |
+
+==== Panorama ====
+
+Background images for empty map zones. 13 PNG files. Different sizes.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| 夕焼け1 | Dawn1 |
+| 夕焼け2 | Dawn2 |
+| 夜明け1 | Evening1 |
+| 夜明け2 | Evening2 |
+| 夜空1 | Night1 |
+| 夜空2 | Night2 |
+| 宇宙 | Galaxy |
+| 惑星1 | Planet1 |
+| 惑星2 | Planet2 |
+| 惑星3 | Planet3 |
+| 異空間 | Weird |
+| 空1 | Morning1 |
+| 空2 | Morning2 |
+
+==== Picture ====
+
+Multiple purpose pictures. Empty folder.
+
+==== Sound ====
+
+Foreground sound effects. 206 WAV (PCM) files. Different qualities.
+
+English RTP by Don Miguel misses 3 files, one of them is misnamed, too.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| アイテム1 | Item1 |
+| アイテム2 | Item2 |
+| あたり1 | Success1 |
+| あたり2 | Success2 |
+| アップ | Up |
+| イヌ | Dog |
+| ウシ | Cow |
+| ウマ | Horse |
+| おたけび | Roar |
+| カーソル1 | Cursor1 |
+| カーソル2 | Cursor2 |
+| ガシャン | Glass |
+| キャンセル1 | Cansel1 |
+| キャンセル2 | Cansel2 |
+| しびれ1 | Numbness1 |
+| しびれ2 | Numbness2 |
+| しびれ3 | Numbness3 |
+| ジャンプ1 | Jump1 |
+| ジャンプ2 | Jump2 |
+| ショット1 | Shot1 |
+| ショット2 | Shot2 |
+| ショット3 | Shot3 |
+| スイッチ1 | Switch1 |
+| スイッチ2 | Switch2 |
+| ダウン | Down |
+| ダメージ1 | Damage1 |
+| ダメージ2 | Damage2 |
+| テレポート1 | Teleport1 |
+| テレポート2 | Teleport2 |
+| トラ | Tiger |
+| にらみ | Power |
+| にわとり | Chicken |
+| ネコ | Cat |
+| ノック | Knock |
+| はずれ1 | Failure1 |
+| はずれ2 | Failure2 |
+| バリア | Barrier |
+| ひつじ | Sheep |
+| ブザー1 | Buzzer1 |
+| ブザー2 | Buzzer2 |
+| フラッシュ1 | Flash1 |
+| フラッシュ2 | Flash2 |
+| フラッシュ3 | Flash3 |
+| ブレス | Breast |
+| モンスター1 | Monster1 |
+| モンスター2 | Monster2 |
+| ライオン | Lion |
+| 冷気1 | Cold1 |
+| 冷気2 | Cold2 |
+| 冷気3 | Cold3 |
+| 冷気4 | Cold4 |
+| 冷気5 | Cold5 |
+| 冷気6 | Cold6 |
+| 冷気7 | Cold7 |
+| 冷気8 | Cold8 |
+| 冷気9 | Cold9 |
+| 冷気10 | Cold10 |
+| 冷気11 | Cold11 |
+| 剣1 | Sword1 |
+| 剣2 | Sword2 |
+| 剣3 | Sword3 |
+| 吸収1 | Absorption1 |
+| 吸収2 | Absorption2 |
+| 噛む | Bite |
+| 回復1 | Recovery1 |
+| 回復2 | Recovery2 |
+| 回復3 | Recovery3 |
+| 回復4 | Recovery4 |
+| 回復5 | Recovery5 |
+| 回復6 | Recovery6 |
+| 回復7 | Recovery7 |
+| 回復8 | Recovery8 |
+| 回避1 | Evasion1 |
+| 回避2 | Evasion2 |
+| 地震1 | Earthquake1 |
+| 地震2 | Earthquake2 |
+| 壁1 | **NOT FOUND** |
+| 壁2 | **NOT FOUND** |
+| 大地1 | Earth1 |
+| 大地2 | Earth2 |
+| 大地3 | Earth3 |
+| 大地4 | Earth4 |
+| 大地5 | Earth5 |
+| 大地6 | Earth6 |
+| 大地7 | Earth7 |
+| 大地8 | Earth8 |
+| 大地9 | Earth9 |
+| 大地10 | Earth10 |
+| 巻き付き | Refer Book |
+| 弓1 | Bow1 |
+| 弓2 | Bow2 |
+| 戦闘1 | Fight1 |
+| 戦闘2 | Fight2 |
+| 打撃1 | Blow1 |
+| 打撃2 | Blow2 |
+| 打撃3 | Blow3 |
+| 打撃4 | Blow4 |
+| 打撃5 | Blow5 |
+| 打撃6 | Blow6 |
+| 打撃7 | Blow7 |
+| 攻撃1 | Attack1 |
+| 攻撃2 | Attack2 |
+| 斬る1 | Kill1 |
+| 斬る2 | Kill2 |
+| 斬る3 | Kill3 |
+| 斬る4 | Kill4 |
+| 斬る5 | Kill5 |
+| 斬る6 | **NOT FOUND** |
+| 斬る7 | Kill7 |
+| 斬る8 | Kill8 |
+| 斬る9 | Kill9 |
+| 斬る10 | Kill10 |
+| 斬る11 | Kill11 |
+| 時計 | Clock |
+| 暗闇 | Darkness |
+| 暗黒1 | Dark1 |
+| 暗黒2 | Dark2 |
+| 暗黒3 | Dark3 |
+| 暗黒4 | Dark4 |
+| 暗黒5 | Dark5 |
+| 暗黒6 | **Kill6** |
+| 歌 | Song |
+| 毒 | Poison |
+| 水1 | Water1 |
+| 水2 | Water2 |
+| 水3 | Water3 |
+| 水4 | Water4 |
+| 水5 | Water5 |
+| 水6 | Water6 |
+| 決定1 | Decision1 |
+| 決定2 | Decision2 |
+| 沈黙 | Silence |
+| 海1 | Sea1 |
+| 海2 | Sea2 |
+| 消滅1 | Annihilation1 |
+| 消滅2 | Annihilation2 |
+| 混乱 | Chaos |
+| 炎1 | Flame1 |
+| 炎2 | Flame2 |
+| 炎3 | Flame3 |
+| 炎4 | Flame4 |
+| 炎5 | Flame5 |
+| 炎6 | Flame6 |
+| 炎7 | Flame7 |
+| 炎8 | Flame8 |
+| 爆発1 | Explosion1 |
+| 爆発2 | Explosion2 |
+| 爆発3 | Explosion3 |
+| 爆発4 | Explosion4 |
+| 爆発5 | Explosion5 |
+| 爆発6 | Explosion6 |
+| 爆発7 | Explosion7 |
+| 睡眠 | Sleep |
+| 砂けむり | Sand Storm |
+| 神聖1 | Holy1 |
+| 神聖2 | Holy2 |
+| 神聖3 | Holy3 |
+| 神聖4 | Holy4 |
+| 神聖5 | Holy5 |
+| 神聖6 | Holy6 |
+| 神聖7 | Holy7 |
+| 神聖8 | Holy8 |
+| 神聖9 | Holy9 |
+| 移動 | Movement |
+| 花粉 | Pollen |
+| 落ちる1 | Fall1 |
+| 落ちる2 | Fall2 |
+| 蘇生1 | Rebirth1 |
+| 蘇生2 | Rebirth2 |
+| 蘇生3 | Rebirth3 |
+| 逃走 | Escape |
+| 鍵 | Key |
+| 鐘 | Bell |
+| 閉める1 | Close1 |
+| 閉める2 | Close2 |
+| 開ける1 | Open1 |
+| 開ける2 | Open2 |
+| 雨1 | Rain1 |
+| 雨2 | Rain2 |
+| 雷1 | Thunder1 |
+| 雷2 | Thunder2 |
+| 雷3 | Thunder3 |
+| 雷4 | Thunder4 |
+| 雷5 | Thunder5 |
+| 雷6 | Thunder6 |
+| 雷7 | Thunder7 |
+| 雷8 | Thunder8 |
+| 雷9 | Thunder9 |
+| 雷10 | Thunder10 |
+| 霧1 | Fog1 |
+| 霧2 | Fog2 |
+| 音波1 | Sonic1 |
+| 音波2 | Sonic2 |
+| 風1 | Wind1 |
+| 風2 | Wind2 |
+| 風3 | Wind3 |
+| 風4 | Wind4 |
+| 風5 | Wind5 |
+| 風6 | Wind6 |
+| 風7 | Wind7 |
+| 風8 | Wind8 |
+| 風9 | Wind9 |
+| 風10 | Wind10 |
+| 風11 | Wind11 |
+| 魔法1 | Wall1 |
+| 魔法2 | Wall2 |
+
+==== System ====
+
+Tile system for window skinning. 1 PNG file. 160x80px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| システム | System |
+
+==== Title ====
+
+Title scene pictures. 4 PNG files. 320x240px.
+
+^ Japanese (original) ^ English (Don Miguel) ^
+| タイトル1 | Title1 |
+| タイトル2 | Title2 |
+| タイトル3 | Title3 |
+| タイトル4 | Title4 |
+
+===== Don Miguel's RPG Maker 2000 RTP changes =====
+
+The RPG Maker 2000 RTP translated by Don Miguel has 465 - 3 + 38 = 500 files.
+
+He modified the contents of the RTP, which it is not a good thing now for the RTP replacement.
+
+==== Removed files ====
+
+These files are in the original Japanese RTP and missing in the Don's RTP:
+  Sound/壁1.wav
+  Sound/壁2.wav
+  Sound/斬る6.wav (*)
+
+(*): The file:
+Sound/Kill6.wav
+does not correspond with:
+Sound/斬る6.wav
+The file was replaced with:
+Sound/Dark6.wav (Sound/暗黒6.wav)
+So, Dark6.wav file name does not exist in the Don's RTP.
+In fact, the wave file 斬る6.wav (the real, 9 kb) is missing from the Don's RTP.
+
+==== Added files ====
+
+Don Miguel added 38 files to his RTP, too:
+
+  CharSet/Chubby1.png
+  CharSet/Chubby2.png
+  CharSet/Crown1.png
+  CharSet/Crown2.png
+  CharSet/Crown3.png
+  CharSet/Crown4.png
+  CharSet/Crown5.png
+  CharSet/Crown6.png
+  CharSet/Crown7.png
+  CharSet/Future1.png
+  CharSet/Future2.png
+  CharSet/Future3.png
+  CharSet/Men1.png
+  CharSet/Women1.png
+  ChipSet/ChipSet1.png
+  ChipSet/ChipSet2.png
+  ChipSet/ChipSet3.png
+  FaceSet/Face1.png
+  FaceSet/Face2.png
+  FaceSet/Face3.png
+  FaceSet/Face4.png
+  Movie/Babbit.avi
+  Music/Dungeon6.mid
+  Music/Dungeon7.mid
+  Music/Farewell3.mid
+  Music/Farewell4.mid
+  Music/Inn3.mid
+  Music/Mystery4.mid
+  Music/Night.mid
+  Music/Pirate1.mid
+  Music/Pirate2.mid
+  Music/Pirate3.mid
+  Music/Pirate4.mid
+  Music/Ride4.mid
+  Music/Shop4.mid
+  Music/Snow.mid
+  Picture/Cloud.png
+  System/Royal.png
+
+==== Extra files replacement proposal ====
+
+We want to include a replacement of all files on the original RTP but the 38 new files of the Don Miguel RTP should not be supported. Simply show error but showing information about these files if detected. A list of them in the RTP database can provide that information.
