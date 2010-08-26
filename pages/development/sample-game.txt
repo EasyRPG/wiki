@@ -11,7 +11,7 @@ To demonstrate the EasyRPG capabilities, the project wants a sample game made by
 ===== Requirements =====
 
   * Use RPG Maker 2000 v1.51 (more stable, 2003 can be used later using project import) while EasyRPG editor has not been completed yet.
-  * In English (any translation will be done later).
+  * In English (any translation will be done only once completed).
 
 ===== Best practices =====
 
