@@ -1,0 +1,123 @@
+====== Francisco de la Peña ======
+
+Hi, I'm Francisco de la Peña (fdelapena).
+
+Currently living in Barcelona, Spain. I can speak Spanish, Catalan and enough English to be here writing this.
+
+I have the role of EasyRPG project manager.
+
+===== Currently maintaining =====
+
+I currently maintain the whole dedicated server, web server, project websites (main page, blog, wiki, forums, bugtracker...), project account on SourceForge and subversion accounts, IRC channel on FreeNode, etc.
+
+I'm currently the maintainer of the RTP documentation project and developing the RTP database website.
+
+I'm maintaining the EasyRPG editor, too.
+
+===== Thinks I made =====
+
+I made porting tests of the EasyRPG player to the GP2X and OpenPandora. I made the first PSP port test, too. Also I made port testing of the EasyRPG editor to Mac OS X.
+
+I made small contributions to the player code, as some bugfixes, as the tile map reader bugs, completing undocumented LMT reader parts, implementing XYZ reader, cleaning warnings for GCC and MinGW, making initial project settings for CodeLite IDE, etc.
+
+I made initial EasyRPG Editor window layouts with wxGlade, resizable with automatic fit, and the class name and objects conventions.
+
+I made the four initial title images for the RTP replacements, using public domain stock images.
+
+===== Contact =====
+
+Use the discussion button if you want to drop me a message in the wiki.
+
+You can live chat with me via IRC, irc.freenode.net channel #easyrpg. My nickname there is fdelapena.
+
+If you use XMPP/Jabber, Google Talk or whatever just add: fdelapena_polinya_eu (replace the underscores with @ and .)
+
+Are you still a Windows Live (MSN) Messenger? just add fdelapena@passport.com
+
+If you want to send me a line using email, try my address, is the same as XMPP/Jabber. My Windows Live account does not have email.
+
+Microblogging? Try twitter.com/f_delapena and identi.ca/fdelapena
+
+===== TODOs and random notes =====
+
+Some texts pending to be placed in the wiki somewhere.
+
+TODO:
+
+I will open discussion articles, for forums debate (no internet here):
+
+- What to do with the Don Miguel's RTP extras. Hard ignore the problem and show generic error? Soft ignore taking care and show specific error? Hard file replace with any other data file? Specific X-Y replace from grid position substitution?
+- New open file format discussion. Chunk based? protobuf? tinyxml? other/ini/plain text?
+- Do you know more RTP translations/versions? Please share with us!
+
+Concerning optimizations:
+
+EasyRPG RTP replacement will come with all possible file optimizations to bring
+smaller material dependences. Once the files are already compressed another
+recompression is not more effective than a good initial compression.
+
+PNGs:
+- Remove ancillary chunks (gAMA, cHRM, iCCP, tRNs, sBIT, text, etc.)
+- When downgrading from 24->8 bit don't use error difussion if not needed.
+  To high quality color reduction try pngnq (based on pngquant).
+- Use compression optimizers (advpng, optipng, pngcrush).
+- To remove ancilliary chunks you can use pngcrush but you can review with
+  more control with TweakPNG (GPL, wine compatible). Try optipng -o9 and
+  advpng -z4, sometimes zlib deflate compress better than advpng's 7-zip
+  deflate. Specially with small graphics.
+- These optimizations can save about 10% of the size of all PNGs (lots of kb)!
+
+WAVs:
+- Use WAV ADPCM when possible (50% less, if the sample psychoacoustics are
+  good).
+- Use 8bit when possible (50% less, similar as above, LFO sounds bad at 8bit).
+- Use MP3 if when possible (backwards compatible with official RPG Makers but
+  there are patent problems).
+- Use ogg Vorbis when possible, aoTuV at best (high quality Vorbis codec
+  modification). Not supported by official RPG Maker but better quality and
+  less size, patent-free. Supported by newer RPG Makers (XP, VX...).
+- Remove initial and final zero sound level.
+- Make loops or song shorter when possible.
+- Use less sample speed (44.1 -> 22kHz for example) when possible.
+
+MP3s:
+- LAME encoder is good (and GPL). Use it.
+- You can fine tune the presets disabling or adjusting the
+  lowpass filter (this bypasses the forced Hz frequency downgrade).
+- Try VBR instead of CBR or ABR: remember this is not net streaming.
+
+OGGs:
+- oggenc aoTuV b5.7 or higher is for you. Very best quality for low bitrates.
+- As for MP3: Try different frequencies and lowpass filtering to get the best
+  quality/size tuning.
+- Use -q parameter, you can use decimals, every song can be more or less
+  compressed, depending on the panning and other aural features of the song.
+
+MIDis:
+- Remove SysEx events (there are tons of hard or soft synts with General MIDI
+  1.x specification support only and poor System Exclusive "standard" support).
+- Use standard instruments, 16 channels, channel 1 only for event data, not for
+  notes in .mid format 1. Channel 10 for percussion. Use GS only when really
+  needed, not widely supported.
+- Remove unneeded events and tags, reduce the usage of pitch control events and
+  other very subtile events, for example expression control each very few
+  second fractions. Remove duplicated events and unnecessary initialization
+  events.
+- Don't use chorus and reverb if really not needed. It will save CPU if the
+  soft synth features chorus and reverb support.
+- There are lots of .MID editors. A good one is WinJammer Shareware 3.0, a
+  good piece of abandonware. This program can control at very low level each
+  MIDI event and work natively with .MID files.
+- These optimizations can save sometimes more than the 90% of the file size!
+
+LDB:
+
+- RPG Maker default database come with lots of preconfigured entries. These
+  things spend dozens and dozens of kb. You can delete it and start one from
+  scratch.
+- Create new project, close it, remove RPG_RT.ldb and open project again. The
+  new LDB file will cost 3 kb instead of +100 kb.
+- The new LDB file will have real 0% independence of any RTP file, without
+  GameOver or Title files, too! Really minimal game.
+- If your game does not use battle, don't start never the Battle Test or this
+  will make a permanent extra chunk in your LDB.
