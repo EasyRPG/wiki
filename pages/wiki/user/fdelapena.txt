@@ -46,8 +46,8 @@ TODO:
 
 I will open discussion articles, for forums debate (no internet here):
 
-- Do you know more RTP translations/versions? Please share with us!
-- New open file format discussion. Chunk based? protobuf? tinyxml? other/ini/plain text?
+  * Do you know more RTP translations/versions? Please share with us!
+  * New open file format discussion. Chunk based? protobuf? tinyxml? other/ini/plain text?
 
 Concerning optimizations:
 
