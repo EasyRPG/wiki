@@ -1,0 +1,24 @@
+=====TODO=====
+This is the project TODO list.
+
+====Player2====
+===Codelite===
+   * Make sure the project is updated on linux and windows.
+   * Update precompiled libraries.
+===Visual Studio===
+   * Update precompiled libraries.
+===Reader===
+   * Make sure all data chunks are listed correctly.
+   * Fix map events reading.
+   * Replace FILE* with a custom class object wrapping it. (So if we have to modify C file functions, we don't have to go through all code)
+   * Move the reader into a library (along with a data writer), so Editor and Player can link against it without having duplicated code in both projects.
+===Multimedia===
+   * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
+==Graphics==
+   * Implement a dirty rect system, for not redrawing the screen every frame.
+   * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
+   * Implement sprite rotation. (SDL GFX?)
+   * Tilemap.
+===Engine===
+   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script as a base.
+
