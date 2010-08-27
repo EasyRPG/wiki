@@ -4,9 +4,9 @@ EasyRPG is divided into two projects, the Editor and the Player. Both of them ar
 ===Editor===
 ^ System  ^ Compiling instructions  ^
 | Windows | [[development:compiling-easyrpg:editor-win-codelite]] |
-| Linux   | [[development:compiling-easyrpg:editor-unix-codelite]] |
+| Linux   | [[development:compiling-easyrpg:editor-linux-codelite]] |
 
 ===Player2===
 ^ System  ^ Compiling instructions  ^
 | Windows | [[development:compiling-easyrpg:player2-visual-studio]], [[development:compiling-easyrpg:player2-win-codelite]] |
-| Linux   | [[development:compiling-easyrpg:editor-unix-codelite]] |
+| Linux   | [[development:compiling-easyrpg:player2-linux-codelite]] |
