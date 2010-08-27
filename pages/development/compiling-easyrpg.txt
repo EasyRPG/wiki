@@ -1,1 +1,12 @@
-Placeholder
+=====Compiling EasyRPG=====
+EasyRPG is divided into two projects, the Editor and the Player. Both of them are compiled separately. You can find the instructions for compiling the Editor and Player for your system and compiler in the next tables.
+
+===Editor===
+^ System  ^ Compiling instructions  ^
+| Windows | [[development:compiling-easyrpg:editor-win-codelite]] |
+| Linux   | [[development:compiling-easyrpg:editor-unix-codelite]] |
+
+===Player2===
+^ System  ^ Compiling instructions  ^
+| Windows | [[development:compiling-easyrpg:player2-visual-studio]], [[development:compiling-easyrpg:player2-win-codelite]] |
+| Linux   | [[development:compiling-easyrpg:editor-unix-codelite]] |
