@@ -620,4 +620,4 @@ Don Miguel added 38 files to his RTP, too:
 
 ==== Extra files replacement proposal ====
 
-We want to include a replacement of all files on the original RTP but the 38 new files of the Don Miguel RTP should not be supported. Simply show error but showing information about these files if detected. A list of them in the RTP database can provide that information.
+Open discussion here: http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=5&t=23
