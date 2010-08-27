@@ -1,0 +1,28 @@
+====== Compiling the Editor on GNU/Linux Codelite ======
+
+===== Things Needed =====
+
+===Codelite===
+You can find Codelite [[http://www.codelite.org/|here]].
+
+===Getting the libraries===
+
+This is a list of the packages you need to install:
+  * build-essential
+  * libwxgtk2.8-dev
+  * libwxgtk2.8-dbg
+
+===== Getting the source code =====
+
+The source code is available on a Subversion repository hosted on Sourceforge.net. The URL of the EasyRPG subversion repository is ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk''.
+
+For getting it you have several options:
+  * Do ''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/ DEST_DIR'' from the terminal (Change DEST_DIR). However, you will need to install the Subversion package first.
+  * There are some GUI SVN clients, for example [[http://www.rabbitvcs.org/|RabbitCVS]]. After installing it, do a checkout of ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/''.
+  * Download a tar.gz with the sources [[http://easyrpg.svn.sourceforge.net/viewvc/easyrpg/trunk/?view=tar]].
+
+===== Compiling the Editor =====
+
+Open the codelite workspace easyrpg.workspace, then right-click on "editor" in the EasyRPG workspace and select "Set As Active". Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+
+The Editor executable should be in the folder bin\editor.exe.
