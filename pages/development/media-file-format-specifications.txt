@@ -59,7 +59,7 @@ Oficially, 480x480 pixels. You can do 480xMultipleOf96 up to 480, for example: 4
 
 If the image height is not a multiple the sprites (a grid of 5 96x96 sprite frames for row) could be shown cut.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== Battle2 ====
 
@@ -69,7 +69,7 @@ Only supported on 2003, a bit larger battle animations than Battle, 640x640 (128
 
 Only supported on 2003, 144x384 pixels. 3 planes each row, 8 rows, each sprite frame is 48x48 pixels.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== BattleWeapon ====
 
@@ -77,7 +77,7 @@ Only supported on 2003, 192x512 pixels. 3 planes each row, 8 rows, each sprite f
 
 The weapon sprite position is centered with the sprite position on the battle.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== CharSet ====
 
@@ -85,19 +85,19 @@ FIXME [Graphic template will be there]
 
 RPG Maker can open 288x256 (8 characters), 72x128 (1 character), 24x32 (1 inanimated character).
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== ChipSet ====
 
 480x256 pixels. Each tile is 16x16 pixels.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== FaceSet ====
 
 192x192 pixels. Each face sprite is 48x48 pixels.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== Frame ====
 
@@ -119,13 +119,13 @@ Any size. FIXME Anyways there are not material to do for the RTP replacement.
 
 160x80 pixels.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== System2 ====
 
 80x96 pixels.
 
-FIXME [Graphic template will be there]
+FIXME [Graphic template will be here]
 
 ==== Title ====
 
