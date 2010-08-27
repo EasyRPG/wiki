@@ -43,7 +43,7 @@ A system graphics template is coming FIXME.
 
 ==== Sound ====
 
-206 files. You can make legal modifications (NOT the exact file directly) from this library: The FreeSound Project. Please submit WAV or FLAC files, not MP3. We can made the compression works. Use original quality, we can downgrade if needed. If you don't know how to edit those files, just put a link to the sound candidates to make replacements.
+206 files. You can make legal modifications (NOT the exact file directly) from this library: The FreeSound Project. Please submit WAV or FLAC files, not MP3. We'll handle the compression job. Use original quality, we can downgrade if needed. If you don't know how to edit those files, just put a link to the sound candidates to make replacements.
 
 [DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
 
