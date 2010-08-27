@@ -13,11 +13,11 @@ You can get last version of the installer [[http://vgvgf.com.ar/easyrpg/EasyRPG%
 ===Getting the libraries===
 ''If you are using the precompiled libraries you can skip this part.''
 
-* [http://www.libsdl.org/download-1.2.php SDL 1.2], file SDL-devel-1.2.XX-VC8.zip (where XX is the current release number)
-* [http://www.libsdl.org/projects/SDL_image/ SDL Image 1.2], file SDL_image-devel-1.2.XX-VC.zip (where XX is the current release number)
-* [http://www.libsdl.org/projects/SDL_mixer/ SDL Mixer 1.2], file SDL_mixer-devel-1.2.XX-VC.zip (where XX is the current release number)
-* [http://www.libsdl.org/projects/SDL_ttf/ SDL TTF 2.0], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
-* [http://www.ferzkopp.net/joomla/content/view/19/14/ SDL GFX 2.0], you will need to compile SDL GFX
+  * [http://www.libsdl.org/download-1.2.php SDL 1.2], file SDL-devel-1.2.XX-VC8.zip (where XX is the current release number)
+  * [http://www.libsdl.org/projects/SDL_image/ SDL Image 1.2], file SDL_image-devel-1.2.XX-VC.zip (where XX is the current release number)
+  * [http://www.libsdl.org/projects/SDL_mixer/ SDL Mixer 1.2], file SDL_mixer-devel-1.2.XX-VC.zip (where XX is the current release number)
+  * [http://www.libsdl.org/projects/SDL_ttf/ SDL TTF 2.0], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
+  * [http://www.ferzkopp.net/joomla/content/view/19/14/ SDL GFX 2.0], you will need to compile SDL GFX
 
 You will need to adjust the project include directories for these libraries. ''TODO: Explain''
 
@@ -26,9 +26,9 @@ You will need to adjust the project include directories for these libraries. ''T
 The source code is available on a Subversion repository hosted on Sourceforge.net. The URL of the EasyRPG subversion repository is ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk''.
 
 For getting it you have several options:
-*Do ''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2 DEST_DIR'' in command. You will need to install Subversion first.
-*There are many GUI SVN clients, for example [[http://tortoisesvn.net/downloads|TortoiseSVN]]. After installing it, do a checkout of ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2''.
-*Download a tar.gz with the sources [http://easyrpg.svn.sourceforge.net/viewvc/easyrpg/trunk/player2/?view=tar].
+  * Do ''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2 DEST_DIR'' in command. You will need to install Subversion first.
+  * There are many GUI SVN clients, for example [[http://tortoisesvn.net/downloads|TortoiseSVN]]. After installing it, do a checkout of ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2''.
+  * Download a tar.gz with the sources [http://easyrpg.svn.sourceforge.net/viewvc/easyrpg/trunk/player2/?view=tar].
 
 ===== Compiling Player2 =====
 
