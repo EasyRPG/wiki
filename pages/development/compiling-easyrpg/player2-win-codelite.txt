@@ -1,4 +1,4 @@
-====== Compiling Player2 on Codelite ======
+====== Compiling Player2 on Windows with Codelite ======
 
 ===== Things Needed =====
 
