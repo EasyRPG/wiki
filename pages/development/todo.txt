@@ -31,14 +31,14 @@ This is the project TODO list.
 
 ==== Database UI ====
 
-  * Dessign missing dialogDB sub-dialogs (experience curve and about 30 more)
-  * Dessign and integrate dynamic widgets for some tabs (skill type changes some tab controls), replacing nested wxPanels not designed yet.
-  * Fix memory leak when the dialogDB is opened and related random crashes with the dialogDB preload.
-  * Implement all LDB reading into the dialogDB controls.
+  * Design missing dialogDb child dialog windows (experience curve and about 30 more)
+  * Design and integrate dynamic widgets for some tabs (skill type changes some tab controls), replacing nested wxPanels not designed yet.
+  * Fix memory leak when the dialogDb is opened and related random crashes with the dialogDb preload.
+  * Implement all LDB reading into the dialogDb controls.
 
 ==== Map editor ====
   * Complete wxTreeCtrl LcfMapTree implementation, missing areas, subtree levels, etc.
-  * Fix wxDC map render speed issues. Disable map antialiasing (it happens in wxGTK port) to improve performance (make manual 2X to do this instead of DC zoom). Clip and limit rendering rendering to visible for dramatically render speedup.
+  * Fix wxDC map render speed issues. Disable map antialiasing (it happens in wxGTK port) to improve performance (make manual 2X to do this instead of DC zoom). Clip and limit rendering rendering to visible for dramatically render speed up.
   * Implement map properties and fill LMT specific data.
   * Implement event layer on the DC.
 
@@ -50,6 +50,11 @@ This is the project TODO list.
 
   * FIXME Open discussion topic in forums about new file format.
 
+==== Porting ====
+
+  * Complete Mac OS X Editor CodeLite project configuration (CodeLite 2.6 made changes for .app folder creation and management)
+
 ==== Miscellaneous ====
 
-  * Make a custom widget to show grid graphics with selector, used in many dialogs.
+  * Make a custom widget to show grid graphics with selector, used in many dialog windows.
+  * Create configuration file to save editor preferences, like window and scrollbar positions.
