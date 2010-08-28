@@ -2,13 +2,17 @@
 
 ===== Things Needed =====
 
+===EasyRPG Source Code===
+Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
+
 ===Visual C++ 2010 or 2008===
 You can find Visual Studio 2010 [[http://www.microsoft.com/visualstudio/en-us/|here]].
 You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/express/|here]].
 
 ===Precompiled libraries===
 EasyRPG player2 needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a simple and quick installer with the needed dependencies.
-You can get last version of the installer [[http://vgvgf.com.ar/easyrpg/EasyRPG%20MSVC%20Dev.exe|here]]. Install them and skip to [[development/compiling-easyrpg/player2-visual-studio#Getting the source code|Getting the source code]]
+
+You can get last version of the installer [[http://vgvgf.com.ar/easyrpg/EasyRPG%20Dev%20MSVC.exe|here]]. Install it and skip to [[development/compiling-easyrpg/player2-visual-studio#Compiling Player2|Compiling Player2]]
 
 ===Getting the libraries===
 ''If you are using the precompiled libraries you can skip this part.''
@@ -20,19 +24,10 @@ You can get the needed libraries from the following pages:
   * [[http://www.libsdl.org/projects/SDL_ttf/|SDL TTF 2.0]], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
   * [[http://www.ferzkopp.net/joomla/content/view/19/14/|SDL GFX 2.0]], you will need to compile SDL GFX
 
-You will need to adjust the project include directories for these libraries. ''TODO: Explain''
-
-===== Getting the source code =====
-
-The source code is available on a Subversion repository hosted on Sourceforge.net. The URL of the EasyRPG subversion repository is ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk''.
-
-For getting it you have several options:
-  * Do ''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2 DEST_DIR'' in command. You will need to install Subversion first.
-  * There are many GUI SVN clients, for example [[http://tortoisesvn.net/downloads|TortoiseSVN]]. After installing it, do a checkout of ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2''.
-  * Download a tar.gz with the sources [[http://easyrpg.svn.sourceforge.net/viewvc/easyrpg/trunk/player2/?view=tar]].
+You will need to adjust the project include directories for these libraries. FIXME Explain!
 
 ===== Compiling Player2 =====
 
-Open the solution file in builds\vs2010 (or vs2008 if you are using it insteand), select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
+Open the solution file in player2\builds\vs2010 (or player2\builds\vs2008 if you are using Visual Studio 2008), select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
 
 The Player2 executable should be in the folder bin\testgame\Player2.exe. If you are not using the precompiled libraries, and you have dinamically linked Player2, you will need to place the required .dll in the same folder Player2.exe is.
