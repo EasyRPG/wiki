@@ -1,0 +1,28 @@
+=====vgvgf=====
+My name is Alejandro Marzini, and I am currently a EasyRPG developer. I joined the project at some time in 2009.
+
+I am from the city of Córdoba, in Argentina. I speak English, Spanish, German and some Portuguese.
+
+My email is vgvgvgf@gmail.com, and it is also my msn handle, feel free to add me.
+
+====What I worked on====
+----
+===Player2===
+I am currently the main Player2 developer.
+
+   * Audio, Graphical and Input classes
+   * RPG classes
+   * Refactored Reader
+   * Output, Filefinder
+   * Other Scene_, Game_, Window_, etc classes
+
+====What I am working on====
+----
+   * Backend system
+
+====Personal TODO====
+----
+   * Tilemap
+   * Scene_Map
+   * OpenGL rendering
+   * Update precompiled libraries
