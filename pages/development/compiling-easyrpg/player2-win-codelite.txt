@@ -27,6 +27,6 @@ You will need to adjust the project include directories for these libraries. FIX
 
 ===== Compiling Player2 =====
 
-Open the codelite workspace easyrpg.workspace, then right-click on "player2" in the EasyRPG workspace and select "Set As Active". Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+Open the codelite workspace easyrpg.workspace, then right-click on "player2" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "player2"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
 
 The Player2 executable should be in the folder player2/bin/testgame/Player.exe. You will also need to copy the all required dlls where Player.exe is, if you are using the precompiled libraries you can find them in the "bin" folder at the path where you installed them.
