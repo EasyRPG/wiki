@@ -1,4 +1,4 @@
-====== Compiling the Editor on GNU/Linux Codelite ======
+====== Compiling the Editor on GNU/Linux with Codelite ======
 
 ===== Things Needed =====
 
