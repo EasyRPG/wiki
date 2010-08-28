@@ -21,6 +21,6 @@ You will need to install the following packages:
 
 ===== Compiling Player2 =====
 
-Open the codelite workspace easyrpg.workspace, then right-click on "player2" in the EasyRPG workspace and select "Set As Active". Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+Open the codelite workspace easyrpg.workspace, then right-click on "player2" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "player2"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
 
 The Player2 executable should be in the player2/bin/testgame/ folder.
