@@ -5,10 +5,10 @@ No matter what system/compiler, you will need EasyRPG sources for compiling them
 
 ===Editor===
 ^ System  ^ Compiling instructions  ^
-| Windows | [[development:compiling-easyrpg:editor-win-codelite]] |
-| Linux   | [[development:compiling-easyrpg:editor-linux-codelite]] |
+| Windows | [[development:compiling-easyrpg:editor-win-codelite|Codelite]] |
+| Linux   | [[development:compiling-easyrpg:editor-linux-codelite|Codelite]] |
 
 ===Player2===
 ^ System  ^ Compiling instructions  ^
-| Windows | [[development:compiling-easyrpg:player2-visual-studio]], [[development:compiling-easyrpg:player2-win-codelite]] |
-| Linux   | [[development:compiling-easyrpg:player2-linux-codelite]] |
+| Windows | [[development:compiling-easyrpg:player2-visual-studio|Visual Studio]], [[development:compiling-easyrpg:player2-win-codelite|Codelite]] |
+| Linux   | [[development:compiling-easyrpg:player2-linux-codelite|Codelite]] |
