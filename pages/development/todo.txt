@@ -1,24 +1,55 @@
-=====TODO=====
+======TODO======
 This is the project TODO list.
 
-====Player2====
-===Codelite===
+=====Player2=====
+====Codelite====
    * Make sure the project is updated on linux and windows.
    * Update precompiled libraries.
-===Visual Studio===
+====Visual Studio====
    * Update precompiled libraries.
-===Reader===
+====Reader====
    * Make sure all data chunks are listed correctly.
    * Fix map events reading.
    * Replace FILE* with a custom class object wrapping it. (So if we have to modify C file functions, we don't have to go through all code)
    * Move the reader into a library (along with a data writer), so Editor and Player can link against it without having duplicated code in both projects.
-===Multimedia===
+====Multimedia====
    * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
-==Graphics==
+===Graphics===
    * Implement a dirty rect system, for not redrawing the screen every frame.
    * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
    * Implement sprite rotation. (SDL GFX?)
    * Tilemap.
-===Engine===
+====Engine====
    * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script as a base.
 
+
+===== Editor =====
+
+==== All dialogs ====
+
+  * Set minimal window size once the window fits to prevent less size than the minimal fit.
+
+==== Database UI ====
+
+  * Dessign missing dialogDB sub-dialogs (experience curve and about 30 more)
+  * Dessign and integrate dynamic widgets for some tabs (skill type changes some tab controls), replacing nested wxPanels not designed yet.
+  * Fix memory leak when the dialogDB is opened and related random crashes with the dialogDB preload.
+  * Implement all LDB reading into the dialogDB controls.
+
+==== Map editor ====
+  * Complete wxTreeCtrl LcfMapTree implementation, missing areas, subtree levels, etc.
+  * Fix wxDC map render speed issues. Disable map antialiasing (it happens in wxGTK port) to improve performance (make manual 2X to do this instead of DC zoom). Clip and limit rendering rendering to visible for dramatically render speedup.
+  * Implement map properties and fill LMT specific data.
+  * Implement event layer on the DC.
+
+==== Reader ====
+
+  * Wait for player2 reader API stabilization and shared library to prevent duplicated reader code.
+
+==== Writer ====
+
+  * FIXME Open discussion topic in forums about new file format.
+
+==== Miscellaneous ====
+
+  * Make a custom widget to show grid graphics with selector, used in many dialogs.
