@@ -48,7 +48,7 @@ This is the project TODO list.
 
 ==== Writer ====
 
-  * FIXME Open discussion topic in forums about new file format.
+  * Open discussion topic: http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=3&t=25
 
 ==== Porting ====
 
