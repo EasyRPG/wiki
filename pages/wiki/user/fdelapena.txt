@@ -44,10 +44,6 @@ Some texts pending to be placed in the wiki somewhere.
 
 TODO:
 
-I will open discussion articles, for forums debate (no internet here):
-
-  * New open file format discussion. Chunk based? protobuf? tinyxml? other/ini/plain text?
-
 Concerning optimizations:
 
 EasyRPG RTP replacement will come with all possible file optimizations to bring
