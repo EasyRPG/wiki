@@ -9,7 +9,7 @@ This is the project TODO list.
    * Update precompiled libraries.
 ====Reader====
    * Make sure all data chunks are listed correctly.
-   * Fix map events reading.
+   * <del>Fix map events reading.</del> Fixed in [[http://easyrpg.svn.sourceforge.net/viewvc/easyrpg?revision=643&view=revision|Revision 643]]
    * <del>Replace FILE* with a custom class object wrapping it. (So if we have to modify C file functions, we don't have to go through all code)</del> Implemented in [[http://easyrpg.svn.sourceforge.net/viewvc/easyrpg?revision=640&view=revision|Revision 640]]
    * Move the reader into a library (along with a data writer), so Editor and Player can link against it without having duplicated code in both projects.
 
