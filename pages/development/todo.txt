@@ -10,8 +10,9 @@ This is the project TODO list.
 ====Reader====
    * Make sure all data chunks are listed correctly.
    * Fix map events reading.
-   * Replace FILE* with a custom class object wrapping it. (So if we have to modify C file functions, we don't have to go through all code)
+   * <del>Replace FILE* with a custom class object wrapping it. (So if we have to modify C file functions, we don't have to go through all code)</del> Implemented in [[http://easyrpg.svn.sourceforge.net/viewvc/easyrpg?revision=640&view=revision|Revision 640]]
    * Move the reader into a library (along with a data writer), so Editor and Player can link against it without having duplicated code in both projects.
+
 ====Multimedia====
    * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
 ===Graphics===
