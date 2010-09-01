@@ -30,3 +30,7 @@ This is the documentation wiki of the EasyRPG project.
 
   * [[development/Sample game]]
   * [[development/RPG Maker test suite]]
+
+===== Recent changes =====
+^ Wiki recent changes ^ Subversion recent changes ^
+| {{rss>http://easyrpg.rpgmaker.es/wiki/feed.php 99 author date 10m }} | {{rss>http://cia.vc/stats/project/easyrpg/.rss 99 author date 10m }} |
