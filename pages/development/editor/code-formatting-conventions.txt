@@ -1,0 +1,3 @@
+====== Editor code formatting conventions ======
+
+FIXME To do.
