@@ -2,5 +2,5 @@
 
 Player and Editor are independent projects and the code conventions are different.
 
-  * [[Development/Player2/Code formatting conventions]]
-  * [[Development/Editor/Code formatting conventions]]
+  * [[Development/Player2/Code formatting conventions|Player2 code formatting conventions]]
+  * [[Development/Editor/Code formatting conventions| Editor code formatting conventions]]
