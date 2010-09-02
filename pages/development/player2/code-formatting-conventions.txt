@@ -9,6 +9,8 @@ Just use it, it may be better to break the convention rules in some cases.
 ----
 Tabs, at four columns. Always indent within braces.
 
+Remember to change your text editor/IDE configuration, so it automatically uses tabs instead of spaces.
+
 ===Braces===
 ----
 Braces in your code should look like the following example:
