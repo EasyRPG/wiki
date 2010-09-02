@@ -1,4 +1,4 @@
-=====Player2 Code Formatting Conventions=====
+=====Code Formatting Conventions=====
 ''This conventions apply only to Player2, the Editor has other conventions.''
 
 ===Common Sense===
