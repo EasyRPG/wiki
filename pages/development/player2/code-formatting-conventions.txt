@@ -82,14 +82,14 @@ int &ref = i;</code>
 ====Switch / Case constructs====
 ----
 <code>switch(command_window->GetIndex()) {
-    case 0: // New Game
-        CommandNewGame();
-        break;
-    case 1:  // Load Game
-        CommandContinue();
-        break;
-    case 2:  // Exit Game
-        CommandShutdown();
+case 0: // New Game
+    CommandNewGame();
+    break;
+case 1:  // Load Game
+    CommandContinue();
+    break;
+case 2:  // Exit Game
+    CommandShutdown();
 }</code>
 
 ====Naming====
@@ -134,7 +134,7 @@ Remember to copy (from any other existing file) the license header to all new cr
 ==Function Declaration==
 Use Doxygen like documentation, with the following format:
 <code>////////////////////////////////////////////////////////////
-/// Description of MyFunction
+/// Description of MyFunction.
 /// A more detailed description here.
 /// @param var1 this is a description for var1
 /// @param var2 this is a description for var2
