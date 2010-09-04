@@ -15,7 +15,7 @@ To demonstrate the capabilities of EasyRPG, a "sample game" created by users of 
 
 ===== Best practices =====
 
-Please do not use custom menu systems, custom battle systems or any other "simulated" replacements to surpass the the RPG Maker limits. Just use the RPG Maker features with the principles they were created: this is a tech demo.
+Please don't create custom menu systems, custom battle systems or any other "simulated" replacements to surpass the RPG Maker limits. Just use the RPG Maker features with the principles they were created: this is a tech demo.
 
 ===== Game plot =====
 
