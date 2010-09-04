@@ -4,9 +4,9 @@ To demonstrate the capabilities of EasyRPG, a "sample game" created by users of 
 
 ===== Project goals =====
 
-  * Create a full, playable game (RPG).
-  * Make use of most part of the features available.
-  * Use RTP material without complexes (of course, the game can own its specific material).
+  * Create a full, playable (RPG) game.
+  * Make use of most or part of the features available.
+  * Use RTP material without complexes (of course, the game can use its own specific material).
 
 ===== Requirements =====
 
