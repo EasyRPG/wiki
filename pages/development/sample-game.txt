@@ -1,6 +1,6 @@
 ====== Sample game ======
 
-To demonstrate the EasyRPG capabilities, the project wants a sample game made by the community.
+To demonstrate the capabilities of EasyRPG, a "sample game" created by users of the community is needed.
 
 ===== Project goals =====
 
