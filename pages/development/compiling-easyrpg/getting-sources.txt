@@ -3,6 +3,6 @@
 The source code is available on a Subversion repository hosted on Sourceforge.net. The URL of the EasyRPG subversion repository is ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk''.
 
 For getting it you have several options:
-  * Do ''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/player2 DEST_DIR'' in terminal/console (Change DEST_DIR to the destination directory). You will need to install [[http://subversion.apache.org/|Subversion]] first.
+  * Do ''svn co https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk/ DEST_DIR'' in terminal/console (Change DEST_DIR to the destination directory). You will need to install [[http://subversion.apache.org/|Subversion]] first.
   * There are many GUI SVN clients, for example: [[http://tortoisesvn.net/downloads|TortoiseSVN]] on Windows, and [[http://www.rabbitvcs.org/|RabbitVCS]] on GNU/Linux. After installing it, do a checkout of ''https://easyrpg.svn.sourceforge.net/svnroot/easyrpg/trunk'' in a folder.
   * Download a tar.gz with the sources [[http://easyrpg.svn.sourceforge.net/viewvc/easyrpg/trunk/?view=tar]], then unpack the sources somewhere.
