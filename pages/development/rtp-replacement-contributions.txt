@@ -41,6 +41,8 @@ Sprite by Alephman
 
 {{:development:freebattleweapon.png|}}
 
+Sprite by Alephman
+
 A system graphics template is coming FIXME.
 
 [DELETEME Please write here your assignment while the RTP website is not finished yet. You can upload files here].
