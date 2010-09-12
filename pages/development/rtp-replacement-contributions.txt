@@ -33,7 +33,7 @@ Each artist have a different style. Is very difficult to get every material set 
 
 The following materials can be designed in any moment without style problems between artists:
 
-Sprite by Alephman
+
 
 ==== BattleWeapon ====
 
