@@ -2,26 +2,31 @@
 This is the project TODO list.
 
 =====Player2=====
+
+=====Current issues=====
+  * Broken keyboard handling. Random crashes: Crash on release build doing "down, down, up, up, Z". Alt+F4 does not work properly on Win32. F4 on Ubuntu crashes sometimes. Initial high cpu usage. F4 then F4 makes high cpu again and poor responsive arrows.
+
 ====Codelite====
-   * Update precompiled libraries.
+  * Update precompiled libraries.
 ====Reader====
-   * Make sure all data chunks are listed correctly.
-   * Move the reader into a library (along with a data writer and RPG classes), so Editor and Player can link against it without having duplicated code in both projects.
+  * Make sure all data chunks are listed correctly.
+  * Move the reader into a library (along with a data writer and RPG classes), so Editor and Player can link against it without having duplicated code in both projects.
 ====Multimedia====
-   * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
+  * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
 ===Graphics===
-   * Implement a dirty rect system, for not redrawing the screen every frame.
-   * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
-   * Implement sprite rotation. (SDL GFX?)
-   * Tilemap.
-   * Improve fullscreen.
-   * Improve zoom. (Maybe an asm scaler, or work with all bitmaps at x2)
+  * Implement a dirty rect system, for not redrawing the screen every frame.
+  * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
+  * Implement sprite rotation. (SDL GFX?)
+  * Tilemap.
+  * Improve fullscreen.
+  * Improve zoom. (Maybe an asm scaler, or work with all bitmaps at x2)
 ===Audio===
-   * Audio cache?
+  * Audio cache?
 ====Engine====
-   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
+  * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
 ====Tools====
-   * FileFinder: Implement case insensitive search for POSIX.
+  * FileFinder: Implement case insensitive search for POSIX.
+  * MessageBox: Fix OSX messages, totally untested yet. Verify GTK and Win32 messagebox ports. Implement generic visual messagebox (SDL_picofont?).
 
 ===== Editor =====
 
