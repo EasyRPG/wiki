@@ -3,9 +3,8 @@ This is the project TODO list.
 
 =====Player2=====
 
-=====Current issues=====
+====Current issues====
   * Broken keyboard handling. Random crashes: Crash on release build doing "down, down, up, up, Z". Alt+F4 does not work properly on Win32. F4 on Ubuntu crashes sometimes. Initial high cpu usage. F4 then F4 makes high cpu again and poor responsive arrows.
-
 ====Codelite====
   * Update precompiled libraries.
 ====Reader====
