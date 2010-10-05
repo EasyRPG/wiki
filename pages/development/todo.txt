@@ -29,6 +29,10 @@ This is the project TODO list.
 
 ===== Editor =====
 
+==== Current issues ====
+  * DialogDB crashes when trying to open it after first time.
+  * You need to open lmt before open DialogDB, controls should be disabled.
+
 ==== All dialogs ====
 
   * Set minimal window size once the window fits to prevent less size than the minimal fit.
@@ -41,6 +45,7 @@ This is the project TODO list.
   * Implement all LDB reading into the dialogDb controls.
 
 ==== Map editor ====
+
   * Complete wxTreeCtrl LcfMapTree implementation, missing areas, subtree levels, etc.
   * Fix wxDC map render speed issues. Disable map antialiasing (it happens in wxGTK port) to improve performance (make manual 2X to do this instead of DC zoom). Clip and limit rendering rendering to visible for dramatically render speed up.
   * Implement map properties and fill LMT specific data.
