@@ -17,7 +17,7 @@ This is the documentation wiki of the EasyRPG project.
   * [[development/Compiling EasyRPG]]
   * [[development/Code formatting conventions]]
   * [[development/RPG_RT.exe technical details]]
-  * [[development/System grahics technical details]]
+  * [[development/System graphics technical details]]
   * [[development/RTP database]]
   * [[development/TODO]]
 
