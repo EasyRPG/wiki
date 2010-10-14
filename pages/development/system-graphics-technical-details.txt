@@ -17,13 +17,18 @@ Research made by Cetros.
   * A: Window's wallpaper
     * (0,0) (32x32)
     * Transparent Color: disabled
+    * If wallpaper type is TILE it will be tiled from left-top
   * B: Window Parts
     * (32, 0) (32x32)
     * 0 - x: Frame
-    * y: Cursor
+    * y: Page Cursor Up
+    * z: Page Cursor Down / Waiting at text
     * Transparent Color: enabled
   * C: Command Cursor
     * (64, 0) (32x32 x 2 Pattern)
+    * 0 - x: Frame
+    * y: Inside
+      * If wallpaper type is TILE it will be tiled from left-top
     * Transparent Color: enabled
   * D: Shop's equip difference symbol
     * (128, 0) (8x8 x 4 Pattern)
@@ -47,12 +52,25 @@ Research made by Cetros.
   * H: Airship's shadow
     * (128, 32) (16x16 x 2 Pattern)
     * Transparent Color: enabled
-  * I: Font color
-    * (0, 48) (16x16 x 20)
+  * I: Font
+    * (0, 48) (16x16 x 10)
+    * (0, 64) (16x16 x 10)
+    * 0 〜 19
+    * Transparent Color: disabled
+
+===== Font Color Example =====
     * 0: Default
+
+    * 0: Enable
+    * 3: Disable
+
+    * 1: Status
     * 2: Parameter Up
     * 3: Parameter Down
-    * Transparent Color: disabled
+    * 1: Money
+
+    * 4: HP Low
+    * 4: MP Low
 
 ===== Priority =====
   * There is a priority of how it's rendered.
