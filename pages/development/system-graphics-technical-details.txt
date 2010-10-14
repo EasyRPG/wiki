@@ -40,9 +40,11 @@ Research made by Cetros.
   * E: Menu screen's background
     * (0, 32) (16x16)
     * Transparent Color: disabled
+    * Only the left-top 1x1 pixel of this segment will be used
   * F: Font's shadow
     * (16, 32) (16x16)
     * Transparent Color, enabled
+    * Only the left-top 1x1 pixel of this segment will be used
   * G: Timer character
     * (32, 32) (8x16 x 12 character)
     * (32, 32) 0 - 9
@@ -53,8 +55,8 @@ Research made by Cetros.
     * (128, 32) (16x16 x 2 Pattern)
     * Transparent Color: enabled
   * I: Font
-    * (0, 48) (16x16 x 10)
-    * (0, 64) (16x16 x 10)
+    * (0, 48) (16x16 x 10) 0 〜 9
+    * (0, 64) (16x16 x 10) 10 〜 19
     * 0 〜 19
     * Transparent Color: disabled
 
@@ -83,5 +85,7 @@ Research made by Cetros.
   - Window Wallpaper
 
 ====== Source ======
-  * RPGツクール2000 Official Manual
-  * [[http://star.s9.xrea.com/doc/rpgm2k/index.php?inc=data/data/39]](Image is lost someway)
+  * RPGツクール2000 Official Manual(Japanese)
+  * [[http://star.s9.xrea.com/doc/rpgm2k/index.php?inc=data/data/39]]
+    * The image is lost someway, so don't care about it
+    * (Japanese)
