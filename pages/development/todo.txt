@@ -11,6 +11,7 @@ This is the project TODO list.
 
 ==== Win32 precompiled libraries ====
   * Update SDL_ttf to 2.0.10 for MinGW.
+  * Compile x64 libs for MSVC.
 
 ==== Reader ====
   * Make sure all data chunks are listed correctly.
