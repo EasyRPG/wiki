@@ -10,7 +10,7 @@ This is the project TODO list.
   * Update precompiled libraries.
 
 ==== Win32 precompiled libraries ====
-  * Update SDL_ttf to 2.0.10.
+  * Update SDL_ttf to 2.0.10 for MinGW.
 
 ==== Reader ====
   * Make sure all data chunks are listed correctly.
