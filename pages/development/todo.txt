@@ -1,30 +1,39 @@
-======TODO======
+====== TODO ======
 This is the project TODO list.
 
-=====Player2=====
+===== Player2 =====
 
-====Current issues====
+==== Current issues ====
   * Broken keyboard handling. Random crashes: Crash on release build doing "down, down, up, up, Z". Alt+F4 does not work properly on Win32. F4 on Ubuntu crashes sometimes. Initial high cpu usage. F4 then F4 makes high cpu again and poor responsive arrows.
-====Codelite====
+
+==== Codelite ====
   * Update precompiled libraries.
-====Reader====
+
+==== Win32 precompiled libraries ====
+  * Update SDL_ttf to 2.0.10.
+
+==== Reader ====
   * Make sure all data chunks are listed correctly.
   * Move the reader into a library (along with a data writer and RPG classes), so Editor and Player can link against it without having duplicated code in both projects.
-====Multimedia====
+
+==== Multimedia ====
   * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
-===Graphics===
+
+=== Graphics ===
   * Implement a dirty rect system, for not redrawing the screen every frame.
   * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
   * Implement sprite rotation. (SDL GFX?)
   * Tilemap.
   * Improve fullscreen.
   * Improve zoom. (Maybe an asm scaler, or work with all bitmaps at x2)
-===Audio===
+
+=== Audio ===
   * Audio cache?
-====Engine====
+
+==== Engine ====
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
-====Tools====
-  * FileFinder: Implement case insensitive search for POSIX.
+
+==== Tools ====
   * MessageBox: Fix OSX messages, totally untested yet. Verify GTK and Win32 messagebox ports. Implement generic visual messagebox (SDL_picofont?).
 
 ===== Editor =====
@@ -45,9 +54,8 @@ This is the project TODO list.
   * Implement all LDB reading into the dialogDb controls.
 
 ==== Map editor ====
-
   * Complete wxTreeCtrl LcfMapTree implementation, missing areas, subtree levels, etc.
-  * Fix wxDC map render speed issues. Disable map antialiasing (it happens in wxGTK port) to improve performance (make manual 2X to do this instead of DC zoom). Clip and limit rendering rendering to visible for dramatically render speed up.
+  * Fix remaining wxDC map render speed issues. Clip and limit rendering to visible for dramatically render speed up.
   * Implement map properties and fill LMT specific data.
   * Implement event layer on the DC.
 
