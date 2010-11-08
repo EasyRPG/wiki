@@ -25,8 +25,6 @@ This is the project TODO list.
   * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
   * Implement sprite rotation. (SDL GFX?)
   * Tilemap.
-  * Improve fullscreen.
-  * Improve zoom. (Maybe an asm scaler, or work with all bitmaps at x2)
 
 === Audio ===
   * Audio cache?
@@ -35,7 +33,7 @@ This is the project TODO list.
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
 
 ==== Tools ====
-  * MessageBox: Fix OSX messages, totally untested yet. Verify GTK and Win32 messagebox ports. Implement generic visual messagebox (SDL_picofont?).
+  * MessageBox: Fix OSX port, totally untested yet. Verify Win32 messagebox port. Implement generic visual messagebox (SDL_picofont?).
 
 ===== Editor =====
 
