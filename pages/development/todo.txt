@@ -4,7 +4,9 @@ This is the project TODO list.
 ===== Player2 =====
 
 ==== Current issues ====
-  * Broken keyboard handling. Random crashes: Crash on release build doing "down, down, up, up, Z". Alt+F4 does not work properly on Win32. F4 on Ubuntu crashes sometimes. Initial high cpu usage. F4 then F4 makes high cpu again and poor responsive arrows.
+  * Alt+F4 does not work properly on Win32.
+  * Alt+Enter for full screen does not work.
+  * 2x zoom shows 1 pixel back line on bottom screen in window mode.
 
 ==== Win32 precompiled libraries ====
   * Update SDL_ttf to 2.0.10 and other libs for MinGW.
