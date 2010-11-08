@@ -6,34 +6,36 @@ This is the project TODO list.
 ==== Current issues ====
   * Broken keyboard handling. Random crashes: Crash on release build doing "down, down, up, up, Z". Alt+F4 does not work properly on Win32. F4 on Ubuntu crashes sometimes. Initial high cpu usage. F4 then F4 makes high cpu again and poor responsive arrows.
 
-==== Codelite ====
-  * Update precompiled libraries.
-
 ==== Win32 precompiled libraries ====
-  * Update SDL_ttf to 2.0.10 for MinGW.
+  * Update SDL_ttf to 2.0.10 and other libs for MinGW.
   * Compile x64 libs for MSVC.
 
 ==== Reader ====
   * Make sure all data chunks are listed correctly.
   * Move the reader into a library (along with a data writer and RPG classes), so Editor and Player can link against it without having duplicated code in both projects.
 
-==== Multimedia ====
-  * Work on a Backend system, specially for Graphics. Common functions should be wrapped, so porting can be easier when the libraries need to be changed.
-
-=== Graphics ===
-  * Implement a dirty rect system, for not redrawing the screen every frame.
-  * Implement RPG Maker 2K/2K3 text drawing system (Applying from system graphics a color gradient).
+==== Graphics ====
+  * OpenGL
+  * Implement zoom for bpp different from 32
   * Implement sprite rotation. (SDL GFX?)
-  * Tilemap.
+  * Sprite Wave Effect
+  * Split Bitmap::TextDraw into smaller functions
 
 === Audio ===
+  * Implement Audio::Pause and Audio::Resume, so it stops playing when game window looses focus.
   * Audio cache?
 
 ==== Engine ====
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
+  * Move to some kind of singleton (or static class?) pattern for Game classes stored in Main_Data. Having to add Main_Data:: isn't that nice.
 
 ==== Tools ====
-  * MessageBox: Fix OSX port, totally untested yet. Verify Win32 messagebox port. Implement generic visual messagebox (SDL_picofont?).
+  * MessageBox: Fix OSX port, totally untested yet. Verify Win32 messagebox port.
+  * Implement generic in screen message (SDL_picofont?).
+  * Improve Filefinder
+
+==== Others ====
+  * Unicode support
 
 ===== Editor =====
 
