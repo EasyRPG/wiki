@@ -1,3 +1,0 @@
-=====Player2=====
-
-{{indexmenu>:development:player2|nojs dsort}}
