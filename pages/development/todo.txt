@@ -1,7 +1,7 @@
 ====== TODO ======
 This is the project TODO list.
 
-===== Player2 =====
+===== Player =====
 
 ==== Current issues ====
   * Alt+F4 does not work properly on Win32.
@@ -64,7 +64,7 @@ This is the project TODO list.
 
 ==== Reader ====
 
-  * Wait for player2 reader API stabilization and shared library to prevent duplicated reader code.
+  * Wait for Player reader API stabilization and shared library to prevent duplicated reader code.
 
 ==== Writer ====
 
