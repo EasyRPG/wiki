@@ -1,5 +1,5 @@
 =====Code Formatting Conventions=====
-''This conventions apply only to Player2, the Editor has other conventions.''
+''This conventions apply only to Player, the Editor has other conventions.''
 
 ===Common Sense===
 ----
