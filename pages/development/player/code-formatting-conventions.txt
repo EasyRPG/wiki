@@ -1,0 +1,143 @@
+=====Code Formatting Conventions=====
+''This conventions apply only to Player, the Editor has other conventions.''
+
+===Common Sense===
+----
+Just use it, it may be better to break the convention rules in some cases.
+
+===Indentation===
+----
+Tabs, at four columns. Always indent within braces.
+
+Remember to change your text editor/IDE configuration, so it automatically uses tabs instead of spaces.
+
+===Braces===
+----
+Braces in your code should look like the following example:
+
+<code>for (int i = 0; i < t; i++) {
+    [...]
+}
+ 
+if (j < k) {
+    [...]
+} else {
+    [...]
+}
+ 
+class Dummy {
+    [...]
+};</code>
+
+===Whitespaces===
+----
+==Conventional operators surrounded by a space character==
+<code>a = (b + c) * d;</code>
+
+==C++ reserved words separated from opening parentheses by a white space==
+<code>while (true) {</code>
+
+==Commas followed by a white space==
+<code>SomeFunction(a, b, c);</code>
+<code>int d, e;</code>
+
+==Semicolons followed by a space character, if there is more on a line==
+<code>for (int i = 0; i < 10; i++) {</code>
+<code>DoSomething(e); DoSomething(f);    // This is probably bad style anyway</code>
+
+==When declaring class inheritance and in a ? construct, colons should be surrounded by white space==
+<code>class Foo : public Bar {</code>
+<code>var1 ? var2 : var3;</code>
+
+==Array delete operator has no whitespace before []==
+<code>delete[] foo;</code>
+
+==STD library and <>==
+No whitespaces before or after <, and whitespaces only after >.
+<code>std::vector<int> array;</code>
+<code>std::vector<std::vector<int> > array_of_arrays;</code>
+
+==Operator overloading==
+Operator keyword is not separated from the name, except for type conversion operators where it is required.
+<code>struct Foo {
+    void operator()() {
+        // ...
+    }
+ 
+    operator bool() {
+        return true;
+    }
+};</code>
+
+==Pointers and casts==
+No whitespace after a cast; and in a pointer, we write a whitespace after it but no before it. Consider "*" to be part of the type.
+<code>const char* ptr = (const char*)foobar;</code>
+
+==References==
+Unlike pointers, use a whitespace before the "&" but not after it. Consider the & operator to affect the variable, not the type.
+<code>int i = 0;
+int &ref = i;</code>
+<code>void func(const int &foo) {</code>
+
+====Switch / Case constructs====
+----
+<code>switch(command_window->GetIndex()) {
+case 0: // New Game
+    CommandNewGame();
+    break;
+case 1:  // Load Game
+    CommandContinue();
+    break;
+case 2:  // Exit Game
+    CommandShutdown();
+}</code>
+
+====Naming====
+----
+==Constants==
+All upper case, with underscores as name separators, but no leading/trailing underscores:
+<code>THIS_IS_A_CONSTANT</code>
+''As a exception'', for headers use the following format:
+<code>#ifndef _WINDOW_COMMAND_H_
+#define _WINDOW_COMMAND_H_</code>
+
+==Type names==
+We use RPG Maker XP/VX RGSS and scripts as our API base. Normally classes should be named in UpperCamelCase, like EventCommand, but there are some exceptions when trying to mantain the names RPG Maker XP/VX use, like RPG or Scene_Title. Scripts or "Engine" classes use a word prefix with a underscore indicating what they are for: Game_, Sprite_, Spriteset_, Window_ and Scene_.
+<code>class RPG::MoveRoute {
+class Game_CommonEvent {
+class Window_MenuStatus : public Window_Selectable {
+class Scene_Battle : public Scene {</code>
+
+==Functions==
+Functions should be UpperCamelCase.
+<code>void ThisIsAFunction() {</code>
+Property methods should start with Get or Set:
+<code>class Foo {
+public:
+    int GetThatInt() { return that_int; }
+    void SetThatInt(int new_int) { that_int = new_int; }
+private:
+    int that_int;
+}</code>
+
+==Variables==
+Variables should be lower case with underscores as word separators.
+<code>int this_is_a_variable;</code>
+
+====Comments====
+----
+Use <nowiki>//</nowiki> preferably.
+
+==License File Header==
+Remember to copy (from any other existing file) the license header to all new created files.
+
+==Function Declaration==
+Use Doxygen like documentation, with the following format:
+<code>////////////////////////////////////////////////////////////
+/// Description of MyFunction.
+/// A more detailed description here.
+/// @param var1 this is a description for var1
+/// @param var2 this is a description for var2
+/// @return here goes a description for return value
+////////////////////////////////////////////////////////////
+virtual int MyFunction(double var1, std::string var2);</code>
