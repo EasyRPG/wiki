@@ -7,8 +7,8 @@ My email is vgvgvgf@gmail.com, and it is also my msn handle, feel free to add me
 
 ====What I worked on====
 ----
-===Player2===
-I am currently the main Player2 developer.
+===Player===
+I am currently the main Player developer.
 
    * Audio, Graphical and Input classes
    * RPG classes
