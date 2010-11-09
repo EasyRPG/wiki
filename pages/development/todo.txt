@@ -1,12 +1,9 @@
 ====== TODO ======
 This is the project TODO list.
 
-===== Player =====
+Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.es/bugs/|tracker]].
 
-==== Current issues ====
-  * Alt+F4 does not work properly on Win32.
-  * Alt+Enter for full screen does not work.
-  * 2x zoom shows 1 pixel back line on bottom screen in window mode.
+===== Player =====
 
 ==== Win32 precompiled libraries ====
   * Update SDL_ttf to 2.0.10 and other libs for MinGW.
@@ -40,10 +37,6 @@ This is the project TODO list.
   * Unicode support
 
 ===== Editor =====
-
-==== Current issues ====
-  * DialogDB crashes when trying to open it after first time.
-  * You need to open lmt before open DialogDB, controls should be disabled.
 
 ==== All dialogs ====
 
