@@ -1,6 +1,5 @@
 ====== Project goals ======
 
-  * Create a RPG Maker 2000/2003 clone, featuring game interpreter, game editor and art replacement
-  * Free (as freedom)
+  * Create a free RPG Maker 2000/2003 clone, featuring game interpreter, game editor and art replacement
   * Portable and cross platform
   * Multi-language
