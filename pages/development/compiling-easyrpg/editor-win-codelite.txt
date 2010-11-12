@@ -10,6 +10,6 @@ You can find Codelite [[http://www.codelite.org/|here]]. It is highly recommende
 
 ===== Compiling the Editor =====
 
-Open the codelite workspace easyrpg.workspace, then right-click on "editor" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "editor"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+Open the codelite workspace easyrpg.workspace, then right-click on "Editor" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "Editor"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
 
-The Editor executable should be in the folder editor/bin/editor.exe.
+The Editor executable should be in the folder editor/bin/Editor.exe.
