@@ -53,7 +53,7 @@ Research made by Cetros.
     * Transparent Color: enabled
   * H: Airship's shadow
     * (128, 32) (16x16 x 2 Pattern)
-    * Transparent Color: enabled
+    * Transparent Color: enabled <-- FIXME really semitransparent
   * I: Font
     * (0, 48) (16x16 x 10) 0 〜 9
     * (0, 64) (16x16 x 10) 10 〜 19
