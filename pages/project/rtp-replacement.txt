@@ -20,6 +20,14 @@ RTP documentation tasks to do:
   * Complete RTP replacement mini site. [fdelapena]
   * Create an extensive and detailed optimization guide for artist/developers for the materials. [fdelapena]
 
+===== RTP replacement contributions =====
+
+See [[development/RTP replacement contributions]].
+
+===== RTP database =====
+
+Se [[development/RTP database]]
+
 ===== Current maintainers =====
 
 ''Francisco de la Peña'' is working on the material management, database and documentation of the project.
