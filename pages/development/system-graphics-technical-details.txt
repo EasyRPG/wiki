@@ -7,7 +7,7 @@ Research made by Cetros.
 
 ====== take_cheeze's translation ======
 ===== Basic =====
-(image comes here)
+{{:development:systemhlp.png|}}
   * Directory: "System/"
   * Size: 160(width) x 80(height)
 
