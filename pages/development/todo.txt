@@ -11,7 +11,6 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 
 ==== Reader ====
   * Make sure all data chunks are listed correctly.
-  * Move the reader into a library (along with a data writer and RPG classes), so Editor and Player can link against it without having duplicated code in both projects.
 
 ==== Graphics ====
   * OpenGL
@@ -31,7 +30,7 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 ==== Tools ====
   * MessageBox: Fix OSX port, totally untested yet. Verify Win32 messagebox port.
   * Implement generic in screen message (SDL_picofont?).
-  * Improve Filefinder
+  * Improve posix/unix Filefinder
 
 ==== Others ====
   * Unicode support
