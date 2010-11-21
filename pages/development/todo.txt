@@ -28,7 +28,7 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
   * Move to some kind of singleton (or static class?) pattern for Game classes stored in Main_Data. Having to add Main_Data:: isn't that nice.
 
 ==== Tools ====
-  * MessageBox: Fix OSX port, totally untested yet. Verify Win32 messagebox port.
+  * MessageBox: Fix OSX port, totally untested yet.
   * Implement generic in screen message (SDL_picofont?).
   * Improve posix/unix Filefinder
 
