@@ -35,38 +35,32 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 ==== Others ====
   * Unicode support
 
+
 ===== Editor =====
 
-==== All dialogs ====
+==== General ====
+  * Disable controls and import rm2k project selecting folder (or .lmu) instead of loading project directly.
 
-  * Set minimal window size once the window fits to prevent less size than the minimal fit.
+==== Config ====
+  * Create configuration file to save editor preferences, like last opened project, window and scrollbar positions, etc. (wxFileConfig, .ini backend).
 
-==== Database UI ====
-
+==== Database ====
+  * Design and integrate dynamic widgets for some DialogDb tabs (skill type changes some tab controls), replacing nested wxPanels not designed yet.
+  * Fill LDB data from readers library and fill all fields.
   * Design missing dialogDb child dialog windows (experience curve and about 30 more)
-  * Design and integrate dynamic widgets for some tabs (skill type changes some tab controls), replacing nested wxPanels not designed yet.
-  * Fix memory leak when the dialogDb is opened and related random crashes with the dialogDb preload.
-  * Implement all LDB reading into the dialogDb controls.
 
 ==== Map editor ====
-  * Complete wxTreeCtrl LcfMapTree implementation, missing areas, subtree levels, etc.
-  * Fix remaining wxDC map render speed issues. Clip and limit rendering to visible for dramatically render speed up.
-  * Implement map properties and fill LMT specific data.
-  * Implement event layer on the DC.
+  * Fill LMT data from readers library and fill tree and specific LMT map properties.
+  * Fill LMU data from readers library and fill DC canvas layers and map properties.
+    * Readapt tilemap layer from player to editor DC.
+    * Use wxGLCanvas instead of wxDC? Or both via ifdef?
 
-==== Reader ====
-
-  * Wait for Player reader API stabilization and shared library to prevent duplicated reader code.
+==== All dialogs ====
+  * Set minimal window size once the window fits to prevent less size than the minimal fit.
+  * Make a custom widget (using DC or GLCanvas, like project [[http://slade.mancubus.net/|SLADE]]) to show grid graphics with selector, used in many dialog windows.
 
 ==== Writer ====
-
   * Open discussion topic: http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=3&t=25
 
 ==== Porting ====
-
-  * Complete Mac OS X Editor CodeLite project configuration (CodeLite 2.6 made changes for .app folder creation and management)
-
-==== Miscellaneous ====
-
-  * Make a custom widget to show grid graphics with selector, used in many dialog windows.
-  * Create configuration file to save editor preferences, like window and scrollbar positions.
+  * Mac OS X port. CodeLite build configuration for app bundle.
