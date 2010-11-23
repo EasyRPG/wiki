@@ -39,7 +39,7 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 ===== Editor =====
 
 ==== General ====
-  * Disable controls and import rm2k project selecting folder (or .lmu) instead of loading project directly.
+  * Disable controls and import rm2k project selecting folder (or .lmt) instead of loading project directly.
 
 ==== Config ====
   * Create configuration file to save editor preferences, like last opened project, window and scrollbar positions, etc. (wxFileConfig, .ini backend).
