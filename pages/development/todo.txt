@@ -19,7 +19,10 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
   * Sprite Wave Effect
   * Split Bitmap::TextDraw into smaller functions
 
-=== Audio ===
+==== Input ====
+  * Joystick support
+
+==== Audio ====
   * Implement Audio::Pause and Audio::Resume, so it stops playing when game window looses focus.
   * Audio cache?
 
