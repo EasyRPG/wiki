@@ -6,6 +6,11 @@ For a better and faster emulation testing and bug detection, EasyRPG wants a tes
 
 In development.
 
+  <vgvgf> "stress" test should be added to the testsuite, including a map with lots of events
+  <vgvgf> a map with lot of parallel events
+  <vgvgf> a map with lots of events with moving routes
+  <vgvgf> a map with lots of events with lots of pages, and else
+
 ===== Maintainers =====
 
 The current maintainer of the test suite project is ''EN.I''.
