@@ -2,18 +2,18 @@
 
 ===== Things Needed =====
 
-===EasyRPG Source Code===
+====EasyRPG Source Code====
 Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
 
-===Codelite===
+====Codelite====
 You can find Codelite [[http://www.codelite.org/|here]].
 
-===Precompiled libraries===
+====Precompiled libraries====
 EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a simple and quick installer with the needed dependencies.
 
 You can get last version of the installer [[http://vgvgf.com.ar/easyrpg/EasyRPG%20Dev%20MinGW.exe|here]]. Install it and skip to [[development/compiling-easyrpg/player-win-codelite#Compiling Player|Compiling Player]]
 
-===Getting the libraries===
+====Getting the libraries====
 ''If you are using the precompiled libraries you can skip this part.''
 
 You can get the needed libraries from the following pages:
