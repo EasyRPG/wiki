@@ -38,6 +38,8 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 ==== Others ====
   * Unicode support
 
+==== Porting ====
+  * Mac OS X port. CodeLite build configuration for app bundle.
 
 ===== Editor =====
 
