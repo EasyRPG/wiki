@@ -41,6 +41,11 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 
 ===== Editor =====
 
+==== wxGlade -> wxFormBuilder migration ====
+  * Code refactor based in wxFormBuilder C++ style instad of wxGlade C++ style:
+    * Export easyrpg.wxg to XRC format, import XRC into wxFormBuilder and regenerate C++
+    * Reconnect all windows and put again all not-layout specific code.
+
 ==== General ====
   * Disable controls and import rm2k project selecting folder (or .lmt) instead of loading project directly.
 
