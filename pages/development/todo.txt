@@ -64,7 +64,7 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
     * Use wxGLCanvas instead of wxDC? Or both via ifdef?
 
 ==== All dialogs ====
-  * Set minimal window size once the window fits to prevent less size than the minimal fit.
+  * Set minimal window size once the window fits to prevent less size than the minimal fit (maybe will be fixed with wxFormBuilder migration)
   * Make a custom widget (using DC or GLCanvas, like project [[http://slade.mancubus.net/|SLADE]]) to show grid graphics with selector, used in many dialog windows.
 
 ==== Writer ====
