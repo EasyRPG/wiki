@@ -2,10 +2,10 @@
 
 ===== Things Needed =====
 
-===EasyRPG Source Code===
+====EasyRPG Source Code====
 Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
 
-===Codelite===
+====Codelite====
 You can find Codelite [[http://www.codelite.org/|here]]. It is highly recommended that you install the Codelite+MinGW+wxWidgets package, manually compiling wxWidgets can be quite a pain. In case you want to compile wxWidgets by yourself, we wish you good luck!
 
 ===== Compiling the Editor =====
