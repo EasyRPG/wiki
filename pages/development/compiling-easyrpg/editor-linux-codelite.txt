@@ -2,13 +2,13 @@
 
 ===== Things Needed =====
 
-===EasyRPG Source Code===
+====EasyRPG Source Code====
 Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
 
-===Codelite===
+====Codelite====
 You can find Codelite [[http://www.codelite.org/|here]].
 
-===Getting the libraries===
+====Getting the libraries====
 
 This is a list of the packages you need to install:
   * build-essential
