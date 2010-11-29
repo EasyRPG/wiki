@@ -5,7 +5,7 @@
 ====EasyRPG Source Code====
 Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
 
-====Visual C++ 2010 or 2008====
+====Visual C++ 2010====
 You can find Visual Studio 2010 [[http://www.microsoft.com/visualstudio/en-us/|here]].
 You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/express/|here]].
 
@@ -28,6 +28,6 @@ You will need to adjust the project include directories for these libraries. FIX
 
 ===== Compiling Player =====
 
-Open the solution file in player\builds\vs2010 (or player\builds\vs2008 if you are using Visual Studio 2008), select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
+Open the solution file in player\builds\vs2010 , select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
 
 The Player executable should be in the folder bin\testgame\Player.exe. If you are not using the precompiled libraries, and you have dinamically linked Player, you will need to place the required .dll in the same folder Player.exe is.
