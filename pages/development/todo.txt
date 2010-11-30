@@ -23,29 +23,21 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
   * Joystick support
 
 ==== Audio ====
-  * Implement Audio::Pause and Audio::Resume, so it stops playing when game window looses focus.
   * Audio cache?
 
 ==== Engine ====
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
-  * Move to some kind of singleton (or static class?) pattern for Game classes stored in Main_Data. Having to add Main_Data:: isn't that nice.
 
 ==== Tools ====
   * MessageBox: Fix OSX port, totally untested yet.
-  * Implement generic in screen message (SDL_picofont?).
   * Improve posix/unix Filefinder
 
 ==== Others ====
   * Unicode support
 
-==== Porting ====
-  * Mac OS X port. CodeLite build configuration for app bundle.
-
 ===== Editor =====
 
 ==== wxGlade -> wxFormBuilder migration ====
-  * Code refactor based in wxFormBuilder C++ style instad of wxGlade C++ style:
-    * Export easyrpg.wxg to XRC format, import XRC into wxFormBuilder and regenerate C++
     * Reconnect all windows and put again all not-layout specific code.
 
 ==== General ====
@@ -66,11 +58,7 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
     * Use wxGLCanvas instead of wxDC? Or both via ifdef?
 
 ==== All dialogs ====
-  * Set minimal window size once the window fits to prevent less size than the minimal fit (maybe will be fixed with wxFormBuilder migration)
   * Make a custom widget (using DC or GLCanvas, like project [[http://slade.mancubus.net/|SLADE]]) to show grid graphics with selector, used in many dialog windows.
 
 ==== Writer ====
   * Open discussion topic: http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=3&t=25
-
-==== Porting ====
-  * Mac OS X port. CodeLite build configuration for app bundle.
