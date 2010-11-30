@@ -29,7 +29,6 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
 
 ==== Tools ====
-  * MessageBox: Fix OSX port, totally untested yet.
   * Improve posix/unix Filefinder
 
 ==== Others ====
