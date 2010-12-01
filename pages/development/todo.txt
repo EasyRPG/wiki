@@ -28,9 +28,9 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 ==== Engine ====
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
 
-===== Classes =====
+=== Classes ===
 
-====== Hidden RGSS classes ======
+== Hidden RGSS classes ==
 FIXME Remove the implemented ones.
   * RPG
   * Audio
@@ -43,7 +43,7 @@ FIXME Remove the implemented ones.
   * Bitmap
   * Viewport
   * Plane
-====== RGSS style classes ======
+== RGSS style classes ==
 FIXME remove the implemented ones. List not including RGSS2 variations.
   * Game_Temp
   * Game_System
