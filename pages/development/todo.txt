@@ -3,14 +3,14 @@ This is the project TODO list.
 
 Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.es/bugs/|tracker]].
 
+===== Reader =====
+  * Make sure all data chunks are listed correctly.
+
 ===== Player =====
 
 ==== Win32 precompiled libraries ====
   * Update SDL_ttf to 2.0.10 and other libs for MinGW.
   * Compile x64 libs for MSVC.
-
-==== Reader ====
-  * Make sure all data chunks are listed correctly.
 
 ==== Graphics ====
   * OpenGL
