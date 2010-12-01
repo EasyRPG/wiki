@@ -28,6 +28,98 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
 ==== Engine ====
   * Implement diverse classes (Game, Sprite, Window, Scene), too many for listing. Look at RPG Maker XP and VX script for a base.
 
+===== Classes =====
+
+====== Hidden RGSS classes ======
+FIXME Remove the implemented ones.
+  * RPG
+  * Audio
+  * Graphics
+  * Input
+  * Tilemap
+  * Table
+  * Window
+  * Sprite
+  * Bitmap
+  * Viewport
+  * Plane
+====== RGSS style classes ======
+FIXME remove the implemented ones. List not including RGSS2 variations.
+  * Game_Temp
+  * Game_System
+  * Game_Switches
+  * Game_Variables
+  * Game_SelfSwitches
+  * Game_Screen
+  * Game_Picture
+  * Game_Battler
+    * Game_Actor
+    * Game_Enemy
+  * Game_BattleAction
+  * Game_Actors
+  * Game_Party
+  * Game_Troop
+  * Game_Map
+  * Game_CommonEvent
+  * Game_Character
+    * Game_Event
+    * Game_Player
+  * Sprite_Character (RPG::Sprite)
+  * Sprite_Battler (RPG::Sprite)
+  * Sprite_Picture (Sprite)
+  * Sprite_Timer (Sprite)
+  * Window_Base (Window)
+    * Window_Selectable
+      * Window_Command
+      * Window_MenuStatus
+      * Window_Item
+      * Window_Skill
+      * Window_Target
+      * Window_EquipRight
+      * Window_ShopCommand
+      * Window_ShopBuy
+      * Window_ShopSell
+      * Window_Message
+      * Window_PartyCommand
+      * Window_DebugLeft
+      * Window_DebugRight
+    * Window_Help
+    * Window_Gold
+    * Window_PlayTime
+    * Window_Steps
+    * Window_SkillStatus
+    * Window_EquipLeft
+    * Window_EquipItem
+    * Window_Status
+    * Window_SaveFile
+    * Window_ShopNumber
+    * Window_ShopStatus
+    * Window_NameEdit
+    * Window_NameInput
+    * Window_InputNumber
+    * Window_BattleStatus
+    * Window_BattleResult
+  * Arrow_Base (Sprite)
+    * Arrow_Enemy
+    * Arrow_Actor
+  * Interpreter
+  * Scene_Title
+  * Scene_Map
+  * Scene_Menu
+  * Scene_Item
+  * Scene_Skill
+  * Scene_Equip
+  * Scene_Status
+  * Scene_File
+    * Scene_Save
+    * Scene_Load
+  * Scene_End
+  * Scene_Battle
+    * Scene_Shop
+    * Scene_Name
+    * Scene_Gameover
+    * Scene_Debug
+
 ==== Tools ====
   * Improve posix/unix Filefinder
 
