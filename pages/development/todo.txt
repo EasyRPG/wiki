@@ -40,15 +40,17 @@ Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.
   * Game_Player
   * Game_Interpreter
 
-  * Sprite_Character (RPG::Sprite)
-  * Sprite_Battler (RPG::Sprite)
-  * Sprite_Picture (Sprite)
-  * Sprite_Timer (Sprite)
-  * Sprite_Arrow_Base (Sprite)
+  * RPG::Weather (RPG::Weather is from RGSS, and should be renamed. RGSS2 naming?)
+  * Sprite_Base (Sprite_Base in RGSS2, RPG::Sprite in RGSS)
+  * Sprite_Character
+  * Sprite_Battler
+  * Sprite_Picture
+  * Sprite_Timer
+  * Sprite_Arrow_Base
   * Sprite_Arrow_Enemy
   * Sprite_Arrow_Actor
 
-  * Window_Base (Window)
+  * Window_Base
   * Window_MenuStatus
   * Window_Item
   * Window_Skill
