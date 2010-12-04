@@ -19,7 +19,7 @@ Please don't create custom menu systems, custom battle systems or any other "sim
 
 ===== Game plot =====
 
-Opened discussion thread at http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=5&t=42
+Opened discussion thread at http://easy-rpg.org/forums/viewtopic.php?f=5&t=42
 
 ===== Current maintainers =====
 
