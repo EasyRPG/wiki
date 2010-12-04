@@ -36,7 +36,7 @@ The following materials can be designed in any moment without style problems bet
 ==== EXFONT ====
 
 EXFONT is not part of RTP but it's a graphic to be replaced.
-More information: http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=5&t=36
+More information: http://easy-rpg.org/forums/viewtopic.php?f=5&t=36
 
 ==== Player Splash ====
 
