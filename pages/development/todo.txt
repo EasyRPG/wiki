@@ -128,4 +128,4 @@ Issues for both Player and Editor can be found in the [[http://easy-rpg.org/bugs
   * Make a custom widget (using DC or GLCanvas, like project [[http://slade.mancubus.net/|SLADE]]) to show grid graphics with selector, used in many dialog windows.
 
 ==== Writer ====
-  * Open discussion topic: http://easyrpg.rpgmaker.es/forums/viewtopic.php?f=3&t=25
+  * Open discussion topic: http://easy-rpg.org/forums/viewtopic.php?f=3&t=25
