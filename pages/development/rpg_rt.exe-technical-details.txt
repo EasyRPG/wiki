@@ -41,8 +41,9 @@ This execute the game in normal mode, showing the image of the title and window.
  
 The parameters ''ShowTitle'' and ''FullScreen'' in fact do not exist for RPG_RT.exe are just //dummy//, what happens is that RPG2000.exe that defines itself by launching the test of the game or the test of battle. 
 
-
 The fourth parameter ''1'' is sent only to launch RPG_RT.exe with ''BattleTest''. It seems a fixed datum, has not changed at any time. 
+
+Parameter names are case sensitive.
 
 Running RPG_RT.exe with BattleTest, RPG_RT.ldb amending temporarily to launch the game and is restored when the performance ends. It just makes a temporary saved as if you give to accept or implement in the database. It also increases the value of 0x05B, although that is not documented in the ldb, yes it is in the LMU, and means the number of times saved, if only to test the game. When you save or save as they were applied that value increased after launching the latest evidence, but to restore the file, which by pressing OK or Apply subsequently increased the times run the test within the LDB. 
 
