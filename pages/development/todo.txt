@@ -1,7 +1,7 @@
 ====== TODO ======
 This is the project TODO list.
 
-Issues for both Player and Editor can be found in the [[http://easyrpg.rpgmaker.es/bugs/|tracker]].
+Issues for both Player and Editor can be found in the [[http://easy-rpg.org/bugs/|tracker]].
 
 ===== Reader =====
   * Make sure all data chunks are listed correctly.
