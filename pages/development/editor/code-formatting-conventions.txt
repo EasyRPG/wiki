@@ -1,3 +1,12 @@
 ====== Editor code formatting conventions ======
 
-FIXME To do.
+Editor conventions are like player conventions. Different features come from the nature of GUI objects.
+
+Editor is wxWidgets based. User Interface has a lot of objects related with same thing, for example sizers and other widgets, so Editor uses prefixes for this objects:
+
+Frames: frm. For example, frmEditor.
+Dialogs: dlg. For example dlgDatabase.
+Sizers: sz. For example szEditorLeft.
+...
+
+Each window have a cpp/h pair file, excepting gui_* files, containing more than 1 window class inside.
