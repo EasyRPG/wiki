@@ -170,7 +170,7 @@ With the exception of getters and setters:
 <code>/// @return description of variable
 int GetVariable();
 
-/// @param description of variable
+/// @param variable : description of variable
 void SetVariable(int variable);</code>
 
 And for variables:
