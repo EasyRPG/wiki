@@ -72,7 +72,7 @@ Operator keyword is not separated from the name, except for type conversion oper
 };</code>
 
 ==Pointers and casts==
-No whitespace after a cast; and in a pointer, we write a whitespace after it but no before it. Consider "*" to be part of the type.
+No whitespace after a cast; and in a pointer, we write a whitespace after it but not before it. Consider "*" to be part of the type.
 <code>const char* ptr = (const char*)foobar;</code>
 
 ==References==
