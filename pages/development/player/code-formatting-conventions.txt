@@ -1,5 +1,5 @@
 =====Code Formatting Conventions=====
-''This conventions apply only to Player, the Editor has other conventions.''
+''This conventions are specific to Player. However, the Editor conventions are based on this ones but including some differences.''
 
 ===Common Sense===
 ----
@@ -31,6 +31,8 @@ class Dummy {
 
 ===Whitespaces===
 ----
+In no case there should be two whitespaces together. If you want align some code use tabs instead, that are easier to maintain. Pay attention to spaces or tabs at the ending of a line, remove them.
+
 ==Conventional operators surrounded by a space character==
 <code>a = (b + c) * d;</code>
 
@@ -82,14 +84,14 @@ int &ref = i;</code>
 ====Switch / Case constructs====
 ----
 <code>switch(command_window->GetIndex()) {
-case 0: // New Game
-    CommandNewGame();
-    break;
-case 1:  // Load Game
-    CommandContinue();
-    break;
-case 2:  // Exit Game
-    CommandShutdown();
+  case 0: // New Game
+      CommandNewGame();
+      break;
+  case 1:  // Load Game
+      CommandContinue();
+      break;
+  case 2:  // Exit Game
+      CommandShutdown();
 }</code>
 
 ====Naming====
@@ -124,20 +126,58 @@ private:
 Variables should be lower case with underscores as word separators.
 <code>int this_is_a_variable;</code>
 
+====Headers includes====
+----
+Use the following format:
+<code>////////////////////////////////////////////////////////////
+// Headers
+////////////////////////////////////////////////////////////
+#include "header1.h"
+#include "header2.h"</code>
+
+And when possible use the following headers order:
+  * System headers (e.g. windows.h)
+  * C headers (e.g. math.h)
+  * C++ headers (e.g. string)
+  * system.h
+  * Current class/namespace header (e.g. game_map.h for game_map.cpp)
+  * Tools headers (e.g. output.h)
+  * Backend/Multimedia headers (e.g. graphics.h)
+  * Engine headers (e.g. game_character.h)
+  * Readers headers (e.g. lmu_reader.h)
+
+For each headers group alphabetically sort the includes.
+
 ====Comments====
 ----
-Use <nowiki>//</nowiki> preferably.
+Use <nowiki>//</nowiki> preferably. Use /*Multiline comments*/ when disabling multiline code.
 
 ==License File Header==
 Remember to copy (from any other existing file) the license header to all new created files.
 
-==Function Declaration==
-Use Doxygen like documentation, with the following format:
+==Documentation==
+Use Doxygen like documentation, with the following format for functions:
 <code>////////////////////////////////////////////////////////////
 /// Description of MyFunction.
 /// A more detailed description here.
-/// @param var1 this is a description for var1
-/// @param var2 this is a description for var2
+/// @param var1 : this is a description for var1
+/// @param var2 : this is a description for var2
 /// @return here goes a description for return value
 ////////////////////////////////////////////////////////////
 virtual int MyFunction(double var1, std::string var2);</code>
+
+With the exception of getters and setters:
+<code>/// @return description of variable
+int GetVariable();
+
+/// @param description of variable
+void SetVariable(int variable);</code>
+
+And for variables:
+<code>/// Description of example_variable.
+std::string example_variable;</code>
+
+Remember to document only declarations and not implementations, i.e. in headers. An exception could be .cpp static functions or variables, if documenting is really necessary.
+
+==Separators==
+For organizing better .cpp files add <nowiki>////////////////////////////////////////////////////////////</nowiki> (60 slashes) between different functions. Normally constructors, the destructor, functions and their overloads, and all properties (getters and setters) should be separated in "groups" with these separators.
