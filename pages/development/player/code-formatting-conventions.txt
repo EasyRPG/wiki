@@ -181,3 +181,10 @@ Remember to document only declarations and not implementations, i.e. in headers.
 
 ==Separators==
 For organizing better .cpp files add <nowiki>////////////////////////////////////////////////////////////</nowiki> (60 slashes) between different functions. Normally constructors, the destructor, functions and their overloads, and all properties (getters and setters) should be separated in "groups" with these separators.
+
+==Code descriptions==
+We prefer a global function description with Doxygen headers rather than inside the function descriptions. Only when code is really hard to follow, or there is something hardcoded then add some <nowiki>//</nowiki> comments explaining the situation. Do not add redundant comments, like actions that should be already understand easily.
+
+==Special comments==
+<code>// TODO: what is left to do
+// FIXME: what code and in what circumstances it does not work, and if possible why it does not work well</code>
