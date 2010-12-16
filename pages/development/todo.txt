@@ -14,8 +14,8 @@ Issues for both Player and Editor can be found in the [[http://easy-rpg.org/bugs
 
 ==== Graphics ====
   * OpenGL
-  * Refatoring
-  * Implement sprite rotation. (SDL GFX?)
+  * Refactoring
+  * Implement sprite rotation (SDL_gfx?)
   * Sprite Wave Effect
   * Split Bitmap::TextDraw into smaller functions
 
