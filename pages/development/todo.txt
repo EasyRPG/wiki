@@ -97,11 +97,8 @@ Issues for both Player and Editor can be found in the [[http://easy-rpg.org/bugs
 
 ===== Editor =====
 
-==== wxGlade -> wxFormBuilder migration ====
-    * Reconnect all windows and put again all not-layout specific code.
-
 ==== General ====
-  * Disable controls and import rm2k project selecting folder (or .lmt) instead of loading project directly.
+  * Complete wxFormBuilder code generation.
 
 ==== Config ====
   * Create configuration file to save editor preferences, like last opened project, window and scrollbar positions, etc. (wxFileConfig, .ini backend).
