@@ -51,11 +51,9 @@ Issues for both Player and Editor can be found in the [[http://easy-rpg.org/bugs
   * Sprite_Arrow_Actor
 
   * Window_Base
-  * Window_MenuStatus
   * Window_Item
   * Window_Skill
   * Window_Target
-  * Window_EquipRight
   * Window_ShopCommand
   * Window_ShopBuy
   * Window_ShopSell
@@ -80,20 +78,15 @@ Issues for both Player and Editor can be found in the [[http://easy-rpg.org/bugs
   * Window_BattleStatus
   * Window_BattleResult
 
-  * Scene (Implement RGSS2 Scene_Base like)
   * Scene_Map?
   * Scene_Item
   * Scene_Skill
-  * Scene_Equip
-  * Scene_Status
   * Scene_File
   * Scene_Save
   * Scene_Load
-  * Scene_End
   * Scene_Battle
   * Scene_Shop
   * Scene_Name
-  * Scene_Gameover
   * Scene_Debug
 
 ==== Tools ====
