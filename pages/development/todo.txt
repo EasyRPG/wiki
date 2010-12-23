@@ -10,7 +10,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ==== Graphics ====
   * OpenGL
-  * Refactoring
   * Implement sprite rotation (SDL_gfx?)
   * Sprite Wave Effect
 
