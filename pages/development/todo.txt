@@ -8,15 +8,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ===== Player =====
 
-==== Graphics ====
-  * OpenGL
-  * Implement sprite rotation (SDL_gfx?)
-  * Sprite Wave Effect
-
-==== Audio ====
-  * Audio cache?
-
-=== Engine ===
+==== Engine ====
   * Game_Temp
   * Game_System
   * Game_Screen
@@ -82,6 +74,14 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Shop
   * Scene_Name
   * Scene_Debug
+
+==== Graphics ====
+  * OpenGL
+  * Implement sprite rotation (SDL_gfx?)
+  * Sprite Wave Effect
+
+==== Audio ====
+  * Audio cache?
 
 ==== Tools ====
   * Improve posix/unix Filefinder
