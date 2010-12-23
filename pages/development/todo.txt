@@ -8,16 +8,11 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ===== Player =====
 
-==== Win32 precompiled libraries ====
-  * Update SDL_ttf to 2.0.10 and other libs for MinGW.
-  * Compile x64 libs for MSVC.
-
 ==== Graphics ====
   * OpenGL
   * Refactoring
   * Implement sprite rotation (SDL_gfx?)
   * Sprite Wave Effect
-  * Split Bitmap::TextDraw into smaller functions
 
 ==== Audio ====
   * Audio cache?
@@ -96,9 +91,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Unicode support
 
 ===== Editor =====
-
-==== General ====
-  * Complete wxFormBuilder code generation.
 
 ==== Config ====
   * Create configuration file to save editor preferences, like last opened project, window and scrollbar positions, etc. (wxFileConfig, .ini backend).
