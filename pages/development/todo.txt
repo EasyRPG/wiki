@@ -94,6 +94,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Cache most used sounds
   * Autotiles should not create their own bitmap.
   * SDL font rendering should make use of regular surfaces instead of optimized bitmaps.
+  * Minimize pixel access. Pre store system values for shadows and backgrounds.
 
 ===== Editor =====
 
