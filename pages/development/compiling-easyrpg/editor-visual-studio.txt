@@ -10,7 +10,7 @@ You can find Visual Studio 2010 [[http://www.microsoft.com/visualstudio/en-us/|h
 You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/express/|here]].
 
 ====Precompiled libraries====
-You can get the latest precompiled version of wxWidgets from [[http://rpgmaker.es/descargas/wxWidgets_msw.7z|here]]. Extract the folder content anywhere and skip to [[development/compiling-easyrpg/player-visual-studio#Setting the Environment|Setting the Environment]]
+You can get the latest precompiled version of wxWidgets from [[http://rpgmaker.es/descargas/wxWidgets_msw.7z|here]]. Extract the folder content anywhere and skip to [[development/compiling-easyrpg/editor-visual-studio#Setting the Environment|Setting the Environment]]
 
 ====Getting the libraries====
 ''If you are using the precompiled libraries you can skip this part.''
