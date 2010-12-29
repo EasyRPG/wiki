@@ -31,6 +31,3 @@ Next generation RPG Makers are RPG Maker XP and VX. This RPG Maker are officiall
 RPG Maker 200x internals works very closer like RPG Maker XP/VX, so learning and porting RGSS/2 class style to EasyRPG Player is how are we developing. You can press F11 in these rpg makers to open scripts editor.
 
 You can get evaluation copies of each from http://rpgmakerweb.com/
-
-
-Once you
