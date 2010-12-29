@@ -1,9 +1,6 @@
 ====== System graphics technical details ======
 
-Work in progress.
-
-Research made by Cetros.
-
+This is implemented now in Player.
 
 ====== take_cheeze's translation ======
 ===== Basic =====
