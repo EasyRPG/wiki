@@ -82,6 +82,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ==== Audio ====
   * Audio cache?
+  * Replace Timidity from SDL_Mixer with FluidSynth.
 
 ==== Tools ====
   * Improve posix/unix Filefinder
