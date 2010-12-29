@@ -1,0 +1,36 @@
+====== Getting started ======
+
+===== Understanding RPG Maker 2000 and 2003 =====
+
+We can emulate these systems, so you need to know how it works first. To study them you need RPG Maker 2000/2003 first. Original version is Japanese. There are some unofficial translations:
+
+Latest version of RPG Maker 2000 is 1.51:
+
+http://rpg-hacker.bplaced.net/en/RPGMaker/EnglishPatch/download.html
+
+Latest version of RPG Maker 2003 is 1.09a:
+
+http://www.rpg-maker.fr/dl/monos/logiciels/rm2k3109angl.rar
+
+Is important get latest versions because newer versions added new commands, features and bugfixes. Keep in mind the legal issues in some countries: You should have a copy of original Japanese RPG Maker.
+
+Once you have RPG Maker downloaded you can see how it works: Map editor with database. You can refer to the RPG Maker 200x help files to know more about games are created.
+
+When you create a new project it will be in a new folder, containing this RPG Maker 200x project files:
+  * RPG_RT.exe (game executable)
+  * RPG_RT.ini (configation file)
+  * RPG_RT.ldb (database)
+  * RPG_RT.lmt (map and area tree)
+  * MapXXXX.lmu (map and area files)
+Folders inside project folder are for material data.
+
+===== Understanding RGSS/RGSS2 =====
+
+Next generation RPG Makers are RPG Maker XP and VX. This RPG Maker are officially translated into English. These RPG Makers feature scripting system, written in Ruby language. Most engine system is available in standard script sources. RGSS means Ruby Game Scripting System.
+
+RPG Maker 200x internals works very closer like RPG Maker XP/VX, so learning and porting RGSS/2 class style to EasyRPG Player is how are we developing. You can press F11 in these rpg makers to open scripts editor.
+
+You can get evaluation copies of each from http://rpgmakerweb.com/
+
+
+Once you
