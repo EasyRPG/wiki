@@ -3,9 +3,6 @@ This is the project TODO list.
 
 Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/bugs/|tracker]].
 
-===== Reader =====
-  * Make sure all data chunks are listed correctly.
-
 ===== Player =====
 
 ==== Engine ====
