@@ -5,24 +5,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ===== Player =====
 
-==== Engine ====
-  * Game_Temp
-  * Game_System
-  * Game_Screen
-  * Game_Picture
-  * Game_Battler
-  * Game_Actor
-  * Game_Enemy
-  * Game_BattleAction
-  * Game_Party
-  * Game_Troop
-  * Game_Map
-  * Game_CommonEvent
-  * Game_Character
-  * Game_Event
-  * Game_Player
-  * Game_Interpreter
-
   * RPG::Weather (RPG::Weather is from RGSS, and should be renamed. RGSS2 naming?)
   * Sprite_Base (Sprite_Base in RGSS2, RPG::Sprite in RGSS)
   * Sprite_Character
@@ -71,6 +53,114 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Shop
   * Scene_Name
   * Scene_Debug
+
+==== Engine ====
+  * Game_Temp
+  * Game_System
+  * Game_Screen
+  * Game_Picture
+  * Game_Battler
+  * Game_Actor
+  * Game_Enemy
+  * Game_BattleAction
+  * Game_Party
+  * Game_Troop
+  * Game_Map
+  * Game_CommonEvent
+  * Game_Character
+  * Game_Event
+  * Game_Player
+  * Game_Interpreter
+
+=== Event commands ===
+  * Show Message
+  * Message options
+  * Show face graphic
+  * Select option
+  * Show number input
+  * Switch operations
+  * Variable operations
+  * Timer operations
+  * Change money amount
+  * Change item
+  * Change party
+  * Change experience
+  * Change level
+  * Change parameter
+  * Change skill
+  * Change equipment
+  * Change HP
+  * Change MP
+  * Change status
+  * Full recover
+  * Take damage
+  * Change actor name
+  * Change actor title
+  * Change actor graphic
+  * Change actor face graphic
+  * Change vehicle graphic
+  * Change system sound
+  * Change system graphic
+  * Change window transition
+  * Start battle
+  * Visit commerce
+  * Visit inn
+  * Actor name input
+  * Teleport
+  * Memorize place
+  * Go to memorized place
+  * Ride or walk vehicle
+  * Change vehicle position
+  * Change event position
+  * Swap events
+  * Get terrain ID
+  * Get position ID
+  * Blank screen
+  * Show screen
+  * Change screen tone
+  * Flash screen
+  * Move screen
+  * Weather effect
+  * Show picture
+  * Move picture
+  * Delete picture
+  * Show animation
+  * Change actor transparency
+  * Flash character
+  * Event movement
+  * Move all
+  * Stop all
+  * Wait
+  * Play music
+  * Fade music
+  * Memorize music
+  * Play memorized music
+  * Play sound
+  * Play video
+  * Key assignment
+  * Change map tileset
+  * Change map background
+  * Change encounter rate
+  * Change tile
+  * Change teleport place
+  * Teleport permissions
+  * Change escape place
+  * Escape permissions
+  * Show save menu
+  * Save permissions
+  * Show system menu
+  * System menu permissions
+  * Conditions
+  * Set label
+  * Go to label
+  * Loop
+  * Break loop
+  * Stop event process
+  * Delete event temporally
+  * Call event
+  * Notes
+  * Game over
+  * Go to title screen
 
 ==== Graphics ====
   * OpenGL
