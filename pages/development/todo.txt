@@ -5,6 +5,8 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ===== Player =====
 
+==== Engine ====
+
   * RPG::Weather (RPG::Weather is from RGSS, and should be renamed. RGSS2 naming?)
   * Sprite_Base (Sprite_Base in RGSS2, RPG::Sprite in RGSS)
   * Sprite_Character
@@ -54,7 +56,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Name
   * Scene_Debug
 
-==== Engine ====
   * Game_Temp
   * Game_System
   * Game_Screen
