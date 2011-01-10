@@ -22,9 +22,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Window_Skill
   * Window_Target
   * Window_ShopCommand
-  * Window_ShopBuy
-  * Window_ShopSell
-  * Window_Message
   * Window_PartyCommand
   * Window_DebugLeft
   * Window_DebugRight
@@ -37,11 +34,8 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Window_EquipItem
   * Window_Status
   * Window_SaveFile
-  * Window_ShopNumber
-  * Window_ShopStatus
   * Window_NameEdit
   * Window_NameInput
-  * Window_InputNumber
   * Window_BattleStatus
   * Window_BattleResult
 
@@ -52,7 +46,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Save
   * Scene_Load
   * Scene_Battle
-  * Scene_Shop
   * Scene_Name
   * Scene_Debug
 
@@ -75,10 +68,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 === Event commands ===
   * Show Message
-  * Message options
-  * Show face graphic
   * Select option
-  * Show number input
   * Switch operations
   * Variable operations
   * Timer operations
@@ -107,7 +97,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Visit commerce
   * Visit inn
   * Actor name input
-  * Teleport
   * Memorize place
   * Go to memorized place
   * Ride or walk vehicle
