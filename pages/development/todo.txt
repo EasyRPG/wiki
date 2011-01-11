@@ -22,11 +22,13 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Window_Skill
   * Window_Target
   * Window_ShopCommand
+  * Window_ShopBuy
+  * Window_ShopSell
+  * Window_Message (Lacks \$, Speed and position based on party on screen)
   * Window_PartyCommand
   * Window_DebugLeft
   * Window_DebugRight
   * Window_Help
-  * Window_Gold
   * Window_PlayTime
   * Window_Steps
   * Window_SkillStatus
@@ -34,20 +36,25 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Window_EquipItem
   * Window_Status
   * Window_SaveFile
+  * Window_ShopNumber
+  * Window_ShopStatus
   * Window_NameEdit
   * Window_NameInput
   * Window_BattleStatus
   * Window_BattleResult
 
   * Scene_Map?
-  * Scene_Item
-  * Scene_Skill
+  * Scene_Item (Loading is slow)
+  * Scene_Equip (Minor things left)
+  * Scene_Skill (Done? Needs final check)
   * Scene_File
   * Scene_Save
   * Scene_Load
   * Scene_Battle
+  * Scene_Shop (Done, has 1FPS in MSVC Debug)
   * Scene_Name
   * Scene_Debug
+  * Scene_ActorTarget (Needs spell/item usage)
 
   * Game_Temp
   * Game_System
@@ -67,7 +74,8 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Game_Interpreter
 
 === Event commands ===
-  * Show Message
+  * Show Message (Nearly done, different close behaviour compared to rpg_rt)
+  * Message options (Done?)
   * Select option
   * Switch operations
   * Variable operations
@@ -97,6 +105,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Visit commerce
   * Visit inn
   * Actor name input
+  * Teleport
   * Memorize place
   * Go to memorized place
   * Ride or walk vehicle
