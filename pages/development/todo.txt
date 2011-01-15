@@ -163,15 +163,11 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ==== Graphics ====
   * OpenGL
-  * Implement sprite rotation (SDL_gfx?)
   * Sprite Wave Effect
 
 ==== Audio ====
   * Audio cache?
   * Replace Timidity from SDL_Mixer with FluidSynth.
-
-==== Tools ====
-  * Improve posix/unix Filefinder
 
 ==== Others ====
   * Unicode support
