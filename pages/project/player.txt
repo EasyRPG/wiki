@@ -4,10 +4,11 @@ The Player is the game interpreter of games made with RPG Maker 2000 or 2003 edi
 
 ===== Project status =====
 
-Currently the Player development can render full upper and lower layer maps, play some transitions, text rendering, window showing, playing sound and other relevant internal classes (the not-RGSS style part). A few RGSS inspired classes work is done, too.
+Player is alpha now. Can run games partially. Several commands are implemented and working. See the player TODO to learn more about remaining implementations.
 
 ===== Current maintainers =====
 
-  * ''vgvgf''
   * ''Ghabry''
+  * ''GlynnC''
+  * ''vgvgf''
   * ''Zhek''
