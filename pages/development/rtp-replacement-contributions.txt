@@ -53,6 +53,8 @@ Sprite by Alephman
 
 You can generate the "SE" WAV files with same tips than the ''Sound'' material folder.
 
+Juan Manuel made 29 MIDI files, including all midi Jingles (files starting with J in original Japanese filenames).
+
 [DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
 
 ==== System ====
