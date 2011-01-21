@@ -52,7 +52,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Load
   * Scene_Battle
   * Scene_Shop (Done, has 1FPS in MSVC Debug)
-  * Scene_Name
+  * Scene_Name (Done?)
   * Scene_Debug
   * Scene_ActorTarget (Needs spell/item usage)
 
@@ -102,10 +102,10 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Change system graphic
   * Change window transition
   * Start battle
-  * Visit commerce
-  * Visit inn
-  * Actor name input
-  * Teleport
+  * Visit commerce (Done?)
+  * Visit inn (Done?)
+  * Actor name input (Done?)
+  * Teleport (Done?)
   * Memorize place
   * Go to memorized place
   * Ride or walk vehicle
@@ -118,8 +118,8 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Show screen
   * Change screen tone
   * Flash screen
-  * Move screen
-  * Weather effect
+  * Move screen (Done?)
+  * Weather effect (Partially)
   * Show picture
   * Move picture
   * Delete picture
@@ -137,7 +137,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Play sound
   * Play video
   * Key assignment
-  * Change map tileset
+  * Change map tileset (Done?)
   * Change map background
   * Change encounter rate
   * Change tile
@@ -152,14 +152,11 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Conditions
   * Set label
   * Go to label
-  * Loop
-  * Break loop
+  * Loop (Done?)
+  * Break loop (Done?)
   * Stop event process
   * Delete event temporally
   * Call event
-  * Notes
-  * Game over
-  * Go to title screen
 
 ==== Graphics ====
   * OpenGL
@@ -171,6 +168,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ==== Others ====
   * Unicode support
+  * UNIX FileFinder: get system fonts (FontConfig?)
 
 ==== Optimizations ====
   * Implement dirty rect system
