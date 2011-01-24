@@ -1,0 +1,11 @@
+====== Teleport ======
+  * Data Type: 2 Dimensional Array
+  * [0] is the escape infromation
+  * the array's first index is same as map ID.
+
+^Index^Detail^Data Type^Default Value^etc.^
+|1|Map ID|Integer| | |
+|2|X Coordinate|Integer|0| |
+|3|Y Coordinate|Integer|0| |
+|4|Assign true to a switch after teleport/escape|Boolean|false| |
+|5|Switch ID that would be assigned true after teleport/escape|Integer|1| |
