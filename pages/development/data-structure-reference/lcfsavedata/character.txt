@@ -1,0 +1,25 @@
+     ====== Character ======
+  * Data Type: 2 Dimensional Array
+
+^Index^Detail^Data Type^Default Value^etc.^
+|1|Name|String| | |
+|2|Title|String| | |
+|11|CharSet|String| | |
+|12|CharSet Index|String| |0 〜 7|
+|21|FaceSet|String| | |
+|22|FaceSet Index|Integer| |0 ～ 15|
+|31|Level|Integer| | |
+|32|Experience|Integer| | |
+|33|HP Fix|Integer| | |
+|34|MP Fix|Integer| | |
+|41|Attack Fix|Integer| | |
+|42|Gaurd Fix|Integer| | |
+|43|Mental Fix|Integer| | |
+|44|Speed Fix|Integer| | |
+|51|Mastered Skill Number|Integer|0| |
+|52|Mastered Skill|Binary| | * set<uint16_t>\\  * Enumeration of skill ID that is sorted|
+|61|Equipment|BInary| |array<uint16_t, 5>\\  * [0]: WEAPON\\  * [1]: SHIELD\\  * [2]: ARMOR\\  * [3]: HELMET\\  * [4]: OTHER\\ If item ID is ZERO it's unequiped|
+|71|Current HP|Integer| | |
+|72|Current MP|Integer| | |
+|80|Job|Integer| |RPG2003|
+|82|Double Hand|Boolean| | |
