@@ -1,0 +1,21 @@
+====== Data Structure Reference ======
+
+===== Data Type =====
+
+  * Integer
+  * Boolean
+  * Double
+  * String
+  * Event Command Array
+  * 1 Dimensional Array
+  * 2 Dimensional Array
+  * Binary
+  * BER Number Enumeration
+
+===== Tree Reference =====
+
+  * [[./Data Structure Reference/LcfDataBase]]
+  * [[./Data Structure Reference/LcfMapUnit]]
+  * [[./Data Structure Reference/LcfMapTree]]
+  * [[./Data Structure Reference/LcfSaveData]]
+  * [[./Data Structure Reference/Audio Information]]
