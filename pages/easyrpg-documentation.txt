@@ -21,6 +21,7 @@ This is the documentation wiki of the EasyRPG project.
   * [[development/System graphics technical details]]
   * [[development/RTP database]]
   * [[development/Data Structure Reference]]
+  * [[development/Image]]
   * [[development/TODO]]
 
 ==== For artists ====
