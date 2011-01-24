@@ -12,10 +12,15 @@
   * Binary
   * BER Number Enumeration
 
+===== Table =====
+
+^Index^Detail^Data Type^Default Value^etc.^
+| * index of array\\  * it is decimal number| * Some Description of Element.| * Data Type of Element.| *Default Value of Element.\\  * mostly "Integer" or "Boolean" has this.\\  * If blank it must not be undefined| * Note of this Element.\\  * "Binary" type will always have this.|
+
 ===== Tree Reference =====
 
-  * [[./Data Structure Reference/LcfDataBase]]
-  * [[./Data Structure Reference/LcfMapUnit]]
-  * [[./Data Structure Reference/LcfMapTree]]
-  * [[./Data Structure Reference/LcfSaveData]]
-  * [[./Data Structure Reference/Audio Information]]
+  * [[./Data Structure Reference/LcfDataBase|DataBase]]
+  * [[./Data Structure Reference/LcfMapUnit|MapUnit]]
+  * [[./Data Structure Reference/LcfMapTree|MapTree]]
+  * [[./Data Structure Reference/LcfSaveData|SaveData]]
+  * [[./Data Structure Reference/Audio Information|Audio]]
