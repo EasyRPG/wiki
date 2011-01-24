@@ -2,7 +2,7 @@
   * Data Type: 1 Dimensional Array
 
 ^Index^Detail^Data Type^Default Value^etc.^
-|1|Time Stamp|double| |[[http://support.microsoft.com/kb/210276/en-us]]|
+|1|Time Stamp|Double| |[[http://support.microsoft.com/kb/210276/en-us]]|
 |11|Front Character's Name|String| | |
 |12|Front Character's Level|Integer| | |
 |13|Front Character's HP|Integer| | |
