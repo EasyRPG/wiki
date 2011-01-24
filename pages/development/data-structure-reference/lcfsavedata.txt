@@ -1,0 +1,24 @@
+====== LcfSaveData ======
+===== File Name =====
+  * "Save%02d.lsd"
+  * RPG_RT.exe can use 1 〜 15
+  * "lsd" stands for "Lcf" "Save" "Data"
+===== Global Array =====
+  * Data Type: 1 Dimensional Array
+
+^Index^Detail^Data Type^Default Value^etc.^
+|100|Preview|1 Dimensional Array| | |
+|101|System|1 Dimensional Array | | |
+|102| | | | |
+|103|Picture|2 Dimensional Array| | |
+|104|Party|1 Dimensional Array| | |
+|105|Boat|1 Dimensional Array| | |
+|106|Ship|1 Dimensional Array| | |
+|107|Airship|1 Dimensional Array| | |
+|108|Character|2 Dimensional Array| | |
+|109|Status|1 Dimensional Array| | |
+|110|Teleport|2 Dimensional Array| | |
+|111|Event|1 Dimensional Array| | |
+|112| | | | |
+|113| | | | |
+|114| | | | |
