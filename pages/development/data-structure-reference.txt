@@ -15,7 +15,7 @@
 ===== Table =====
 
 ^Index^Detail^Data Type^Default Value^etc.^
-| * index of array\\  * it is decimal number| * Some Description of Element.| * Data Type of Element.| *Default Value of Element.\\  * mostly "Integer" or "Boolean" has this.\\  * If blank it must not be undefined| * Note of this Element.\\  * "Binary" type will always have this.|
+| * Index in array.\\  * Decimal number.| * Some Description of Element.| * Data Type of Element.| *Default Value of Element.\\  * mostly "Integer" or "Boolean" has this.\\  * If blank it must not be undefined| * Note of this Element.\\  * "Binary" type will always have this.|
 
 ===== Tree Reference =====
 
