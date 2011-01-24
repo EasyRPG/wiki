@@ -13,10 +13,10 @@
 |101|[[./LcfSaveData/System]]|1 Dimensional Array| | |
 |102|[[./LcfSaveData/Screen]]|1 Dimensional Array| | |
 |103|[[./LcfSaveData/Picture]]|2 Dimensional Array| | |
-|104|[[./LcfSaveData/Map Object]]|1 Dimensional Array| | |
-|105|[[./LcfSaveData/Map Object]]|1 Dimensional Array| | |
-|106|[[./LcfSaveData/Map Object]]|1 Dimensional Array| | |
-|107|[[./LcfSaveData/Map Object]]|1 Dimensional Array| | |
+|104|[[./LcfSaveData/Map Object|Party]]|1 Dimensional Array| | |
+|105|[[./LcfSaveData/Map Object|Boat]]|1 Dimensional Array| | |
+|106|[[./LcfSaveData/Map Object|Ship]]|1 Dimensional Array| | |
+|107|[[./LcfSaveData/Map Object|Airship]]|1 Dimensional Array| | |
 |108|[[./LcfSaveData/Character]]|2 Dimensional Array| | |
 |109|[[./LcfSaveData/Status]]|1 Dimensional Array| | |
 |110|[[./LcfSaveData/Teleport]]|2 Dimensional Array| | |
