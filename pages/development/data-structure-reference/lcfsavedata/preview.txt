@@ -1,0 +1,16 @@
+ ====== Preview ======
+  * Data Type: 1 Dimensional Array
+
+^Index^Detail^Data Type^etc.^
+|1|Time Stamp|double|[[http://support.microsoft.com/kb/210276]]|
+|11|Front Character's Name|String|""| |
+|12|Front Character's Level|Integer| | |
+|13|Front Character's HP|Integer| | |
+|21|1st Character's FaceSet|String|""| |
+|22|1st Character's FaceSet Index|Integer|0| |
+|23|2st Character's FaceSet|String|""| |
+|24|2st Character's FaceSet Index|Integer|0| |
+|25|3st Character's FaceSet|String|""| |
+|26|3st Character's FaceSet Index|Integer|0| |
+|27|4st Character's FaceSet|String|""| |
+|28|4st Character's FaceSet Index|Integer|0| |
