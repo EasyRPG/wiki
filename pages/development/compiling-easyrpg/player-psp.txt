@@ -1,5 +1,4 @@
-====== Title ======
-Compiling Player for PlayStation Portable
+====== Compiling Player for PlayStation Portable ======
 
 For compiling EasyRPG Player for your PSP (PlayStation Portable) you will need the PSP SDK compiled with:
   * GCC 4.3.2 or later
