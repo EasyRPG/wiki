@@ -167,7 +167,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Replace Timidity from SDL_Mixer with FluidSynth.
 
 ==== Others ====
-  * Unicode support
   * UNIX FileFinder: get system fonts (FontConfig?)
 
 ==== Optimizations ====
