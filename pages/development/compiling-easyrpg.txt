@@ -12,5 +12,6 @@ No matter what system/compiler, you will need EasyRPG sources for compiling them
 ^ System  ^ Compiling instructions  ^
 | Windows | [[development:compiling-easyrpg:player-visual-studio|Visual Studio]], [[development:compiling-easyrpg:player-win-codelite|Codelite]] |
 | Linux   | [[development:compiling-easyrpg:player-linux-codelite|Codelite]] |
+| Dingoo  | [[development:compiling-easyrpg:player-dingoo|Makefile]] |
 | PSP     | [[development:compiling-easyrpg:player-psp|Makefile]] |
 | Wii     | [[development:compiling-easyrpg:player-wii|Makefile]] |
