@@ -12,7 +12,9 @@ You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/expres
 ====Precompiled libraries====
 EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a simple and quick installer with the needed dependencies.
 
-You can get last version of the installer [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-01-16.exe|here]]. Install it and skip to [[development/compiling-easyrpg/player-visual-studio#Compiling Player|Compiling Player]]
+You can get the last version of the installer [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-02-29.msi|here]]. Install it and skip to [[development/compiling-easyrpg/player-visual-studio#Compiling Player|Compiling Player]]
+
+Or, if you want a zipped file with all precompiled libs instead get [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-02-29.zip|this]]. You will need to manually add the EASYDEV_MSVC enviroment variable and target the path where you place them.
 
 ====Getting the libraries====
 ''If you are using the precompiled libraries you can skip this part.''
