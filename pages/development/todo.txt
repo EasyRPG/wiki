@@ -18,41 +18,23 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Sprite_Arrow_Actor
 
   * Window_Base
-  * Window_Item
-  * Window_Skill
-  * Window_Target
-  * Window_ShopCommand
-  * Window_ShopBuy
-  * Window_ShopSell
+  * Window_ActorTarget (Icon usage missing)
   * Window_Message (Lacks \$, Speed and position based on party on screen)
-  * Window_PartyCommand
+  * Window_PartyCommand (what is that?)
   * Window_DebugLeft
   * Window_DebugRight
-  * Window_Help
   * Window_PlayTime
   * Window_Steps
-  * Window_SkillStatus
-  * Window_EquipLeft
-  * Window_EquipItem
-  * Window_Status
   * Window_SaveFile
-  * Window_ShopNumber
-  * Window_ShopStatus
-  * Window_NameEdit
-  * Window_NameInput
   * Window_BattleStatus
   * Window_BattleResult
 
   * Scene_Map?
-  * Scene_Item (Loading is slow)
-  * Scene_Equip (Minor things left)
-  * Scene_Skill (Done? Needs final check)
   * Scene_File
   * Scene_Save
   * Scene_Load
   * Scene_Battle
-  * Scene_Shop (Done, has 1FPS in MSVC Debug)
-  * Scene_Name (Done?)
+  * Scene_Name (Done, inputting via keyboard would be nice)
   * Scene_Debug
   * Scene_ActorTarget (Needs spell/item usage)
 
@@ -74,37 +56,24 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Game_Interpreter
 
 === Event commands ===
-  * Show Message (Nearly done, different close behaviour compared to rpg_rt)
-  * Message options (Done?)
-  * Select option
-  * Switch operations
-  * Variable operations
+  * Show Message (Done, different close behaviour compared to rpg_rt)
+  * Message options (Parallel move events are always continuing.)
+  * Variable operations (needs timer)
   * Timer operations
-  * Change money amount
-  * Change item
-  * Change party
   * Change experience
   * Change level
   * Change parameter
-  * Change skill
-  * Change equipment
   * Change HP
-  * Change MP
   * Change status
   * Full recover
   * Take damage
-  * Change actor name
-  * Change actor title
-  * Change actor graphic
-  * Change actor face graphic
   * Change vehicle graphic
   * Change system sound
   * Change system graphic
   * Change window transition
-  * Start battle
+  * Start battle (Done, depends on battle scene)
   * Visit commerce (Done?)
   * Visit inn (Done?)
-  * Actor name input (Done?)
   * Teleport (Done?)
   * Memorize place
   * Go to memorized place
@@ -127,9 +96,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Change actor transparency
   * Flash character
   * Event movement
-  * Move all
   * Stop all
-  * Wait
   * Play music
   * Fade music
   * Memorize music
@@ -145,25 +112,20 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Teleport permissions
   * Change escape place
   * Escape permissions
-  * Show save menu
-  * Save permissions
   * Show system menu
   * System menu permissions
   * Conditions
   * Set label
   * Go to label
-  * Loop (Done?)
-  * Break loop (Done?)
   * Stop event process
-  * Delete event temporally
-  * Call event
 
 ==== Graphics ====
   * OpenGL
   * Sprite Wave Effect
+  * Cache should be flushed after some map changes. Caching everything wastes too much Ram on some systems.
 
 ==== Audio ====
-  * Audio cache?
+  * Audio cache? (at least sound effects should be cached)
   * Replace Timidity from SDL_Mixer with FluidSynth.
 
 ==== Others ====
