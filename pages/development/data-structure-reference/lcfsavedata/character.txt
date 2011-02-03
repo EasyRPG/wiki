@@ -1,4 +1,4 @@
-     ====== Character ======
+====== Character ======
   * Data Type: 2 Dimensional Array
 
 ^Index^Detail^Data Type^Default Value^etc.^
