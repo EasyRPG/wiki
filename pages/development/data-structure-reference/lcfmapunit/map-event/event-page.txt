@@ -1,0 +1,18 @@
+====== Event Page ======
+  * Data Type: 2 Dimensional Array
+
+^Index^Detail^Data Type^Default Value^etc.^
+|2|[[./Event Page/Trigger Term]]|1 Dimensional Array| | |
+|21|CharSet|String|""|If this element is empty event graphic will be upper ChipSet.|
+|22|CharSet/Upper ChipSet Index|Integer|0| * When CharSet: 0 〜 7\\  * When Upper ChipSet: 0 〜 143|
+|23|CharSet Direction|Integer|2| * 0: Up\\  * 1: Right\\  * 2: Down\\  * 3: Left|
+|24|Event Graphic Semi-Transparency|bool|false| |
+|31|Move Type|Integer|0| * 0: No Move\\  * 1: Random Move\\  * 2: Vertical Ply\\  * 3: Horizontal Ply\\  * 4: Move to Party\\  * 5: Move from Party\\  * 6: Set Move Route|
+|32|Move Frequency|Integer|3|1 〜 8|
+|33|Event Trigger Type|Integer|0| * 0: Press Enter\\  * 1: Touch from Party\\  * 2: Touch from Event\\  * 3: Auto\\  * 4: Parallel|
+|34|Draw Priority|Integer|0| * 0: Below Character\\  * 1: Doesn't Pile\\  * 2: Above Character|
+|35|Draw Priority/Doesn't Pile with another Event|Boolean|false| |
+|36|Animation Type|Integer|0| * 0: Normal/Disable Step\\  * 1: Normal/Enable Step\\  * 2: Fix Direction/Disable Step\\  * 3: Fix Direction/Enable Step\\  * 4: Fix Graphic\\  * 5: 4 Frame Animation(Clockwise)|
+|41|[[./Event Page/Move Route]]|1 Dimensional Array| | |
+|51|Event Data Size|Integer|0| |
+|52|Event Data|Event| | |
