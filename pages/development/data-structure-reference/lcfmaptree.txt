@@ -1,0 +1,45 @@
+====== LcfMapTree ======
+===== File Name =====
+  * "RPG_RT.lmt"
+  * "lmt" stands for "Lcf" "Map" "Tree"
+===== Header =====
+  * "LcfMapTree"
+===== Global Array =====
+  * Data Type: 2 Dimensional Array
+
+^Index^Detail^Data Type^Default Value^etc.^
+|1|Map Name|String|""|smaller than 12 byte|
+|2|Parent Map ID|Integer| | |
+|3| |Integer| | |
+|4|Type|Integer| | * 1: Normal Map\\  * 2: Area|
+|5|Horizontal Scroll Bar|Integer| | |
+|6|Vertical Scroll Bar|Integer| | |
+|7|Extracted Node|Integer| | |
+|11|BGM|Integer| | * 0: Same as Parent\\  * 1: Leave to Event\\  * 2: Set|
+|12|BGM|[[development:data-structure-reference:audio-information|Music]]| | |
+|21|Backdrop|Integer| | * 0: Same as Parent\\  * 1: Leave to Event\\  * 2: Set|
+|22|Backdrop/File Name|String|""| |
+|31|Teleport|Integer| | * 0: Same as Parent\\  * 1: Leave to Event\\  * 2: Set|
+|32|Escape|Integer| |〃|
+|33|Save|Integer| |〃|
+|41|[[./LcfMapTree/Encounting Enemy Group]]|2 Dimensional Array| | |
+|44|Enemy Appear Step|Integer|25| |
+|51|Area Range|Binary| |array<uint32_t, 4>\\  * [0]: begin x\\  * [1]: begin y\\  * [2]: end x\\  * [3]: end y\\ (Normal Map will be { 0, 0, 0, 0 })|
+===== BER Number Enumeration =====
+  * Element Number(BER) + BER Number[Element Number * 1]
+===== Start Point =====
+  * Data Type: 1 Dimensional Array
+
+^Index^Detail^Data Type^Default Value^etc.^
+|1|Party Map ID|Integer| | |
+|2|Party X Coordinate|Integer|0| |
+|3|Party Y Coordinate|Integer|0| |
+|11|Boat Map ID|Integer| | |
+|12|Boat X Coordinate|Integer|0| |
+|13|Boat Y Coordinate|Integer|0| |
+|21|Ship Map ID|Integer| | |
+|22|Ship X Coordinate|Integer|0| |
+|23|Ship Y Coordinate|Integer|0| |
+|31|Airship Map ID|Integer| | |
+|32|Airship X Coordinate|Integer|0| |
+|33|Airship Y Coordinate|Integer|0| |
