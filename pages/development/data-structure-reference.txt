@@ -10,7 +10,6 @@
   * 1 Dimensional Array
   * 2 Dimensional Array
   * Binary
-  * Event
   * BER Number Enumeration
 
 ===== Table =====
