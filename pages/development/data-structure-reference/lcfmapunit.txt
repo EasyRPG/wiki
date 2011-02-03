@@ -20,7 +20,7 @@
 |36|Panorama/Option/Horizontal Loop/Auto Scroll/Speed|Integer|0|-8 〜 8|
 |37|Panorama/Option/Vertical Loop/Auto Scroll|Boolean|false| |
 |38|Panorama/Option/Vertical Loop/Auto Scroll/Speed|Integer|0|-8 〜 8|
-|71|Lower Map|Binary| | *vector<uint16_t>(Width * Height)\\  * [0] is (0, 0)\\  * [Width * Height -1] is (Width - 1, Height - 1)|
+|71|Lower Map|Binary| | * vector<uint16_t>(Width * Height)\\  * [0] is (0, 0)\\  * [Width * Height -1] is (Width - 1, Height - 1)|
 |72|Upper Map|Binary| |〃|
 |81|[[./LcfMapUnit/Map Event]]|2 Dimensional Array| | |
 |91|Save Time|Integer| |While loading save data, if this element is modified, the event execution state will be reloaded|
