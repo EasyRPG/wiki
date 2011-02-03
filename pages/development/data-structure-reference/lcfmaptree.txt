@@ -6,6 +6,7 @@
   * "LcfMapTree"
 ===== Global Array =====
   * Data Type: 2 Dimensional Array
+  * [0]: Root. This "map name" is the game title.
 
 ^Index^Detail^Data Type^Default Value^etc.^
 |1|Map Name|String|""|smaller than 12 byte|
