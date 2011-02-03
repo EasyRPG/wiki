@@ -1,0 +1,26 @@
+====== LcfMapUnit ======
+===== File Name =====
+  * "Map%04d.lmu"
+  * "lmu" stands for "Lcf" "Map" "Unit"
+===== Header =====
+  * "LcfMapUnit"
+===== Global Array =====
+  * Data Type: 1 Dimensional Array
+
+^Index^Detail^Data Type^Default Value^etc.^
+|1|ChipSet ID|Integer|1| |
+|2|Width|Integer|20| |
+|3|Height|Integer|15| |
+|11|Scroll Type|Integer| | * 0: No Loop\\  * 1: Vertical Loop Only\\  * 2: Horizontal Loop Only\\  * 3: Vertical and Horizontal Loop|
+|31|Panorama/Use Panorama|Boolean|false| |
+|32|Panorama/Panorama File Name|String| | |
+|33|Panorama/Option/Horizontal Loop|Boolean|false| |
+|34|Panorama/Option/Vertical Loop|Boolean|false| |
+|35|Panorama/Option/Horizontal Loop/Auto Scroll|Boolean|false| |
+|36|Panorama/Option/Horizontal Loop/Auto Scroll/Speed|Integer|0|-8 〜 8|
+|37|Panorama/Option/Vertical Loop/Auto Scroll|Boolean|false| |
+|38|Panorama/Option/Vertical Loop/Auto Scroll/Speed|Integer|0|-8 〜 8|
+|71|Lower Map|Binary| | *vector<uint16_t>(Width * Height)\\  * [0] is (0, 0)\\  * [Width * Height -1] is (Width - 1, Height - 1)|
+|72|Upper Map|Binary| |〃|
+|81|[[./LcfMapUnit/Map Event]]|2 Dimensional Array| | |
+|91|Save Time|Integer| |While loading save data, if this element is modified, the event execution state will be reloaded|
