@@ -6,13 +6,13 @@ And you will need the following libraries:
   * SDL (>=1.2.10).
   * SDL_mixer (>=1.2.6) with support for WAV, MIDI, OGG and MP3.
 Precompiled SDL-libs can be found on the website from [[https://code.google.com/p/sdl-wii/downloads/list|SDL Wii]].
-  * [[http://cgit.freedesktop.org/pixman/|pixman]] (>=20.2)
   * Independent JPEG (>=8a).
   * libpng (>=1.2.8).
   * zlib (>=1.2.2).
   * freetype (>=2.4.3).
 They can be found in the [[http://sourceforge.net/projects/devkitpro/files/portlibs/|devkitpro portlibs]].
   * iconv ([[https://code.google.com/p/mplayer-ce/source/browse/trunk/libs/libiconv|wii port]])
+  * [[http://cgit.freedesktop.org/pixman/|pixman]] (>=20.2)
 
 Their are some linker problems with SDL_mixer when ogg is enabled, either try to compile an ogg lib (and link against -lvorbisfile -lvorbis -lvorbisenc -logg) or recompile SDL_mixer without ogg support (remove -DOGG_MUSIC from the Makefile).
 
