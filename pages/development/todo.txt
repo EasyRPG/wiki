@@ -8,14 +8,6 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 ==== Engine ====
 
   * RPG::Weather (RPG::Weather is from RGSS, and should be renamed. RGSS2 naming?)
-  * Sprite_Base (Sprite_Base in RGSS2, RPG::Sprite in RGSS)
-  * Sprite_Character
-  * Sprite_Battler
-  * Sprite_Picture
-  * Sprite_Timer
-  * Sprite_Arrow_Base
-  * Sprite_Arrow_Enemy
-  * Sprite_Arrow_Actor
 
   * Window_Base
   * Window_ActorTarget (Icon usage missing)
@@ -38,86 +30,10 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Debug
   * Scene_ActorTarget (Needs spell/item usage)
 
-  * Game_Temp
-  * Game_System
-  * Game_Screen
-  * Game_Picture
-  * Game_Battler
-  * Game_Actor
-  * Game_Enemy
-  * Game_BattleAction
-  * Game_Party
-  * Game_Troop
-  * Game_Map
-  * Game_CommonEvent
-  * Game_Character
-  * Game_Event
-  * Game_Player
-  * Game_Interpreter
-
 === Event commands ===
-  * Show Message (Done, different close behaviour compared to rpg_rt)
-  * Message options (Parallel move events are always continuing.)
-  * Variable operations (needs timer)
-  * Timer operations
-  * Change experience
-  * Change level
-  * Change parameter
-  * Change HP
-  * Change status
-  * Full recover
-  * Take damage
-  * Change vehicle graphic
-  * Change system sound
-  * Change system graphic
-  * Change window transition
-  * Start battle (Done, depends on battle scene)
-  * Visit commerce (Done?)
-  * Visit inn (Done?)
-  * Teleport (Done?)
-  * Memorize place
-  * Go to memorized place
-  * Ride or walk vehicle
-  * Change vehicle position
-  * Change event position
-  * Swap events
-  * Get terrain ID
-  * Get position ID
-  * Blank screen
-  * Show screen
-  * Change screen tone
-  * Flash screen
-  * Move screen (Done?)
-  * Weather effect (Partially)
-  * Show picture
-  * Move picture
-  * Delete picture
-  * Show animation
-  * Change actor transparency
-  * Flash character
-  * Event movement
-  * Stop all
-  * Play music
-  * Fade music
-  * Memorize music
-  * Play memorized music
-  * Play sound
-  * Play video
-  * Key assignment
-  * Change map tileset (Done?)
-  * Change map background
-  * Change encounter rate
-  * Change tile
-  * Change teleport place
-  * Teleport permissions
-  * Change escape place
-  * Escape permissions
-  * Show system menu
-  * System menu permissions
-  * Conditions
-  * Set label
-  * Go to label
-  * Stop event process
+  * Change Class
+  * Show Battle Animation
+  * Halt All Movement
 
 ==== Graphics ====
   * OpenGL
