@@ -1,7 +1,9 @@
 ====== TODO ======
-This is the project TODO list.
+  * This is the project TODO list.
 
-Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/bugs/|tracker]].
+  * Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/bugs/|tracker]].
+  * If there is something to add, don't edit this page.
+  * Add it to the tracker instead.
 
 ===== Player =====
 
@@ -30,26 +32,7 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Scene_Debug
   * Scene_ActorTarget (Needs spell/item usage)
 
-=== Event commands ===
-  * Change Class
-  * Show Battle Animation
-  * Halt All Movement
-
-==== Graphics ====
-  * Cache should be flushed after some map changes. Caching everything wastes too much Ram on some systems.
-
-==== Audio ====
-  * Replace Timidity from SDL_Mixer with FluidSynth.
-
-==== Optimizations ====
-  * Implement dirty rect system
-  * Autotiles should not create their own bitmap.
-  * Minimize pixel access. Pre store system values for shadows and backgrounds.
-
 ===== Editor =====
-
-==== Config ====
-  * Create configuration file to save editor preferences, like last opened project, window and scrollbar positions, etc. (wxFileConfig, .ini backend).
 
 ==== Database ====
   * Design and integrate dynamic widgets for some DialogDb tabs (skill type changes some tab controls), replacing nested wxPanels not designed yet.
@@ -64,6 +47,3 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
 
 ==== All dialogs ====
   * Make a custom widget (using DC or GLCanvas, like project [[http://slade.mancubus.net/|SLADE]]) to show grid graphics with selector, used in many dialog windows.
-
-==== Writer ====
-  * Open discussion topic: http://easy-rpg.org/forums/viewtopic.php?f=3&t=25
