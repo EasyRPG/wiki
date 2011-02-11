@@ -36,22 +36,14 @@ Issues for Readers, Player and Editor can be found in the [[http://easy-rpg.org/
   * Halt All Movement
 
 ==== Graphics ====
-  * OpenGL
-  * Sprite Wave Effect
   * Cache should be flushed after some map changes. Caching everything wastes too much Ram on some systems.
 
 ==== Audio ====
-  * Audio cache? (at least sound effects should be cached)
   * Replace Timidity from SDL_Mixer with FluidSynth.
-
-==== Others ====
-  * UNIX FileFinder: get system fonts (FontConfig?)
 
 ==== Optimizations ====
   * Implement dirty rect system
-  * Cache most used sounds
   * Autotiles should not create their own bitmap.
-  * SDL font rendering should make use of regular surfaces instead of optimized bitmaps.
   * Minimize pixel access. Pre store system values for shadows and backgrounds.
 
 ===== Editor =====
