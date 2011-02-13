@@ -11,7 +11,6 @@
 
   * RPG::Weather (RPG::Weather is from RGSS, and should be renamed. RGSS2 naming?)
 
-  * Window_Base
   * Window_ActorTarget (Icon usage missing)
   * Window_Message (Lacks \$, Speed and position based on party on screen)
   * Window_PartyCommand (what is that?)
