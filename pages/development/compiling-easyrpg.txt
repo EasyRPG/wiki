@@ -21,3 +21,16 @@ No matter what system/compiler, you will need EasyRPG sources for compiling them
 ==== Reader ====
 ^System^Compiling instructions^
 |CMake|[[development:compiling-easyrpg:reader-cmake|CMake]]|
+
+====== Macro ======
+^Name^Description^
+|USE_SDL|Use SDL as a rendering backend|
+|USE_OPENGL|Use OpenGL for rendering backend|
+|USE_SDL_MIXER|Use SDL_mixer for audio backend|
+|USE_OPENAL|Use OpenAL for audio backend|
+|UNIX|Unix like system needs this|
+|USE_PIXMAN_BITMAP|Use pixman at bitmap|
+|USE_SDL_BITMAP|Use SDL at bitmap|
+|USE_SOFT_BITMAP|Use Soft at bitmap|
+|USE_SDL_TTF|Use SDL_ttf for font drawing|
+|USE_SDL_IMAGE|Use SDL_image for image loading|
