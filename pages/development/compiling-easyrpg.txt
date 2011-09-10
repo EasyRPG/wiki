@@ -3,7 +3,7 @@ EasyRPG is divided into two projects, the Editor and the Player. Both of them ar
 
 No matter what system/compiler, you will need EasyRPG sources for compiling them, check [[development:compiling-easyrpg:getting-sources|]].
 
-==== Editor ====
+==== Editor (Old editor, needs update) ====
 ^System^Compiling instructions^
 |Windows| [[development:compiling-easyrpg:editor-visual-studio|Visual Studio]], [[development:compiling-easyrpg:editor-win-codelite|Codelite]] |
 |Linux|[[development:compiling-easyrpg:editor-linux-codelite|Codelite]]|
