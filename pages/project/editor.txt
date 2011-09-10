@@ -9,4 +9,6 @@ Editor now needs to work on the RPG Maker 2000 data reading to fill the database
 
 ===== Current maintainers =====
 
-  * ''Francisco de la Peña''
+  * ''fdelapena (Francisco de la Peña)''
+  * ''Falc (Aitor García)''
+  * ''MarianoGNU''
