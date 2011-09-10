@@ -30,6 +30,5 @@ Se [[development/RTP database]]
 
 ===== Current maintainers =====
 
-''Francisco de la Peña'' is working on the material management, database and documentation of the project.
-
-''Marina'' is working on the character graphics design, as for CharSet.
+  * ''fdelapena (Francisco de la Peña)'' Working on the material management, database and documentation of the project.
+  * ''Marina'' Working on the character graphics design, as for CharSet.
