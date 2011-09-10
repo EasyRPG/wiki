@@ -1,5 +1,4 @@
 =====Code Formatting Conventions=====
-''This conventions are specific to Player. However, the Editor conventions are based on this ones but including some differences.''
 
 ===Common Sense===
 ----
