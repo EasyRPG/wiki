@@ -1,12 +1,38 @@
 ====== Editor code formatting conventions ======
 
-Editor conventions are like player conventions. Different features come from the nature of GUI objects.
+Editor conventions are like player conventions, but with some changes since the editor is written in Vala.
 
-Editor is wxWidgets based. User Interface has a lot of objects related with same thing, for example sizers and other widgets, so Editor uses prefixes for this objects:
+====Naming====
+----
+==Constants==
+All upper case, with underscores as name separators, but no leading/trailing underscores:
+<code>THIS_IS_A_CONSTANT</code>
 
-Frames: frm. For example, frmEditor.
-Dialogs: dlg. For example dlgDatabase.
-Sizers: sz. For example szEditorLeft.
-...
+==Type names==
+Clases should be UpperCamelCase.
+<code>class MainWindow : Gtk.Window {
+class Armor : Item {</code>
 
-Each window have a cpp/h pair file, excepting gui_* files, containing more than 1 window class inside.
+==Functions==
+Functions should be lower case with underscores as word separators. 
+<code>void this_is_a_function() {</code>
+Properties should have getter and setter defined:
+<code>class Foo {
+    private int random_int { public get; private set; }
+    public bool has_something { public get; public set; }
+}</code>
+
+==Variables==
+Variables should be lower case with underscores as word separators.
+<code>int this_is_a_variable;</code>
+
+====Comments====
+----
+Use /* This style */ preferably.
+
+==License File Header==
+Remember to copy (from any other existing file) the license header to all new created files.
+
+==Special comments==
+<code>// TODO: what is left to do
+// FIXME: what code and in what circumstances it does not work, and if possible why it does not work well</code>
