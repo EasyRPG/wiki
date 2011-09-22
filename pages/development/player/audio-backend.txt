@@ -1,0 +1,15 @@
+====== Audio Backend ======
+
+The Player is currently using SDL_Mixer as the default audio backend.
+
+===== Available Backends =====
+
+  * [[development:player:audio-backend:no-audio|No Audio]]
+  * [[development:player:audio-backend:sdl-mixer|SDL Mixer]]
+  * [[development:player:audio-backend:open-al|Open AL]]
+
+===== API =====
+
+The main header of the audio backend is ''audio.h''.
+
+TODO: Generate a doc using doxygen (+ improve documentation of sourcecode) and link it here.
