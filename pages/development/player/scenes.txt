@@ -1,0 +1,41 @@
+====== Scenes ======
+
+===== Implementation =====
+
+EasyRPG implements the scene code using a stack machine. The scene on the top of the stack is executed and the others are suspended.
+
+The runtime loop is implemented by the function ''Scene::MainFunction()''. This function calls different functions on the top scene depending on if the last activity was a push or a pop:
+
+==== Calls on new Scene after Push ====
+
+  - ''Start()'': This function is executed while the screen is faded out. All objects needed for the scene should be created here.
+  - ''TransitionIn()'': This should fade in the scene. The default implementation does a normal fadein.
+  - ''Resume()'': This function is executed after the fade in.
+
+After these function it will enter the Update-Loop by calling ''Update()'' every frame. It's recommended to overwrite at least the Update-Function in a new scene implementation. The default implementation will return to the previous one when [ENTER] is pressed.
+
+==== Calls on the a Scene when it is resumed ====
+
+When a scene is popped from the stack the new stack top will be executed by calling the following functions:
+
+  - ''TransitionIn()''
+  - ''Resume()''
+
+The only difference is the missing Start()-Call.
+
+==== Calls on the current Scene when a new one was pushed ====
+
+The scene will leave the Update-Loop and execute the following functions:
+
+  - ''Suspend()'': This function is executed when the scene is going to be changed.
+  - ''TransitionOut()'': This should fade out the scene. The default implementation does a normal fade out.
+
+The runtime loop will take care about saving and restoring the graphic state.
+
+==== Calls on the current Scene when it was popped ====
+
+A pop is nearly the same as a push but an extra function is called:
+
+  - ''Suspend()''
+  - ''TransitionOut()''
+  - ''Terminate()'': All objects allocated in ''Start()'' should be deleted here.
