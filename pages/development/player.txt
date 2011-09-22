@@ -1,3 +1,9 @@
 ====== Player ======
 
 {{indexmenu>:development:player|nojs dsort}}
+
+====== Documentation ======
+
+Work in Progress.
+
+In the next days/weeks I will try to give an overview about all of the classes of the Player.
