@@ -1,1 +1,1 @@
-{{indexmenu>/project|nojs dsort}}
+{{indexmenu>project|nojs dsort}}
