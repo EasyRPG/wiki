@@ -1,26 +1,26 @@
 ===== Compiling EasyRPG =====
 EasyRPG is divided into two projects, the Editor and the Player. Both of them are compiled separately. You can find the instructions for compiling the Editor and Player for your system and compiler in the next tables.
 
-No matter what system/compiler, you will need EasyRPG sources for compiling them, check [[development:compiling-easyrpg:getting-sources|]].
+No matter what system/compiler, you will need EasyRPG sources for compiling them, check [[development/compiling-easyrpg/getting-sources|]].
 
 ==== Editor (Old editor, needs update) ====
 ^System^Compiling instructions^
-|Windows| [[development:compiling-easyrpg:editor-visual-studio|Visual Studio]], [[development:compiling-easyrpg:editor-win-codelite|Codelite]] |
-|Linux|[[development:compiling-easyrpg:editor-linux-codelite|Codelite]]|
-|CMake|[[development:compiling-easyrpg:editor-cmake|CMake]]|
+|Windows| [[development/compiling-easyrpg/editor-visual-studio|Visual Studio]], [[development/compiling-easyrpg/editor-win-codelite|Codelite]] |
+|Linux|[[development/compiling-easyrpg/editor-linux-codelite|Codelite]]|
+|CMake|[[development/compiling-easyrpg/editor-cmake|CMake]]|
 
 ==== Player ====
-^System^ Compiling instructions^
-|Windows|[[development:compiling-easyrpg:player-visual-studio|Visual Studio]], [[development:compiling-easyrpg:player-win-codelite|Codelite]]|
-|Linux| [[development:compiling-easyrpg:player-linux-codelite|Codelite]]|
-|Dingoo|[[development:compiling-easyrpg:player-dingoo|Makefile]]|
-|PSP|[[development:compiling-easyrpg:player-psp|Makefile]]|
-|Wii|[[development:compiling-easyrpg:player-wii|Makefile]]|
-|CMake|[[development:compiling-easyrpg:player-cmake|CMake]]|
+^System^Compiling instructions^
+|Windows|[[development/compiling-easyrpg/player-visual-studio|Visual Studio]], [[development/compiling-easyrpg/player-win-codelite|Codelite]]|
+|Linux|[[development/compiling-easyrpg/player-linux-codelite|Codelite]]|
+|Dingoo|[[development/compiling-easyrpg/player-dingoo|Makefile]]|
+|PSP|[[development/compiling-easyrpg/player-psp|Makefile]]|
+|Wii|[[development/compiling-easyrpg/player-wii|Makefile]]|
+|CMake|[[development/compiling-easyrpg/player-cmake|CMake]]|
 
 ==== Reader ====
 ^System^Compiling instructions^
-|CMake|[[development:compiling-easyrpg:reader-cmake|CMake]]|
+|CMake|[[development/compiling-easyrpg/reader-cmake|CMake]]|
 
 ====== Macro ======
 ^Name^Description^
