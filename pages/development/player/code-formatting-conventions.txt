@@ -156,7 +156,7 @@ Remember to copy (from any other existing file) the license header to all new cr
 
 ==Documentation==
 Use Doxygen like documentation, with the following format for functions:
-<code>////////////////////////////////////////////////////////////
+<code cpp>////////////////////////////////////////////////////////////
 /// Description of MyFunction.
 /// A more detailed description here.
 /// @param var1 : this is a description for var1
@@ -166,14 +166,14 @@ Use Doxygen like documentation, with the following format for functions:
 virtual int MyFunction(double var1, std::string var2);</code>
 
 With the exception of getters and setters:
-<code>/// @return description of variable
+<code cpp>/// @return description of variable
 int GetVariable();
 
 /// @param variable : description of variable
 void SetVariable(int variable);</code>
 
 And for variables:
-<code>/// Description of example_variable.
+<code cpp>/// Description of example_variable.
 std::string example_variable;</code>
 
 Remember to document only declarations and not implementations, i.e. in headers. An exception could be .cpp static functions or variables, if documenting is really necessary.
@@ -185,5 +185,5 @@ For organizing better .cpp files add <nowiki>///////////////////////////////////
 We prefer a global function description with Doxygen headers rather than inside the function descriptions. Only when code is really hard to follow, or there is something hardcoded then add some <nowiki>//</nowiki> comments explaining the situation. Do not add redundant comments, like actions that should be already understand easily.
 
 ==Special comments==
-<code>// TODO: what is left to do
+<code cpp>// TODO: what is left to do
 // FIXME: what code and in what circumstances it does not work, and if possible why it does not work well</code>
