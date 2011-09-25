@@ -29,7 +29,7 @@ Variables should be lower case with underscores as word separators.
 ====Comments====
 Use /* This style */ preferably.
 
-Please use Valadoc for code documentation.
+Please use Valadoc comment style (Javadoc like) for code documentation.
 
 ==License File Header==
 Remember to copy (from any other existing file) the license header to all new created files.
