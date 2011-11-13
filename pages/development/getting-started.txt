@@ -6,7 +6,7 @@ We want to interpret these systems, so you need to know how it works first. To s
 
 Latest version of RPG Maker 2000 is 1.51:
 
-http://rpg-hacker.bplaced.net/en/RPGMaker/EnglishPatch/download.html
+http://www.rpg-hacker.de/?page_id=71
 
 Latest version of RPG Maker 2003 is 1.09a:
 
