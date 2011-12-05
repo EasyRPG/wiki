@@ -9,3 +9,4 @@ Player is alpha now. Can run games partially. Several commands are implemented a
 ===== Current maintainers =====
 
   * ''Ghabry''
+  * ''Glynn Clements''
