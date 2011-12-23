@@ -6,10 +6,11 @@
 Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
 
 ====Codelite====
-You can find Codelite [[http://www.codelite.org/|here]]. It is highly recommended that you install the Codelite+MinGW+wxWidgets package, manually compiling wxWidgets can be quite a pain. In case you want to compile wxWidgets by yourself, we wish you good luck!
+You can find Codelite [[http://www.codelite.org/|here]].
+
+TODO
 
 ===== Compiling the Editor =====
-
-Open the codelite workspace easyrpg.workspace, then right-click on "Editor" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "Editor"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+TODO
 
 The Editor executable should be in the folder editor/bin/Editor.exe.
