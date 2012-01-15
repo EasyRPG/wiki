@@ -4,12 +4,7 @@ This is the documentation wiki of the EasyRPG project.
 
 ===== Project overview =====
 
-  * [[project/Goals]]
-  * [[project/Player]]
-  * [[project/Editor]]
-  * [[project/RTP replacement]]
-  * [[project/FAQ]]
-
+{{indexmenu>project|nojs dsort}}
 ===== Development =====
 
 ==== For programmers ====
