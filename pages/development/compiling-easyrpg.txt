@@ -5,22 +5,22 @@ No matter what system/compiler, you will need EasyRPG sources for compiling them
 
 ==== Editor (Old editor, needs update) ====
 ^System^Compiling instructions^
-|Windows| [[development/compiling-easyrpg/editor-visual-studio|Visual Studio]], [[development/compiling-easyrpg/editor-win-codelite|Codelite]] |
-|Linux|[[development/compiling-easyrpg/editor-linux-codelite|Codelite]]|
-|CMake|[[development/compiling-easyrpg/editor-cmake|CMake]]|
+|Windows| [[./editor-visual-studio|Visual Studio]], [[./editor-win-codelite|Codelite]] |
+|Linux|[[./editor-linux-codelite|Codelite]]|
+|CMake|[[./editor-cmake|CMake]]|
 
 ==== Player ====
 ^System^Compiling instructions^
-|Windows|[[development/compiling-easyrpg/player-visual-studio|Visual Studio]], [[development/compiling-easyrpg/player-win-codelite|Codelite]]|
-|Linux|[[development/compiling-easyrpg/player-linux-codelite|Codelite]]|
-|Dingoo|[[development/compiling-easyrpg/player-dingoo|Makefile]]|
-|PSP|[[development/compiling-easyrpg/player-psp|Makefile]]|
-|Wii|[[development/compiling-easyrpg/player-wii|Makefile]]|
-|CMake|[[development/compiling-easyrpg/player-cmake|CMake]]|
+|Windows|[[./player-visual-studio|Visual Studio]], [[./player-win-codelite|Codelite]]|
+|Linux|[[./player-linux-codelite|Codelite]]|
+|Dingoo|[[./player-dingoo|Makefile]]|
+|PSP|[[./player-psp|Makefile]]|
+|Wii|[[./player-wii|Makefile]]|
+|CMake|[[./player-cmake|CMake]]|
 
 ==== Reader ====
 ^System^Compiling instructions^
-|CMake|[[development/compiling-easyrpg/reader-cmake|CMake]]|
+|CMake|[[./reader-cmake|CMake]]|
 
 ====== Macro ======
 ^Name^Description^
