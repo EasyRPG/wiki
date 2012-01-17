@@ -1,0 +1,35 @@
+====== Compiling Player on Visual Studio ======
+
+===== Things Needed =====
+
+====EasyRPG Source Code====
+Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
+
+====Visual C++ 2010====
+You can find Visual Studio 2010 [[http://www.microsoft.com/visualstudio/en-us/|here]].
+You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/express/|here]].
+
+====Precompiled libraries====
+EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a simple and quick installer with the needed dependencies.
+
+You can get the last version of the installer [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-02-29.msi|here]]. Install it and skip to [[development/compiling-easyrpg/player-visual-studio#Compiling Player|Compiling Player]]. If Visual Studio was running during the installation you have to restart it!
+
+Or, if you want a zipped file with all precompiled libs instead get [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-02-29.zip|this]]. You will need to manually add the EASYDEV_MSVC enviroment variable and target the path where you place them.
+
+====Getting the libraries====
+''If you are using the precompiled libraries you can skip this part.''
+
+You can get the needed libraries from the following pages:
+  * [[http://www.libsdl.org/download-1.2.php|SDL 1.2]], file SDL-devel-1.2.XX-VC8.zip (where XX is the current release number)
+  * [[http://www.libsdl.org/projects/SDL_image/|SDL Image 1.2]], file SDL_image-devel-1.2.XX-VC.zip (where XX is the current release number)
+  * [[http://www.libsdl.org/projects/SDL_mixer/|SDL Mixer 1.2]], file SDL_mixer-devel-1.2.XX-VC.zip (where XX is the current release number)
+  * [[http://www.libsdl.org/projects/SDL_ttf/|SDL TTF 2.0]], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
+  * [[http://www.ferzkopp.net/joomla/content/view/19/14/|SDL GFX 2.0]], you will need to compile SDL GFX
+
+You will need to adjust the project include directories for these libraries. FIXME Explain!
+
+===== Compiling Player =====
+
+Open the solution file in player\builds\vs2010 , select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
+
+The Player executable should be in the folder bin\testgame\Player.exe. If you are not using the precompiled libraries, and you have dinamically linked Player, you will need to place the required .dll in the same folder Player.exe is.
