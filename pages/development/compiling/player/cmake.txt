@@ -1,8 +1,8 @@
 ====== Building Player with CMake ======
 
-===== Requirement =====
-  * cmake-2.8 or greator
-  * EasyRPG Reader
+===== Requirements =====
+  * cmake-2.8 or greater
+  * EasyRPG reader
   * OpenAL
   * ffmpeg
   * PNG
