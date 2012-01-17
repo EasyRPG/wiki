@@ -1,0 +1,22 @@
+====== Compiling the Editor on GNU/Linux with Codelite ======
+
+===== Things Needed =====
+
+====EasyRPG Source Code====
+Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
+
+====Codelite====
+You can find Codelite [[http://www.codelite.org/|here]].
+
+====Getting the libraries====
+
+This is a list of the packages you need to install:
+  * build-essential
+  * libwxgtk2.8-dev
+  * libwxgtk2.8-dbg
+
+===== Compiling the Editor =====
+
+Open the codelite workspace easyrpg.workspace, then right-click on "editor" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "editor"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+
+The Editor executable should be in the editor/bin/ folder.
