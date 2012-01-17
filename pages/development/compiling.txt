@@ -1,0 +1,36 @@
+===== Compiling EasyRPG =====
+EasyRPG is divided into two projects, the Editor and the Player. Both of them are compiled separately. You can find the instructions for compiling the Editor and Player for your system and compiler in the next tables.
+
+No matter what system/compiler, you will need EasyRPG sources for compiling them, check [[development/compiling-easyrpg/getting-sources|]].
+
+==== Editor (Old editor, needs update) ====
+^System^Compiling instructions^
+|Windows| [[./compiling/editor-visual-studio|Visual Studio]], [[./compiling/editor-win-codelite|Codelite]] |
+|Linux|[[./compiling/editor-linux-codelite|Codelite]]|
+|CMake|[[./compiling/editor-cmake|CMake]]|
+
+==== Player ====
+^System^Compiling instructions^
+|Windows|[[./compiling/player-visual-studio|Visual Studio]], [[./compiling/player-win-codelite|Codelite]]|
+|Linux|[[./compiling/player-linux-codelite|Codelite]]|
+|Dingoo|[[./compiling/player-dingoo|Makefile]]|
+|PSP|[[./compiling/player-psp|Makefile]]|
+|Wii|[[./compiling/player-wii|Makefile]]|
+|CMake|[[./compiling/player-cmake|CMake]]|
+
+==== Reader ====
+^System^Compiling instructions^
+|CMake|[[./compiling/reader-cmake|CMake]]|
+
+====== Macro ======
+^Name^Description^
+|USE_SDL|Use SDL as a rendering backend|
+|USE_OPENGL|Use OpenGL for rendering backend|
+|USE_SDL_MIXER|Use SDL_mixer for audio backend|
+|USE_OPENAL|Use OpenAL for audio backend|
+|UNIX|Unix like system needs this|
+|USE_PIXMAN_BITMAP|Use pixman at bitmap|
+|USE_SDL_BITMAP|Use SDL at bitmap|
+|USE_SOFT_BITMAP|Use Soft at bitmap|
+|USE_SDL_TTF|Use SDL_ttf for font drawing|
+|USE_SDL_IMAGE|Use SDL_image for image loading|
