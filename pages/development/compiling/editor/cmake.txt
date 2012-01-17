@@ -1,0 +1,12 @@
+====== Building Editor with CMake ======
+**under construction**.
+
+===== Requirements =====
+  * cmake-2.8 or greater
+  * GTK+ 3.0 or greater
+  * Vala 0.14 or greater
+  * EasyRPG Readers
+
+===== Build =====
+  * Run "cmake ${PATH TO editor/builds/cmake} && make".
+  * If you want to build it with debug mode pass "-D CMAKE_BUILD_TYPE=Debug" to cmake.
