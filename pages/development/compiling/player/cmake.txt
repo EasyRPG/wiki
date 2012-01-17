@@ -9,7 +9,7 @@
   * SDL
   * SDL_image
   * SDL_ttf
-  * ZLIB
+  * ZLib
 
 ===== Build =====
   * Run "cmake ${PATH TO player/builds/cmake} && make".
