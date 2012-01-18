@@ -22,6 +22,4 @@ Use a common and unique files and a **reference table** passed to the game inter
 
 If ''RPG_RT.ini'' does not have the ''FullPackageFlag=1'' directive (it means don't use RTP), the EasyRPG interpreter will make use of the RTP replacement. Proposed places: Windows: Similar (not equal) as original RTP registry path. UNIX based: ''/usr/share/easyrpg/rtp/'' path. Inside of these paths a new file as a little standalone database will indicate to the interpreter which file name string is assigned. See below an example of the tables.
 
-  * [[development/RTP database/2000 RTP]]
-  * [[development/RTP database/2003 RTP]]
-  * [[development/RTP database/Migration (2000-2003)]]
+{{indexmenu>rtp-database|nojs dsort}}
