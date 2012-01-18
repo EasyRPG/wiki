@@ -1,0 +1,70 @@
+====== RTP replacement contributions ======
+
+Before contributing RTP replacement materials, we need to know some issues to prevent design problems:
+
+===== The big table of characters =====
+
+RPG Maker 2000 and 2003 RTPs share lots of data between editions, but not only between them. Each character can be represented in multiple forms:
+
+  * CharSet
+  * FaceSet
+  * BattleCharSet
+  * Monster
+
+The big table will be here. FIXME Assigned task: [fdelapena]
+
+==== Monsters: One pose valid for both front and side battle ====
+
+If the pose of the Monster sprites is good it would be valid for both battle style scenes. If the pose design is good, the work needed to cover both battle systems can be the half.
+
+==== Duplicated elements ====
+
+There are other related materials duplicated, for example the ''Battle'' animation effects of 2000 and 2003. The animation frames are not just in the same grid positions but the sprites are the same. The RTP database can beat this limitation, please don't duplicate the work twice if the material is equivalent, a 50% of work can be saved here. Almost all Battle animations are duplicated (26 of 28), except the "increase" and "decrease" animations.
+
+===== Unified contribution website =====
+
+Currently in development, there will be a website for the submission of materials by their own creators. The site will feature an unified material database with material assignment, material search, author profiles, list alternative or modified materials of the same object (in case of more than one submission from different authors), author material updates of each file, comment system of the materials, automatic % progress of each folder and global project % progress.
+
+===== The difficulty of the unified style =====
+
+Each artist have a different style. Is very difficult to get every material set made by the same person. Is better to do same type of material the same person to prevent this highly visible difference. It's hard to follow the same style between contributors.
+
+===== Which contributions can be done now =====
+
+The following materials can be designed in any moment without style problems between artists:
+
+==== BattleWeapon ====
+
+DONE. 1 file. Pixel art sprites.
+
+{{:development:freebattleweapon.png|}}
+
+Sprite by Alephman
+
+==== Sound ====
+
+206 files. You can make legal modifications (NOT the exact file directly) from this library: The FreeSound Project. Please submit WAV or FLAC files, not MP3. We'll handle the compression job. Use original quality, we can downgrade if needed. If you don't know how to edit those files, just put a link to the sound candidates to make replacements.
+
+[DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
+
+==== Music ====
+
+151 files. You can make MIDI arrangements directly from classical music up to S. XIX without legal problems.
+
+You can generate the "SE" WAV files with same tips than the ''Sound'' material folder.
+
+Juan Manuel made 29 MIDI files, including all midi Jingles (files starting with J in original Japanese filenames).
+
+[DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
+
+==== System ====
+
+4 files. Please use similar (not identical needed) colors for the gradients. Please use maximum color possible, specially for the window gradient, one palette color per line (32 in total for the window gradient). A System graphics template is coming FIXME.
+
+[DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
+
+==== System2 ====
+
+3 files. Please use similar (not identical needed) colors. A System2 graphic template is coming FIXME.
+
+[DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
