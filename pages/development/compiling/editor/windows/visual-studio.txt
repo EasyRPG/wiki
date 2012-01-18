@@ -1,20 +1,4 @@
-====== Compiling Editor on Visual Studio ======
 
-===== Things Needed =====
-
-====EasyRPG Source Code====
-Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
-
-====Visual C++ 2010====
-You can find Visual Studio 2010 [[http://www.microsoft.com/visualstudio/en-us/|here]].
-You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/express/|here]].
-
-====Precompiled libraries====
-TODO
-====Getting the libraries====
-''If you are using the precompiled libraries you can skip this part.''
-
-TODO
 
 ==== Setting the Environment ====
 TODO
