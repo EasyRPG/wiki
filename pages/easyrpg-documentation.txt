@@ -2,13 +2,15 @@
 
 This is the documentation wiki of the EasyRPG project.
 
-===== Project overview =====
+===== FAQ =====
 
-{{indexmenu>project|nojs dsort}}
+{{indexmenu>faq|nojs dsort}}
+
 ===== Development =====
 
 {{indexmenu>development|nojs dsort}}
 
 ===== Recent changes =====
+
 ^ Wiki recent changes ^ Subversion recent changes ^
 | {{rss>http://easy-rpg.org/wiki/feed.php 99 author date 10m }} | {{rss>http://cia.vc/stats/project/easyrpg/.rss 99 author date 10m }} |
