@@ -24,11 +24,11 @@ RTP documentation tasks to do:
 
 ===== RTP replacement contributions =====
 
-See [[development/RTP replacement contributions]].
+See [[./rtp-replacement/contributions]].
 
 ===== RTP database =====
 
-Se [[development/RTP database]]
+Se [[./rtp-database]]
 
 ===== Current maintainers =====
 
