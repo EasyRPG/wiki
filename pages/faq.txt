@@ -68,6 +68,6 @@ The editor depends a lot of the player source code and it needs to be stabilized
 
 ==== When EasyRPG will be completed? ====
 
-When it will be done ™
+When it will be done.
 
-Of course, if you contribute with the project, probably the project will be completed sooner. The most interested people in complete the project are working on it to make it possible, why you don't? ;-)
+Of course, if you contribute with the project, probably the project will be completed sooner. The most interested people in complete the project are working on it to make it possible, why you don't?
