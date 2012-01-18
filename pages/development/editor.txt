@@ -14,4 +14,4 @@ Editor depends on the design XML file format. Basic XML open/save feature is on 
 
   * ''Francisco de la Peña''
   * ''Aitor García''
-  * ''Mariano Suligoy''
+  * ''Sebastian Reichel''
