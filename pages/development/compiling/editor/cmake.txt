@@ -1,5 +1,4 @@
 ====== Building Editor with CMake ======
-**under construction**.
 
 ===== Requirements =====
   * cmake-2.8 or greater
