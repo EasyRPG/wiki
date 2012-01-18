@@ -1,0 +1,32 @@
+====== Compiling Player on Windows with Codelite ======
+
+===== Things Needed =====
+
+====EasyRPG Source Code====
+Kind of obvious as you can't compile something you haven't, check [[development:compiling-easyrpg:getting-sources|]] for more info.
+
+====Codelite====
+You can find Codelite [[http://www.codelite.org/|here]].
+
+====Precompiled libraries====
+EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a simple and quick installer with the needed dependencies.
+
+You can get last version of the installer [[http://vgvgf.com.ar/easyrpg/EasyRPG%20Dev%20MinGW.exe|here]]. Install it and skip to [[development/compiling-easyrpg/player-win-codelite#Compiling Player|Compiling Player]]
+
+====Getting the libraries====
+''If you are using the precompiled libraries you can skip this part.''
+
+You can get the needed libraries from the following pages:
+  * [[http://www.libsdl.org/download-1.2.php|SDL 1.2]], file SDL-devel-1.2.XX-mingw32.tar.gz (where XX is the current release number)
+  * [[http://www.libsdl.org/projects/SDL_image/|SDL Image 1.2]], file SDL_image-devel-1.2.XX-VC.zip (where XX is the current release number)
+  * [[http://www.libsdl.org/projects/SDL_mixer/|SDL Mixer 1.2]], file SDL_mixer-devel-1.2.XX-VC.zip (where XX is the current release number)
+  * [[http://www.libsdl.org/projects/SDL_ttf/|SDL TTF 2.0]], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
+  * [[http://www.ferzkopp.net/joomla/content/view/19/14/|SDL GFX 2.0]], you will need to compile SDL GFX
+
+You will need to adjust the project include directories for these libraries. FIXME Explain!
+
+===== Compiling Player =====
+
+Open the codelite workspace easyrpg.workspace, then right-click on "player" in the EasyRPG workspace and select "Set As Active" (or just make left double click on "player"). Then select the "Release" configuration from the workspace view pulldown menu and then go to Build->Build Project, or just press F7 to compile it.
+
+The Player executable should be in the folder player/bin/testgame/Player.exe. You will also need to copy the all required dlls where Player.exe is, if you are using the precompiled libraries you can find them in the "bin" folder at the path where you installed them.
