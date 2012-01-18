@@ -1,6 +1,0 @@
-====== Code formatting conventions ======
-
-Player and Editor are independent projects and the code conventions are different.
-
-  * [[Development/Player/Code formatting conventions|Player code formatting conventions]]
-  * [[Development/Editor/Code formatting conventions|Editor code formatting conventions]]
