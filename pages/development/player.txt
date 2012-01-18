@@ -2,8 +2,15 @@
 
 {{indexmenu>:development:player|nojs dsort}}
 
-====== Documentation ======
+====== Player ======
 
-Work in Progress.
+The Player is the game interpreter of games made with RPG Maker 2000 or 2003 editors. Technically, the player is the replacement of the RPG_RT.exe program executable and runtime interpreter of RPG Maker, distributed with games.
 
-In the next days/weeks I will try to give an overview about all of the classes of the Player.
+===== Project status =====
+
+Player is alpha now. Can run games partially. Several commands are implemented and working.
+
+===== Current maintainers =====
+
+  * ''Ghabry''
+  * ''Glynn Clements''
