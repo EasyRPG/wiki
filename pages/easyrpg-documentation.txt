@@ -7,26 +7,7 @@ This is the documentation wiki of the EasyRPG project.
 {{indexmenu>project|nojs dsort}}
 ===== Development =====
 
-==== For programmers ====
-
-  * [[development/Compiling EasyRPG]]
-  * [[development/Code formatting conventions]]
-  * [[development/Getting started]]
-  * [[development/RPG_RT.exe technical details]]
-  * [[development/System graphics technical details]]
-  * [[development/RTP database]]
-  * [[development/Data Structure Reference]]
-
-==== For artists ====
-
-  * [[development/RTP replacement contributions]]
-  * [[development/Media file format specifications]]
-  * [[development/RTP database]]
-
-==== For RPG Maker users ====
-
-  * [[development/Sample game]]
-  * [[development/RPG Maker test suite]]
+{{indexmenu>development|nojs dsort}}
 
 ===== Recent changes =====
 ^ Wiki recent changes ^ Subversion recent changes ^
