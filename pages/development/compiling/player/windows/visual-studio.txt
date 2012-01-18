@@ -26,7 +26,7 @@ You can get the needed libraries from the following pages:
   * [[http://www.libsdl.org/projects/SDL_ttf/|SDL TTF 2.0]], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
   * [[http://www.ferzkopp.net/joomla/content/view/19/14/|SDL GFX 2.0]], you will need to compile SDL GFX
 
-You will need to adjust the project include directories for these libraries. FIXME Explain!
+You will need to adjust the project include directories for these libraries.
 
 ===== Compiling Player =====
 
