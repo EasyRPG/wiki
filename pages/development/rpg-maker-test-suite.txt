@@ -13,4 +13,4 @@ In development.
 
 ===== Maintainers =====
 
-The current maintainer of the test suite project is ''EN.I'' (elsemieni).
+Nobody currently.
