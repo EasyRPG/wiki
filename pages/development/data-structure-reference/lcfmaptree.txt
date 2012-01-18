@@ -23,7 +23,7 @@
 |31|Teleport|Integer| | * 0: Same as Parent\\  * 1: Leave to Event\\  * 2: Set|
 |32|Escape|Integer| |〃|
 |33|Save|Integer| |〃|
-|41|[[./LcfMapTree/Encounting Enemy Group]]|2 Dimensional Array| | |
+|41|[[./LcfMapTree/Encounter Enemy Group]]|2 Dimensional Array| | |
 |44|Enemy Appear Step|Integer|25| |
 |51|Area Range|Binary| |array<uint32_t, 4>\\  * [0]: begin x\\  * [1]: begin y\\  * [2]: end x\\  * [3]: end y\\ (Normal Map will be { 0, 0, 0, 0 })|
 ===== BER Number Enumeration =====
