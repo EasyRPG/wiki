@@ -2,13 +2,13 @@
 
 This is the documentation wiki of the EasyRPG project.
 
-===== FAQ =====
-
-[[faq]]
-
 ===== Development =====
 
 {{indexmenu>development|nojs dsort}}
+
+===== FAQ =====
+
+[[faq]]
 
 ===== Recent changes =====
 
