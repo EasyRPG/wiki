@@ -11,31 +11,31 @@ If you know more translation languages or versions, both official or unofficial,
 Battle backgrounds. 25 PNG files. 320x160px.
 
 ^ Japanese (original) ^ English (Don Miguel) ^
-| [[https://easy-rpg.org/rtp/2000/Backdrop/ダンジョン1.png|ダンジョン1]] | Cave1 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/ダンジョン2.png|ダンジョン2]] | LavaCave2 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/ダンジョン3.png|ダンジョン3]] | IceCave3 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/ダンジョン4.png|ダンジョン4]] | Cave4 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/ダンジョン5.png|ダンジョン5]] | BrickCave5 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/宇宙.png|宇宙]] | Galaxy |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/山道.png|山道]] | Canyon |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/岩場.png|岩場]] | SnowCanyon |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/廃墟.png|廃墟]] | WasteRuins |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/森1.png|森1]] | Forest1 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/森2.png|森2]] | Forest2 |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/橋.png|橋]] | Bridge |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/毒沼.png|毒沼]] | Swamp |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/海.png|海]] | Sea |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/玉座.png|玉座]] | Castle |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/異空間.png|異空間]] | LightSpeed |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/砂浜.png|砂浜]] | SeaBeach |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/砂漠.png|砂漠]] | Desert |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/神殿.png|神殿]] | Greece |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/空.png|空]] | Sky |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/船上.png|船上]] | Ship |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/草原.png|草原]] | Grass |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/荒地.png|荒地]] | WasteLand |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/街中.png|街中]] | Town |
-| [[https://easy-rpg.org/rtp/2000/Backdrop/雪原.png|雪原]] | Snow |
+| ダンジョン1 | Cave1 |
+| ダンジョン2 | LavaCave2 |
+| ダンジョン3 | IceCave3 |
+| ダンジョン4 | Cave4 |
+| ダンジョン5 | BrickCave5 |
+| 宇宙 | Galaxy |
+| 山道 | Canyon |
+| 岩場 | SnowCanyon |
+| 廃墟 | WasteRuins |
+| 森1 | Forest1 |
+| 森2 | Forest2 |
+| 橋 | Bridge |
+| 毒沼 | Swamp |
+| 海 | Sea |
+| 玉座 | Castle |
+| 異空間 | LightSpeed |
+| 砂浜 | SeaBeach |
+| 砂漠 | Desert |
+| 神殿 | Greece |
+| 空 | Sky |
+| 船上 | Ship |
+| 草原 | Grass |
+| 荒地 | WasteLand |
+| 街中 | Town |
+| 雪原 | Snow |
 
 ==== Battle ====
 
