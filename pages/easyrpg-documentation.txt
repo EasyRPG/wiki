@@ -12,5 +12,5 @@ This is the documentation wiki of the EasyRPG project.
 
 ===== Recent changes =====
 
-^ Wiki recent changes ^ Subversion recent changes ^
+^ Wiki recent changes ^ Git master recent changes ^
 | {{rss>http://easy-rpg.org/wiki/feed.php 99 author date 10m }} | Editor: {{rss>https://github.com/easyrpg/editor/commits/master.atom 5 author date 10m }} Testgame: {{rss>https://github.com/easyrpg/testgame/commits/master.atom 5 author date 10m }} Player: {{rss>https://github.com/easyrpg/player/commits/master.atom 5 author date 10m }} Readers: {{rss>https://github.com/easyrpg/readers/commits/master.atom 5 author date 10m }} |
