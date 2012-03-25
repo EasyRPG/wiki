@@ -37,7 +37,7 @@ The following materials can be designed in any moment without style problems bet
 
 DONE. 1 file. Pixel art sprites.
 
-{{:development:freebattleweapon.png|}}
+{{/development/freebattleweapon.png|}}
 
 Sprite by Alephman
 
