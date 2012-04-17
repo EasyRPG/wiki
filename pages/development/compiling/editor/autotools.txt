@@ -7,4 +7,4 @@
   * Vala 0.14 or greater
 
 ===== Build =====
-  * Run ''./autogen.sh && ./configure && make''
+  * Run ''./autogen.sh && make''
