@@ -1,0 +1,10 @@
+====== Building Editor with GNU Autotools ======
+
+===== Requirements =====
+  * Autoconf 2.63 or greater
+  * Automake 1.11 or greater
+  * GTK+ 3.0 or greater
+  * Vala 0.14 or greater
+
+===== Build =====
+  * Run ''./autogen.sh && ./configure && make''
