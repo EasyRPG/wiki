@@ -17,9 +17,15 @@ It consists on:
   * Window dialogs to edit map properties, trigger battles every steps on map, etc.
   * Window dialogs to add and manage map events, to handle commands for this events, display NPCs, messages etc.
 
+
 ===== EasyRPG Player =====
 
 The Player is an application to run games made with EasyRPG Editor.
 
-Also it can play RPG Maker 2000 and 2003 games directly. Currently is the main feature in development.
+Also it can play RPG Maker 2000 and 2003 games directly (RPG_RT.exe equivalent). This is the main feature in development currently.
+
+EasyRPG Player is very portable. This allows to play games in a lot of systems: GNU/Linux, Windows, Mac OS X, video game consoles and mobile phones.
+
+
+===== RTP Replacement =====
 
