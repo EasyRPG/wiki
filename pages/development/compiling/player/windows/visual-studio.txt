@@ -30,7 +30,7 @@ You will need to adjust the project include directories for these libraries.
 
 ===== Compiling Player =====
 
-**You will need to compile the Readers library first**.
+You need to place the Readers library sources into the player lib/readers folder.
 
 Open the solution file in player\builds\vs2010 , select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
 
