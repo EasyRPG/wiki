@@ -1,0 +1,5 @@
+====== About EasyRPG ======
+
+EasyRPG is a project to create a free (as in freedom) Role Playing Game (RPG) creation tool.
+
+The 
