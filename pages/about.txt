@@ -2,7 +2,7 @@
 
 EasyRPG is a project to create a free (as in freedom) Role Playing Game (RPG) creation tool.
 
-The project consists on several tools and resources: Editor, Player, RTP Replacement.
+The project consists on several tools and resources: Editor, Player and RTP Replacement.
 
 The structure is inspired on a commercial product called "RPG Maker".
 
