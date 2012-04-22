@@ -6,10 +6,6 @@ Most games made with RPG Maker 2000 and 2003 make use of a media resources libra
 
 ===== Project status =====
 
-There was an old ''almacén'' storage web made by ''Peisi'' now unmaintained. That web holds all material contributions, both RTP and non-RTP. Now the project wants to push priority for the RTP replacement contributions first.
-
-Now the wiki will hold the most part of RTP information, with the exception of the RTP replacement materials, there will be in a specific web database self maintained by the own artist contributions. The development of that site is currently in development. The RTP documentation on the wiki currently has more priority and currently is near completion.
-
 RTP documentation tasks to do:
 
   * Make table for both 2000 and 2003 for characters available on CharSet, FaceSet, Monster, BattleCharSet for an unified costume and design. [fdelapena]
