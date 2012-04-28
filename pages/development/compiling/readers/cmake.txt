@@ -1,11 +1,10 @@
 ====== Building Readers with CMake ======
 
-===== Requirements =====
-  * cmake-2.8 or greater
-  * Doxygen
-  * Expat
-  * Iconv
-  * Python
+===== General Requirements =====
+  * [[./requirements]]
+
+===== CMake Requirements =====
+  * CMake 2.8 or greater
 
 ===== Build =====
   * Run "cmake ${PATH TO readers/builds/cmake} && make".
