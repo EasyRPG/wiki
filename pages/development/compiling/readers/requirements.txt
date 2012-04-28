@@ -1,0 +1,19 @@
+====== Readers requirements ======
+
+===== Programs =====
+  * C++ compiler (G++, MSVC...).
+  * Make
+
+===== Libraries =====
+
+==== Required ====
+  * libiconv for the character set detection and UTF-8 conversion.
+
+==== Optional ====
+  * Expat for XML reading support (optional).
+  * Google Test to perform some unit tests (optional).
+
+===== Optional programs =====
+  * Doxygen to generate source code documentation (optional).
+  * Graphviz to generate graphs with the dot program used by Doxygen (optional).
+  * Python for the template source code regeneration (optional).
