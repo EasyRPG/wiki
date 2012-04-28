@@ -10,10 +10,10 @@
   * libiconv for the character set detection and UTF-8 conversion.
 
 ==== Optional ====
-  * Expat for XML reading support (optional).
-  * Google Test to perform some unit tests (optional).
+  * Expat for XML reading support.
+  * Google Test to perform some unit tests.
 
 ===== Optional programs =====
-  * Doxygen to generate source code documentation (optional).
-  * Graphviz to generate graphs with the dot program used by Doxygen (optional).
-  * Python for the template source code regeneration (optional).
+  * Doxygen to generate source code documentation.
+  * Graphviz to generate graphs with the dot program used by Doxygen.
+  * Python for the template source code regeneration.
