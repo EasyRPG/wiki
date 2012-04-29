@@ -6,7 +6,7 @@ In order to keep a knowledge about all the RTP data supported by EasyRPG we need
 
 Original RPG Maker 2000 and 2003 RTP packages have **file names in Japanese** (intended for Japan distribution only) and they are not easy to install in non-Japanese Windows operating systems.
 
-The original installers are not Unicode. Only Windows NT series were Unicode when RPG Maker 2000 were released, so the Japanese programs in Latin based or other Windows language versions are ANSI style. Windows XP is the first Windows NT for the mainstream featuring Unicode support but it was too late. Windows 9x were still supported during a couple of years. 
+The original installers are not Unicode. Only Windows 2000 series were Unicode when RPG Maker 2000 was released, so Japanese programs in SHIFT_JIS or other Windows language versions are not working "out of the box" between old, non-Unicode, Windows versions. Windows XP is the first Windows NT for the mainstream featuring Unicode support but it was too late. Windows 9x were still supported during a couple of years. 
 
 ==== The problem ====
 
