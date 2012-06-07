@@ -10,4 +10,4 @@
   * EasyRPG Readers library
 
 ===== Build =====
-  * Run ''./autogen.sh -- && make''
+  * Run ''./autogen.sh && make''
