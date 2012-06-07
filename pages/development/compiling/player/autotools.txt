@@ -1,0 +1,13 @@
+====== Building Player with GNU Build System ======
+
+===== Requirements =====
+  * GNU Autoconf 2.68 or greater
+  * GNU Automake 1.11 or greater
+  * SDL 1.2 or greater
+  * SDL_image
+  * SDL_mixer
+  * SDL_ttf
+  * EasyRPG Readers library
+
+===== Build =====
+  * Run ''./autogen.sh -- && make''
