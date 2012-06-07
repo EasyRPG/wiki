@@ -6,4 +6,4 @@
   * GNU iconv (already included in most distributions)
 
 ===== Build =====
-  * Run ''./autogen.sh && ./configure --prefix=$PWD/build && make && make install''
+  * Run ''./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
