@@ -14,6 +14,6 @@
 
 For other systems, replace -D//UNIX// for your platform, for example, -D_WIN32 if you are using Windows. See src/system.h for details.
 
---with-readers must be an absolute path to the folder containing include and lib folders where the headers and libreaders.a are placed. A tip to use relative path using $PWD: --with-readers=$PWD/whatever
+%%--%%with-readers must be an absolute path to the folder containing include and lib folders where the headers and libreaders.a are placed. A tip to use relative path using $PWD: %%--%%with-readers=$PWD/whatever
 
-If you want to cross compile with a specific gcc toolchain, pass --host=whatever to configure.
+If you want to cross compile with a specific gcc toolchain, pass %%--%%host=whatever to configure.
