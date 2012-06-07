@@ -3,8 +3,7 @@
 ===== Requirements =====
   * GNU Autoconf 2.68 or greater
   * GNU Automake 1.11 or greater
-  * GNU Libtool 2.2 or greater
   * GNU iconv (already included in most distributions)
 
 ===== Build =====
-  * Run ''./autogen.sh && make''
+  * Run ''./autogen.sh && ./configure --prefix=$PWD/build && make''
