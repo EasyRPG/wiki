@@ -59,7 +59,7 @@ Juan Manuel made 29 MIDI files, including all midi Jingles (files starting with 
 
 ==== System ====
 
-4 files. Please use similar (not identical needed) colors for the gradients. Please use maximum color possible, specially for the window gradient, one palette color per line (32 in total for the window gradient). A System graphics template is coming FIXME.
+4 files. Please use similar (not identical needed) colors for the gradients. Please use maximum color possible, specially for the window gradient, one palette color per line (32 in total for the window gradient).
 
 [DELETEME Please write here your file assignments while the RTP website is not finished yet. You can upload files here].
 
