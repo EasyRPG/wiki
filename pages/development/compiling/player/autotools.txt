@@ -7,7 +7,7 @@
   * SDL_image
   * SDL_mixer
   * SDL_ttf
-  * EasyRPG Readers library
+  * [[../readers/autotools|EasyRPG Readers library]]
 
 ===== Build =====
   * Run ''./autogen.sh && CXXFLAGS="-DUNIX" ./configure %%--%%with-readers=PATH/TO/READERS/FOLDER/build && make''
