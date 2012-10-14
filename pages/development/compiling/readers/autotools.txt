@@ -7,5 +7,7 @@
   * Boost (Not required for Windows)
   * Expat (Will be optional since Readers 0.1)
 
+More information at [[./requirements]]
+
 ===== Build =====
   * Run ''./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
