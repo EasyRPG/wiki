@@ -10,7 +10,7 @@
   * [[../readers/autotools|EasyRPG Readers library]]
 
 ===== Build =====
-  * Run ''./autogen.sh && ./configure CPPFLAGS=-DUNIX %%--%%with-readers=///PATH/TO/READERS/FOLDER%%/%%//build && make''
+  * Run ''./autogen.sh && ./configure CPPFLAGS=-D//UNIX// %%--%%with-readers=///PATH/TO/READERS/FOLDER///build && make''
 
 For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//_WIN32//'' if you are using Windows. See ''src/system.h'' file for details.
 
