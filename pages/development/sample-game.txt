@@ -10,7 +10,7 @@ To demonstrate the capabilities of EasyRPG, a "sample game" created by users of 
 
 ===== Requirements =====
 
-  * Use RPG Maker 2000 v1.51 in any language (more stable, 2003 can be used later using project import) while EasyRPG editor has not been completed yet. Don't use unofficial hacks or patches (power mode, 2009 ultimate...).
+  * Use RPG Maker 2000 v1.51 or 1.52 in any language (more stable, 2003 can be used later using project import) while EasyRPG editor has not been completed yet. Don't use unofficial hacks or patches (power mode, 2009 ultimate...).
   * Game should be in English (any translation will be done only once completed).
 
 ===== Best practices =====
