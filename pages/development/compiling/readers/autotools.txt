@@ -4,6 +4,7 @@
   * GNU Autoconf 2.68 or greater
   * GNU Automake 1.11 or greater
   * GNU iconv (already included in most distributions) (Not required for Windows)
+  * GNU Gettext development files (Required for iconv detecion)
   * Boost (Not required for Windows)
   * Expat (Will be optional since Readers 0.1)
 
