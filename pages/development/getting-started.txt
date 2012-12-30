@@ -4,7 +4,7 @@
 
 We want to interpret these systems, so you need to know how it works first. To study them you need RPG Maker 2000/2003 first. Original version is Japanese. There are some unofficial translations:
 
-Latest version of RPG Maker 2000 is 1.51:
+Latest version of RPG Maker 2000 is 1.52. Get 1.51 here:
 
 http://www.rpg-hacker.de/?page_id=71
 
