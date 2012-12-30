@@ -24,9 +24,9 @@ When you create a new project it will be in a new folder, containing this RPG Ma
   * MapXXXX.lmu (map and area files)
 Folders inside project folder are for material data.
 
-===== Understanding RGSS/RGSS2 =====
+===== Understanding RGSS/RGSS2/RGSS3 =====
 
-Next generation RPG Makers are RPG Maker XP and VX. This RPG Maker are officially translated into English. These RPG Makers feature scripting system, written in Ruby language. Most engine system is available in standard script sources. RGSS means Ruby Game Scripting System.
+Next generation RPG Makers are RPG Maker XP, VX and VX Ace. These RPG Makere are officially translated into English. They feature scripting system, written in Ruby language. Most engine system is available in standard script sources. RGSS means Ruby Game Scripting System.
 
 RPG Maker 200x internals works very closer like RPG Maker XP/VX, so learning and porting RGSS/2 class style to EasyRPG Player is how we are developing. You can press F11 in these rpg makers to open scripts editor.
 
