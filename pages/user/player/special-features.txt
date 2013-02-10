@@ -20,3 +20,7 @@ Encoding=####
 | Western European    | 1252 |  English games or games from most European countries |
 | Windows-1251    | 1251 | Russian games (with cyrillic letters)|
 | Shift-JIS    | 932     | Japanese games (with Hiragana, Katakana or Kanji) |
+
+===== Support for Japanese and English RTP =====
+
+It doesn't matter if you have the Japanese or the English RTP installed. The player will take care of loading the correct files for you, just make sure that the games encoding is set to the correct value.
