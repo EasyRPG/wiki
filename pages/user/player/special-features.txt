@@ -1,6 +1,6 @@
 ====== Special Features ======
 
-This site lists all changes that are different to the original RPG_RT.
+This site lists all features that are different to the original RPG_RT.
 
 ===== Support for games of any language =====
 
