@@ -1,0 +1,50 @@
+====== Runtime Package (RTP) ======
+
+EasyRPG does not provide a complete RTP yet, search the internet for the official RPG2000 and RPG2003 RTP.
+
+The RTP contains graphics and sounds that are used by many games. The better games usually don't need any files from the RTP.
+
+Depending on the operating system you have to take care on a few steps:
+
+==== Windows ====
+
+Just install the RTP using the official installer, the Player will automatically find it (by reading the Windows registry).
+
+==== Linux, MacOS and other systems ====
+
+The RTP is found by reading environment variables:
+
+  * ''RPG2K_RTP_PATH'': For the RPG2000 RTP
+  * ''RPG2K3_RTP_PATH'': For the RPG2003 RTP
+  * ''RPG_RTP_PATH'': For any RTP (fallback if 2k or 2k3 variable is missing)
+
+If your system does not support environment variables you can place the RTP in the folders ''/data/rtp/2000'' and ''/data/rtp/2003'' instead. 
+
+==== Wii ====
+
+Extract the RTP into ''/data/rtp/2000'' and ''/data/rtp/2003'' (SD and USB are supported).
+
+
+
+===== Support for games of any language =====
+
+The original RPG_RT has problems handling games from countries that use characters which are not in the current codepage of the system.
+
+Example: If you life in England your (Windows) system has the codepage for Western European (1252) set. With this codepage it's not possible to play Russian or Japanese games because their characters are not encoded in this codepage. This problem applies to all older applications that are not Unicode aware. Unicode is an encoding that provides a mapping for all characters used in the world.
+
+The EasyRPG Player is of course unicode aware but you have to hint him, what encoding the game uses. This is done by editing the RPG_RT.ini in the game folder and adding the following entry:
+
+''[EasyRPG]\\
+Encoding=####
+''
+
+#### must be replaced by a number that specifes the codepage:
+
+^ Name      ^ Number      ^ Use for      ^
+| Western European    | 1252 |  English games or games from most European countries |
+| Windows-1251    | 1251 | Russian games (with cyrillic letters)|
+| Shift-JIS    | 932     | Japanese games (with Hiragana, Katakana or Kanji) |
+
+===== Support for Japanese and English RTP =====
+
+It doesn't matter if you have the Japanese or the English RTP installed. The player will take care of loading the correct files for you, just make sure that the games encoding is set to the correct value.
