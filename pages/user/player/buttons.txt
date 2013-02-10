@@ -1,0 +1,14 @@
+====== Button mapping ======
+
+The buttons are mapped similiar to the original RPG_RT.
+
+Use the arrow keys to move around. Press Enter for actions (selecting menu items or talking to NPCs) and Escape to open the menu or to cancel actions or to go upwards in a menu.
+
+===== Special Keys =====
+
+  * F2 - Toggle FPS (Renders the current frames per second on screen, default is title bar)
+  * F5 - Toggle Zoom (1x and 2x)
+  * F4 - Fullscreen
+  * F10 - Take Screenshot (Saved in the game directory)
+  * F12 - Return to Title Screen
+  * CTRL - Walk through walls (TestGame mode only)
