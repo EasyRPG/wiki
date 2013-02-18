@@ -6,7 +6,7 @@
   * GNU iconv (already included in most distributions) (Not required for Windows)
   * GNU Gettext development files (Required for iconv detecion)
   * Boost (Not required for Windows)
-  * Expat (Will be optional since Readers 0.1)
+  * Expat (optional for XML reader support)
 
 More information at [[./requirements]]
 
