@@ -5,33 +5,65 @@
 ====EasyRPG Source Code====
 Kind of obvious as you can't compile something you haven't, check [[../../getting-sources|]] for more info.
 
-====Visual C++ 2010====
-You can find Visual Studio 2010 [[http://www.microsoft.com/visualstudio/en-us/|here]].
-You can find a free version of Visual C++ 2010 [[http://www.microsoft.com/express/|here]].
+====Visual C++ 2010/2012====
+You can find Visual Studio 2010 and 2012 on the [[http://www.microsoft.com/visualstudio/en-us/|Microsoft website]].
+Visual Studio Express is the free version.
 
 ====Precompiled libraries====
-EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a simple and quick installer with the needed dependencies.
+EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a [[
+https://github.com/Ghabry/easyrpg-win32-libs|git repository]] with needed dependencies (maintained by Ghabry).
 
-You can get the last version of the installer [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-02-29.msi|here]]. Install it and skip to [[#Compiling Player|Compiling Player]]. If Visual Studio was running during the installation you have to restart it!
+=== Compiling with Visual Studio 2010 ===
+To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute ''build_vs2010.cmd'' (the Command Prompt can be found in the start menu).
 
-Or, if you want a zipped file with all precompiled libs instead get [[http://easy-rpg.org/downloads/EasyRPG%20Dev%20MSVC%202011-02-29.zip|this]]. You will need to manually add the EASYDEV_MSVC enviroment variable and target the path where you place them.
+=== Compiling with Visual Studio 2012 ===
+''If you compiled using VS2010 you can skip this part.''
 
-====Getting the libraries====
+To compile open a Visual Studio Command Prompt (32 or 64 bit).
+
+The precompiled libraries are only tested with VS2010. Possible workarounds:
+
+  - Install Visual Studio 2010 too and follow the instructions above.
+  - Install the [[https://www.microsoft.com/en-us/download/details.aspx?id=8279|Windows 7.1 SDK]] and compile using ''build_vs2010 windows7.1sdk''
+  - Compile using ''build_vs2010 v110'', the libraries will be incompatible with Windows XP!
+  - Install [[https://www.microsoft.com/de-de/download/details.aspx?id=35774|Visual Studio 2012 Update 1]] and compile using ''build_vs2010 v110_xp'' (XP compatible toolset)
+
+=== After compiling ===
+The resulting files appear in vs2010.
+
+The boost ([[http://www.boost.org/]]) headers are not included because of their gigantic filesize. The boost folder must be placed in ''vs2010/include/boost''.
+
+You will need to manually add the EASYDEV_MSVC enviroment variable and target the path where you place them.
+
+To create new environment variables enter the "Windows Control Panel" and select "System" (or enter "environment variable" in the search field). Sometimes new environment variables are not detected. Logout and -in again in order to fix this.
+
+====Used libraries====
 ''If you are using the precompiled libraries you can skip this part.''
 
-You can get the needed libraries from the following pages:
-  * [[http://www.libsdl.org/download-1.2.php|SDL 1.2]], file SDL-devel-1.2.XX-VC8.zip (where XX is the current release number)
-  * [[http://www.libsdl.org/projects/SDL_image/|SDL Image 1.2]], file SDL_image-devel-1.2.XX-VC.zip (where XX is the current release number)
-  * [[http://www.libsdl.org/projects/SDL_mixer/|SDL Mixer 1.2]], file SDL_mixer-devel-1.2.XX-VC.zip (where XX is the current release number)
-  * [[http://www.libsdl.org/projects/SDL_ttf/|SDL TTF 2.0]], file SDL_ttf-devel-2.0.XX-VC.zip (where XX is the current release number)
-  * [[http://www.ferzkopp.net/joomla/content/view/19/14/|SDL GFX 2.0]], you will need to compile SDL GFX
+If you want to compile by yourself:
 
-You will need to adjust the project include directories for these libraries.
+  * DirectX SDK (February 2010)
+  * expat 2.1.0
+  * freetype 2.4.11
+  * libjpeg 9
+  * libmad 0.15.1b
+  * libmikmod 3.2.0
+  * libogg 1.3.0
+  * libpng 1.5.14
+  * libvorbis 1.3.3
+  * libvorbisfile 1.3.3 (included with libvorbis)
+  * native_midi (included with SDL_mixer)
+  * Pixman 0.28.2
+  * SDL 1.2.15
+  * SDL_image 1.2.12 (BMP, GIF, JPG, PNG support)
+  * SDL_mixer 1.2.12 (WAV, MOD, MP3, OGG and MID support)
+  * SDL_ttf 2.0.11
+  * zlib 1.2.7
 
 ===== Compiling Player =====
 
-You need to place the Readers library sources into the player lib/readers folder.
+You need to place the [[https://github.com/EasyRPG/Readers|Readers library]] sources into the player lib/readers folder.
 
-Open the solution file in player\builds\vs2010 , select the "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
+Open the solution file in ''player\builds\vs2010'', select "Debug" or "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
 
-The Player executable should be in the folder bin\testgame\Player.exe. If you are not using the precompiled libraries, and you have dinamically linked Player, you will need to place the required .dll in the same folder Player.exe is.
+The Player executable should be in the folder ''bin''. If you are not using the precompiled libraries, and you have dynamically linked Player, you will need to place the required .dll in the same folder Player.exe is.
