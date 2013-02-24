@@ -19,7 +19,7 @@ To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute ''buil
 === Compiling with Visual Studio 2012 ===
 ''If you compiled using VS2010 you can skip this part.''
 
-To compile open a Visual Studio Command Prompt (32 or 64 bit).
+To compile open a Visual Studio Command Prompt (32 or 64 bit). The Command Prompt can be found in the start menu.
 
 The precompiled libraries are only tested with VS2010. Possible workarounds:
 
@@ -33,7 +33,7 @@ The resulting files appear in vs2010.
 
 The boost ([[http://www.boost.org/]]) headers are not included because of their gigantic filesize. The boost folder must be placed in ''vs2010/include/boost''.
 
-You will need to manually add the EASYDEV_MSVC enviroment variable and target the path where you place them.
+You will need to manually add the EASYDEV_MSVC enviroment variable and target the path vs2010 otherwise the EasyRPG solution file can't find the libraries.
 
 To create new environment variables enter the "Windows Control Panel" and select "System" (or enter "environment variable" in the search field). Sometimes new environment variables are not detected. Logout and -in again in order to fix this.
 
