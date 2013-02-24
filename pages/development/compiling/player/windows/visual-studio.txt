@@ -21,7 +21,7 @@ To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute ''buil
 
 To compile open a Visual Studio Command Prompt (32 or 64 bit). The Command Prompt can be found in the start menu.
 
-The precompiled libraries are only tested with VS2010. Possible workarounds:
+The precompiled libraries are only tested with VS2010 and don't compile directly using VS2012. Possible workarounds:
 
   - Install Visual Studio 2010 too and follow the instructions above.
   - Install the [[https://www.microsoft.com/en-us/download/details.aspx?id=8279|Windows 7.1 SDK]] and compile using ''build_vs2010 windows7.1sdk''
