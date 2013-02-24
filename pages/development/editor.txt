@@ -10,8 +10,6 @@ The EasyRPG editor wants to be closer to the RPG Maker 200X interface but not id
 
 Editor depends on the design XML file format. Basic XML open/save feature is on the way for. Editor will not import directly RPG Maker 200x files, will use an external file converter.
 
-===== Current maintainers =====
+===== Current maintainer =====
 
-  * ''Francisco de la Peña''
   * ''Aitor García''
-  * ''Sebastian Reichel''
