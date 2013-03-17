@@ -17,19 +17,19 @@ https://github.com/Ghabry/easyrpg-win32-libs|git repository]] with needed depend
 To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute ''build_vs2010.cmd'' (the Command Prompt can be found in the start menu).
 
 ==== Known problems ====
-===== “Already defined” linker error =====
+==== “Already defined” linker error ====
 
 It happens because of because of standart C++ templates, that are released in Visual Studio libs and in additional UNIX libs too. So, you have to exclude one of them to use another.
 
 Just add one of them, go to Project Properties / Linker / Input / Ignore Specific Default Libraries and set ignoring LIBCMT.LIB.
 
-===== LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt =====
+=== LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt ===
 
 This error happens because of conflict of two versions of cvtres.exe if you have Visual Studio 1010 and 2012 isntalled on same PC. To fix it, go to the bin directory of Visual Studio 2010 (c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\ or something like this) and rename cvtres.exe to cvtres0.exe.
 
 It willn’t break linker of 2010,
 
-=== Compiling with Visual Studio 2012 ===
+== Compiling with Visual Studio 2012 ==
 ''If you compiled using VS2010 you can skip this part.''
 
 To compile open a Visual Studio Command Prompt (32 or 64 bit). The Command Prompt can be found in the start menu.
