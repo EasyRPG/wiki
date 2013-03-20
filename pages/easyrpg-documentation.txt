@@ -2,6 +2,10 @@
 
 This is the documentation wiki of the EasyRPG project.
 
+===== Users =====
+
+{{indexmenu>user|nojs dsort}}
+
 ===== Development =====
 
 {{indexmenu>development|nojs dsort}}
