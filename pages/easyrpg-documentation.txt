@@ -3,6 +3,7 @@
 This is the documentation wiki of the EasyRPG project.
 
 [[about]]
+[[faq]]
 
 ===== Users =====
 
@@ -11,8 +12,3 @@ This is the documentation wiki of the EasyRPG project.
 ===== Development =====
 
 {{indexmenu>development|nojs dsort}}
-
-===== FAQ =====
-
-[[faq]]
-
