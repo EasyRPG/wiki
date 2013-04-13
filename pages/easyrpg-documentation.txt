@@ -2,8 +2,8 @@
 
 This is the documentation wiki of the EasyRPG project.
 
-[[about]]
-[[faq]]
+  * [[about]]
+  * [[faq]]
 
 ===== Users =====
 
