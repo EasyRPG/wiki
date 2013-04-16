@@ -14,6 +14,3 @@ This is the documentation wiki of the EasyRPG project.
 {{indexmenu>development|nojs dsort}}
 
 
-===== Recent changes =====
-
-{{rss>https://easy-rpg.org/wiki/feed.php 10 author date 10m }}
