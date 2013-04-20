@@ -12,3 +12,5 @@ More information at [[./requirements]]
 
 ===== Build =====
   * Run ''./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
+
+After this, there will be a libreaders.a in the $PWD/build folder
