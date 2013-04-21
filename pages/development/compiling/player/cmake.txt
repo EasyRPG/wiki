@@ -2,14 +2,15 @@
 
 ===== Requirements =====
   * cmake-2.8 or greater
-  * EasyRPG reader
-  * OpenAL
-  * ffmpeg
-  * PNG
-  * SDL
-  * SDL_image
-  * SDL_ttf
-  * ZLib
+  * SDL 1.2
+  * SDL_mixer
+  * Freetype
+  * Pixman
+  * libpng
+  * libjpeg (with jpeg_mem_src)
+  * zlib
+  * boost
+  * [[../readers/cmake|EasyRPG Readers library]]
 
 ===== Build =====
   * Run "cmake ${PATH TO player/builds/cmake} && make".
