@@ -1,8 +1,0 @@
-My name: Joanne Peterson
-My age: 39
-Country: Italia
-Home town: Milano 
-ZIP: 20155
-Street: Via San Cosmo fuori Porta Nolana 90
-
-Look into my website - [[http://www.velocityruhr.net/wiki/index.php/Benutzer:ShariPHH|From Kuala Lumpur]]
