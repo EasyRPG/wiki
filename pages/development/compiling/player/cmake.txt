@@ -10,6 +10,10 @@
   * libjpeg (with jpeg_mem_src)
   * zlib
   * boost
+  * OpenAL
+  * Lua 5.1
+  * Ruby
+  * Doxygen
   * [[../readers/cmake|EasyRPG Readers library]]
 
 ===== Build =====
