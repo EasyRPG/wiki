@@ -22,7 +22,18 @@ For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//
 
 Example: ''./autogen.sh && ./configure CPPFLAGS=-DUNIX %%--%%with-readers=$PWD/../Readers/build && make''
 
+*Note:* If you use g++ compiler below 4.8, you need to pass -std=c++11 to CPPFLAGS, e.g.: CPPFLAGS='-DUNIX -std=c++11' or you will get a compiler error.
+
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
+
+===== Step by step setup for Debian based distros (Trisquel, Debian, Mint, Ubuntu...) =====
+
+  * Do the [[../readers/autotools]] setup first
+  * Open the Terminal application
+  * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
+  ''sudo apt-get -y install %%--%%no-install-recommends libsdl-mixer1.2-dev libpixman-1-dev libfreetype6-dev libjpeg8-dev && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure  CPPFLAGS='-DUNIX -std=c++11' %%--%%with-readers=$PWD/../Readers/build && make''
+  * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player setup is OK.
+  * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
 ===== Step by step setup for Fedora =====
 
