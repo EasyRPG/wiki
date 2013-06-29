@@ -23,3 +23,12 @@ For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//
 Example: ''./autogen.sh && ./configure CPPFLAGS=-DUNIX %%--%%with-readers=$PWD/../Readers/build && make''
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
+
+===== Step by step setup for Fedora =====
+
+  * Do the [[../readers/autotools]] setup first
+  * Open the Terminal application
+  * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
+  ''sudo yum -y install SDL_mixer-devel pixman-devel freetype-devel libpng-devel libjpeg-turbo-devel && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure  CPPFLAGS=-DUNIX %%--%%with-readers=$PWD/../Readers/build && make''
+  * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player setup is OK.
+  * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
