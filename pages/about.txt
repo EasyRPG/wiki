@@ -17,7 +17,7 @@ The Editor is an application with an user interface to design roleplaying games.
 It consists on:
 
   * A main **map editor** window where you can draw tile based maps
-  * A **database** window dialog where you can create or customize your characters, habilities, enemies, terrains, etc.
+  * A **database** window dialog where you can create or customize your characters, abilities, enemies, terrains, etc.
   * Window dialogs to edit map properties, trigger battles every steps on map, etc.
   * Window dialogs to add and manage map **events**, to handle commands for this events, display NPCs, messages etc.
 
