@@ -8,7 +8,7 @@
   * Freetype
   * Pixman
   * libpng
-  * libjpeg (with jpeg_mem_src)
+  * libjpeg
   * zlib
   * boost
   * [[../readers/autotools|EasyRPG Readers library]]
