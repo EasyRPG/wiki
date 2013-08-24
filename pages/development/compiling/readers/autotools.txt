@@ -35,7 +35,7 @@ Currently, this library is statically built by default. This is expected to be i
 
 ==== Requirements ====
 
-  * For Debian based (Trisquel, Debian, Mint, Ubuntu...), do ''sudo apt-get -y install libexpat1-dev''
+  * For Debian based (gNewSense, Trisquel, Debian, Mint, Ubuntu...), do ''sudo apt-get -y install libexpat1-dev''
   * For Fedora, do ''sudo yum -y install expat-devel''
 
 ==== Build ====
