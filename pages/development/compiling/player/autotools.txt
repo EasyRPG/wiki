@@ -24,7 +24,7 @@ Example: ''./autogen.sh && ./configure CPPFLAGS=-DUNIX %%--%%with-readers=$PWD/.
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
 
-===== Step by step setup for Debian based distros (Trisquel, Debian, Mint, Ubuntu...) =====
+===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Do the [[../readers/autotools]] setup first
   * Open the Terminal application
