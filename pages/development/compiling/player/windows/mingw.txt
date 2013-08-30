@@ -37,4 +37,4 @@ For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
   tar xf SDL_mixer-1.2.12.tar.gz
   tar xf zlib-1.2.8.tar.gz
 
-TODO Next steps will be based on http://www.tinc-vpn.org/examples/cross-compiling-64-bit-windows-binary/
+TODO Next steps will be based on http://www.tinc-vpn.org/examples/cross-compiling-64-bit-windows-binary/ and http://crosswinonlinux.blogspot.com/2010/07/custom-mingw-executable.html
