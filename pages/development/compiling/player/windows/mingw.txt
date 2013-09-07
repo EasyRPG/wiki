@@ -69,6 +69,7 @@ We need to call sed to remove -fforce-mem parameter as it has been removed since
 
   cd libmad-0.15.1b
   sed -i '/-fforce-mem/d' configure && ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared && make install
+  cd ..
 
 ==== Building SDL_mixer ====
 
@@ -76,3 +77,4 @@ PKG_CONFIG_PATH is the pkg-config alternative to sdl-config parameters.
 
   cd SDL_mixer-1.2.12
   ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared --disable-music-mod --disable-music-fluidsynth-midi --disable-music-ogg --disable-music-flac --disable-music-mp3 --enable-music-mp3-mad-gpl CPPFLAGS=-I$PWD/../i686-w64-mingw32/include LDFLAGS=-L$PWD/../i686-w64-mingw32/lib PKG_CONFIG_PATH=$PWD/../i686-w64-mingw32/lib/pkgconfig && make install
+  cd ..
