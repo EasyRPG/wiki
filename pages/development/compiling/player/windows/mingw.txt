@@ -78,3 +78,17 @@ PKG_CONFIG_PATH is the pkg-config alternative to sdl-config parameters.
   cd SDL_mixer-1.2.12
   ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared --disable-music-mod --disable-music-fluidsynth-midi --disable-music-ogg --disable-music-flac --disable-music-mp3 --enable-music-mp3-mad-gpl CPPFLAGS=-I$PWD/../i686-w64-mingw32/include LDFLAGS=-L$PWD/../i686-w64-mingw32/lib PKG_CONFIG_PATH=$PWD/../i686-w64-mingw32/lib/pkgconfig && make install
   cd ..
+
+==== Building FreeType ====
+
+Configure script is broken when detecting platform, it will detect unix and you will get an error when doing make install, but the library will be installed anyways.
+
+  cd freetype-2.5.0.1
+  ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared --without-bzip2 --without-png CPPFLAGS=-I$PWD/../i686-w64-mingw32/include LDFLAGS=-L$PWD/../i686-w64-mingw32/lib && make install
+  cd ..
+
+==== Building Expat ====
+
+  cd expat-2.1.0
+  ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared && make install
+  cd ..
