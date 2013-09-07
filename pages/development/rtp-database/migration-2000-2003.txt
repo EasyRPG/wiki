@@ -1,6 +1,6 @@
 ====== Migration (2000-2003) ======
 
-Oficially, the migration between 2000 and 2003 projects is not 100% compatible. You can convert RPG Maker 2000 games into RPG Maker 2003 with the exception of the battles. The battle scenes are different.
+Oficially, the migration between 2000 and 2003 projects is not 100% compatible. You can convert RPG Maker 2000 games into RPG Maker 2003 with the exception of the battles. Battle scenes are different.
 
 EasyRPG wants to be compatible with both RPG Makers and make battle systems compatible and interchangeable. The monster graphic creation, to be the less work and time consuming possible, should be made with each sprite pose valid for both front and side battles using only one sprite.
 
