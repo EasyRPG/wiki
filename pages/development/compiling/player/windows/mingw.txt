@@ -12,6 +12,7 @@ For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
 
   mkdir mingw
   cd mingw
+  wget http://download.sourceforge.net/boost/boost_1_54_0.tar.bz2
   wget http://download.sourceforge.net/expat/expat-2.1.0.tar.gz
   wget http://download.savannah.gnu.org/releases/freetype/freetype-2.5.0.1.tar.bz2
   wget http://download.sourceforge.net/libjpeg-turbo/libjpeg-turbo-1.3.0.tar.gz
@@ -24,6 +25,7 @@ For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
   wget http://libsdl.org/release/SDL-1.2.15.tar.gz
   wget http://libsdl.org/projects/SDL_mixer/release/SDL_mixer-1.2.12.tar.gz
   wget http://zlib.net/zlib-1.2.8.tar.gz
+  tar xf boost_1_54_0.tar.bz2
   tar xf expat-2.1.0.tar.gz
   tar xf freetype-2.5.0.1.tar.bz2
   tar xf libjpeg-turbo-1.3.0.tar.gz
@@ -92,3 +94,12 @@ Configure script is broken when detecting platform, it will detect unix and you 
   cd expat-2.1.0
   ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared && make install
   cd ..
+
+==== Building Boost ====
+
+Cross compiling boost is scary and painful. But don't worry, this recipe should work.
+
+  cd boost_1_54_0
+  echo "using gcc : 4.6 : i686-w64-mingw32-g++ ;" > tools/build/v2/user-config.jam
+  ./bootstrap.sh --without-icu
+  ./b2 toolset=gcc target-os=windows variant=release --prefix=$PWD/../i686-w64-mingw32 threading=multi threadapi=win32 link=static --without-mpi --without-python -sNO_BZIP2=1 --layout=tagged install
