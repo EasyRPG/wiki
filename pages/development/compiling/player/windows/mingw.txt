@@ -103,3 +103,4 @@ Cross compiling boost is scary and painful. But don't worry, this recipe should 
   echo "using gcc : 4.6 : i686-w64-mingw32-g++ ;" > tools/build/v2/user-config.jam
   ./bootstrap.sh --without-icu
   ./b2 toolset=gcc target-os=windows variant=release --prefix=$PWD/../i686-w64-mingw32 threading=multi threadapi=win32 link=static --without-mpi --without-python -sNO_BZIP2=1 --layout=tagged install
+  cd ..
