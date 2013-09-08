@@ -97,6 +97,14 @@ Configure script is broken when detecting platform, it will detect unix and you 
 
 ==== Building Boost ====
 
+At this moment we are using only header libraries, so we don't need really to build. If your time is precious 
+
+  cd boost_1_54_0
+  cp -R boost/ $PWD/i686-w64-mingw32/build
+  cd ..
+
+Ignore this text with strike.
+<del>
 Cross compiling boost is scary and painful. But don't worry, this recipe should work.
 
   cd boost_1_54_0
@@ -104,3 +112,4 @@ Cross compiling boost is scary and painful. But don't worry, this recipe should 
   ./bootstrap.sh --without-icu
   ./b2 toolset=gcc target-os=windows variant=release --prefix=$PWD/../i686-w64-mingw32 threading=multi threadapi=win32 link=static --without-mpi --without-python -sNO_BZIP2=1 --layout=tagged install
   cd ..
+</del>
