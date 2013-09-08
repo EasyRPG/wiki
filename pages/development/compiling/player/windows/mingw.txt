@@ -113,3 +113,17 @@ Cross compiling boost is scary and painful. But don't worry, this recipe should 
   ./b2 toolset=gcc target-os=windows variant=release --prefix=$PWD/../i686-w64-mingw32 threading=multi threadapi=win32 link=static --without-mpi --without-python -sNO_BZIP2=1 --layout=tagged install
   cd ..
 </del>
+
+===== Getting libreaders ======
+
+  wget https://easy-rpg.org/downloads/player/EasyRPG_Readers-0.1.1-src.zip
+  unzip EasyRPG_Readers-0.1.1-src.zip
+
+==== Building libreaders ====
+
+I did not run make dist and I used raw 0.1.1 tag download from git instead for upstream package, so you need to run autogen script to generate configure.
+
+  cd Readers-1.1.0
+  ./autogen.sh
+  ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --enable-xml CPPFLAGS=-I$PWD/../i686-w64-mingw32/include LDFLAGS=-L$PWD/../i686-w64-mingw32/lib && make install
+  cd ..
