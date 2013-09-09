@@ -1,4 +1,4 @@
-====== Cross compiling Player for Windows with MinGW-W64 ======
+====== Cross compiling Player from GNU/Linux for Windows with MinGW-W64 ======
 
 ** This is a work in progress document **
 
