@@ -92,7 +92,7 @@ Configure script is broken when detecting platform, it will detect unix and you 
 We are using only header libraries, so we don't need really to build boost, just we need to copy header files.
 
   cd boost_1_54_0
-  cp -R boost/ $PWD/i686-w64-mingw32/include
+  cp -R boost/ $PWD/../i686-w64-mingw32/include
   cd ..
 
 ===== Getting libreaders ======
