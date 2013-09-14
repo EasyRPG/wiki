@@ -17,7 +17,7 @@ More information at [[./requirements]]
 After this, there will be a libreaders.a in the $PWD/build folder
 
 Currently, this library is statically built by default. This is expected to be improved for better distro packaging (add support for libtool and pkg-config).
-===== Step by step setup for Debian based distros (Trisquel, Debian, Mint, Ubuntu...) =====
+===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
