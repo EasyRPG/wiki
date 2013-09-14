@@ -6,7 +6,7 @@
 
 For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
 
-  apt-get install mingw-w64 git bzip2 xz-utils build-essential
+  apt-get install mingw-w64 git bzip2 xz-utils make wget sed
 
 ===== Get requirements source packages =====
 
