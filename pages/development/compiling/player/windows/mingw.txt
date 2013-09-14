@@ -6,7 +6,7 @@
 
 For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
 
-  apt-get install mingw-w64
+  apt-get install mingw-w64 git bzip2 xz-utils build-essential
 
 ===== Get requirements source packages =====
 
@@ -97,14 +97,23 @@ We are using only header libraries, so we don't need really to build boost, just
 
 ===== Getting libreaders ======
 
-  wget https://easy-rpg.org/downloads/player/EasyRPG_Readers-0.1.1-src.zip
-  unzip EasyRPG_Readers-0.1.1-src.zip
+  git clone https://github.com/EasyRPG/Readers.git
 
 ==== Building libreaders ====
 
-I did not run make dist and I used raw 0.1.1 tag download from git instead for upstream package, so you need to run autogen script to generate configure.
-
-  cd Readers-1.1.0
+  cd Readers
   ./autogen.sh
   ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --enable-xml CPPFLAGS=-I$PWD/../i686-w64-mingw32/include LDFLAGS=-L$PWD/../i686-w64-mingw32/lib && make install
+  cd ..
+
+===== Getting LCF2XML =====
+
+  git clone https://github.com/EasyRPG/LCF2XML.git
+
+==== Building LCF2XML ====
+
+It's a simple main.cpp file, we use @g++@ directly
+
+  cd LCF2XML
+  i686-w64-mingw32-g++ src/main.cpp -I $PWD/../i686-w64-mingw32/include -L $PWD/../i686-w64-mingw32/lib -lreaders -lexpat -static -o lcf2xml.exe
   cd ..
