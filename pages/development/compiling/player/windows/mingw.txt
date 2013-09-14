@@ -112,7 +112,7 @@ We are using only header libraries, so we don't need really to build boost, just
 
 ==== Building LCF2XML ====
 
-It's a simple main.cpp file, we use @g++@ directly
+It's a simple main.cpp file, we use ''g++'' directly
 
   cd LCF2XML
   i686-w64-mingw32-g++ src/main.cpp -I $PWD/../i686-w64-mingw32/include -L $PWD/../i686-w64-mingw32/lib -lreaders -lexpat -static -o lcf2xml.exe
