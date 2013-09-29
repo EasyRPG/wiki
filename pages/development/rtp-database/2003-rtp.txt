@@ -192,10 +192,10 @@ Battle weapon sprites. 1 PNG file. 144x384px.
 Map sprites. 15 PNG files. 288x256px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^
-| オブジェクト1 | monster1 |
-| オブジェクト2 | monster2 |
-| モンスター1 | object1 |
-| モンスター2 | object2 |
+| オブジェクト1 | object1 |
+| オブジェクト2 | object2 |
+| モンスター1 | monster1 |
+| モンスター2 | monster2 |
 | 一般1 | char1 |
 | 一般2 | char2 |
 | 一般3 | char3 |
