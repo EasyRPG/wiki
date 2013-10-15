@@ -24,7 +24,7 @@ See [[./rtp-replacement/contributions]].
 
 ===== RTP database =====
 
-Se [[./rtp-database]]
+See [[rtp-database]]
 
 ===== Current maintainers =====
 
