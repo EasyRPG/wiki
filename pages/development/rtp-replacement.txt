@@ -20,7 +20,7 @@ RTP documentation tasks to do:
 
 ===== RTP replacement contributions =====
 
-See [[rtp-replacement/contributions]].
+See [[./rtp-replacement/contributions]].
 
 ===== RTP database =====
 
