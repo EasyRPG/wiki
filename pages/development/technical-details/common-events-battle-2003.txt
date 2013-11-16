@@ -1,0 +1,101 @@
+====== Behavior of Common Events Called in RPG Maker 2003 Battle ======
+
+Backup from https://web.archive.org/web/20080325201903/http://www.phylomortis.com/html/battlece.html
+
+In RPG Maker 2003, common events can be called in battle. However, the behavior of some of the events is abnormal. The following table describes the effect of each event when called in battle. "Normal" means it has the effect you would expect. Otherwise, the actual effect will be described.
+
+This list is current as of RPG Maker 2003 version 1.09. Some events did not behave as described in earlier versions.
+
+^ Event Command ^ Behavior ^
+| Message | Normal |
+| Message Display Options | * This command will change the message style for non-battle messages, but battle messages are always displayed at the top of the screen and cannot be made transparent |
+| Face Graphics | Normal |
+| Show Choices | Normal |
+| Input Number | Normal |
+| Switch Operations | Normal |
+| Variable Operations | Normal |
+| Timer Operations | * Normal, but when starting the timer with "show timer onscreen" checked and "timer runs during battle" unchecked, it may look like the command was unsuccessful. It works, but with these conditions, won't give any overt confirmation of its success until the battle is over |
+| Change Money | Normal |
+| Item Management | Normal |
+| Change Party | Normal |
+| Change Experience Points | Normal |
+| Change Character Level | Normal |
+| Change Character Base Statistics | Normal |
+| Change Skills | Normal |
+| Change Equipped Items | Normal |
+| Change Character HP | Normal |
+| Change Character MP | Normal |
+| Change Character Condition | Normal |
+| Complete Healing | Normal |
+| Simulated Enemy Attack | Normal |
+| Change Hero Name | Normal |
+| Change Hero Title | Normal |
+| Change Sprite Association | Normal |
+| Change Face Association | Normal |
+| Change Vehicle Graphic | Normal |
+| Change System BGM | * Normal, except that if the system BGM for battle is changed, the new battle music will not begin playing immediately, though it will at the beginning of the next battle |
+| Change System Sound Effects | Normal |
+| Change System Graphics | Normal |
+| Set Screen Transitions | Normal |
+| Enemy Encounter | * Crashes the game |
+| Open Shop Window | * The shop will be shown, but when the shop screen is closed, the battle ends with the battle music still playing |
+| Show Inn Message | Normal |
+| Enter Hero Name | * The Enter Hero Name screen is shown, but due to a font compatibility issue, Enter Hero Name doesn't work properly when running RM2K3 on English-language systems. Therefore, it cannot be tested fully |
+| Teleport | * The teleport is shown briefly, and then the battle resumes normally |
+| Memorize Position | Normal |
+| Recall to Memorized Position | * The same result as Teleport, described above |
+| Enter or Exit Vehicle | * Ignored |
+| Set Vehicle Start Position | Normal |
+| Change Event Location | * The event with the ID you specify on the map where the battle is taking place is moved to the location you specify. Although it works, it's impractical in most circumstances |
+| Trade Two Event Locations | * Similar to "Set Event Location" |
+| Set Terrain ID | * Operates on the map where the battle is taking place |
+| Store Event ID | * Operates on the map where the battle is taking place |
+| Hide Screen | Normal |
+| Show Screen | Normal |
+| Tint Screen | Normal |
+| Flash Screen | Normal |
+| Shake Screen | Normal |
+| Pan Screen | * The operation occurs on the map after the battle concludes |
+| Weather Effects | Normal |
+| Show Picture | * The picture is shown on the map where the battle took place at the end of the battle |
+| Move Picture | * If a picture corresponding to the picture number to be moved is displayed on the map where the battle took place at the end of the battle, the move operation is performed on that picture at the end of the battle |
+| Erase Picture | * If a picture corresponding to the picture number to be erased is displayed on the map where the battle took place at the end of the battle, the erasure is performed on that picture at the end of the battle |
+| Show Battle Animation | * Note that this is the map event version, so it cannot be used to show battle animations on the battle screen itself. The end result is that the battle animation will not be shown |
+| Hero Sprite Transparency | Normal |
+| Flash Sprite | * Ignored |
+| Move Event | * The event with the ID you specify is moved on the map where the battle took place at the end of the battle. Only one move event can be pending in this way |
+| Proceed with Movement | * Ignored |
+| Halt All Movement | * Ignored |
+| Wait | * Waiting for a specific amount of time works normally, but "wait until key pressed" will cause the battle to freeze |
+| Play BGM | Normal |
+| Fade BGM | Normal |
+| Memorize BGM | Normal |
+| Play Memorized BGM | Normal |
+| Play Sound Effect | Normal |
+| Play Movie | * The movie plays after the battle. |
+| Key Input Processing | * When not using the "wait until key pressed" option, it works normally. However, if you try to detect a key pressed with this option checked, the battle will freeze |
+| Change Map Tileset | * The change takes place on the map where the battle took place |
+| Change Parallax Background | * The change takes place on the map where the battle took place |
+| Change Encounter Rate | * The change takes place on the map where the battle took place |
+| Tile Substitution | * The change takes place on the map where the battle took place |
+| Teleport Target Management | Normal |
+| Allow/Disallow Teleport | Normal |
+| Set Escape Target | Normal |
+| Allow/Disallow Escape | Normal |
+| Open Save Menu | * The save menu is shown normally. However, when the save menu is closed, the battle ends with the battle music still playing |
+| Allow/Disallow Saving | Normal |
+| Open Main Menu | * The menu is shown normally. However, when the menu is closed, the battle ends with the battle music still playing |
+| Allow/Disallow Main Menu | Normal |
+| Conditional Branch | Normal |
+| Label | Normal |
+| Jump to Label | Normal |
+| Loop | Normal |
+| Break out of Loop | Normal |
+| End Event Processing | Normal |
+| Erase Event | Normal |
+| Call Event | * Common Events are called normally. Map event calls are made to the event with the specified ID on the map where the battle is taking place. Even if a map event is called, it is treated as though it was a common event for this purpose. For instance, if a "show message" event is contained within the called map event, the message will be shown in the battle itself |
+| Insert Comment | -------------- |
+| Game Over | Normal |
+| Return to Title Screen | Normal |
+| Change Class | * Normal, but be aware that using this event command causes all the character's equipment to be unequipped, so some extra coding will be required to make it work smoothly in battle |
+| Change Battle Commands | Normal |
