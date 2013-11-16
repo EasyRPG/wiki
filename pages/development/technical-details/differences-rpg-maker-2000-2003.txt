@@ -1,4 +1,6 @@
- What's new in RPG Maker 2003 that wasn't present in RPG Maker 2000
+====== What's new in RPG Maker 2003 that wasn't present in RPG Maker 2000 ======
+
+Backup from https://web.archive.org/web/20080323144634/http://www.phylomortis.com/html/rm2k3info.html
 
 Items marked in bold and in parentheses are changes that have been made to the program through patches. You need the latest version of the program in order to utilize them.
 
