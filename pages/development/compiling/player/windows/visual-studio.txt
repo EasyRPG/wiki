@@ -80,4 +80,4 @@ If you got the libraries from other sources make sure that their runtime library
 
 Press compile again, then linking should succeed, if not:
 
-This error happens because of conflict of two versions of cvtres.exe if you have Visual Studio 1010 and 2012 installed on same PC. To fix it, go to the bin directory of Visual Studio 2010 (usually C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\) and rename cvtres.exe to cvtres0.exe. It will not break the linker of 2010.
+This error happens because of conflict of two versions of cvtres.exe if you have Visual Studio 2010 and 2012 installed on same PC. To fix it, go to the bin directory of Visual Studio 2010 (usually C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\) and rename cvtres.exe to cvtres0.exe. It will not break the linker of 2010.
