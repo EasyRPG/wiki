@@ -7,8 +7,7 @@
 ===== Libraries =====
 
 ==== Required ====
-  * libiconv for the character set detection and UTF-8 conversion (not required for Windows).
-  * Boost for specific iconv fixes (not required for Windows).
+  * libiconv for the character set detection and UTF-8 conversion (not required for Windows) (not required for most unix with gnu libc).
 
 ==== Optional ====
   * Expat for XML reading support.
