@@ -12,7 +12,7 @@
   * boost
   * OpenAL
   * Ruby
-  * Doxygen
+  * Doxygen (optional)
   * [[../readers/cmake|EasyRPG Readers library]]
 
 ===== Build =====
