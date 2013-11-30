@@ -11,7 +11,6 @@
   * zlib
   * boost
   * OpenAL
-  * Lua 5.1
   * Ruby
   * Doxygen
   * [[../readers/cmake|EasyRPG Readers library]]
