@@ -5,7 +5,6 @@
   * GNU Automake 1.11 or greater
   * GNU iconv (already included in most distributions) (Not required for Windows)
   * GNU Gettext development files (Required for iconv detecion)
-  * Boost (Not required for Windows)
   * Expat (optional for XML reader support)
 
 More information at [[./requirements]]
@@ -21,14 +20,14 @@ Currently, this library is statically built by default. This is expected to be i
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo apt-get -y install %%--%%no-install-recommends git make automake g++ gettext libboost-dev && mkdir EasyRPG && cd EasyRPG && git clone https://github.com/EasyRPG/Readers.git && cd Readers && ./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
+  ''sudo apt-get -y install %%--%%no-install-recommends git make automake g++ gettext && mkdir EasyRPG && cd EasyRPG && git clone https://github.com/EasyRPG/Readers.git && cd Readers && ./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Readers'' folder -> ''build'' folder -> ''lib'' folder. If there is a ''libreaders.a'' file inside, your Readers library setup is OK.
 
 ===== Step by step setup for Fedora =====
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo yum -y install git automake gettext-devel gcc-g++ boost-devel && mkdir EasyRPG && cd EasyRPG && git clone https://github.com/EasyRPG/Readers.git && cd Readers && ./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
+  ''sudo yum -y install git automake gettext-devel gcc-g++ && mkdir EasyRPG && cd EasyRPG && git clone https://github.com/EasyRPG/Readers.git && cd Readers && ./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Readers'' folder -> ''build'' folder -> ''lib'' folder. If there is a ''libreaders.a'' file inside, your Readers library setup is OK.
 
 ===== Enable XML reading support (required if you want to use LCF2XML) =====
