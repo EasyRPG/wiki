@@ -1,8 +1,7 @@
 ====== Building Player with GNU Build System ======
 
 ===== Requirements =====
-  * Autoconf
-  * Automake
+  * Make
   * SDL 1.2
   * SDL_mixer
   * Freetype
@@ -13,13 +12,15 @@
   * [[../readers/autotools|EasyRPG Readers library]]
 
 ===== Build =====
-  * Run ''./autogen.sh && ./configure CPPFLAGS=-D//UNIX// %%--%%with-readers=///PATH/TO/READERS/FOLDER///build && make''
+  * Run ''./configure --prefix=$PWD CPPFLAGS=-D//UNIX// %%--%%with-readers=///PATH/TO/READERS/FOLDER///build && make''
+./configure --prefix=/home/jenkins/workspace/player-linux CPPFLAGS=-DUNIX CXXFLAGS=-I/home/jenkins/workspace/player-linux/../readers-linux/build/include LDFLAGS=-L/home/jenkins/workspace/player-linux/../readers-linux/build/lib && make && make install
+ LIBS=-lexpat -lreaders
 
 For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//_WIN32//'' if you are using Windows. See ''src/system.h'' file for details.
 
 %%--%%with-readers must be an absolute path to the folder containing include and lib folders where the headers and ''libreaders.a'' are placed. A tip to use relative path using $PWD: ''%%--%%with-readers=$PWD///whatever//''
 
-Example: ''./autogen.sh && ./configure CPPFLAGS=-DUNIX %%--%%with-readers=$PWD/../Readers/build && make''
+Example: ''./configure CPPFLAGS=-DUNIX %%--%%with-readers=$PWD/../Readers/build && make''
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
 
