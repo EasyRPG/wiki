@@ -28,7 +28,7 @@ If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//
 
 Note: for Trisquel, replace the following words in the text above: ''libboost-dev'' with ''libboost1.48-dev''
 
-Note: if you compiled readers with '%%--%%enable-xml' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
+Note: if you compiled readers with ''%%--%%enable-xml'' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
 
 ===== Step by step setup for Fedora =====
 
