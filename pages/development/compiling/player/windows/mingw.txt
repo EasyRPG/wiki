@@ -14,7 +14,7 @@ For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
   cd mingw
   wget http://download.sourceforge.net/boost/boost_1_55_0.tar.bz2
   wget http://download.sourceforge.net/expat/expat-2.1.0.tar.gz
-  wget http://download.savannah.gnu.org/releases/freetype/freetype-2.5.1.tar.bz2
+  wget http://download.savannah.gnu.org/releases/freetype/freetype-2.5.2.tar.bz2
   wget http://download.sourceforge.net/libpng/libpng-1.6.7.tar.xz
   wget ftp://ftp.mars.org/pub/mpeg/libmad-0.15.1b.tar.gz
   wget http://cairographics.org/releases/pixman-0.30.2.tar.gz
@@ -23,7 +23,7 @@ For Debian based distros (gNewSense, Trisquel, Debian, Ubuntu, Mint):
   wget http://zlib.net/zlib-1.2.8.tar.gz
   tar xf boost_1_55_0.tar.bz2
   tar xf expat-2.1.0.tar.gz
-  tar xf freetype-2.5.1.tar.bz2
+  tar xf freetype-2.5.2.tar.bz2
   tar xf libpng-1.6.7.tar.xz
   tar xf libmad-0.15.1b.tar.gz
   tar xf pixman-0.30.2.tar.gz
@@ -77,7 +77,7 @@ PKG_CONFIG_PATH is the pkg-config alternative to sdl-config parameters.
 
 Configure script is broken when detecting platform, it will detect unix and you will get an error when doing make install, but the library will be installed anyways.
 
-  cd freetype-2.5.1
+  cd freetype-2.5.2
   ./configure --host=i686-w64-mingw32 --prefix=$PWD/../i686-w64-mingw32 --disable-shared --without-bzip2 --without-png CPPFLAGS=-I$PWD/../i686-w64-mingw32/include LDFLAGS=-L$PWD/../i686-w64-mingw32/lib && make install
   cd ..
 
