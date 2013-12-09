@@ -11,7 +11,7 @@ More information at [[./requirements]]
 
 ===== Build =====
 
-  * Run ''./configure && make && SUDO make install''
+  * Run ''./configure && make && sudo make install''
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
