@@ -11,7 +11,7 @@ More information at [[./requirements]]
 
 ===== Build =====
 
-  * Run ''./autogen.sh && ./configure %%--%%prefix=$PWD/build && make && make install''
+  * Run ''./configure %%--%%prefix=$PWD/build && make && make install''
 
 After this, there will be a libreaders.a in the $PWD/build folder
 
@@ -41,4 +41,4 @@ Currently, this library is statically built by default. This is expected to be i
 
 If you already have built the library, you might clean library building files before compiling again.
 
-  * Run ''./autogen.sh && ./configure %%--%%prefix=$PWD/build %%--%%enable-xml && make && make install''
+  * Run ''./configure %%--%%prefix=$PWD/build %%--%%enable-xml && make && make install''
