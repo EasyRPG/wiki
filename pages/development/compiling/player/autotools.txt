@@ -39,4 +39,4 @@ Note: if you compiled readers with '%%--%%enable-xml' then replace ''LIBS=-lread
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player setup is OK.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
-Note: if you compiled readers with '%%--%%enable-xml' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
+Note: if you compiled readers with ''%%--%%enable-xml'' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
