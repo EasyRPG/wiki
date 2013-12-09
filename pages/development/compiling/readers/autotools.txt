@@ -11,9 +11,7 @@ More information at [[./requirements]]
 
 ===== Build =====
 
-  * Run ''./configure %%--%%prefix=$PWD/build && make && make install''
-
-After this, there will be a libreaders.a in the $PWD/build folder
+  * Run ''./configure && make && SUDO make install''
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
