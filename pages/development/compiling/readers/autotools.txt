@@ -14,8 +14,6 @@ More information at [[./requirements]]
   * Run ''./configure %%--%%prefix=$PWD/build && make && make install''
 
 After this, there will be a libreaders.a in the $PWD/build folder
-
-Currently, this library is statically built by default. This is expected to be improved for better distro packaging (add support for libtool and pkg-config).
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
