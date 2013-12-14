@@ -30,7 +30,7 @@ Note: for Trisquel, replace the following words in the text above: ''libboost-de
 
 Note: if you compiled readers with ''%%--%%enable-xml'' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
 
-Note: For Debian 7 will need SDL2 and SDL2_mixer packages from testing (jessie) or replace ''libsdl2-mixer-dev'' with ''libsdl-mixer1.2-dev'' (fallback to SDL 1.2).
+Note: For Trisquel and Debian 7 will need SDL2 and SDL2_mixer packages from testing (jessie) or replace ''libsdl2-mixer-dev'' with ''libsdl-mixer1.2-dev'' (fallback to SDL 1.2).
 
 ===== Step by step setup for Fedora =====
 
