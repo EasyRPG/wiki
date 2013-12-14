@@ -2,8 +2,8 @@
 
 ===== Requirements =====
   * cmake-2.8 or greater
-  * SDL 1.2
-  * SDL_mixer
+  * SDL2
+  * SDL2_mixer
   * Freetype
   * Pixman
   * libpng
