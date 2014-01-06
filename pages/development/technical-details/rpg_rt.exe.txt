@@ -50,3 +50,9 @@ Running RPG_RT.exe with BattleTest, RPG_RT.ldb amending temporarily to launch th
 In the end RPG_RT.ldb also keeps information from the last test of the game, but then RPG2000.exe not reload the form with such data. WhoopA has properly documented and will be explained in paragraph formatting LDB. That is why in launching the test is not passed any additional parameter for the command line apart from ''BattleTest x x n'' simply because those data are stored in the LDB.
 
 If data chunk does not exist in LDB yet and somebody launches BattleTest from a shortcut (will never happen this from editor) RPG_RT will use default LDB values (initial levels and default equipment).
+
+===== Behavior after renaming RPG_RT.exe =====
+
+When ''RPG_RT.exe'' is renamed, e.g.: ''Game.exe'', the ''GameTitle'' will be read from ''Game.ini'' and FullPackageFlag will be read from RPG_RT.ini.
+
+Then, if you want to rename the executable and make the game RTP independent you need to have both Game.ini and RPG_RT.ini in the same folder with the corresponding parameters.
