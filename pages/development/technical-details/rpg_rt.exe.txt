@@ -53,6 +53,6 @@ If data chunk does not exist in LDB yet and somebody launches BattleTest from a 
 
 ===== Behavior after renaming RPG_RT.exe =====
 
-When ''RPG_RT.exe'' is renamed, e.g.: ''Game.exe'', the ''GameTitle'' will be read from ''Game.ini'' and FullPackageFlag will be read from RPG_RT.ini.
+When ''RPG_RT.exe'' is renamed, e.g.: ''Game.exe'', the ''GameTitle'' will be read from ''Game.ini'' and ''FullPackageFlag'' will be read from ''RPG_RT.ini''.
 
-Then, if you want to rename the executable and make the game RTP independent you need to have both Game.ini and RPG_RT.ini in the same folder with the corresponding parameters.
+Then, if you want to rename the executable and make the game RTP independent you need to have both ''Game.ini'' and ''RPG_RT.ini'' in the same folder with the corresponding parameters.
