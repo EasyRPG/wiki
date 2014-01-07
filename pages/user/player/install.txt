@@ -8,6 +8,8 @@ Extract the binary into the game folder and execute it. It behaves the same as R
 
 If you want to install the official (propietary) RTP of RPG Maker 2000 and 2003 you need to install WINE.
 
+Once WINE is installed you can download the RTP files as follows:
+
 ==== Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from Tkool web ====
 
 This website is written in Japanese only. Scroll down to the bottom of these files and click over the long blue button to download the RTP files for each as follows:
@@ -30,5 +32,3 @@ This website is written in Japanese only. Scroll down to the bottom of these fil
   - Inside this folder, select and unpack the file "RPG2003RTP.exe".
   - From a terminal window, go to the working folder where the RPG2000RTP.exe file has been unpacked, then run: ''LANG=ja_JP.UTF-8 wine RPG2003RTP.exe''
   - WINE will run the RPG Maker 2003 RTP installation. Click the Next > button several times to finish the RTP installation.
-
-Once WINE is installed, 
