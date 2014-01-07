@@ -18,7 +18,9 @@ For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
 
-If you don't want to use WINE to check RTP installation you can remove the ''-D//HAVE_WINE//'' part.
+For most games, you will need to have installed the RTP. To install RTP in UNIX you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[user/player/install]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
+
+If you don't want to use WINE to check RTP installation you can remove the ''-D//HAVE_WINE//'' part. To set up RTP folders by hand, read [[/user/player/rtp]] to do it.
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
   * Do the [[../readers/autotools]] setup first
   * Open the Terminal application
