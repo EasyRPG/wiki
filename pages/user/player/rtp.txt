@@ -1,8 +1,8 @@
 ====== Runtime Package (RTP) ======
 
-EasyRPG does not provide a complete RTP yet, however you can use official RPG Maker 2000 and 2003 RTPs in the meanwhile.
-
 The RTP contains graphics and sounds that are used by many games. The better games usually don't need any files from the RTP.
+
+EasyRPG does not provide a complete RTP yet, however you can use official RPG Maker 2000 and 2003 RTPs in the meanwhile.
 
 ===== Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from Tkool web =====
 
