@@ -30,7 +30,7 @@ Just install the RTP using the official installer, the Player will automatically
 
 IMPORTANT: Official installers are Japanese only and they are not Unicode. This means you will need to run them in a Windows Japanese environment or the installation won't work properly. You can do this with ease with LocaleEmulator: http://i.watashi.me/archives/locale-emulator.html
 
-==== Linux, MacOS and other systems ====
+==== Linux, Mac OS X and other systems ====
 
 === Windows-like RTP setup with WINE ===
 
