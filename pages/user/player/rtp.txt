@@ -11,7 +11,7 @@ This website is written in Japanese only. Scroll down to the bottom of these fil
 ==== For the 2000 RTP ====
 
   - Browse to http://tkool.jp/support/download/rpg2000/rtp
-  - Scroll down to the bottom and clock over the long blue botton with the text "RPGツクール2000 RTPのダウンロード"
+  - Scroll down to the bottom and click over the long blue botton with the text "RPGツクール2000 RTPのダウンロード"
   - Download the zip file and open it with your default archive manager.
   - Inside the archive manager, enter into the folder "RTP¾¯Ä±¯Ìß" (shift JIS not converted to UTF-8).
   - Inside this folder, select and unpack the file "RPG2000RTP.exe".
