@@ -18,7 +18,7 @@ This website is written in Japanese only. Scroll down to the bottom of these fil
 
 ==== For the 2003 RTP ====
 
-  - Same as above but replace all 2000 with 2003, including the url: http://tkool.jp/support/download/rpg2003/rtp
+  - Same as above but replace all 2000 with 2003, including the link: http://tkool.jp/support/download/rpg2003/rtp
 
 ===== Operating system specific considerations =====
 
