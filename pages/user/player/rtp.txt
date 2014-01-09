@@ -28,7 +28,7 @@ Depending on the operating system you have to take care on a few steps:
 
 Just install the RTP using the official installer, the Player will automatically find it (by reading the Windows registry).
 
-IMPORTANT: Official installers are Japanese only and they are not Unicode. This means you will need to run them in a Windows Japanese environment or the installation won't work properly. You can do this with ease with LocaleEmulator: http://i.watashi.me/archives/locale-emulator.html
+IMPORTANT: Official installers are Japanese only and they are not Unicode. This means you will need to run them in a Windows Japanese environment or the installation won't work properly. You can do this with ease with LocaleEmulator: http://i.watashi.me/archives/locale-emulator.html with Windows 7 or later. For older Windows (XP/2003) you can use AppLocale: http://www.microsoft.com/en-us/download/details.aspx?id=13209
 
 ==== Linux, Mac OS X and other systems ====
 
