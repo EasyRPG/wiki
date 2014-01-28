@@ -26,7 +26,7 @@ If you don't want to use WINE to check RTP installation you can remove the ''-D/
   * Do the [[../readers/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo apt-get -y install %%--%%no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS=-DUNIX CXXFLAGS=-I$PWD/../Readers/build/include LDFLAGS=-L$PWD/../Readers/build/lib LIBS=-lreaders && make''
+  ''sudo apt-get -y install %%--%%no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../Readers/build/include LDFLAGS=-L$PWD/../Readers/build/lib LIBS=-lreaders && make''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
@@ -41,7 +41,7 @@ Note: For Trisquel and Debian 7 will need SDL2 and SDL2_mixer packages from test
   * Do the [[../readers/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel freetype-devel libpng-devel && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS=-DUNIX CXXFLAGS=-I$PWD/../Readers/build/include LDFLAGS=-L$PWD/../Readers/build/lib LIBS=-lreaders && make''
+  ''sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel freetype-devel libpng-devel && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../Readers/build/include LDFLAGS=-L$PWD/../Readers/build/lib LIBS=-lreaders && make''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player setup is OK.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
