@@ -43,20 +43,20 @@ To create new environment variables enter the "Windows Control Panel" and select
 If you want to compile by yourself:
 
   * DirectX SDK (February 2010)
-  * expat 2.1.0
-  * freetype 2.5.2
-  * libjpeg 9
-  * libmad 0.15.1b
-  * libmikmod 3.3.0
-  * libogg 1.3.0
-  * libpng 1.6.5
-  * libvorbis 1.3.3
-  * libvorbisfile 1.3.3 (included with libvorbis)
+  * expat
+  * freetype
+  * libjpeg
+  * libmad
+  * libmikmod
+  * libogg
+  * libpng
+  * libvorbis
+  * libvorbisfile (included with libvorbis)
   * native_midi (included with SDL_mixer)
-  * Pixman 0.28.2
-  * SDL 2.0.1
-  * SDL_mixer 2.0.1 (WAV, MOD, MP3, OGG and MID support)
-  * zlib 1.2.7
+  * Pixman
+  * SDL2
+  * SDL2_mixer (WAV, MOD, MP3, OGG and MID support)
+  * zlib
 
 ===== Compiling Player =====
 
