@@ -62,7 +62,7 @@ Is better to work on a new format because we can do anything without limitations
 
 Yes, but the first goal is to fully support RPG Maker 2000/2003 playing. The editor has less priority until the full emulation is done.
 
-The editor depends a lot of the player source code and it needs to be stabilized first, specially the RPG Maker file format reader.
+The editor depends a lot of the player source code and it needs to be stabilized first.
 
 ===== About the goals =====
 
