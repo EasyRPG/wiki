@@ -12,7 +12,7 @@ I am currently the main Player developer.
 
    * Audio, Graphical and Input classes
    * RPG classes
-   * Refactored Reader
+   * Refactored liblcf
    * Output, Filefinder
    * Other Scene_, Game_, Window_, etc classes
 
