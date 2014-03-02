@@ -1,0 +1,18 @@
+====== liblcf requirements ======
+
+===== Programs =====
+  * C++ compiler (G++, MSVC...).
+  * Make
+
+===== Libraries =====
+
+==== Required ====
+  * libiconv for the character set detection and UTF-8 conversion (not required for Windows) (not required for most unix with gnu libc).
+
+==== Optional ====
+  * Expat for XML reading support.
+
+===== Optional programs =====
+  * Doxygen to generate source code documentation.
+  * Graphviz to generate graphs with the dot program used by Doxygen.
+  * Python for the template source code regeneration.
