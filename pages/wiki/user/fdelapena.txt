@@ -2,25 +2,22 @@
 
 Hi, I'm Francisco de la Peña (fdelapena).
 
-Currently living in Barcelona, Spain. I can speak Spanish, Catalan and enough English to be here writing this.
+I live in Costa Rica. I can speak Spanish, Catalan and enough English to be here writing this.
 
-I have the role of EasyRPG project manager.
 
 ===== Currently maintaining =====
 
-I currently maintain the whole dedicated server, web server, project websites (main page, blog, wiki, forums, bugtracker...), project account on SourceForge and subversion accounts, IRC channel on FreeNode, etc.
+I currently maintain the whole dedicated server, web server, project websites (main page, blog, wiki, forums, bugtracker...), project account on GitHub, IRC channel on FreeNode, etc.
 
-I'm currently the maintainer of the RTP documentation project and developing the RTP database website.
+I help with project contributions and Linux port and autotools building maintenance.
 
-I'm maintaining the EasyRPG editor, too.
+===== Things I made =====
 
-===== Thinks I made =====
+I made porting tests of the EasyRPG player to the GP2X and OpenPandora. I made the first PSP port test, too. Also I made port testing of the very first EasyRPG editor (wx based) to Mac OS X.
 
-I made porting tests of the EasyRPG player to the GP2X and OpenPandora. I made the first PSP port test, too. Also I made port testing of the EasyRPG editor to Mac OS X.
+I made small contributions to the player and liblcf code, as some bugfixes, as the tile map reading bugs, completing undocumented LMT reader parts, implementing XYZ reader, cleaning warnings for GCC and MinGW, making initial project settings for CodeLite IDE, etc.
 
-I made small contributions to the player code, as some bugfixes, as the tile map reader bugs, completing undocumented LMT reader parts, implementing XYZ reader, cleaning warnings for GCC and MinGW, making initial project settings for CodeLite IDE, etc.
-
-I made initial EasyRPG Editor window layouts with wxGlade, resizable with automatic fit, and the class name and objects conventions.
+I made initial earlier EasyRPG Editor window layouts with wxGlade, resizable with automatic fit, and the class name and objects conventions.
 
 I made the four initial title images for the RTP replacements, using public domain stock images.
 
@@ -30,13 +27,11 @@ Use the discussion button if you want to drop me a message in the wiki.
 
 You can live chat with me via IRC, irc.freenode.net channel #easyrpg. My nickname there is fdelapena.
 
-If you use XMPP/Jabber, Google Talk or whatever just add: fdelapena_polinya_eu (replace the underscores with @ and .)
+If you use XMPP/Jabber, Google Talk or whatever just add: fran_fran_cr (replace the underscores with @ and .)
 
-Are you still a Windows Live (MSN) Messenger user? just add fdelapena@passport.com
+If you want to send me a line using email, try my address, is the same as XMPP/Jabber.
 
-If you want to send me a line using email, try my address, is the same as XMPP/Jabber. My Windows Live account does not have email.
-
-Microblogging? Try twitter.com/f_delapena and identi.ca/fdelapena
+Microblogging? Try twitter.com/fdelapena_cr and identi.ca/fdelapena
 
 ===== TODOs and random notes =====
 
