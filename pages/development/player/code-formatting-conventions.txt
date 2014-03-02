@@ -128,9 +128,7 @@ Variables should be lower case with underscores as word separators.
 ====Headers includes====
 ----
 Use the following format:
-<code cpp>////////////////////////////////////////////////////////////
-// Headers
-////////////////////////////////////////////////////////////
+<code cpp>
 #include "header1.h"
 #include "header2.h"</code>
 
@@ -143,7 +141,7 @@ And when possible use the following headers order:
   * Tools headers (e.g. output.h)
   * Backend/Multimedia headers (e.g. graphics.h)
   * Engine headers (e.g. game_character.h)
-  * Readers headers (e.g. lmu_reader.h)
+  * liblcf headers (e.g. lmu_reader.h)
 
 For each headers group alphabetically sort the includes.
 
@@ -156,33 +154,30 @@ Remember to copy (from any other existing file) the license header to all new cr
 
 ==Documentation==
 Use Doxygen like documentation, with the following format for functions:
-<code cpp>////////////////////////////////////////////////////////////
-/// Description of MyFunction.
-/// A more detailed description here.
-/// @param var1 : this is a description for var1
-/// @param var2 : this is a description for var2
-/// @return here goes a description for return value
-////////////////////////////////////////////////////////////
+<code cpp>/**
+ * Description of MyFunction.
+ * A more detailed description here.
+ * @param var1 : this is a description for var1
+ * @param var2 : this is a description for var2
+ * @return here goes a description for return value
+ */
 virtual int MyFunction(double var1, std::string var2);</code>
 
 With the exception of getters and setters:
-<code cpp>/// @return description of variable
+<code cpp>/** @return description of variable */
 int GetVariable();
 
-/// @param variable : description of variable
+/** @param variable : description of variable */
 void SetVariable(int variable);</code>
 
 And for variables:
-<code cpp>/// Description of example_variable.
+<code cpp>/** Description of example_variable. */
 std::string example_variable;</code>
 
 Remember to document only declarations and not implementations, i.e. in headers. An exception could be .cpp static functions or variables, if documenting is really necessary.
 
-==Separators==
-For organizing better .cpp files add <nowiki>////////////////////////////////////////////////////////////</nowiki> (60 slashes) between different functions. Normally constructors, the destructor, functions and their overloads, and all properties (getters and setters) should be separated in "groups" with these separators.
-
 ==Code descriptions==
-We prefer a global function description with Doxygen headers rather than inside the function descriptions. Only when code is really hard to follow, or there is something hardcoded then add some <nowiki>//</nowiki> comments explaining the situation. Do not add redundant comments, like actions that should be already understand easily.
+We prefer a global function description with Doxygen headers rather than inside the function descriptions. Only when code is really hard to follow, or there is something hardcoded then add some comments explaining the situation. Do not add redundant comments, like actions that should be already understand easily.
 
 ==Special comments==
 <code cpp>// TODO: what is left to do
