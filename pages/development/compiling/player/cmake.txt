@@ -13,7 +13,7 @@
   * OpenAL
   * Ruby
   * Doxygen (optional)
-  * [[../readers/cmake|EasyRPG Readers library]]
+  * [[../liblcf/cmake|liblcf]]
 
 ===== Build =====
   * Run "cmake ${PATH TO player/builds/cmake} && make".
