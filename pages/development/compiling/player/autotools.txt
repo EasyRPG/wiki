@@ -12,7 +12,7 @@
   * [[../liblcf/autotools|liblcf]]
 
 ===== Build =====
-  * Run ''./configure CPPFLAGS="-D//UNIX// -D//HAVE_WINE//" && make && make install''
+  * Run ''./configure CPPFLAGS="-D//UNIX// -D//HAVE_WINE//" LIBS=-llcf && make && make install''
 
 For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//_WIN32//'' if you are using Windows. See ''src/system.h'' file for details.
 
