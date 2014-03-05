@@ -60,7 +60,7 @@ If you want to compile by yourself:
 
 ===== Compiling Player =====
 
-You need to place the [[https://github.com/EasyRPG/Readers|Readers library]] sources into the player lib/readers folder.
+You need to place the [[https://github.com/EasyRPG/liblcf|liblcf]] sources into the player lib/liblcf folder.
 
 Open the solution file in ''player\builds\vs2010'', select "Debug" or "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
 
