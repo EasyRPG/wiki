@@ -9,7 +9,7 @@
   * libpng
   * zlib
   * boost
-  * [[../readers/autotools|EasyRPG Readers library]]
+  * [[../liblcf/autotools|liblcf]]
 
 ===== Build =====
   * Run ''./configure CPPFLAGS="-D//UNIX// -D//HAVE_WINE//" && make && make install''
@@ -23,26 +23,26 @@ For most games, you will need to have installed the RTP. To install RTP in UNIX 
 If you don't want to use WINE to check RTP installation you can remove the ''-D//HAVE_WINE//'' part. To set up RTP folders by hand, read [[/user/player/rtp]] to do it.
 
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
-  * Do the [[../readers/autotools]] setup first
+  * Do the [[../liblcf/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo apt-get -y install %%--%%no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../Readers/build/include LDFLAGS=-L$PWD/../Readers/build/lib LIBS=-lreaders && make''
+  ''sudo apt-get -y install %%--%%no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../liblcf/build/include LDFLAGS=-L$PWD/../liblcf/build/lib LIBS=-llcf && make''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
 Note: for Trisquel, replace the following words in the text above: ''libboost-dev'' with ''libboost1.48-dev''
 
-Note: if you compiled readers with ''%%--%%enable-xml'' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
+Note: if you compiled liblcf with ''%%--%%enable-xml'' then replace ''LIBS=-llcf'' with ''LIBS="-llcf -lexpat"''
 
 Note: For Trisquel and Debian 7 will need SDL2 and SDL2_mixer packages from testing (jessie) or replace ''libsdl2-mixer-dev'' with ''libsdl-mixer1.2-dev'' (fallback to SDL 1.2).
 
 ===== Step by step setup for Fedora =====
 
-  * Do the [[../readers/autotools]] setup first
+  * Do the [[../liblcf/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel freetype-devel libpng-devel && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../Readers/build/include LDFLAGS=-L$PWD/../Readers/build/lib LIBS=-lreaders && make''
+  ''sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel freetype-devel libpng-devel && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../liblcf/build/include LDFLAGS=-L$PWD/../liblcf/build/lib LIBS=-lliblcf && make''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player setup is OK.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
-Note: if you compiled readers with ''%%--%%enable-xml'' then replace ''LIBS=-lreaders'' with ''LIBS="-lreaders -lexpat"''
+Note: if you compiled liblcf with ''%%--%%enable-xml'' then replace ''LIBS=-llcf'' with ''LIBS="-llcf -lexpat"''
