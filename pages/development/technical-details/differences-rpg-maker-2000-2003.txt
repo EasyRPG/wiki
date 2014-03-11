@@ -6,7 +6,7 @@ Items marked in bold and in parentheses are changes that have been made to the p
 
   * Maximum level for heros is 99. Maximum HP is 9999. Maximum experience is 9999999.
   * **(Variables can now be up to seven digits, making the range -9999999 to 9999999.)**
-  * <del>**(MP3 files can now be used for music.)**</del> Same behavior since RPG Maker 2000 1.50 and RPG Maker 2003 1.05.
+  * <del>**(MP3 files can now be used for music.)**</del> This is not true. This is a new feature added in RPG Maker 2000 1.50 and made compatible since RPG Maker 2003 1.05. RPG Maker 2003 1.04 was not supporting MP3.
   * You can define classes.
   * Classes are defined the same way as heros, except that you can set a class's default battle commands (explained next). If a hero has a class, it supercedes his natural stats and skill progression.
   * You can edit a class's default battle commands. When you open the battle command editor, you give your battle command a name and a characteristic. The characteristics are as follows:
