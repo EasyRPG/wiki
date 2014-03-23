@@ -1,6 +1,6 @@
 ====== RPG_RT.exe technical details ======
 
-This is implemented in Player now, remains here for reference only.
+This is implemented in Player now (except the behavior after renaming executable), remains here for reference only.
 
 ===== Specifying the command line =====
 
