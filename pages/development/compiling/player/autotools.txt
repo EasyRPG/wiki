@@ -46,3 +46,13 @@ Note: For Trisquel and Debian 7 will need SDL2 and SDL2_mixer packages from test
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
 Note: if you compiled liblcf with ''%%--%%enable-xml'' then replace ''LIBS=-llcf'' with ''LIBS="-llcf -lexpat"''
+
+===== Installation on Arch Linux =====
+
+There is an [[https://aur.archlinux.org/packages/easyrpg-player-git/|AUR package]] available, you can use your favourite aur helper or download and use makepkg:
+
+''$ packer -S easyrpg-player-git''
+
+If you prefer a manual compilation, here is a screencast of the compilation procedure for liblcf and the player:
+
+https://asciinema.org/a/8393
