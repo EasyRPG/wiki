@@ -39,6 +39,12 @@ More information at [[./requirements]]
   make\\
   sudo make install''
 
+===== Installation on Arch Linux =====
+
+There is an [[https://aur.archlinux.org/packages/liblcf-git/|AUR package]] available, you can use your favourite aur helper or download and use makepkg:
+
+''$ packer -S liblcf-git''
+
 ===== Additional help =====
 
 Contact with us at https://webchat.freenode.net/?channels=easyrpg
