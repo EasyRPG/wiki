@@ -15,7 +15,7 @@ More information at [[./requirements]]
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo apt-get -y install %%--%%no-install-recommends git make automake g++ gettext libexpat1-dev\\
+  ''sudo apt-get -y install %%--%%no-install-recommends git make automake libtool g++ gettext libexpat1-dev\\
   mkdir EasyRPG\\
   cd EasyRPG\\
   git clone https://github.com/EasyRPG/liblcf.git\\
@@ -29,7 +29,7 @@ More information at [[./requirements]]
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo yum -y install git automake gettext-devel expat-devel gcc-g++\\
+  ''sudo yum -y install git automake libtool gettext-devel expat-devel gcc-g++\\
   mkdir EasyRPG\\
   cd EasyRPG\\
   git clone https://github.com/EasyRPG/liblcf.git\\
