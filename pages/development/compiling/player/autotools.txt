@@ -24,7 +24,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   ./configure
   make
 
-Once compiled, copy or symlink the ''easyrpg-player'' file into a game folder and run it from its folder with ''./easyrpg-player''
+Once compiled, copy or symlink the ''easyrpg-player'' file from the ''src/'' folder into a game folder (same place as ''RPG_RT.exe'') and run it from its folder with ''./easyrpg-player''
 ===== RTP support with WINE =====
 
 For most games, you will need to have installed the RTP. To install RTP in non-Windows systems you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[/user/player/rtp]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
