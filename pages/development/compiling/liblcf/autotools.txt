@@ -18,8 +18,9 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 ===== Build =====
 
   * Run:
-  ''./configure %%--%%prefix /usr\\
-  sudo make install''
+
+  ./configure %%--%%prefix /usr\\
+  sudo make install
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
