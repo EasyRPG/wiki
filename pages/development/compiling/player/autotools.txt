@@ -1,7 +1,9 @@
 ====== Building Player with GNU Build System ======
 
 ===== Requirements =====
+  * g++ or clang
   * Make
+  * pkg-config
   * SDL2 (or SDL 1.2, discouraged)
   * SDL2_mixer (or SDL_Mixer 1.2, discouraged)
   * Freetype
