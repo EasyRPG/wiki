@@ -9,8 +9,6 @@
   * GNU Gettext development files (Required for iconv detecion)
   * Expat (for XML reading support)
 
-More information at [[./requirements]]
-
 ===== Build =====
 
   * Run:
