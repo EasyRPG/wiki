@@ -5,9 +5,9 @@
   * make
   * pkg-config
   * libtool
+  * Expat
   * GNU iconv (already included in most distributions in libc) (Not required for Windows)
   * GNU Gettext development files (Required for iconv detecion)
-  * Expat (for XML reading support)
 
 ===== Requirements for building from git =====
   * git
