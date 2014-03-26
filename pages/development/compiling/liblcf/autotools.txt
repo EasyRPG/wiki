@@ -27,8 +27,7 @@ More information at [[./requirements]]
   git clone https://github.com/EasyRPG/liblcf.git\\
   cd liblcf\\
   autoreconf -i\\
-  ./configure\\
-  make\\
+  ./configure %%--%%prefix /usr\\
   sudo make install''
 
 ===== Step by step setup for Fedora =====
@@ -41,8 +40,7 @@ More information at [[./requirements]]
   git clone https://github.com/EasyRPG/liblcf.git\\
   cd liblcf\\
   autoreconf -i\\
-  ./configure\\
-  make\\
+  ./configure %%--%%prefix /usr\\
   sudo make install''
 
 ===== Installation on Arch Linux =====
