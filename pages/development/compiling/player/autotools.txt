@@ -19,7 +19,9 @@
 Run ''autoreconf -i'' to generate the ''configure'' script.
 
 ===== Build =====
-  * Run ''./configure && make''
+  * Run:
+  ''./configure\\
+  make''
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure'' and set the ''PKG_CONFIG_PATH'' to the path containing specific cross compiling toolchain versions of ''expat.pc'' and ''liblcf.pc'' files.
 
