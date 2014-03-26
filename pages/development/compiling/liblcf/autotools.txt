@@ -20,9 +20,6 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   * Run:
   ''./configure %%--%%prefix /usr\\
   sudo make install''
-
-If you want to cross compile with a specific gcc toolchain, pass ''--host=whatever'' to configure and set the ''PKG_CONFIG_PATH'' to the path containing specific cross compiling toolchain versions of ''expat.pc'' file and the proper ''%%--%%prefix'' value for the toolchain path.
-
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
