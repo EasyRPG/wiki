@@ -4,13 +4,13 @@
   * g++ or clang
   * make
   * pkg-config
+  * boost >= 1.48
+  * [[../liblcf/autotools|liblcf]]
+  * libpng
+  * Pixman
   * SDL2 (or SDL 1.2, discouraged)
   * SDL2_mixer (or SDL_Mixer 1.2, discouraged)
-  * Pixman
-  * libpng
   * zlib
-  * boost
-  * [[../liblcf/autotools|liblcf]]
 
 ===== Requirements for building from git =====
   * git
