@@ -12,7 +12,7 @@
   * [[../liblcf/autotools|liblcf]]
 
 ===== Build =====
-  * Run ''./configure && make install''
+  * Run ''./configure && make''
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
 
