@@ -4,6 +4,7 @@
   * g++ or clang
   * make
   * pkg-config
+  * libtool
   * GNU iconv (already included in most distributions in libc) (Not required for Windows)
   * GNU Gettext development files (Required for iconv detecion)
   * Expat (for XML reading support)
