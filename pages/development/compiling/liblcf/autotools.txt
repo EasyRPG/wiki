@@ -1,6 +1,7 @@
 ====== Building liblcf with GNU Build System ======
 
 ===== Requirements =====
+  * g++ or clang
   * make
   * pkg-config
   * GNU iconv (already included in most distributions in libc) (Not required for Windows)
