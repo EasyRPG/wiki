@@ -39,14 +39,15 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo yum -y install git automake libtool gettext-devel expat-devel gcc-g++\\
-  mkdir ~/EasyRPG\\
-  cd ~/EasyRPG\\
-  git clone https://github.com/EasyRPG/liblcf.git\\
-  cd liblcf\\
-  autoreconf -i\\
-  ./configure %%--%%prefix /usr\\
-  sudo make install''
+
+  sudo yum -y install git automake libtool gettext-devel expat-devel gcc-g++
+  mkdir ~/EasyRPG
+  cd ~/EasyRPG
+  git clone https://github.com/EasyRPG/liblcf.git
+  cd liblcf
+  autoreconf -i
+  ./configure --prefix /usr
+  sudo make install
 
 ===== Installation on Arch Linux =====
 
