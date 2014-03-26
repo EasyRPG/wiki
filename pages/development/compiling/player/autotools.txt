@@ -54,7 +54,7 @@ This feature is not built by default yet because it requires Boost Spirit and it
   autoreconf -i\\
   ./configure CPPFLAGS=-DHAVE_WINE\\
   make''
-  * Go to your Files application and browse into EasyRPG folder → Player folder → src folder. If there is a easyrpg-player file inside, your Player executable has been successfully built.
+  * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
 ===== Installation on Arch Linux =====
