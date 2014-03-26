@@ -53,7 +53,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 
 There is an [[https://aur.archlinux.org/packages/liblcf-git/|AUR package]] available, you can use your favourite aur helper or download and use makepkg:
 
-''$ packer -S liblcf-git''
+  $ packer -S liblcf-git
 
 ===== Additional help =====
 
