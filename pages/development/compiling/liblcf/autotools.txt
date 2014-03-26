@@ -9,6 +9,12 @@
   * GNU Gettext development files (Required for iconv detecion)
   * Expat (for XML reading support)
 
+===== Requirements for building from git =====
+  * git
+  * autoconf >= 2.69
+  * automake
+Run ''autoreconf -i'' to generate the ''configure'' script.
+
 ===== Build =====
 
   * Run:
