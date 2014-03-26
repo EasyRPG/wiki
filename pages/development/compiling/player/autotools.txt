@@ -22,9 +22,6 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   * Run:
   ''./configure\\
   make''
-
-If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure'' and set the ''PKG_CONFIG_PATH'' to the path containing specific cross compiling toolchain versions of ''expat.pc'' and ''liblcf.pc'' files.
-
 ===== RTP support with WINE =====
 
 For most games, you will need to have installed the RTP. To install RTP in non-Windows systems you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[/user/player/rtp]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
