@@ -12,21 +12,22 @@
   * [[../liblcf/autotools|liblcf]]
 
 ===== Build =====
-  * Run ''./configure CPPFLAGS="-D//UNIX// -D//HAVE_WINE//" LIBS=-llcf && make && make install''
-
-For other systems, replace ''-D//UNIX//'' for your platform, for example, ''-D//_WIN32//'' if you are using Windows. See ''src/system.h'' file for details.
+  * Run ''./configure && make install''
 
 If you want to cross compile with a specific gcc toolchain, pass ''%%--%%host=//whatever//'' to ''configure''.
 
-For most games, you will need to have installed the RTP. To install RTP in UNIX you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[/user/player/rtp]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
+===== RTP support with WINE =====
 
-If you don't want to use WINE to check RTP installation you can remove the ''-D//HAVE_WINE//'' part. To set up RTP folders by hand, read [[/user/player/rtp]] to do it.
+For most games, you will need to have installed the RTP. To install RTP in non-Windows systems you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[/user/player/rtp]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
+
+This feature is not built by default yet because it requires Boost Spirit and it is not a header only library. You will need to append ''CPPFLAGS=-D//HAVE_WINE//'' before or after ''./configure''.
 
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
   * Do the [[../liblcf/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-  ''sudo apt-get -y install %%--%%no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev && cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && ./autogen.sh && ./configure CPPFLAGS="-DUNIX -DHAVE_WINE" CXXFLAGS=-I$PWD/../liblcf/build/include LDFLAGS=-L$PWD/../liblcf/build/lib LIBS=-llcf && make''
+  ''sudo apt-get -y install %%--%%no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev\\
+  cd ~/EasyRPG && git clone https://github.com/EasyRPG/Player.git && cd Player && autoreconf -i && ./configure CPPFLAGS=-DHAVE_WINE && make''
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
   * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
 
