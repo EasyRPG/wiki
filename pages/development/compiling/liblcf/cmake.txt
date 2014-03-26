@@ -1,10 +1,11 @@
 ====== Building liblcf with CMake ======
 
-===== General Requirements =====
-  * [[./requirements]]
-
 ===== CMake Requirements =====
-  * CMake 2.8 or greater
+  * make
+  * CMake 2.8 or later
+  * pkg-config
+  * GNU iconv (already included in most distributions in libc) (Not required for Windows)
+  * expat
 
 ===== Build =====
   * Run "cmake ${PATH TO liblcf/builds/cmake} && make".
