@@ -10,9 +10,9 @@
   * GNU Gettext development files (Required for iconv detecion)
 
 ===== Requirements for building from git =====
-  * git
   * autoconf >= 2.69
   * automake
+  * git
 Run ''autoreconf -i'' to generate the ''configure'' script.
 
 ===== Build =====
