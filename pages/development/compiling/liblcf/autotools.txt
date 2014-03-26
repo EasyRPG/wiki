@@ -5,7 +5,7 @@
   * make
   * pkg-config
   * libtool
-  * Expat
+  * Expat >= 2.1.0
   * GNU iconv (already included in most distributions in libc) (Not required for Windows)
   * GNU Gettext development files (Required for iconv detecion)
 
