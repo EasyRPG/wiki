@@ -4,4 +4,4 @@
 |USE_SDL|Use SDL as a rendering backend|
 |USE_SDL_MIXER|Use SDL_mixer for audio backend|
 |USE_OPENAL|Use OpenAL for audio backend|
-|UNIX|Unix like system needs this|
+|HAVE_WINE|Allows to get RTP folder path from ~/.wine/ registry if RTP have been installed with WINE|
