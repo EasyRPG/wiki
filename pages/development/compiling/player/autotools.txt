@@ -39,7 +39,6 @@ This feature is not built by default yet because it requires Boost Spirit and it
   sudo apt-get -y install --no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev
   cd ~/EasyRPG
   git clone https://github.com/EasyRPG/Player.git
-  cd Player
   autoreconf -i
   ./configure CPPFLAGS=-DHAVE_WINE
   make
@@ -56,7 +55,6 @@ This feature is not built by default yet because it requires Boost Spirit and it
   sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel libpng-devel
   cd ~/EasyRPG
   git clone https://github.com/EasyRPG/Player.git
-  cd Player
   autoreconf -i
   ./configure CPPFLAGS=-DHAVE_WINE
   make
