@@ -11,7 +11,7 @@
 
 ===== Requirements for building from git =====
   * autoconf >= 2.69
-  * automake
+  * automake >= 1.11.4
   * git
 Run ''autoreconf -i'' to generate the ''configure'' script.
 
