@@ -1,5 +1,7 @@
 ====== Building liblcf on Mac OS X with Autotools ======
 
+**This won't work, use the cmake method instead**
+
 Install Homebrew if you don't have installed it:
 
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
