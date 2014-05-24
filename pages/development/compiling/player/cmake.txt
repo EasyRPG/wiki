@@ -18,4 +18,3 @@
 ===== Build =====
   * Run "cmake ${PATH TO player/builds/cmake} && make".
   * If you want to build it with debug mode pass "-D CMAKE_BUILD_TYPE=Debug" to cmake.
-  * If you use Ubuntu or Arch Linux and you are getting linker errors, pass "-Wl,--no-as-needed" to cmake.
