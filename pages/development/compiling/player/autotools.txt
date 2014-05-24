@@ -4,7 +4,7 @@
   * g++ or clang
   * make
   * pkg-config
-  * boost >= 1.48
+  * boost (only headers needed) >= 1.48
   * [[../liblcf/autotools|liblcf]]
   * libpng
   * FreeType
