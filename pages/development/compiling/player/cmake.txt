@@ -7,7 +7,6 @@
   * Freetype
   * Pixman
   * libpng
-  * libjpeg (with jpeg_mem_src)
   * zlib
   * boost
   * OpenAL
