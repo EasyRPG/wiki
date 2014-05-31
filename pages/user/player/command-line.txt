@@ -1,0 +1,21 @@
+====== Command Line Arguments =====
+
+All arguments must be prefixed with a double dash.
+
+^Argument^Description^
+|''battle-test N''|Start a battle test with monster party N.|
+|''disable-audio''|Disable audio (in case you prefer your own music).|
+|''disable-rtp''|Disable support for the Runtime Package (RTP).|
+|''encoding N''|Instead of using the default platform encoding or the one in RPG_RT.ini the encoding N is used.|
+|''engine ENGINE''|Disable auto detection of the simulated engine. Possible options: ''rpg2k'', ''rpg2k3''|
+|''fullscreen''|Start in fullscreen mode.|
+|''hide-title''|Hide the title background image and center the command menu.|
+|''load-game-id N''|Skip the title scene and load SaveN.lsd (N is padded to two digits).|
+|''new-game''|Skip the title scene and start a new game directly.|
+|''project-path PATH''|Instead of using the working directory the game in PATH is used.|
+|''start-map-id N''|Overwrite the map used for new games and use. MapN.lmu instead (N is padded to four digits). Incompatible with ''--load-game-id''.|
+|''start-position X Y''|Overwrite the party start position and move the party to position (X, Y). Incompatible with ''--load-game-id''.|
+|''test-play''|Enable TestPlay mode.|
+|''window''|Start in window mode.|
+|''version''|Display program version and exit.| 
+|''help''|Display this help and exit.|
