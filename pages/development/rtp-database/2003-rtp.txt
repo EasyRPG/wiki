@@ -6,7 +6,7 @@
 
 If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
 
-Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2.
+Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2. The RTP package can be downloaded here: http://rpgmaker.su/vbdownloads.php?do=download&downloadid=22
 
 There is a naming conflict between Russian and English RTP (see Dawn1 and Dawn2 in Panorama).
 
