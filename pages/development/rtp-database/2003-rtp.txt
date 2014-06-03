@@ -6,105 +6,109 @@
 
 If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
 
+Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2.
+
 ==== Backdrop ====
 
 Battle backgrounds. 34 PNG files. 320x240px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| お墓 | graveyard |
-| お寺 | shrine |
-| ダンジョン１ | dungeon1 |
-| ダンジョン２ | dungeon2 |
-| ダンジョン３ | dungeon3 |
-| ダンジョン４ | dungeon4 |
-| ダンジョン５ | dungeon5 |
-| ダンジョン６ | dungeon6 |
-| 宇宙 | space |
-| 山道 | mountain |
-| 岩場 | rockbed |
-| 廃墟 | wasteland |
-| 旧市街 | ghost-town |
-| 森１ | forest1 |
-| 森２ | forest2 |
-| 橋 | bridge |
-| 毒沼 | swamp |
-| 洋館 | building |
-| 海 | ocean |
-| 玉座 | castle |
-| 異空間 | strange |
-| 砂浜 | beach |
-| 砂漠 | desert |
-| 神殿 | ruins1 |
-| 空 | sky |
-| 船上 | shipdeck |
-| 草原 | plains |
-| 荒地 | barren |
-| 街中 | town |
-| 路上 | road |
-| 遺跡 | ruins2 |
-| 銭湯 | bath |
-| 闘技場 | arena |
-| 雪原 | snowfield |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^
+| お墓 | graveyard | Grave |
+| お寺 | shrine | Temple |
+| ダンジョン１ | dungeon1 | Cave |
+| ダンジョン２ | dungeon2 | LavaCave |
+| ダンジョン３ | dungeon3 | IceCave |
+| ダンジョン４ | dungeon4 | Stalagmites |
+| ダンジョン５ | dungeon5 | Labyrinth |
+| ダンジョン６ | dungeon6 | TrainingHall |
+| 宇宙 | space | Space |
+| 山道 | mountain | Mountain |
+| 岩場 | rockbed | Rocks |
+| 廃墟 | wasteland | Ruins |
+| 旧市街 | ghost-town | City |
+| 森１ | forest1 | Forest1 |
+| 森２ | forest2 | Forest2 |
+| 橋 | bridge | Bridge |
+| 毒沼 | swamp | Swamp |
+| 洋館 | building | InsideCastle |
+| 海 | ocean | Sea |
+| 玉座 | castle | BallSeat |
+| 異空間 | strange | SpaceLight |
+| 砂浜 | beach | Beach |
+| 砂漠 | desert | Desert |
+| 神殿 | ruins1 | Sanctuary |
+| 空 | sky | Clouds |
+| 船上 | shipdeck | Ship |
+| 草原 | plains | Grass |
+| 荒地 | barren | RoughForging |
+| 街中 | town | CityHouse |
+| 路上 | road | Road |
+| 遺跡 | ruins2 | InsidePyramid |
+| 銭湯 | bath | BathHouse |
+| 闘技場 | arena | CompetitionPlace |
+| 雪原 | snowfield | Snow |
 
 ==== Battle ====
 
 Battle animation effects. 54 PNG files. Different sizes.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| 2003その他1 | misc1 |
-| 2003その他2 | misc2 |
-| 2003バリア | barrier1 |
-| 2003ブレス | breath1 |
-| 2003光柱 | lightray |
-| 2003冷気 | ice1 |
-| 2003剣 | sword1 |
-| 2003吸収 | absorb1 |
-| 2003回復 | healing1 |
-| 2003大地 | earth1 |
-| 2003弓 | bow1 |
-| 2003打撃 | strike |
-| 2003斧 | axe1 |
-| 2003暗黒 | dark1 |
-| 2003槍 | spear1 |
-| 2003水 | water1 |
-| 2003治療 | cure1 |
-| 2003炎 | fire1 |
-| 2003爆発 | explode1 |
-| 2003爪 | claw1 |
-| 2003神聖 | holy1 |
-| 2003蘇生 | revive1 |
-| 2003雷 | bolt1 |
-| 2003鞭 | whip1 |
-| 2003風 | wind1 |
-| 2003麻痺 | paralyze1 |
-| その他 | misc3 |
-| バリア | barrier2 |
-| ブレス | breath2 |
-| 上昇 | increase |
-| 下降 | decrease |
-| 冷気 | ice2 |
-| 剣1 | sword2 |
-| 剣2 | sword3 |
-| 吸収 | absorb2 |
-| 回復 | healing2 |
-| 大地 | earth2 |
-| 打撃 | attack |
-| 斧 | axe2 |
-| 暗黒 | dark2 |
-| 槍 | spear2 |
-| 水 | water2 |
-| 治療 | cure2 |
-| 炎1 | fire2 |
-| 炎2 | fire3 |
-| 爆発 | explode2 |
-| 爪 | claw2 |
-| 矢 | bow2 |
-| 神聖 | holy2 |
-| 蘇生 | revive2 |
-| 雷 | bolt2 |
-| 鞭 | whip2 |
-| 風 | wind2 |
-| 麻痺 | paralyze2 |
+Vlad’s Russian RTP doesn’t include files that don’t have 2003 prefix. Since it is expected to be installed over Don Miguel’s English RTP
+
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| 2003その他1 | misc1 | 2003-Other1 |
+| 2003その他2 | misc2 | 2003-Other2 |
+| 2003バリア | barrier1 | 2003-Barrier |
+| 2003ブレス | breath1 | 2003-Poison |
+| 2003光柱 | lightray | 2003-Lines |
+| 2003冷気 | ice1 | 2003-Cold |
+| 2003剣 | sword1 | 2003-Sword |
+| 2003吸収 | absorb1 | 2003-Absorption |
+| 2003回復 | healing1 | 2003-Sun |
+| 2003大地 | earth1 | 2003-Earth |
+| 2003弓 | bow1 | 2003-Arrow |
+| 2003打撃 | strike | 2003-Hit |
+| 2003斧 | axe1 | 2003-Axe |
+| 2003暗黒 | dark1 | 2003-Dark |
+| 2003槍 | spear1 | 2003-Spear |
+| 2003水 | water1 | 2003-Water |
+| 2003治療 | cure1 | 2003-Sphere |
+| 2003炎 | fire1 | 2003-Fire |
+| 2003爆発 | explode1 | 2003-Explosion |
+| 2003爪 | claw1 | 2003-Claws |
+| 2003神聖 | holy1 | 2003-Holy |
+| 2003蘇生 | revive1 | 2003-Angel |
+| 2003雷 | bolt1 | 2003-Zip |
+| 2003鞭 | whip1 | 2003-Whip |
+| 2003風 | wind1 | 2003-Wind |
+| 2003麻痺 | paralyze1 | 2003-Paralysis |
+| その他 | misc3 | |
+| バリア | barrier2 | |
+| ブレス | breath2 | |
+| 上昇 | increase | |
+| 下降 | decrease | |
+| 冷気 | ice2 | |
+| 剣1 | sword2 | |
+| 剣2 | sword3 | |
+| 吸収 | absorb2 | |
+| 回復 | healing2 | |
+| 大地 | earth2 | |
+| 打撃 | attack | |
+| 斧 | axe2 | |
+| 暗黒 | dark2 | |
+| 槍 | spear2 | |
+| 水 | water2 | |
+| 治療 | cure2 | |
+| 炎1 | fire2 | |
+| 炎2 | fire3 | |
+| 爆発 | explode2 | |
+| 爪 | claw2 | |
+| 矢 | bow2 | |
+| 神聖 | holy2 | |
+| 蘇生 | revive2 | |
+| 雷 | bolt2 | |
+| 鞭 | whip2 | |
+| 風 | wind2 | |
+| 麻痺 | paralyze2 | |
 
 ==== Battle2 ====
 
@@ -114,128 +118,128 @@ Larger battle animation effects. Empty folder.
 
 Allied battle sprites. 64 PNG files. 144x384px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| エルフ女a | elf-f-1 |
-| エルフ女b | elf-f-2 |
-| エルフ男a | elf-m-1 |
-| エルフ男b | elf-m-2 |
-| 中華女a | chinese-f-1 |
-| 中華女b | chinese-f-2 |
-| 中華男a | chinese-m-1 |
-| 中華男b | chinese-m-2 |
-| 侍a | samurai1 |
-| 侍b | samurai2 |
-| 僧侶女a | priestess1 |
-| 僧侶女b | priestess1 |
-| 僧侶男a | priest1 |
-| 僧侶男b | priest2 |
-| 勇者女a | hero-f-1 |
-| 勇者女b | hero-f-2 |
-| 勇者男a | hero-m-1 |
-| 勇者男b | hero-m-2 |
-| 女性１a | woman1-1 |
-| 女性１b | woman1-2 |
-| 女性２a | woman2-1 |
-| 女性２b | woman2-2 |
-| 女性３a | woman3-1 |
-| 女性３b | woman3-2 |
-| 女性４a | woman4-1 |
-| 女性４b | woman4-2 |
-| 女性５a | woman5-1 |
-| 女性５b | woman5-2 |
-| 忍者女a | ninja-f-1 |
-| 忍者女b | ninja-f-1 |
-| 忍者男a | ninja-m-1 |
-| 忍者男b | ninja-m-2 |
-| 戦士女a | soldier-f-1 |
-| 戦士女b | soldier-f-2 |
-| 戦士男a | soldier-m-1 |
-| 戦士男b | soldier-m-2 |
-| 格闘家女a | monk-f-1 |
-| 格闘家女b | monk-f-2 |
-| 格闘家男a | monk-m-1 |
-| 格闘家男b | monk-m-2 |
-| 海賊女a | pirate-f-1 |
-| 海賊女b | pirate-f-2 |
-| 海賊男a | pirate-m-1 |
-| 海賊男b | pirate-m-2 |
-| 男性１a | man1-1 |
-| 男性１b | man1-2 |
-| 男性２a | man2-1 |
-| 男性２b | man2-2 |
-| 男性３a | man3-1 |
-| 男性３b | man3-2 |
-| 男性４a | man4-1 |
-| 男性４b | man4-2 |
-| 男性５a | man5-1 |
-| 男性５b | man5-2 |
-| 盗賊女a | thief-f-1 |
-| 盗賊女b | thief-f-2 |
-| 盗賊男a | thief-m-1 |
-| 盗賊男b | thief-m-2 |
-| 鎧武者a | armor1 |
-| 鎧武者b | armor2 |
-| 魔術師女a | mage-f-1 |
-| 魔術師女b | mage-f-2 |
-| 魔術師男a | mage-m-1 |
-| 魔術師男b | mage-m-2 |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| エルフ女a | elf-f-1 | TuanaA |
+| エルフ女b | elf-f-2 | TuanaB |
+| エルフ男a | elf-m-1 | TemmadA |
+| エルフ男b | elf-m-2 | TemmadB |
+| 中華女a | chinese-f-1 | ChuzaA |
+| 中華女b | chinese-f-2 | ChuzaB |
+| 中華男a | chinese-m-1 | ChingA |
+| 中華男b | chinese-m-2 | ChingB |
+| 侍a | samurai1 | GarreA |
+| 侍b | samurai2 | GarreB |
+| 僧侶女a | priestess1 | KloriA |
+| 僧侶女b | priestess1 | KloriB |
+| 僧侶男a | priest1 | SiossA |
+| 僧侶男b | priest2 | SiossB |
+| 勇者女a | hero-f-1 | NoddaA |
+| 勇者女b | hero-f-2 | NoddaB |
+| 勇者男a | hero-m-1 | JemmonA |
+| 勇者男b | hero-m-2 | JemmonB |
+| 女性１a | woman1-1 | CletoA |
+| 女性１b | woman1-2 | CletoB |
+| 女性２a | woman2-1 | JikuaA |
+| 女性２b | woman2-2 | JikuaB |
+| 女性３a | woman3-1 | IrregiaA |
+| 女性３b | woman3-2 | IrregiaB |
+| 女性４a | woman4-1 | NysmaA |
+| 女性４b | woman4-2 | NysmaB |
+| 女性５a | woman5-1 | BeruaA |
+| 女性５b | woman5-2 | BeruaB |
+| 忍者女a | ninja-f-1 | GinnyA |
+| 忍者女b | ninja-f-1 | GinnyB |
+| 忍者男a | ninja-m-1 | XeodA |
+| 忍者男b | ninja-m-2 | XeodA |
+| 戦士女a | soldier-f-1 | EljeaA |
+| 戦士女b | soldier-f-2 | EljeaB |
+| 戦士男a | soldier-m-1 | RagleA |
+| 戦士男b | soldier-m-2 | RagleB |
+| 格闘家女a | monk-f-1 | PhesaA |
+| 格闘家女b | monk-f-2 | PhesaB |
+| 格闘家男a | monk-m-1 | RasnenA |
+| 格闘家男b | monk-m-2 | RasnenB |
+| 海賊女a | pirate-f-1 | RennaA |
+| 海賊女b | pirate-f-2 | RennaB |
+| 海賊男a | pirate-m-1 | GoxanA |
+| 海賊男b | pirate-m-2 | GoxanB |
+| 男性１a | man1-1 | JidadA |
+| 男性１b | man1-2 | JidadB |
+| 男性２a | man2-1 | MjittA |
+| 男性２b | man2-2 | MjittB |
+| 男性３a | man3-1 | ChuazA |
+| 男性３b | man3-2 | ChuazB |
+| 男性４a | man4-1 | ShellA |
+| 男性４b | man4-2 | ShellB |
+| 男性５a | man5-1 | FrossA |
+| 男性５b | man5-2 | FrossB |
+| 盗賊女a | thief-f-1 | OtipaA |
+| 盗賊女b | thief-f-2 | OtipaB |
+| 盗賊男a | thief-m-1 | UnnonA |
+| 盗賊男b | thief-m-2 | UnnonB |
+| 鎧武者a | armor1 | JoegoA |
+| 鎧武者b | armor2 | JoegoB |
+| 魔術師女a | mage-f-1 | LjitiA |
+| 魔術師女b | mage-f-2 | LjitiB |
+| 魔術師男a | mage-m-1 | RivraA |
+| 魔術師男b | mage-m-2 | RivraB |
 
 ==== BattleWeapon ====
 
 Battle weapon sprites. 1 PNG file. 144x384px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| 武器 | weapons |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| 武器 | weapons | Standart |
 
 ==== CharSet ====
 
 Map sprites. 15 PNG files. 288x256px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| オブジェクト1 | object1 |
-| オブジェクト2 | object2 |
-| モンスター1 | monster1 |
-| モンスター2 | monster2 |
-| 一般1 | char1 |
-| 一般2 | char2 |
-| 一般3 | char3 |
-| 一般4 | char4 |
-| 一般5 | char5 |
-| 主人公1 | hero1 |
-| 主人公2 | hero2 |
-| 主人公3 | hero3 |
-| 主人公4 | hero4 |
-| 乗り物 | vehicle |
-| 動物 | animal |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| オブジェクト1 | object1 | Objects1 |
+| オブジェクト2 | object2 | Objects2 |
+| モンスター1 | monster1 | Monsters1 |
+| モンスター2 | monster2 | Monsters2 |
+| 一般1 | char1 | People1 |
+| 一般2 | char2 | People2 |
+| 一般3 | char3 | People3 |
+| 一般4 | char4 | People4 |
+| 一般5 | char5 | People5 |
+| 主人公1 | hero1 | Chara1 |
+| 主人公2 | hero2 | Chara2 |
+| 主人公3 | hero3 | Chara3 |
+| 主人公4 | hero4 | Chara4 |
+| 乗り物 | vehicle | Vehicles |
+| 動物 | animal | Animals |
 
 ==== ChipSet ====
 
 Map tile sets. 5 PNG files. 480x256px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| ダンジョン | dungeon |
-| 内装 | building |
-| 基本 | main |
-| 外観 | town |
-| 船 | ship |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| ダンジョン | dungeon | Internal1 |
+| 内装 | building | Internal2 |
+| 基本 | main | World |
+| 外観 | town | Village |
+| 船 | ship | Ship |
 
 ==== FaceSet ====
 
 Face pictures. 5 PNG files. 192x192px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| モンスター | monster |
-| 一般1 | faces1 |
-| 一般2 | faces2 |
-| 主人公1 | hero1 |
-| 主人公2 | hero2 |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| モンスター | monster | Monsters |
+| 一般1 | faces1 | Face1 |
+| 一般2 | faces2 | Face2 |
+| 主人公1 | hero1 | People |
+| 主人公2 | hero2 | PeopleAnimal |
 
 ==== GameOver ====
 
 Game Over scene pictures. 1 PNG file. 320x240px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| ゲームオーバー | gameover |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| ゲームオーバー | gameover | GameOver |
 
 ==== Monster ====
 
@@ -583,7 +587,7 @@ Foreground sound effects. 206 WAV (PCM) files. Different qualities.
 | ノック | knock |
 | はずれ1 | failure1 |
 | はずれ2 | failure2 |
-| バリア | barrier |
+| バリア | barrier | 2003-Barrier |
 | ひつじ | sheep |
 | ブザー1 | buzzer1 |
 | ブザー2 | buzzer2 |
