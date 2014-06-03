@@ -15,5 +15,5 @@
   * [[../liblcf/cmake|liblcf]]
 
 ===== Build =====
-  * Run "cmake ${PATH TO player/builds/cmake} && make".
+  * Run "cmake ${PATH TO player} && make".
   * If you want to build it with debug mode pass "-D CMAKE_BUILD_TYPE=Debug" to cmake.
