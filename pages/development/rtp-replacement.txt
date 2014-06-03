@@ -15,7 +15,6 @@ RTP documentation tasks to do:
     * 2003 unofficial Korean version.
     * 2003 unknown origin FIXME version, used by Brazilian Portuguese distributions.
     * 2003 unknown origin FIXME variant version with character bugs (SysteméQC/), used in Hellsoft Spanish version and derived (RPGMakerXP.com).
-  * Complete RTP replacement mini site. [fdelapena]
   * Create an extensive and detailed optimization guide for artist/developers for the materials. [fdelapena]
 
 ===== RTP replacement contributions =====
