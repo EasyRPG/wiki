@@ -8,6 +8,8 @@ If you know more translation languages or versions, both official or unofficial,
 
 Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2.
 
+There is a naming conflict between Russian and English RTP (see Dawn1 and Dawn2 in Panorama).
+
 ==== Backdrop ====
 
 Battle backgrounds. 34 PNG files. 320x240px.
@@ -527,20 +529,22 @@ Background music. 151 files: 123 MID songs, 18 MID Jingles (J), 10 WAV Sound Eff
 
 Background images for empty map zones. 13 PNG files. Different sizes.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| 夕焼け1 | dusk1 |
-| 夕焼け2 | dusk2 |
-| 夜明け1 | dawn1 |
-| 夜明け2 | dawn2 |
-| 夜空1 | night1 |
-| 夜空2 | night2 |
-| 宇宙 | space |
-| 惑星1 | planet1 |
-| 惑星2 | planet2 |
-| 惑星3 | planet3 |
-| 異空間 | strange |
-| 空1 | sky1 |
-| 空2 | sky2 |
+There is a name conflict between English and Russian RTP: in English, Dawn1 and Dawn2 are 夜明け1 and 夜明け2 respectively, while in Russian they are 夕焼け1 and 夕焼け2.
+
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| 夕焼け1 | dusk1 | Dawn1 |
+| 夕焼け2 | dusk2 | Dawn2 |
+| 夜明け1 | dawn1 | Evening1 |
+| 夜明け2 | dawn2 | Evening2 |
+| 夜空1 | night1 | Night1 |
+| 夜空2 | night2 | Night2 |
+| 宇宙 | space | Galaxy |
+| 惑星1 | planet1 | Planet1 |
+| 惑星2 | planet2 | Planet2 |
+| 惑星3 | planet3 | Planet3 |
+| 異空間 | strange | Weird |
+| 空1 | sky1 | Morning1 |
+| 空2 | sky2 | Morning2 |
 
 ==== Picture ====
 
@@ -550,7 +554,9 @@ Multiple purpose pictures. Empty folder.
 
 Foreground sound effects. 206 WAV (PCM) files. Different qualities.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
+In Russian RTP, this folder contains only one file (Dark6.wav). In Advocate’s RTP, this folder contains MP3 files and not WAV.
+
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
 | アイテム1 | item1 |
 | アイテム2 | item2 |
 | あたり1 | jingle1 |
@@ -671,7 +677,7 @@ Foreground sound effects. 206 WAV (PCM) files. Different qualities.
 | 暗黒3 | dark3 |
 | 暗黒4 | dark4 |
 | 暗黒5 | dark5 |
-| 暗黒6 | dark6 |
+| 暗黒6 | dark6 | Dark6 |
 | 歌 | song |
 | 毒 | poison |
 | 水1 | water1 |
@@ -762,27 +768,27 @@ Foreground sound effects. 206 WAV (PCM) files. Different qualities.
 
 Tile system for window skinning. 4 PNG files. 160x80px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| システム | system1 |
-| システムA | system2 |
-| システムB | system3 |
-| システムC | system4 |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^
+| システム | system1 | System |
+| システムA | system2 | SystemA |
+| システムB | system3 | SystemB |
+| システムC | system4 | SystemC |
 
 ==== System2 ====
 
 System graphics for battles. 4 PNG files. 80x96px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| システム２A | system2a |
-| システム２B | system2b |
-| システム２C | system2c |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^
+| システム２A | system2a | System2A |
+| システム２B | system2b | System2B |
+| システム２C | system2c | System2C |
 
 ==== Title ====
 
 Title scene pictures. 4 PNG files. 320x240px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| タイトル1 | title1 |
-| タイトル2 | title2 |
-| タイトル3 | title3 |
-| タイトル4 | title4 |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^
+| タイトル1 | title1 | Title1 |
+| タイトル2 | title2 | Title2 |
+| タイトル3 | title3 | Title3 |
+| タイトル4 | title4 | Title4 |
