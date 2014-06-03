@@ -593,7 +593,7 @@ In Russian RTP, this folder contains only one file (Dark6.wav). In Advocate’s 
 | ノック | knock |
 | はずれ1 | failure1 |
 | はずれ2 | failure2 |
-| バリア | barrier | 2003-Barrier |
+| バリア | barrier | |
 | ひつじ | sheep |
 | ブザー1 | buzzer1 |
 | ブザー2 | buzzer2 |
