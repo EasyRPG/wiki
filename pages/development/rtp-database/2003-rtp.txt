@@ -8,7 +8,7 @@ If you know more translation languages or versions, both official or unofficial,
 
 Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2. The RTP package can be downloaded here: http://rpgmaker.su/vbdownloads.php?do=download&downloadid=22
 
-There is a naming conflict between Russian and English RTP (see Dawn1 and Dawn2 in Panorama).
+There is a naming conflict between Russian and English RTP (see the Monster section and Dawn1 and Dawn2 in Panorama).
 
 ==== Backdrop ====
 
@@ -387,158 +387,158 @@ Moving pictures. Empty folder.
 
 Background music. 151 files: 123 MID songs, 18 MID Jingles (J), 10 WAV Sound Effects (SE).
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| 2003いやしの泉 | spring |
-| 2003カジノ三昧 | casino |
-| 2003コロシアム | arena |
-| 2003サイバーシティ | bustling-city |
-| 2003スノータウン | snowtown |
-| 2003パニック | panic |
-| 2003マキシマム・バトル | fierce-battle |
-| 2003一獲千金の夢 | jackpot |
-| 2003冒険者たち | adventure |
-| 2003勇者の凱旋 | triumph |
-| 2003古城 | ancient-castle |
-| 2003地下迷宮 | labyrinth |
-| 2003夢幻の森 | forest |
-| 2003夢見心地 | moonlight |
-| 2003大混戦 | armyclash |
-| 2003大空への翼 | airborne |
-| 2003大聖堂 | hallowed-halls |
-| 2003妖精の森 | fairies |
-| 2003孤独な旅立ち | lonewolf |
-| 2003小さな兵隊のマーチ | march |
-| 2003山あいの村 | mtn-village |
-| 2003帝国〜エンパイア | empire |
-| 2003幼少の記憶 | memories |
-| 2003忍び寄る闇 | foreboding |
-| 2003悠久の時の流れに | eternal |
-| 2003悲しみ | sadness |
-| 2003戦いの幕開け | intro |
-| 2003教会 | church1 |
-| 2003日だまりの村 | village4 |
-| 2003暗黒の祭壇 | evil-temple |
-| 2003未開の集落 | strangetown |
-| 2003極東の地 | far-east |
-| 2003機械要塞 | mecha-base |
-| 2003氷のラビリンス | icecave |
-| 2003決戦の地 | showdown |
-| 2003無人の館 | haunted |
-| 2003王宮のパーティー | royal-ball |
-| 2003異次元回廊 | dimension |
-| 2003祝福ワルツ | waltz |
-| 2003穏やかな風 | interlude |
-| 2003緊迫 | tension |
-| 2003繰り返される戦い | endless-fight |
-| 2003街の賑わい | town-square |
-| 2003街の酒場 | bar |
-| 2003記憶の彼方に | memories2 |
-| 2003遺跡探索 | ruins |
-| 2003邪神との戦い | godslayer |
-| 2003静寂 | calm |
-| J2003ホルン | horns |
-| Jアイテム | item |
-| Jギャグ1 | mischief1 |
-| Jギャグ2 | mischief2 |
-| Jファンファーレ1 | fanfare1 |
-| Jファンファーレ2 | fanfare2 |
-| Jファンファーレ3 | fanfare3 |
-| Jファンファーレ4 | fanfare4 |
-| Jファンファーレ5 | fanfare5 |
-| Jファンファーレ6 | fanfare6 |
-| J宿1 | inn1 |
-| J宿2 | inn2 |
-| J戦闘終了1 | victory1 |
-| J戦闘終了2 | victory2 |
-| J戦闘終了3 | victory3 |
-| J戦闘終了4 | victory4 |
-| J疑惑 | surprise |
-| J謎 | riddle |
-| SE2003アラーム | se-alarm |
-| SE2003ジャングル | se-jungle |
-| SE2003雑踏 | se-crowd |
-| SE2003風 | se-gale |
-| SE2003鳥 | se-bird |
-| SE地震 | se-quake |
-| SE大雨 | se-torrent |
-| SE時計 | se-clock |
-| SE海 | se-ocean |
-| SE雨 | se-rain |
-| エンディング1 | ending1 |
-| エンディング2 | ending2 |
-| エンディング3 | ending3 |
-| オープニング1 | opening1 |
-| オープニング2 | opening2 |
-| オープニング3 | opening3 |
-| ゲームオーバー1 | gameover1 |
-| ゲームオーバー2 | gameover2 |
-| ゲームオーバー3 | gameover3 |
-| ゴーストタウン1 | ghost-town1 |
-| ゴーストタウン2 | ghost-town2 |
-| ダンジョン1 | dungeon1 |
-| ダンジョン2 | dungeon2 |
-| ダンジョン3 | dungeon3 |
-| ダンジョン4 | dungeon4 |
-| ダンジョン5 | dungeon5 |
-| ピンチ | tightspot |
-| フィールド1 | field1 |
-| フィールド2 | field2 |
-| フィールド3 | field3 |
-| フィールド4 | field4 |
-| ボス1 | boss1 |
-| ボス2 | boss2 |
-| ボス3 | boss3 |
-| ボス4 | boss4 |
-| 乗り物1 | vehicle1 |
-| 乗り物2 | vehicle2 |
-| 乗り物3 | vehicle3 |
-| 別れ1 | parting1 |
-| 別れ2 | parting2 |
-| 勇者1 | hero1 |
-| 勇者2 | hero2 |
-| 動物 | animal |
-| 勝利 | success |
-| 城1 | castle1 |
-| 城2 | castle2 |
-| 城3 | castle3 |
-| 塔1 | tower1 |
-| 塔2 | tower2 |
-| 塔3 | tower3 |
-| 妖精1 | fairy1 |
-| 妖精2 | fairy2 |
-| 安らぎ1 | solace1 |
-| 安らぎ2 | solace2 |
-| 安らぎ3 | solace3 |
-| 店1 | shop1 |
-| 店2 | shop2 |
-| 店3 | shop3 |
-| 怒り | malice |
-| 悲しみ | sad |
-| 戦闘1 | battle1 |
-| 戦闘2 | battle2 |
-| 戦闘3 | battle3 |
-| 探索 | explore |
-| 敗北 | defeat |
-| 教会 | church2 |
-| 明るい市場 | bazaar |
-| 村1 | village1 |
-| 村2 | village2 |
-| 村3 | village3 |
-| 泥棒 | thief |
-| 活気 | strength |
-| 町1 | town1 |
-| 町2 | town2 |
-| 町3 | town3 |
-| 神秘1 | mystery1 |
-| 神秘2 | mystery2 |
-| 神秘3 | mystery3 |
-| 秘宝 | treasure |
-| 船1 | boat1 |
-| 船2 | boat2 |
-| 船3 | boat3 |
-| 試練 | ordeal |
-| 闇市 | eviltown |
-| 魔王 | demonic |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| 2003いやしの泉 | spring | 2003Happiness |
+| 2003カジノ三昧 | casino | 2003Research |
+| 2003コロシアム | arena | 2003Piracy |
+| 2003サイバーシティ | bustling-city | 2003JoyfulNews |
+| 2003スノータウン | snowtown | 2003Lullaby |
+| 2003パニック | panic | 2003Warning |
+| 2003マキシマム・バトル | fierce-battle | 2003Pursuit |
+| 2003一獲千金の夢 | jackpot | 2003SilentPleasure |
+| 2003冒険者たち | adventure | 2003Farewell |
+| 2003勇者の凱旋 | triumph | 2003BigPalace |
+| 2003古城 | ancient-castle | 2003Glory |
+| 2003地下迷宮 | labyrinth | 2003Fast |
+| 2003夢幻の森 | forest | 2003WorldSound |
+| 2003夢見心地 | moonlight | 2003Serenity |
+| 2003大混戦 | armyclash | 2003Gangster |
+| 2003大空への翼 | airborne | 2003Fanfares |
+| 2003大聖堂 | hallowed-halls | 2003Grief |
+| 2003妖精の森 | fairies | 2003WorkingMusic |
+| 2003孤独な旅立ち | lonewolf | 2003Memoirs |
+| 2003小さな兵隊のマーチ | march | 2003Parade |
+| 2003山あいの村 | mtn-village | 2003EastStyle |
+| 2003帝国〜エンパイア | empire | 2003AndAgainPleasure |
+| 2003幼少の記憶 | memories | 2003FairyTale |
+| 2003忍び寄る闇 | foreboding | 2003Threat |
+| 2003悠久の時の流れに | eternal | 2003Calm |
+| 2003悲しみ | sadness | 2003Calm2 |
+| 2003戦いの幕開け | intro | 2003DangerousFog |
+| 2003教会 | church1 | 2003Church |
+| 2003日だまりの村 | village4 | 2003Farmer |
+| 2003暗黒の祭壇 | evil-temple | 2003GlobalFrustration |
+| 2003未開の集落 | strangetown | 2003WitchSong |
+| 2003極東の地 | far-east | 2003Flight |
+| 2003機械要塞 | mecha-base | 2003SadEnd |
+| 2003氷のラビリンス | icecave | 2003Drops |
+| 2003決戦の地 | showdown | 2003Battlefield |
+| 2003無人の館 | haunted | 2003SilentCrying |
+| 2003王宮のパーティー | royal-ball | 2003Dance |
+| 2003異次元回廊 | dimension | 2003FastBattle |
+| 2003祝福ワルツ | waltz | 2003Waltz |
+| 2003穏やかな風 | interlude | 2003Summer |
+| 2003緊迫 | tension | 2003TerribleDream |
+| 2003繰り返される戦い | endless-fight | 2003FastBattle2 |
+| 2003街の賑わい | town-square | 2003Pleasure |
+| 2003街の酒場 | bar | 2003Travel |
+| 2003記憶の彼方に | memories2 | 2003Morning |
+| 2003遺跡探索 | ruins | 2003InfiniteIdea |
+| 2003邪神との戦い | godslayer | 2003Chaos |
+| 2003静寂 | calm | 2003Underwater |
+| J2003ホルン | horns | 2003Win |
+| Jアイテム | item | |
+| Jギャグ1 | mischief1 | |
+| Jギャグ2 | mischief2 | |
+| Jファンファーレ1 | fanfare1 | |
+| Jファンファーレ2 | fanfare2 | |
+| Jファンファーレ3 | fanfare3 | |
+| Jファンファーレ4 | fanfare4 | |
+| Jファンファーレ5 | fanfare5 | |
+| Jファンファーレ6 | fanfare6 | |
+| J宿1 | inn1 | |
+| J宿2 | inn2 | |
+| J戦闘終了1 | victory1 | |
+| J戦闘終了2 | victory2 | |
+| J戦闘終了3 | victory3 | |
+| J戦闘終了4 | victory4 | |
+| J疑惑 | surprise | |
+| J謎 | riddle | |
+| SE2003アラーム | se-alarm | SE2003Ding |
+| SE2003ジャングル | se-jungle | SE2003Jungle |
+| SE2003雑踏 | se-crowd | SE2003People |
+| SE2003風 | se-gale | SE2003Winter |
+| SE2003鳥 | se-bird | SE2003Birds |
+| SE地震 | se-quake | SEEarthquake |
+| SE大雨 | se-torrent | SERain2 |
+| SE時計 | se-clock | SEClock |
+| SE海 | se-ocean | SESea |
+| SE雨 | se-rain | SERain |
+| エンディング1 | ending1 | |
+| エンディング2 | ending2 | |
+| エンディング3 | ending3 | |
+| オープニング1 | opening1 | |
+| オープニング2 | opening2 | |
+| オープニング3 | opening3 | |
+| ゲームオーバー1 | gameover1 | |
+| ゲームオーバー2 | gameover2 | |
+| ゲームオーバー3 | gameover3 | |
+| ゴーストタウン1 | ghost-town1 | |
+| ゴーストタウン2 | ghost-town2 | |
+| ダンジョン1 | dungeon1 | |
+| ダンジョン2 | dungeon2 | |
+| ダンジョン3 | dungeon3 | |
+| ダンジョン4 | dungeon4 | |
+| ダンジョン5 | dungeon5 | |
+| ピンチ | tightspot | |
+| フィールド1 | field1 | |
+| フィールド2 | field2 | |
+| フィールド3 | field3 | |
+| フィールド4 | field4 | |
+| ボス1 | boss1 | |
+| ボス2 | boss2 | |
+| ボス3 | boss3 | |
+| ボス4 | boss4 | |
+| 乗り物1 | vehicle1 | |
+| 乗り物2 | vehicle2 | |
+| 乗り物3 | vehicle3 | |
+| 別れ1 | parting1 | |
+| 別れ2 | parting2 | |
+| 勇者1 | hero1 | |
+| 勇者2 | hero2 | |
+| 動物 | animal | |
+| 勝利 | success | |
+| 城1 | castle1 | |
+| 城2 | castle2 | |
+| 城3 | castle3 | |
+| 塔1 | tower1 | |
+| 塔2 | tower2 | |
+| 塔3 | tower3 | |
+| 妖精1 | fairy1 | |
+| 妖精2 | fairy2 | |
+| 安らぎ1 | solace1 | |
+| 安らぎ2 | solace2 | |
+| 安らぎ3 | solace3 | |
+| 店1 | shop1 | |
+| 店2 | shop2 | |
+| 店3 | shop3 | |
+| 怒り | malice | |
+| 悲しみ | sad | |
+| 戦闘1 | battle1 | |
+| 戦闘2 | battle2 | |
+| 戦闘3 | battle3 | |
+| 探索 | explore | |
+| 敗北 | defeat | |
+| 教会 | church2 | |
+| 明るい市場 | bazaar | |
+| 村1 | village1 | |
+| 村2 | village2 | |
+| 村3 | village3 | |
+| 泥棒 | thief | |
+| 活気 | strength | |
+| 町1 | town1 | |
+| 町2 | town2 | |
+| 町3 | town3 | |
+| 神秘1 | mystery1 | |
+| 神秘2 | mystery2 | |
+| 神秘3 | mystery3 | |
+| 秘宝 | treasure | |
+| 船1 | boat1 | |
+| 船2 | boat2 | |
+| 船3 | boat3 | |
+| 試練 | ordeal | |
+| 闇市 | eviltown | |
+| 魔王 | demonic | |
 
 ==== Panorama ====
 
