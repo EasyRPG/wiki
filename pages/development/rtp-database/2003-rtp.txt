@@ -247,122 +247,137 @@ Game Over scene pictures. 1 PNG file. 320x240px.
 
 Battle sprites. 115 PNG files. Different sizes.
 
-^ Japanese (original) ^ English (RPG Advocate) ^
-| アーリマン | ariman |
-| アスラ | asura |
-| アナコンダ | anaconda |
-| アリゲーター | alligator |
-| アンデッドナイト | u-knight |
-| イフリート | efreet |
-| インプ | imp |
-| ヴァンパイア | vampire |
-| ウロボロス | oroboros |
-| エルフ | elf |
-| オーガ | ogre |
-| オーク | orc |
-| オーディン | odin |
-| オクトパス | octopus |
-| ガーゴイル | gargoyle |
-| カーバンクル | carbuncle |
-| カーミラ | cojurer |
-| カッパ | kappa |
-| カトブレパス | catoblepas |
-| ガルーダ | garuda |
-| キメラ | chimera |
-| グール | ghoul |
-| クラーケン | kraken |
-| クラブ | cancer |
-| グリフォン | griffon |
-| グレル | grell |
-| クロウラー | crawler |
-| ゲイザー | deathgaze |
-| ケツアルクアトル | quezal |
-| ケットシー | caitsith |
-| ケルベロス | cerberus |
-| ケンタウロス | centaur |
-| ゴーゴン | gorgon |
-| ゴースト | ghost |
-| ゴーレム | golem |
-| コカトリス | cockatrice |
-| ゴブリン | goblin |
-| コボルト | kobold |
-| サイクロプス | cyclops |
-| サタナエル | satan |
-| サハギン | sahagin |
-| サラマンダー | salamander |
-| シャーク | shark |
-| ジャイアント | giant |
-| ジャック・オー・ランタン | jack |
-| シャドウ | shadow |
-| シルフ | sylph |
-| スキュラ | scylla |
-| スケルトン | skeleton |
-| スコーピオン | scorpion |
-| スネーク | snake |
-| スピリッツ | spirit |
-| スフィンクス | sphinx |
-| スペクター | specter |
-| スライム | slime |
-| セイレーン | siren |
-| セラフィム | seraph |
-| センチピード | centipede |
-| ソーサラー | sorcerer |
-| ゾンビ | zombie |
-| ダークエルフ | darkelf |
-| ダークナイト | darkknight |
-| タイタン | titan |
-| タランチュラ | spider |
-| ティアマット | tiamat |
-| デーモン | demon |
-| トード | toad |
-| ドラゴン | dragon |
-| ドラゴンナイト | dragonknight |
-| トレント | treant |
-| トロール | troll |
-| ネクロマンサー | necromancer |
-| ネペンテス | nepenthe |
-| バーサーカー | berserker |
-| ハーピー | harpy |
-| バジリスク | basilisk |
-| バット | bat |
-| バハムート | bahamut |
-| パラサイト | parasite |
-| ビッグフット | bigfoot |
-| ヒュドラ | hydra |
-| フェニックス | phoenix |
-| フェンリル | fenrir |
-| ベヒーモス | behemoth |
-| ホーネット | hornet |
-| マンティコア | manticore |
-| マンティス | mantis |
-| マンモス | mammoth |
-| ミイラ男 | mummy |
-| ミドガルズオルム | midgard-serp |
-| ミノタウロス | minotaur |
-| ミミック | mimic |
-| メデューサ | medusa |
-| ユニコーン | unicorn |
-| ラクシュミ | rakashimi |
-| ラミア | lamia |
-| リヴァイアサン | leviathan |
-| リザード | lizard |
-| リザードマン | lizardman |
-| リッチ | lich |
-| リリス | lilith |
-| レイス | wraith |
-| レモラ | remora |
-| ワーウルフ | werewolf |
-| ワーム | worm |
-| ワイト | wight |
-| ワイバーン | wyvern |
-| 九尾の狐 | ninetail |
-| 朱雀 | redsparrow |
-| 玄武 | blackturtle |
-| 白虎 | whitetiger |
-| 馬 | nightmare |
-| 鬼 | oni |
-| 麒麟 | ki-rin |
-| 龍 | bluedragon |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
+| アーリマン | ariman | MaliciousFlower |
+| アスラ | asura | WeaponMaster |
+| アナコンダ | anaconda | Snake |
+| アリゲーター | alligator | Crocodile |
+| アンデッドナイト | u-knight | DeadPirate |
+| イフリート | efreet | Efrit |
+| インプ | imp | Features |
+| ヴァンパイア | vampire | Vampire |
+| ウロボロス | oroboros | Levitan |
+| エルフ | elf | Archer |
+| オーガ | ogre | PrimitiveMan |
+| オーク | orc | PigSoldier |
+| オーディン | odin | DangerousSoldier |
+| オクトパス | octopus | Octopus |
+| ガーゴイル | gargoyle | Gargoyle |
+| カーバンクル | carbuncle | RubyFox |
+| カーミラ | cojurer | MurdererWoman |
+| カッパ | kappa | Morloc |
+| カトブレパス | catoblepas | CurveBull |
+| ガルーダ | garuda | FlyingWarrior |
+| キメラ | chimera | Chimera |
+| グール | ghoul | Zombie |
+| クラーケン | kraken | SeaBowl |
+| クラブ | cancer | Crab |
+| グリフォン | griffon | Griphon |
+| グレル | grell | Robot |
+| クロウラー | crawler | Worm |
+| ゲイザー | deathgaze | Eye |
+| ケツアルクアトル | quezal | FlyingWorm |
+| ケットシー | caitsith | Eremite |
+| ケルベロス | cerberus | Cerberus |
+| ケンタウロス | centaur | Centaur |
+| ゴーゴン | gorgon | InfernalBull |
+| ゴースト | ghost | WitchPhantom |
+| ゴーレム | golem | Golem |
+| コカトリス | cockatrice | Rooster |
+| ゴブリン | goblin | LittleDemon |
+| コボルト | kobold | Wolf |
+| サイクロプス | cyclops | Cyclops |
+| サタナエル | satan | DarkAngel |
+| サハギン | sahagin | Triton |
+| サラマンダー | salamander | BurningLizard |
+| シャーク | shark | Shark |
+| ジャイアント | giant | Cannibal |
+| ジャック・オー・ランタン | jack | Pumpkin |
+| シャドウ | shadow | LostShadow |
+| シルフ | sylph | Fairy |
+| スキュラ | scylla | Medusa |
+| スケルトン | skeleton | Skeleton |
+| スコーピオン | scorpion | Cancer |
+| スネーク | snake | DangerousSnake |
+| スピリッツ | spirit | LaughingSpirit |
+| スフィンクス | sphinx | Sphynx |
+| スペクター | specter | MagicSkull |
+| スライム | slime | Slime |
+| セイレーン | siren | FlyingMermaid |
+| セラフィム | seraph | Sephiroth |
+| センチピード | centipede | Multileg |
+| ソーサラー | sorcerer | Magician |
+| ゾンビ | zombie | PoisonZombie |
+| ダークエルフ | darkelf | Fencer |
+| ダークナイト | darkknight | Knight |
+| タイタン | titan | Titan |
+| タランチュラ | spider | Spider |
+| ティアマット | tiamat | Many-domedDragon |
+| デーモン | demon | HornGoat |
+| トード | toad | Toad |
+| ドラゴン | dragon | BlueDragon |
+| ドラゴンナイト | dragonknight | DragonWarrior |
+| トレント | treant | Dendrid |
+| トロール | troll | Orc |
+| ネクロマンサー | necromancer | Necromant |
+| ネペンテス | nepenthe | MultirootFlower |
+| バーサーカー | berserker | Barbarian |
+| ハーピー | harpy | Harpy |
+| バジリスク | basilisk | Horned |
+| バット | bat | Bat |
+| バハムート | bahamut | Dragon |
+| パラサイト | parasite | All-knowing |
+| ビッグフット | bigfoot | Yeti |
+| ヒュドラ | hydra | Many-domedUglyCreature |
+| フェニックス | phoenix | Phoenix |
+| フェンリル | fenrir | RealWolf |
+| ベヒーモス | behemoth | InfernalDog |
+| ホーネット | hornet | Bee |
+| マンティコア | manticore | CrossedBeast |
+| マンティス | mantis | Insect |
+| マンモス | mammoth | Mamont |
+| ミイラ男 | mummy | Mummy |
+| ミドガルズオルム | midgard-serp | CreepingCreature |
+| ミノタウロス | minotaur | Minotaur |
+| ミミック | mimic | OgreChest |
+| メデューサ | medusa | HyperMedusa |
+| ユニコーン | unicorn | Unicorn |
+| ラクシュミ | rakashimi | Prophet |
+| ラミア | lamia | Mermaid |
+| リヴァイアサン | leviathan | LevitanWithAHorn |
+| リザード | lizard | MonitorLizard |
+| リザードマン | lizardman | LizardSoldier |
+| リッチ | lich | PowerfulNecromant |
+| リリス | lilith | MultihandsWarrior |
+| レイス | wraith | Phantom |
+| レモラ | remora | SharpFish |
+| ワーウルフ | werewolf | Werwolf |
+| ワーム | worm | ToothWorm |
+| ワイト | wight | SeizedSoldier |
+| ワイバーン | wyvern | BrownDragon |
+| 九尾の狐 | ninetail | MagicFox |
+| 朱雀 | redsparrow | VainBird |
+| 玄武 | blackturtle | TurtleSnake |
+| 白虎 | whitetiger | PolarTiger |
+| 馬 | nightmare | DarkHorse |
+| 鬼 | oni | Ogre |
+| 麒麟 | ki-rin | FairyTaleHorse |
+| 龍 | bluedragon | LongDragon |
+
+===== Conflicts between Russian and English RTP =====
+
+Monsters conflicts
+
+^ Name ^ In Russian RTP ^ In English RTP ^
+| BlueDragon | ドラゴン (dragon) | 龍 (LongDragon) |
+| Dragon | バハムート (bahamut) | ドラゴン (BlueDragon) |
+| Orc | トロール (troll) | オーク (PigSoldier) |
+| Ogre | 鬼 (oni) | オーガ (PrimitiveMan) |
+| Worm | クロウラー (crawler) | ワーム (ToothWorm) |
+| Medusa | スキュラ (scylla) | メデューサ (HyperMedusa) |
+| Cancer | スコーピオン (scorpion) | クラブ (Crab) |
+| Zombie | グール (ghoul) | ゾンビ (PoisonZombie) |
+| Snake | アナコンダ (anaconda) | スネーク (DangerousSnake) |
 
 ==== Movie ====
 
