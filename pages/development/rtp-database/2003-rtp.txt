@@ -243,7 +243,7 @@ Game Over scene pictures. 1 PNG file. 320x240px.
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^
 | ゲームオーバー | gameover | GameOver |
 
-== Monster ==
+==== Monster ====
 
 Battle sprites. 115 PNG files. Different sizes.
 
@@ -364,7 +364,7 @@ Battle sprites. 115 PNG files. Different sizes.
 | 麒麟 | ki-rin | FairyTaleHorse |
 | 龍 | bluedragon | LongDragon |
 
-===== Conflicts between Russian and English RTP =====
+=== Conflicts between Russian and English RTP ===
 
 Monsters conflicts
 
