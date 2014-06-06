@@ -3,3 +3,4 @@
 ^Name^Description^
 |USE_SDL|Use SDL as a rendering backend|
 |USE_SDL_MIXER|Use SDL_mixer for audio backend|
+|HAVE_WINE|Alternate WINE registry reader with Boost::Spirit (requires boost development libraries, not only headers), used by CMake method|
