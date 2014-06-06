@@ -30,8 +30,6 @@ Once compiled, copy or symlink the ''easyrpg-player'' file from the ''src/'' fol
 
 For most games, you will need to have installed the RTP. To install RTP in non-Windows systems you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[/user/player/rtp]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
 
-This feature is not built by default yet because it requires Boost Spirit and it is not a header only library. You will need to do ''./configure CPPFLAGS=-D//HAVE_WINE//'' before running ''make''.
-
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
   * Do the [[../liblcf/autotools]] setup first
   * Open the Terminal application
@@ -41,7 +39,7 @@ This feature is not built by default yet because it requires Boost Spirit and it
   cd ~/EasyRPG
   git clone https://github.com/EasyRPG/Player.git
   autoreconf -i
-  ./configure CPPFLAGS=-DHAVE_WINE
+  ./configure
   make
 
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
@@ -57,7 +55,7 @@ This feature is not built by default yet because it requires Boost Spirit and it
   cd ~/EasyRPG
   git clone https://github.com/EasyRPG/Player.git
   autoreconf -i
-  ./configure CPPFLAGS=-DHAVE_WINE
+  ./configure
   make
 
   * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
