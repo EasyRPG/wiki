@@ -34,7 +34,7 @@ IMPORTANT: Official installers are Japanese only and they are not Unicode. This 
 
 === Windows-like RTP setup with WINE ===
 
-If EasyRPG Player is compiled with ''HAVE_WINE'' defined, it will read RTPs from the WINE registry like RPG_RT does from the Windows registry.
+EasyRPG Player can read RTP paths from the WINE registry like RPG_RT does from the Windows registry.
 
 To make Player read RTP, just install them with WINE. Because RTP are Japanese shift JIS encoded and they are not Unicode, you will need to execute them with a different locale if your UNIX default locale is not Japanese. By following the instructions below you will be able to install them from any locale configuration:
 
