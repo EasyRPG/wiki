@@ -20,7 +20,7 @@ Encoding=####
 ^ Name      ^ Number      ^ Use for      ^
 | Western European    | 1252 |  English games or games from most western Europe and America countries |
 | Windows-1251    | 1251 | Russian games (with cyrillic glyphs)|
-| Windows-1250    | 1250 | Central European games (mostly Latin1 Extended A glyphs) |
+| Windows-1250    | 1250 | Central European games (mostly Latin Extended A glyphs) |
 | Shift-JIS    | 932     | Japanese games (with Hiragana, Katakana or Kanji) |
 
 Both automatic detection and RPG_RT.ini Encoding value can be overriden by using the ''%%--%%encoding'' command line interface option.
