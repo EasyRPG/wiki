@@ -4,7 +4,7 @@
   * make
   * CMake 2.8 or later
   * pkg-config
-  * GNU iconv (already included in most distributions in libc) (Not required for Windows)
+  * ICU
   * expat
 
 ===== Build =====
