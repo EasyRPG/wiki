@@ -42,7 +42,7 @@ If the editor is custom is not a problem because you did not made a distribution
 
 The player wants to be 100% compatible with RPG Maker 2000 and 2003. If the game work with the original RPG Maker 2000 or 2003, the game should work with EasyRPG. If the game does not work, EasyRPG is not completed yet or it's a EasyRPG bug.
 
-==== My game uses unofficial hacks, for example, Power Mode, DynRPG or 2009 Ultimate. Will my game work with EasyRPG? ====
+==== My game uses unofficial hacks, for example, Power Mode or DynRPG. Will my game work with EasyRPG? ====
 
 No, we don't know about unofficial hacks and there are a bunch of them. Is hard to implement all of them without help or direct contribution of their authors in the EasyRPG code. Furthermore, there are few projects using these hacks, the priority is to emulate completely RPG Maker first.
 
