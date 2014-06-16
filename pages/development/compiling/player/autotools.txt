@@ -41,10 +41,7 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   autoreconf -i
   ./configure
   make
-
-  * Go to your Files application and browse into ''EasyRPG'' folder -> ''Player'' folder -> ''src'' folder. If there is a ''easyrpg-player'' file inside, your Player executable has been successfully built.
-  * Move the ''easyrpg-player'' file into a game folder (same place as RPG_RT.exe) and run it to play the game.
-
+  sudo make install
 ===== Step by step setup for Fedora =====
 
   * Do the [[../liblcf/autotools]] setup first
