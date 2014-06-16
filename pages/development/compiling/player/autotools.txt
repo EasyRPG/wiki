@@ -52,8 +52,8 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 
   sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel libpng-devel
-  cd ~/EasyRPG
   git clone https://github.com/EasyRPG/Player.git
+  cd Player
   autoreconf -i
   ./configure
   make
