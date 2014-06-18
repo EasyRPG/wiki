@@ -5,7 +5,8 @@
   * make
   * pkg-config
   * libtool
-  * Expat >= 2.1.0
+  * Expat
+  * ICU
   * GNU iconv (already included in most distributions in libc) (Not required for Windows)
   * GNU Gettext development files (Required for iconv detecion)
 
@@ -28,7 +29,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 
-  sudo apt-get -y install --no-install-recommends git make automake libtool g++ gettext libexpat1-dev
+  sudo apt-get -y install --no-install-recommends git make automake libtool g++ gettext libexpat1-dev libicu-dev
   git clone https://github.com/EasyRPG/liblcf.git
   cd liblcf
   autoreconf -i
@@ -41,7 +42,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 
-  sudo yum -y install git automake libtool gettext-devel expat-devel gcc-g++
+  sudo yum -y install git automake libtool gettext-devel expat-devel icu-devel gcc-g++
   git clone https://github.com/EasyRPG/liblcf.git
   cd liblcf
   autoreconf -i
