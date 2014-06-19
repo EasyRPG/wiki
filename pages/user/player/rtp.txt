@@ -53,7 +53,9 @@ Note: You need to have the ja_JP.UTF-8 locale generated (uncomment the line in /
 
   * For both cases, click the Next > buttons several times to finish the RTP installations.
 
-Once installed, you can uninstall WINE if you want also remove the ja_JP.UTF-8 locale if installed and run locale-gen again.
+If you want, once installed you can uninstall WINE.
+
+Also, if needed before, you can also comment again the ja_JP.UTF-8 locale line from /etc/locale.gen and run locale-gen as superuser to clean it.
 
 === Manual RTP setup (without WINE) ===
 
