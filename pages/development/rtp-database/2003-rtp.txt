@@ -14,20 +14,20 @@ There is a naming conflict between Russian and English RTP (see the Monster sect
 
 Battle backgrounds. 34 PNG files. 320x240px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^
-| お墓 | graveyard | Grave |
-| お寺 | shrine | Temple |
-| ダンジョン１ | dungeon1 | Cave |
-| ダンジョン２ | dungeon2 | LavaCave |
-| ダンジョン３ | dungeon3 | IceCave |
-| ダンジョン４ | dungeon4 | Stalagmites |
-| ダンジョン５ | dungeon5 | Labyrinth |
-| ダンジョン６ | dungeon6 | TrainingHall |
-| 宇宙 | space | Space |
-| 山道 | mountain | Mountain |
-| 岩場 | rockbed | Rocks |
-| 廃墟 | wasteland | Ruins |
-| 旧市街 | ghost-town | City |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^
+| お墓 | graveyard | Grave | grave |
+| お寺 | shrine | Temple | temple |
+| ダンジョン１ | dungeon1 | Cave | donjohn1 |
+| ダンジョン２ | dungeon2 | LavaCave | donjohnQ |
+| ダンジョン３ | dungeon3 | IceCave | donjohnR |
+| ダンジョン４ | dungeon4 | Stalagmites | donjohnS |
+| ダンジョン５ | dungeon5 | Labyrinth | donjohnT |
+| ダンジョン６ | dungeon6 | TrainingHall | donjohnU |
+| 宇宙 | space | Space | space |
+| 山道 | mountain | Mountain | mountainpath |
+| 岩場 | rockbed | Rocks | rocks |
+| 廃墟 | wasteland | Ruins | wasteland |
+| 旧市街 | ghost-town | City | oldurban |
 | 森１ | forest1 | Forest1 |
 | 森２ | forest2 | Forest2 |
 | 橋 | bridge | Bridge |
