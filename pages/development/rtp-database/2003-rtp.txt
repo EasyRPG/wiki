@@ -28,27 +28,27 @@ Battle backgrounds. 34 PNG files. 320x240px.
 | 岩場 | rockbed | Rocks | rocks |
 | 廃墟 | wasteland | Ruins | wasteland |
 | 旧市街 | ghost-town | City | oldurban |
-| 森１ | forest1 | Forest1 |
-| 森２ | forest2 | Forest2 |
-| 橋 | bridge | Bridge |
-| 毒沼 | swamp | Swamp |
-| 洋館 | building | InsideCastle |
-| 海 | ocean | Sea |
-| 玉座 | castle | BallSeat |
-| 異空間 | strange | SpaceLight |
-| 砂浜 | beach | Beach |
-| 砂漠 | desert | Desert |
-| 神殿 | ruins1 | Sanctuary |
-| 空 | sky | Clouds |
-| 船上 | shipdeck | Ship |
-| 草原 | plains | Grass |
-| 荒地 | barren | RoughForging |
-| 街中 | town | CityHouse |
-| 路上 | road | Road |
-| 遺跡 | ruins2 | InsidePyramid |
-| 銭湯 | bath | BathHouse |
-| 闘技場 | arena | CompetitionPlace |
-| 雪原 | snowfield | Snow |
+| 森１ | forest1 | Forest1 | forestP |
+| 森２ | forest2 | Forest2 | forestQ |
+| 橋 | bridge | Bridge | bridge |
+| 毒沼 | swamp | Swamp | poisonswamp |
+| 洋館 | building | InsideCastle | westernstylebuilding |
+| 海 | ocean | Sea | sea |
+| 玉座 | castle | BallSeat | ballseat |
+| 異空間 | strange | SpaceLight | strangespacial |
+| 砂浜 | beach | Beach | sandybeach |
+| 砂漠 | desert | Desert | desert |
+| 神殿 | ruins1 | Sanctuary | sanctuary |
+| 空 | sky | Clouds | empty |
+| 船上 | shipdeck | Ship | onboat |
+| 草原 | plains | Grass | grassyplain |
+| 荒地 | barren | RoughForging | roughforging |
+| 街中 | town | CityHouse | city |
+| 路上 | road | Road | road |
+| 遺跡 | ruins2 | InsidePyramid | ruins |
+| 銭湯 | bath | BathHouse | bathhouse |
+| 闘技場 | arena | CompetitionPlace | competitionplace |
+| 雪原 | snowfield | Snow | snowfield |
 
 ==== Battle ====
 
