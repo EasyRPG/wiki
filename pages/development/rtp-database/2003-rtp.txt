@@ -157,34 +157,34 @@ Allied battle sprites. 64 PNG files. 144x384px.
 | 戦士女b | soldier-f-2 | EljeaB | soldierwomanb |
 | 戦士男a | soldier-m-1 | RagleA | soldiermana |
 | 戦士男b | solider-m-2 | RagleB | soldiermanb |
-| 格闘家女a | monk-f-1 | PhesaA |
-| 格闘家女b | monk-f-2 | PhesaB |
-| 格闘家男a | monk-m-1 | RasnenA |
-| 格闘家男b | monk-m-2 | RasnenB |
-| 海賊女a | pirate-f-1 | RennaA |
-| 海賊女b | pirate-f-2 | RennaB |
-| 海賊男a | pirate-m-1 | GoxanA |
-| 海賊男b | pirate-m-2 | GoxanB |
-| 男性１a | man1-1 | JidadA |
-| 男性１b | man1-2 | JidadB |
-| 男性２a | man2-1 | MjittA |
-| 男性２b | man2-2 | MjittB |
-| 男性３a | man3-1 | ChuazA |
-| 男性３b | man3-2 | ChuazB |
-| 男性４a | man4-1 | ShellA |
-| 男性４b | man4-2 | ShellB |
-| 男性５a | man5-1 | FrossA |
-| 男性５b | man5-2 | FrossB |
-| 盗賊女a | thief-f-1 | OtipaA |
-| 盗賊女b | thief-f-2 | OtipaB |
-| 盗賊男a | thief-m-1 | UnnonA |
-| 盗賊男b | thief-m-2 | UnnonB |
-| 鎧武者a | armor1 | JoegoA |
-| 鎧武者b | armor2 | JoegoB |
-| 魔術師女a | mage-f-1 | LjitiA |
-| 魔術師女b | mage-f-2 | LjitiB |
-| 魔術師男a | mage-m-1 | RivraA |
-| 魔術師男b | mage-m-2 | RivraB |
+| 格闘家女a | monk-f-1 | PhesaA | grapplehousewomana |
+| 格闘家女b | monk-f-2 | PhesaB | grapplehousewomanb |
+| 格闘家男a | monk-m-1 | RasnenA | grapplehousemana |
+| 格闘家男b | monk-m-2 | RasnenB | grapplehousemanb |
+| 海賊女a | pirate-f-1 | RennaA | piratewomana |
+| 海賊女b | pirate-f-2 | RennaB | piratewomanb |
+| 海賊男a | pirate-m-1 | GoxanA | piratemana |
+| 海賊男b | pirate-m-2 | GoxanB | pirateb |
+| 男性１a | man1-1 | JidadA | manéPa |
+| 男性１b | man1-2 | JidadB | manéPb |
+| 男性２a | man2-1 | MjittA | manéQa |
+| 男性２b | man2-2 | MjittB | manéQb |
+| 男性３a | man3-1 | ChuazA | manéRa |
+| 男性３b | man3-2 | ChuazB | manéRb |
+| 男性４a | man4-1 | ShellA | manéSa |
+| 男性４b | man4-2 | ShellB | manéSb |
+| 男性５a | man5-1 | FrossA | manéTa |
+| 男性５b | man5-2 | FrossB | manéTb |
+| 盗賊女a | thief-f-1 | OtipaA | thiefwomana |
+| 盗賊女b | thief-f-2 | OtipaB | thiefwomanb |
+| 盗賊男a | thief-m-1 | UnnonA | thiefmana |
+| 盗賊男b | thief-m-2 | UnnonB | thiefmanb |
+| 鎧武者a | armor1 | JoegoA | armourwarriora |
+| 鎧武者b | armor2 | JoegoB | armourwarriorb |
+| 魔術師女a | mage-f-1 | LjitiA | magicteacherwomana |
+| 魔術師女b | mage-f-2 | LjitiB | magicteacherwomanb |
+| 魔術師男a | mage-m-1 | RivraA | magicteachermana |
+| 魔術師男b | mage-m-2 | RivraB | magicteachermanb |
 
 ==== BattleWeapon ====
 
