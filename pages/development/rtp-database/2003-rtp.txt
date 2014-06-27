@@ -121,42 +121,42 @@ Larger battle animation effects. Empty folder.
 Allied battle sprites. 64 PNG files. 144x384px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| エルフ女a | elf-f-1 | TuanaA |
-| エルフ女b | elf-f-2 | TuanaB |
-| エルフ男a | elf-m-1 | TemmadA |
-| エルフ男b | elf-m-2 | TemmadB |
-| 中華女a | chinese-f-1 | ChuzaA |
-| 中華女b | chinese-f-2 | ChuzaB |
-| 中華男a | chinese-m-1 | ChingA |
-| 中華男b | chinese-m-2 | ChingB |
-| 侍a | samurai1 | GarreA |
-| 侍b | samurai2 | GarreB |
-| 僧侶女a | priestess1 | KloriA |
-| 僧侶女b | priestess1 | KloriB |
-| 僧侶男a | priest1 | SiossA |
-| 僧侶男b | priest2 | SiossB |
-| 勇者女a | hero-f-1 | NoddaA |
-| 勇者女b | hero-f-2 | NoddaB |
-| 勇者男a | hero-m-1 | JemmonA |
-| 勇者男b | hero-m-2 | JemmonB |
-| 女性１a | woman1-1 | CletoA |
-| 女性１b | woman1-2 | CletoB |
-| 女性２a | woman2-1 | JikuaA |
-| 女性２b | woman2-2 | JikuaB |
-| 女性３a | woman3-1 | IrregiaA |
-| 女性３b | woman3-2 | IrregiaB |
-| 女性４a | woman4-1 | NysmaA |
-| 女性４b | woman4-2 | NysmaB |
-| 女性５a | woman5-1 | BeruaA |
-| 女性５b | woman5-2 | BeruaB |
-| 忍者女a | ninja-f-1 | GinnyA |
-| 忍者女b | ninja-f-1 | GinnyB |
-| 忍者男a | ninja-m-1 | XeodA |
-| 忍者男b | ninja-m-2 | XeodA |
-| 戦士女a | soldier-f-1 | EljeaA |
-| 戦士女b | soldier-f-2 | EljeaB |
-| 戦士男a | soldier-m-1 | RagleA |
-| 戦士男b | soldier-m-2 | RagleB |
+| エルフ女a | elf-f-1 | TuanaA | elfwomana |
+| エルフ女b | elf-f-2 | TuanaB | elfwomanb |
+| エルフ男a | elf-m-1 | TemmadA | elfmana |
+| エルフ男b | elf-m-2 | TemmadB | elfmanb |
+| 中華女a | chinese-f-1 | ChuzaA | chinesewomana |
+| 中華女b | chinese-f-2 | ChuzaB | chinesewomanb |
+| 中華男a | chinese-m-1 | ChingA | chinesemana |
+| 中華男b | chinese-m-2 | ChingB | chinesemanb |
+| 侍a | samurai1 | GarreA | samuraia |
+| 侍b | samurai2 | GarreB | samuraib |
+| 僧侶女a | priestess1 | KloriA | monkwomana |
+| 僧侶女b | priestess2 | KloriB | monkwomanb |
+| 僧侶男a | priest1 | SiossA | monkmana |
+| 僧侶男b | priest2 | SiossB | monkmanb |
+| 勇者女a | hero-f-1 | NoddaA | herowomana |
+| 勇者女b | hero-f-2 | NoddaB | herowomanb |
+| 勇者男a | hero-m-1 | JemmonA | heromana |
+| 勇者男b | hero-m-2 | JemmonB | heromanb |
+| 女性１a | woman1-1 | CletoA | womanéPa |
+| 女性１b | woman1-2 | CletoB | womanéPb |
+| 女性２a | woman2-1 | JikuaA | womanéQa |
+| 女性２b | woman2-2 | JikuaB | womanéQb |
+| 女性３a | woman3-1 | IrregiaA | womanéRa |
+| 女性３b | woman3-2 | IrregiaB | womanéRb |
+| 女性４a | woman4-1 | NysmaA | womanéSa |
+| 女性４b | woman4-2 | NysmaB | womanéSb |
+| 女性５a | woman5-1 | BeruaA | womanéTa |
+| 女性５b | woman5-2 | BeruaB | womanéTb |
+| 忍者女a | ninja-f-1 | GinnyA | ninjawomana |
+| 忍者女b | ninja-f-2 | GinnyB | ninjawomanb |
+| 忍者男a | ninja-m-1 | XeodA | ninjamana |
+| 忍者男b | ninja-m-2 | XeodB | ninjamanb |
+| 戦士女a | soldier-f-1 | EljeaA | soldierwomana |
+| 戦士女b | soldier-f-2 | EljeaB | soldierwomanb |
+| 戦士男a | soldier-m-1 | RagleA | soldiermana |
+| 戦士男b | solider-m-2 | RagleB | soldiermanb |
 | 格闘家女a | monk-f-1 | PhesaA |
 | 格闘家女b | monk-f-2 | PhesaB |
 | 格闘家男a | monk-m-1 | RasnenA |
