@@ -248,77 +248,77 @@ Game Over scene pictures. 1 PNG file. 320x240px.
 Battle sprites. 115 PNG files. Different sizes.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| アーリマン | ariman | MaliciousFlower |
-| アスラ | asura | WeaponMaster |
-| アナコンダ | anaconda | Snake |
-| アリゲーター | alligator | Crocodile |
-| アンデッドナイト | u-knight | DeadPirate |
-| イフリート | efreet | Efrit |
-| インプ | imp | Features |
-| ヴァンパイア | vampire | Vampire |
-| ウロボロス | oroboros | Levitan |
-| エルフ | elf | Archer |
-| オーガ | ogre | PrimitiveMan |
-| オーク | orc | PigSoldier |
-| オーディン | odin | DangerousSoldier |
-| オクトパス | octopus | Octopus |
-| ガーゴイル | gargoyle | Gargoyle |
-| カーバンクル | carbuncle | RubyFox |
-| カーミラ | cojurer | MurdererWoman |
-| カッパ | kappa | Morloc |
-| カトブレパス | catoblepas | CurveBull |
-| ガルーダ | garuda | FlyingWarrior |
-| キメラ | chimera | Chimera |
-| グール | ghoul | Zombie |
-| クラーケン | kraken | SeaBowl |
-| クラブ | cancer | Crab |
-| グリフォン | griffon | Griphon |
-| グレル | grell | Robot |
-| クロウラー | crawler | Worm |
-| ゲイザー | deathgaze | Eye |
-| ケツアルクアトル | quezal | FlyingWorm |
-| ケットシー | caitsith | Eremite |
-| ケルベロス | cerberus | Cerberus |
-| ケンタウロス | centaur | Centaur |
-| ゴーゴン | gorgon | InfernalBull |
-| ゴースト | ghost | WitchPhantom |
-| ゴーレム | golem | Golem |
-| コカトリス | cockatrice | Rooster |
-| ゴブリン | goblin | LittleDemon |
-| コボルト | kobold | Wolf |
-| サイクロプス | cyclops | Cyclops |
-| サタナエル | satan | DarkAngel |
-| サハギン | sahagin | Triton |
-| サラマンダー | salamander | BurningLizard |
-| シャーク | shark | Shark |
-| ジャイアント | giant | Cannibal |
-| ジャック・オー・ランタン | jack | Pumpkin |
-| シャドウ | shadow | LostShadow |
-| シルフ | sylph | Fairy |
-| スキュラ | scylla | Medusa |
-| スケルトン | skeleton | Skeleton |
-| スコーピオン | scorpion | Cancer |
-| スネーク | snake | DangerousSnake |
-| スピリッツ | spirit | LaughingSpirit |
-| スフィンクス | sphinx | Sphynx |
-| スペクター | specter | MagicSkull |
-| スライム | slime | Slime |
-| セイレーン | siren | FlyingMermaid |
-| セラフィム | seraph | Sephiroth |
-| センチピード | centipede | Multileg |
-| ソーサラー | sorcerer | Magician |
-| ゾンビ | zombie | PoisonZombie |
-| ダークエルフ | darkelf | Fencer |
-| ダークナイト | darkknight | Knight |
-| タイタン | titan | Titan |
-| タランチュラ | spider | Spider |
-| ティアマット | tiamat | Many-domedDragon |
-| デーモン | demon | HornGoat |
-| トード | toad | Toad |
-| ドラゴン | dragon | BlueDragon |
-| ドラゴンナイト | dragonknight | DragonWarrior |
-| トレント | treant | Dendrid |
-| トロール | troll | Orc |
+| アーリマン | ariman | MaliciousFlower | Ahriman |
+| アスラ | asura | WeaponMaster | MultiArmDemon |
+| アナコンダ | anaconda | Snake | anaconda |
+| アリゲーター | alligator | Crocodile | alligator |
+| アンデッドナイト | u-knight | DeadPirate | PimpSkeleton |
+| イフリート | efreet | Efrit | Ifrit |
+| インプ | imp | Features | LittleDemon |
+| ヴァンパイア | vampire | Vampire | vampire |
+| ウロボロス | oroboros | Levitan | dragon |
+| エルフ | elf | Archer | elf |
+| オーガ | ogre | PrimitiveMan | auger |
+| オーク | orc | PigSoldier | ork |
+| オーディン | odin | DangerousSoldier | odin |
+| オクトパス | octopus | Octopus | octopus |
+| ガーゴイル | gargoyle | Gargoyle | gargoyle |
+| カーバンクル | carbuncle | RubyFox | carbunkle |
+| カーミラ | cojurer | MurdererWoman | carmira |
+| カッパ | kappa | Morloc | raincoat |
+| カトブレパス | catoblepas | CurveBull | DemonHorseThing |
+| ガルーダ | garuda | FlyingWarrior | garuda |
+| キメラ | chimera | Chimera | chimera |
+| グール | ghoul | Zombie | ghoul |
+| クラーケン | kraken | SeaBowl | SeaMonster |
+| クラブ | cancer | Crab | crab |
+| グリフォン | griffon | Griphon | griffin |
+| グレル | grell | Robot | jellyfish |
+| クロウラー | crawler | Worm | crowera |
+| ゲイザー | deathgaze | Eye | EyeStalk |
+| ケツアルクアトル | quezal | FlyingWorm | BirdSnake |
+| ケットシー | caitsith | Eremite | ketsea |
+| ケルベロス | cerberus | Cerberus | cerebus |
+| ケンタウロス | centaur | Centaur | centaur |
+| ゴーゴン | gorgon | InfernalBull | bull |
+| ゴースト | ghost | WitchPhantom | ghost |
+| ゴーレム | golem | Golem | golem |
+| コカトリス | cockatrice | Rooster | cockatrice |
+| ゴブリン | goblin | LittleDemon | imp |
+| コボルト | kobold | Wolf | kobold |
+| サイクロプス | cyclops | Cyclops | giant |
+| サタナエル | satan | DarkAngel | darkangel |
+| サハギン | sahagin | Triton | merman |
+| サラマンダー | salamander | BurningLizard | salamander |
+| シャーク | shark | Shark | shark |
+| ジャイアント | giant | Cannibal | giant-2 |
+| ジャック・オー・ランタン | jack | Pumpkin | JackOLantern |
+| シャドウ | shadow | LostShadow | shadow |
+| シルフ | sylph | Fairy | fairy |
+| スキュラ | scylla | Medusa | gorgon |
+| スケルトン | skeleton | Skeleton | skeleton |
+| スコーピオン | scorpion | Cancer | scorpion |
+| スネーク | snake | DangerousSnake | snake |
+| スピリッツ | spirit | LaughingSpirit | spirit |
+| スフィンクス | sphinx | Sphynx | sphinx |
+| スペクター | specter | MagicSkull | lostsoul |
+| スライム | slime | Slime | slime |
+| セイレーン | siren | FlyingMermaid | MerAngel |
+| セラフィム | seraph | Sephiroth | Angel |
+| センチピード | centipede | Multileg | catterpillar |
+| ソーサラー | sorcerer | Magician | wizard |
+| ゾンビ | zombie | PoisonZombie | zombie |
+| ダークエルフ | darkelf | Fencer | darkelf |
+| ダークナイト | darkknight | Knight | darkknight |
+| タイタン | titan | Titan | titan |
+| タランチュラ | spider | Spider | spider |
+| ティアマット | tiamat | Many-domedDragon | tiamat |
+| デーモン | demon | HornGoat | daemon |
+| トード | toad | Toad | frog |
+| ドラゴン | dragon | BlueDragon | dragon-2 |
+| ドラゴンナイト | dragonknight | DragonWarrior | dragonknight |
+| トレント | treant | Dendrid | tree |
+| トロール | troll | Orc | troll |
 | ネクロマンサー | necromancer | Necromant |
 | ネペンテス | nepenthe | MultirootFlower |
 | バーサーカー | berserker | Barbarian |
