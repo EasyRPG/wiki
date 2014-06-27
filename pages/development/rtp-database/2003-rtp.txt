@@ -319,50 +319,50 @@ Battle sprites. 115 PNG files. Different sizes.
 | ドラゴンナイト | dragonknight | DragonWarrior | dragonknight |
 | トレント | treant | Dendrid | tree |
 | トロール | troll | Orc | troll |
-| ネクロマンサー | necromancer | Necromant |
-| ネペンテス | nepenthe | MultirootFlower |
-| バーサーカー | berserker | Barbarian |
-| ハーピー | harpy | Harpy |
-| バジリスク | basilisk | Horned |
-| バット | bat | Bat |
-| バハムート | bahamut | Dragon |
-| パラサイト | parasite | All-knowing |
-| ビッグフット | bigfoot | Yeti |
-| ヒュドラ | hydra | Many-domedUglyCreature |
-| フェニックス | phoenix | Phoenix |
-| フェンリル | fenrir | RealWolf |
-| ベヒーモス | behemoth | InfernalDog |
-| ホーネット | hornet | Bee |
-| マンティコア | manticore | CrossedBeast |
-| マンティス | mantis | Insect |
-| マンモス | mammoth | Mamont |
-| ミイラ男 | mummy | Mummy |
-| ミドガルズオルム | midgard-serp | CreepingCreature |
-| ミノタウロス | minotaur | Minotaur |
-| ミミック | mimic | OgreChest |
-| メデューサ | medusa | HyperMedusa |
-| ユニコーン | unicorn | Unicorn |
-| ラクシュミ | rakashimi | Prophet |
-| ラミア | lamia | Mermaid |
-| リヴァイアサン | leviathan | LevitanWithAHorn |
-| リザード | lizard | MonitorLizard |
-| リザードマン | lizardman | LizardSoldier |
-| リッチ | lich | PowerfulNecromant |
-| リリス | lilith | MultihandsWarrior |
-| レイス | wraith | Phantom |
-| レモラ | remora | SharpFish |
-| ワーウルフ | werewolf | Werwolf |
-| ワーム | worm | ToothWorm |
-| ワイト | wight | SeizedSoldier |
-| ワイバーン | wyvern | BrownDragon |
-| 九尾の狐 | ninetail | MagicFox |
-| 朱雀 | redsparrow | VainBird |
-| 玄武 | blackturtle | TurtleSnake |
-| 白虎 | whitetiger | PolarTiger |
-| 馬 | nightmare | DarkHorse |
-| 鬼 | oni | Ogre |
-| 麒麟 | ki-rin | FairyTaleHorse |
-| 龍 | bluedragon | LongDragon |
+| ネクロマンサー | necromancer | Necromant | necromancer |
+| ネペンテス | nepenthe | MultirootFlower | killerplant |
+| バーサーカー | berserker | Barbarian | barbarian |
+| ハーピー | harpy | Harpy | harpy |
+| バジリスク | basilisk | Horned | earwig |
+| バット | bat | Bat | bat |
+| バハムート | bahamut | Dragon | lizarddemon |
+| パラサイト | parasite | All-knowing | parasite |
+| ビッグフット | bigfoot | Yeti | yeti |
+| ヒュドラ | hydra | Many-domedUglyCreature | hydra |
+| フェニックス | phoenix | Phoenix | phoenix |
+| フェンリル | fenrir | RealWolf | wolf |
+| ベヒーモス | behemoth | InfernalDog | behemoth |
+| ホーネット | hornet | Bee | bea |
+| マンティコア | manticore | CrossedBeast | monster |
+| マンティス | mantis | Insect | preyingmantis |
+| マンモス | mammoth | Mamont | mammoth |
+| ミイラ男 | mummy | Mummy | mummy |
+| ミドガルズオルム | midgard-serp | CreepingCreature | monster-2 |
+| ミノタウロス | minotaur | Minotaur | minotaur |
+| ミミック | mimic | OgreChest | mimic |
+| メデューサ | medusa | HyperMedusa | medusa |
+| ユニコーン | unicorn | Unicorn | unicorn |
+| ラクシュミ | rakashimi | Prophet | mystic |
+| ラミア | lamia | Mermaid | gorgon-2 |
+| リヴァイアサン | leviathan | LevitanWithAHorn | leviathan |
+| リザード | lizard | MonitorLizard | lizard |
+| リザードマン | lizardman | LizardSoldier | lizardman |
+| リッチ | lich | PowerfulNecromant | lich |
+| リリス | lilith | MultihandsWarrior | lilith |
+| レイス | wraith | Phantom | spectre |
+| レモラ | remora | SharpFish | flyingfish |
+| ワーウルフ | werewolf | Werwolf | werewolf |
+| ワーム | worm | ToothWorm | worm |
+| ワイト | wight | SeizedSoldier | yto |
+| ワイバーン | wyvern | BrownDragon | yburning |
+| 九尾の狐 | ninetail | MagicFox | foxofninetails |
+| 朱雀 | redsparrow | VainBird | redsparrow |
+| 玄武 | blackturtle | TurtleSnake | monster-3 |
+| 白虎 | whitetiger | PolarTiger | whitetiger |
+| 馬 | nightmare | DarkHorse | horse |
+| 鬼 | oni | Ogre | ogre |
+| 麒麟 | ki-rin | FairyTaleHorse | giraffe |
+| 龍 | bluedragon | LongDragon | bluedragon |
 
 === Conflicts between Russian and English RTP ===
 
