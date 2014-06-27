@@ -191,57 +191,57 @@ Allied battle sprites. 64 PNG files. 144x384px.
 Battle weapon sprites. 1 PNG file. 144x384px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| 武器 | weapons | Standart |
+| 武器 | weapons | Standart | weapon |
 
 ==== CharSet ====
 
 Map sprites. 15 PNG files. 288x256px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| オブジェクト1 | object1 | Objects1 |
-| オブジェクト2 | object2 | Objects2 |
-| モンスター1 | monster1 | Monsters1 |
-| モンスター2 | monster2 | Monsters2 |
-| 一般1 | char1 | People1 |
-| 一般2 | char2 | People2 |
-| 一般3 | char3 | People3 |
-| 一般4 | char4 | People4 |
-| 一般5 | char5 | People5 |
-| 主人公1 | hero1 | Chara1 |
-| 主人公2 | hero2 | Chara2 |
-| 主人公3 | hero3 | Chara3 |
-| 主人公4 | hero4 | Chara4 |
-| 乗り物 | vehicle | Vehicles |
-| 動物 | animal | Animals |
+| オブジェクト1 | object1 | Objects1 | object1 |
+| オブジェクト2 | object2 | Objects2 | object2 |
+| モンスター1 | monster1 | Monsters1 | monster1 |
+| モンスター2 | monster2 | Monsters2 | monster2 |
+| 一般1 | char1 | People1 | general1 |
+| 一般2 | char2 | People2 | general2 |
+| 一般3 | char3 | People3 | general3 |
+| 一般4 | char4 | People4 | general4 |
+| 一般5 | char5 | People5 | general5 |
+| 主人公1 | hero1 | Chara1 | protagonist1 |
+| 主人公2 | hero2 | Chara2 | protagonist2 |
+| 主人公3 | hero3 | Chara3 | protagonist3 |
+| 主人公4 | hero4 | Chara4 | protagonist4 |
+| 乗り物 | vehicle | Vehicles | vehicle |
+| 動物 | animal | Animals | animal |
 
 ==== ChipSet ====
 
 Map tile sets. 5 PNG files. 480x256px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| ダンジョン | dungeon | Internal1 |
-| 内装 | building | Internal2 |
-| 基本 | main | World |
-| 外観 | town | Village |
-| 船 | ship | Ship |
+| ダンジョン | dungeon | Internal1 | donjohn |
+| 内装 | building | Internal2 | interior |
+| 基本 | main | World | basic |
+| 外観 | town | Village | appearance |
+| 船 | ship | Ship | boat |
 
 ==== FaceSet ====
 
 Face pictures. 5 PNG files. 192x192px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| モンスター | monster | Monsters |
-| 一般1 | faces1 | Face1 |
-| 一般2 | faces2 | Face2 |
-| 主人公1 | hero1 | People |
-| 主人公2 | hero2 | PeopleAnimal |
+| モンスター | monster | Monsters | monster |
+| 一般1 | faces1 | People | general1 |
+| 一般2 | faces2 | PeopleAnimal | general2 |
+| 主人公1 | hero1 | Face1 | Protagonist1 |
+| 主人公2 | hero2 | Face2 | Protagonist2 |
 
 ==== GameOver ====
 
 Game Over scene pictures. 1 PNG file. 320x240px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| ゲームオーバー | gameover | GameOver |
+| ゲームオーバー | gameover | GameOver | gameover |
 
 ==== Monster ====
 
