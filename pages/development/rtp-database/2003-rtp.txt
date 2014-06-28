@@ -745,39 +745,39 @@ In Russian RTP, this folder contains only one file (Dark6.wav).
 | 逃走 | flee | | Escape |
 | 鍵 | key | | Key |
 | 鐘 | gong | | Bell |
-| 閉める1 | close1 | | 
-| 閉める2 | close2 | | 
-| 開ける1 | open1 | | 
-| 開ける2 | open2 | | 
-| 雨1 | rain01 | | 
-| 雨2 | rain02 | | 
-| 雷1 | bolt01 | | 
-| 雷2 | bolt02 | | 
-| 雷3 | bolt03 | | 
-| 雷4 | bolt04 | | 
-| 雷5 | bolt05 | | 
-| 雷6 | bolt06 | | 
-| 雷7 | bolt07 | | 
-| 雷8 | bolt08 | | 
-| 雷9 | bolt09 | | 
-| 雷10 | bolt10 | | 
-| 霧1 | fog1 | | 
-| 霧2 | fog2 | | 
-| 音波1 | wave1 | | 
-| 音波2 | wave2 | | 
-| 風1 | wind01 | | 
-| 風2 | wind02 | | 
-| 風3 | wind03 | | 
-| 風4 | wind04 | | 
-| 風5 | wind05 | | 
-| 風6 | wind06 | | 
-| 風7 | wind07 | | 
-| 風8 | wind08 | | 
-| 風9 | wind09 | | 
-| 風10 | wind10 | | 
-| 風11 | wind11 | | 
-| 魔法1 | magic1 | | 
-| 魔法2 | magic2 | | 
+| 閉める1 | close1 | | Close1 |
+| 閉める2 | close2 | | Close2 |
+| 開ける1 | open1 | | Open1 |
+| 開ける2 | open2 | | Open2 |
+| 雨1 | rain1 | | Rain1 |
+| 雨2 | rain2 | | Rain2 |
+| 雷1 | bolt01 | | Thunder1 |
+| 雷2 | bolt02 | | Thunder2 |
+| 雷3 | bolt03 | | Thunder3 |
+| 雷4 | bolt04 | | Thunder4 |
+| 雷5 | bolt05 | | Thunder5 |
+| 雷6 | bolt06 | | Thunder6 |
+| 雷7 | bolt07 | | Thunder7 |
+| 雷8 | bolt08 | | Thunder8 |
+| 雷9 | bolt09 | | Thunder9 |
+| 雷10 | bolt10 | | Thunder10 |
+| 霧1 | fog1 | | Fog1 |
+| 霧2 | fog2 | | Fog2 |
+| 音波1 | wave1 | | Sound wave1 |
+| 音波2 | wave2 | | Sound wave2 |
+| 風1 | wind01 | | Wind1 |
+| 風2 | wind02 | | Wind2 |
+| 風3 | wind03 | | Wind3 |
+| 風4 | wind04 | | Wind4 |
+| 風5 | wind05 | | Wind5 |
+| 風6 | wind06 | | Wind6 |
+| 風7 | wind07 | | Wind7 |
+| 風8 | wind08 | | Wind8 |
+| 風9 | wind09 | | Wind9 |
+| 風10 | wind10 | | Wind10 |
+| 風11 | wind11 | | Wind11 |
+| 魔法1 | magic1 | | Magic1 |
+| 魔法2 | magic2 | | Magic2 |
 
 ==== System ====
 
