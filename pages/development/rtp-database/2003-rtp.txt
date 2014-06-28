@@ -784,26 +784,26 @@ In Russian RTP, this folder contains only one file (Dark6.wav).
 Tile system for window skinning. 4 PNG files. 160x80px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^
-| システム | system1 | System |
-| システムA | system2 | SystemA |
-| システムB | system3 | SystemB |
-| システムC | system4 | SystemC |
+| システム | system1 | System | system |
+| システムA | system2 | SystemA | SystemA |
+| システムB | system3 | SystemB | SystemB |
+| システムC | system4 | SystemC | SystemC |
 
 ==== System2 ====
 
 System graphics for battles. 4 PNG files. 80x96px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^
-| システム２A | system2a | System2A |
-| システム２B | system2b | System2B |
-| システム２C | system2c | System2C |
+| システム２A | system2a | System2A | systeméQA |
+| システム２B | system2b | System2B | systeméQB |
+| システム２C | system2c | System2C | systeméQC |
 
 ==== Title ====
 
 Title scene pictures. 4 PNG files. 320x240px.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^
-| タイトル1 | title1 | Title1 |
-| タイトル2 | title2 | Title2 |
-| タイトル3 | title3 | Title3 |
-| タイトル4 | title4 | Title4 |
+| タイトル1 | title1 | Title1 | title1 |
+| タイトル2 | title2 | Title2 | title2 |
+| タイトル3 | title3 | Title3 | title3 |
+| タイトル4 | title4 | Title4 | title4 |
