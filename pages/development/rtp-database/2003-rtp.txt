@@ -547,19 +547,19 @@ Background images for empty map zones. 13 PNG files. Different sizes.
 There is a name conflict between English and Russian RTP: in English, Dawn1 and Dawn2 are 夜明け1 and 夜明け2 respectively, while in Russian they are 夕焼け1 and 夕焼け2.
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| 夕焼け1 | dusk1 | Dawn1 |
-| 夕焼け2 | dusk2 | Dawn2 |
-| 夜明け1 | dawn1 | Evening1 |
-| 夜明け2 | dawn2 | Evening2 |
-| 夜空1 | night1 | Night1 |
-| 夜空2 | night2 | Night2 |
-| 宇宙 | space | Galaxy |
-| 惑星1 | planet1 | Planet1 |
-| 惑星2 | planet2 | Planet2 |
-| 惑星3 | planet3 | Planet3 |
-| 異空間 | strange | Weird |
-| 空1 | sky1 | Morning1 |
-| 空2 | sky2 | Morning2 |
+| 夕焼け1 | dusk1 | Dawn1 | eveningglow1 |
+| 夕焼け2 | dusk2 | Dawn2 | eveningglow2 |
+| 夜明け1 | dawn1 | Evening1 | dawn1 |
+| 夜明け2 | dawn2 | Evening2 | dawn2 |
+| 夜空1 | night1 | Night1 | nightempty1 |
+| 夜空2 | night2 | Night2 | nightempty2 |
+| 宇宙 | space | Galaxy | space |
+| 惑星1 | planet1 | Planet1 | planetary1 |
+| 惑星2 | planet2 | Planet2 | Planetary2 |
+| 惑星3 | planet3 | Planet3 | Planetary3 |
+| 異空間 | strange | Weird | strangespacial |
+| 空1 | sky1 | Morning1 | empty1 |
+| 空2 | sky2 | Morning2 | empty2 |
 
 ==== Picture ====
 
