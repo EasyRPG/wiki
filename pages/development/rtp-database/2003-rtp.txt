@@ -695,56 +695,56 @@ In Russian RTP, this folder contains only one file (Dark6.wav).
 | 暗黒6 | dark6 | Dark6 | Darkness6 |
 | 歌 | song | | Song |
 | 毒 | poison | | Poison |
-| 水1 | water1 | | 
-| 水2 | water2 | | 
-| 水3 | water3 | | 
-| 水4 | water4 | | 
-| 水5 | water5 | | 
-| 水6 | water6 | | 
-| 決定1 | choice1 | | 
-| 決定2 | choice2 | | 
-| 沈黙 | silence | | 
-| 海1 | sea1 | | 
-| 海2 | sea2 | | 
-| 消滅1 | vanish1 | |
-| 消滅2 | vanish2 | | 
-| 混乱 | confuse | | 
-| 炎1 | fire1 | | 
-| 炎2 | fire2 | | 
-| 炎3 | fire3 | | 
-| 炎4 | fire4 | | 
-| 炎5 | fire5 | | 
-| 炎6 | fire6 | | 
-| 炎7 | fire7 | | 
-| 炎8 | fire8 | | 
-| 爆発1 | explode1 | |
-| 爆発2 | explode2 | | 
-| 爆発3 | explode3 | | 
-| 爆発4 | explode4 | | 
-| 爆発5 | explode5 | | 
-| 爆発6 | explode6 | | 
-| 爆発7 | explode7 | | 
-| 睡眠 | sleep | | 
-| 砂けむり | sandstorm | | 
-| 神聖1 | holy1 | | 
-| 神聖2 | holy2 | | 
-| 神聖3 | holy3 | | 
-| 神聖4 | holy4 | | 
-| 神聖5 | holy5 | | 
-| 神聖6 | holy6 | | 
-| 神聖7 | holy7 | | 
-| 神聖8 | holy8 | | 
-| 神聖9 | holy9 | | 
-| 移動 | footstep | | 
-| 花粉 | pollen | | 
-| 落ちる1 | fall1 | | 
-| 落ちる2 | fall2 | | 
-| 蘇生1 | revive1 | | 
-| 蘇生2 | revive2 | | 
-| 蘇生3 | revive3 | | 
-| 逃走 | flee | | 
-| 鍵 | key | | 
-| 鐘 | gong | | 
+| 水1 | water1 | | Water1 |
+| 水2 | water2 | | Water2 |
+| 水3 | water3 | | Water3 |
+| 水4 | water4 | | Water4 |
+| 水5 | water5 | | Water5 |
+| 水6 | water6 | | Water6 |
+| 決定1 | choice1 | | Decision1 |
+| 決定2 | choice2 | | Decision2 |
+| 沈黙 | silence | | Silence |
+| 海1 | sea1 | | Sea1 |
+| 海2 | sea2 | | Sea2 |
+| 消滅1 | vanish1 | | Disappearance1 |
+| 消滅2 | vanish2 | | Disappearance2 |
+| 混乱 | confuse | | Caos |
+| 炎1 | fire1 | | Flame1 |
+| 炎2 | fire2 | | Flame2 |
+| 炎3 | fire3 | | Flame3 |
+| 炎4 | fire4 | | Flame4 |
+| 炎5 | fire5 | | Flame5 |
+| 炎6 | fire6 | | Flame6 |
+| 炎7 | fire7 | | Flame7 |
+| 炎8 | fire8 | | Flame8 |
+| 爆発1 | explode1 | | Explosion1 |
+| 爆発2 | explode2 | | Explosion2 |
+| 爆発3 | explode3 | | Explosion3 |
+| 爆発4 | explode4 | | Explosion4 |
+| 爆発5 | explode5 | | Explosion5 |
+| 爆発6 | explode6 | | Explosion6 |
+| 爆発7 | explode7 | | Explosion7 |
+| 睡眠 | sleep | | Sleep |
+| 砂けむり | sandstorm | | SandMind |
+| 神聖1 | holy1 | | Holy1 |
+| 神聖2 | holy2 | | Holy2 |
+| 神聖3 | holy3 | | Holy3 |
+| 神聖4 | holy4 | | Holy4 |
+| 神聖5 | holy5 | | Holy5 |
+| 神聖6 | holy6 | | Holy6 |
+| 神聖7 | holy7 | | Holy7 |
+| 神聖8 | holy8 | | Holy8 |
+| 神聖9 | holy9 | | Holy9 |
+| 移動 | footstep | | Run |
+| 花粉 | pollen | | Pollen |
+| 落ちる1 | fall1 | | Fall1 |
+| 落ちる2 | fall2 | | Fall2 |
+| 蘇生1 | revive1 | | Revival1 |
+| 蘇生2 | revive2 | | Revival2 |
+| 蘇生3 | revive3 | | Revival3 |
+| 逃走 | flee | | Escape |
+| 鍵 | key | | Key |
+| 鐘 | gong | | Bell |
 | 閉める1 | close1 | | 
 | 閉める2 | close2 | | 
 | 開ける1 | open1 | | 
