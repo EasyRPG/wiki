@@ -569,215 +569,215 @@ Multiple purpose pictures. Empty folder.
 
 Foreground sound effects. 206 WAV (PCM) files. Different qualities.
 
-In Russian RTP, this folder contains only one file (Dark6.wav). In Advocate’s RTP, this folder contains MP3 files and not WAV.
+In Russian RTP, this folder contains only one file (Dark6.wav).
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| アイテム1 | item1 |
-| アイテム2 | item2 |
-| あたり1 | jingle1 |
-| あたり2 | jingle2 |
-| アップ | increase |
-| イヌ | dog |
-| ウシ | cow |
-| ウマ | horse |
-| おたけび | roar |
-| カーソル1 | cursor1 |
-| カーソル2 | cursor2 |
-| ガシャン | shatter |
-| キャンセル1 | cancel1 |
-| キャンセル2 | cancel2 |
-| しびれ1 | paralyze1 |
-| しびれ2 | paralyze2 |
-| しびれ3 | paralyze3 |
-| ジャンプ1 | jump1 |
-| ジャンプ2 | jump2 |
-| ショット1 | shot1 |
-| ショット2 | shot2 |
-| ショット3 | shot3 |
-| スイッチ1 | switch1 |
-| スイッチ2 | switch2 |
-| ダウン | decrease |
-| ダメージ1 | damage1 |
-| ダメージ2 | damage2 |
-| テレポート1 | teleport1 |
-| テレポート2 | teleport2 |
-| トラ | tiger |
-| にらみ | gaze |
-| にわとり | chicken |
-| ネコ | cat |
-| ノック | knock |
-| はずれ1 | failure1 |
-| はずれ2 | failure2 |
-| バリア | barrier | |
-| ひつじ | sheep |
-| ブザー1 | buzzer1 |
-| ブザー2 | buzzer2 |
-| フラッシュ1 | flash1 |
-| フラッシュ2 | flash2 |
-| フラッシュ3 | flash3 |
-| ブレス | breath |
-| モンスター1 | monster1 |
-| モンスター2 | monster2 |
-| ライオン | lion |
-| 冷気1 | ice01 |
-| 冷気2 | ice04 |
-| 冷気3 | ice05 |
-| 冷気4 | ice06 |
-| 冷気5 | ice07 |
-| 冷気6 | ice08 |
-| 冷気7 | ice09 |
-| 冷気8 | ice10 |
-| 冷気9 | ice11 |
-| 冷気10 | ice02 |
-| 冷気11 | ice03 |
-| 剣1 | sword1 |
-| 剣2 | sword2 |
-| 剣3 | sword3 |
-| 吸収1 | absorb1 |
-| 吸収2 | absorb2 |
-| 噛む | bloodsuck |
-| 回復1 | heal1 |
-| 回復2 | heal2 |
-| 回復3 | heal3 |
-| 回復4 | heal4 |
-| 回復5 | heal5 |
-| 回復6 | heal6 |
-| 回復7 | heal7 |
-| 回復8 | heal8 |
-| 回避1 | evade1 |
-| 回避2 | evade2 |
-| 地震1 | quake1 |
-| 地震2 | quake2 |
-| 壁1 | bump1 |
-| 壁2 | bump2 |
-| 大地1 | earth01 |
-| 大地2 | earth02 |
-| 大地3 | earth03 |
-| 大地4 | earth04 |
-| 大地5 | earth05 |
-| 大地6 | earth06 |
-| 大地7 | earth07 |
-| 大地8 | earth08 |
-| 大地9 | earth09 |
-| 大地10 | earth10 |
-| 巻き付き | ensnare |
-| 弓1 | bow1 |
-| 弓2 | bow2 |
-| 戦闘1 | battle1 |
-| 戦闘2 | battle2 |
-| 打撃1 | punch1 |
-| 打撃2 | punch2 |
-| 打撃3 | punch3 |
-| 打撃4 | punch4 |
-| 打撃5 | punch5 |
-| 打撃6 | punch6 |
-| 打撃7 | punch7 |
-| 攻撃1 | attack1 |
-| 攻撃2 | attack2 |
-| 斬る1 | strike01 |
-| 斬る10 | strike10 |
-| 斬る11 | strike11 |
-| 斬る2 | strike02 |
-| 斬る3 | strike03 |
-| 斬る4 | strike04 |
-| 斬る5 | strike05 |
-| 斬る6 | strike06 |
-| 斬る7 | strike07 |
-| 斬る8 | strike08 |
-| 斬る9 | strike09 |
-| 時計 | clock |
-| 暗闇 | night |
-| 暗黒1 | dark1 |
-| 暗黒2 | dark2 |
-| 暗黒3 | dark3 |
-| 暗黒4 | dark4 |
-| 暗黒5 | dark5 |
-| 暗黒6 | dark6 | Dark6 |
-| 歌 | song |
-| 毒 | poison |
-| 水1 | water1 |
-| 水2 | water2 |
-| 水3 | water3 |
-| 水4 | water4 |
-| 水5 | water5 |
-| 水6 | water6 |
-| 決定1 | choice1 |
-| 決定2 | choice2 |
-| 沈黙 | silence |
-| 海1 | sea1 |
-| 海2 | sea2 |
-| 消滅1 | vanish1 |
-| 消滅2 | vanish2 |
-| 混乱 | confuse |
-| 炎1 | fire1 |
-| 炎2 | fire2 |
-| 炎3 | fire3 |
-| 炎4 | fire4 |
-| 炎5 | fire5 |
-| 炎6 | fire6 |
-| 炎7 | fire7 |
-| 炎8 | fire8 |
-| 爆発1 | explode1 |
-| 爆発2 | explode2 |
-| 爆発3 | explode3 |
-| 爆発4 | explode4 |
-| 爆発5 | explode5 |
-| 爆発6 | explode6 |
-| 爆発7 | explode7 |
-| 睡眠 | sleep |
-| 砂けむり | sandstorm |
-| 神聖1 | holy1 |
-| 神聖2 | holy2 |
-| 神聖3 | holy3 |
-| 神聖4 | holy4 |
-| 神聖5 | holy5 |
-| 神聖6 | holy6 |
-| 神聖7 | holy7 |
-| 神聖8 | holy8 |
-| 神聖9 | holy9 |
-| 移動 | footstep |
-| 花粉 | pollen |
-| 落ちる1 | fall1 |
-| 落ちる2 | fall2 |
-| 蘇生1 | revive1 |
-| 蘇生2 | revive2 |
-| 蘇生3 | revive3 |
-| 逃走 | flee |
-| 鍵 | key |
-| 鐘 | gong |
-| 閉める1 | close1 |
-| 閉める2 | close2 |
-| 開ける1 | open1 |
-| 開ける2 | open2 |
-| 雨1 | rain01 |
-| 雨2 | rain02 |
-| 雷1 | bolt01 |
-| 雷2 | bolt02 |
-| 雷3 | bolt03 |
-| 雷4 | bolt04 |
-| 雷5 | bolt05 |
-| 雷6 | bolt06 |
-| 雷7 | bolt07 |
-| 雷8 | bolt08 |
-| 雷9 | bolt09 |
-| 雷10 | bolt10 |
-| 霧1 | fog1 |
-| 霧2 | fog2 |
-| 音波1 | wave1 |
-| 音波2 | wave2 |
-| 風1 | wind01 |
-| 風2 | wind02 |
-| 風3 | wind03 |
-| 風4 | wind04 |
-| 風5 | wind05 |
-| 風6 | wind06 |
-| 風7 | wind07 |
-| 風8 | wind08 |
-| 風9 | wind09 |
-| 風10 | wind10 |
-| 風11 | wind11 |
-| 魔法1 | magic1 |
-| 魔法2 | magic2 |
+| アイテム1 | item1 | | Item1 |
+| アイテム2 | item2 | | Item2 |
+| あたり1 | jingle1 | | Around1 |
+| あたり2 | jingle2 | | Around2 |
+| アップ | increase | | Upgrade |
+| イヌ | dog | | Dog |
+| ウシ | cow | | Cow |
+| ウマ | horse | | Horse |
+| おたけび | roar | | Roar |
+| カーソル1 | cursor1 | | Cursor1 |
+| カーソル2 | cursor2 | | Cursor2 |
+| ガシャン | shatter | | Glass |
+| キャンセル1 | cancel1 | | Cancel1 |
+| キャンセル2 | cancel2 | | Cancel2 |
+| しびれ1 | paralyze1 | | Paralyze1 |
+| しびれ2 | paralyze2 | | Paralyze2 |
+| しびれ3 | paralyze3 | | Paralyze3 |
+| ジャンプ1 | jump1 | | Jump1 |
+| ジャンプ2 | jump2 | | Jump2 |
+| ショット1 | shot1 | | Laser1 |
+| ショット2 | shot2 | | Laser2 |
+| ショット3 | shot3 | | Laser3 |
+| スイッチ1 | switch1 | | Switch1 |
+| スイッチ2 | switch2 | | Switch2 |
+| ダウン | decrease | | Downgrade |
+| ダメージ1 | damage1 | | Damege1 |
+| ダメージ2 | damage2 | | Damege2 |
+| テレポート1 | teleport1 | | Teleport1 |
+| テレポート2 | teleport2 | | Teleport2 |
+| トラ | tiger | | Tiger |
+| にらみ | gaze | | Glare |
+| にわとり | chicken | | Chicken |
+| ネコ | cat | | Cat |
+| ノック | knock | | Knock |
+| はずれ1 | failure1 | | End1 |
+| はずれ2 | failure2 | | End2 |
+| バリア | barrier | | Barrier |
+| ひつじ | sheep | | Sheep |
+| ブザー1 | buzzer1 | | Buzzer1 |
+| ブザー2 | buzzer2 | | Buzzer2 |
+| フラッシュ1 | flash1 | | Flashlight1 |
+| フラッシュ2 | flash2 | | Flashlight2 |
+| フラッシュ3 | flash3 | | Flashlight3 |
+| ブレス | breath | | Breath |
+| モンスター1 | monster1 | | Monster1 |
+| モンスター2 | monster2 | | Monster2 |
+| ライオン | lion | | Lion |
+| 冷気1 | ice01 | | Ice1 |
+| 冷気2 | ice04 | | Ice2 |
+| 冷気3 | ice05 | | Ice3 |
+| 冷気4 | ice06 | | Ice4 |
+| 冷気5 | ice07 | | Ice5 |
+| 冷気6 | ice08 | | Ice6 |
+| 冷気7 | ice09 | | Ice7 |
+| 冷気8 | ice10 | | Ice8 |
+| 冷気9 | ice11 | | Ice9 |
+| 冷気10 | ice02 | | Ice10 |
+| 冷気11 | ice03 | | Ice11 |
+| 剣1 | sword1 | | Sword1 |
+| 剣2 | sword2 | | Sword2 |
+| 剣3 | sword3 | | Sword3 |
+| 吸収1 | absorb1 | | Absorption1 |
+| 吸収2 | absorb2 | | Absorption2 |
+| 噛む | bloodsuck | | Bite |
+| 回復1 | heal1 | | Recovery1 |
+| 回復2 | heal2 | | 
+| 回復3 | heal3 | | 
+| 回復4 | heal4 | | 
+| 回復5 | heal5 | | 
+| 回復6 | heal6 | | 
+| 回復7 | heal7 | | 
+| 回復8 | heal8 | | 
+| 回避1 | evade1 | | 
+| 回避2 | evade2 | | 
+| 地震1 | quake1 | | 
+| 地震2 | quake2 | | 
+| 壁1 | bump1 | | 
+| 壁2 | bump2 | | 
+| 大地1 | earth01 | | 
+| 大地2 | earth02 | | 
+| 大地3 | earth03 | | 
+| 大地4 | earth04 | | 
+| 大地5 | earth05 | | 
+| 大地6 | earth06 | | 
+| 大地7 | earth07 | | 
+| 大地8 | earth08 | | 
+| 大地9 | earth09 | | 
+| 大地10 | earth10 | | 
+| 巻き付き | ensnare | | 
+| 弓1 | bow1 | | 
+| 弓2 | bow2 | | 
+| 戦闘1 | battle1 | |
+| 戦闘2 | battle2 | | 
+| 打撃1 | punch1 | | 
+| 打撃2 | punch2 | | 
+| 打撃3 | punch3 | | 
+| 打撃4 | punch4 | | 
+| 打撃5 | punch5 | | 
+| 打撃6 | punch6 | | 
+| 打撃7 | punch7 | | 
+| 攻撃1 | attack1 | | 
+| 攻撃2 | attack2 | | 
+| 斬る1 | strike01 | | 
+| 斬る10 | strike10 | | 
+| 斬る11 | strike11 | | 
+| 斬る2 | strike02 | | 
+| 斬る3 | strike03 | | 
+| 斬る4 | strike04 | | 
+| 斬る5 | strike05 | | 
+| 斬る6 | strike06 | | 
+| 斬る7 | strike07 | | 
+| 斬る8 | strike08 | | 
+| 斬る9 | strike09 | | 
+| 時計 | clock | | 
+| 暗闇 | night | | 
+| 暗黒1 | dark1 | | 
+| 暗黒2 | dark2 | | 
+| 暗黒3 | dark3 | | 
+| 暗黒4 | dark4 | | 
+| 暗黒5 | dark5 | | 
+| 暗黒6 | dark6 | Dark6 | 
+| 歌 | song | | 
+| 毒 | poison | | 
+| 水1 | water1 | | 
+| 水2 | water2 | | 
+| 水3 | water3 | | 
+| 水4 | water4 | | 
+| 水5 | water5 | | 
+| 水6 | water6 | | 
+| 決定1 | choice1 | | 
+| 決定2 | choice2 | | 
+| 沈黙 | silence | | 
+| 海1 | sea1 | | 
+| 海2 | sea2 | | 
+| 消滅1 | vanish1 | |
+| 消滅2 | vanish2 | | 
+| 混乱 | confuse | | 
+| 炎1 | fire1 | | 
+| 炎2 | fire2 | | 
+| 炎3 | fire3 | | 
+| 炎4 | fire4 | | 
+| 炎5 | fire5 | | 
+| 炎6 | fire6 | | 
+| 炎7 | fire7 | | 
+| 炎8 | fire8 | | 
+| 爆発1 | explode1 | |
+| 爆発2 | explode2 | | 
+| 爆発3 | explode3 | | 
+| 爆発4 | explode4 | | 
+| 爆発5 | explode5 | | 
+| 爆発6 | explode6 | | 
+| 爆発7 | explode7 | | 
+| 睡眠 | sleep | | 
+| 砂けむり | sandstorm | | 
+| 神聖1 | holy1 | | 
+| 神聖2 | holy2 | | 
+| 神聖3 | holy3 | | 
+| 神聖4 | holy4 | | 
+| 神聖5 | holy5 | | 
+| 神聖6 | holy6 | | 
+| 神聖7 | holy7 | | 
+| 神聖8 | holy8 | | 
+| 神聖9 | holy9 | | 
+| 移動 | footstep | | 
+| 花粉 | pollen | | 
+| 落ちる1 | fall1 | | 
+| 落ちる2 | fall2 | | 
+| 蘇生1 | revive1 | | 
+| 蘇生2 | revive2 | | 
+| 蘇生3 | revive3 | | 
+| 逃走 | flee | | 
+| 鍵 | key | | 
+| 鐘 | gong | | 
+| 閉める1 | close1 | | 
+| 閉める2 | close2 | | 
+| 開ける1 | open1 | | 
+| 開ける2 | open2 | | 
+| 雨1 | rain01 | | 
+| 雨2 | rain02 | | 
+| 雷1 | bolt01 | | 
+| 雷2 | bolt02 | | 
+| 雷3 | bolt03 | | 
+| 雷4 | bolt04 | | 
+| 雷5 | bolt05 | | 
+| 雷6 | bolt06 | | 
+| 雷7 | bolt07 | | 
+| 雷8 | bolt08 | | 
+| 雷9 | bolt09 | | 
+| 雷10 | bolt10 | | 
+| 霧1 | fog1 | | 
+| 霧2 | fog2 | | 
+| 音波1 | wave1 | | 
+| 音波2 | wave2 | | 
+| 風1 | wind01 | | 
+| 風2 | wind02 | | 
+| 風3 | wind03 | | 
+| 風4 | wind04 | | 
+| 風5 | wind05 | | 
+| 風6 | wind06 | | 
+| 風7 | wind07 | | 
+| 風8 | wind08 | | 
+| 風9 | wind09 | | 
+| 風10 | wind10 | | 
+| 風11 | wind11 | | 
+| 魔法1 | magic1 | | 
+| 魔法2 | magic2 | | 
 
 ==== System ====
 
