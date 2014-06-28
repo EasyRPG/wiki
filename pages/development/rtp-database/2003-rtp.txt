@@ -388,72 +388,72 @@ Moving pictures. Empty folder.
 Background music. 151 files: 123 MID songs, 18 MID Jingles (J), 10 WAV Sound Effects (SE).
 
 ^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| 2003いやしの泉 | spring | 2003Happiness |
-| 2003カジノ三昧 | casino | 2003Research |
-| 2003コロシアム | arena | 2003Piracy |
-| 2003サイバーシティ | bustling-city | 2003JoyfulNews |
-| 2003スノータウン | snowtown | 2003Lullaby |
-| 2003パニック | panic | 2003Warning |
-| 2003マキシマム・バトル | fierce-battle | 2003Pursuit |
-| 2003一獲千金の夢 | jackpot | 2003SilentPleasure |
-| 2003冒険者たち | adventure | 2003Farewell |
-| 2003勇者の凱旋 | triumph | 2003BigPalace |
-| 2003古城 | ancient-castle | 2003Glory |
-| 2003地下迷宮 | labyrinth | 2003Fast |
-| 2003夢幻の森 | forest | 2003WorldSound |
-| 2003夢見心地 | moonlight | 2003Serenity |
-| 2003大混戦 | armyclash | 2003Gangster |
-| 2003大空への翼 | airborne | 2003Fanfares |
-| 2003大聖堂 | hallowed-halls | 2003Grief |
-| 2003妖精の森 | fairies | 2003WorkingMusic |
-| 2003孤独な旅立ち | lonewolf | 2003Memoirs |
-| 2003小さな兵隊のマーチ | march | 2003Parade |
-| 2003山あいの村 | mtn-village | 2003EastStyle |
-| 2003帝国〜エンパイア | empire | 2003AndAgainPleasure |
-| 2003幼少の記憶 | memories | 2003FairyTale |
-| 2003忍び寄る闇 | foreboding | 2003Threat |
-| 2003悠久の時の流れに | eternal | 2003Calm |
-| 2003悲しみ | sadness | 2003Calm2 |
-| 2003戦いの幕開け | intro | 2003DangerousFog |
-| 2003教会 | church1 | 2003Church |
-| 2003日だまりの村 | village4 | 2003Farmer |
-| 2003暗黒の祭壇 | evil-temple | 2003GlobalFrustration |
-| 2003未開の集落 | strangetown | 2003WitchSong |
-| 2003極東の地 | far-east | 2003Flight |
-| 2003機械要塞 | mecha-base | 2003SadEnd |
-| 2003氷のラビリンス | icecave | 2003Drops |
-| 2003決戦の地 | showdown | 2003Battlefield |
-| 2003無人の館 | haunted | 2003SilentCrying |
-| 2003王宮のパーティー | royal-ball | 2003Dance |
-| 2003異次元回廊 | dimension | 2003FastBattle |
-| 2003祝福ワルツ | waltz | 2003Waltz |
-| 2003穏やかな風 | interlude | 2003Summer |
-| 2003緊迫 | tension | 2003TerribleDream |
-| 2003繰り返される戦い | endless-fight | 2003FastBattle2 |
-| 2003街の賑わい | town-square | 2003Pleasure |
-| 2003街の酒場 | bar | 2003Travel |
-| 2003記憶の彼方に | memories2 | 2003Morning |
-| 2003遺跡探索 | ruins | 2003InfiniteIdea |
-| 2003邪神との戦い | godslayer | 2003Chaos |
-| 2003静寂 | calm | 2003Underwater |
-| J2003ホルン | horns | 2003Win |
-| Jアイテム | item | |
-| Jギャグ1 | mischief1 | |
-| Jギャグ2 | mischief2 | |
-| Jファンファーレ1 | fanfare1 | |
-| Jファンファーレ2 | fanfare2 | |
-| Jファンファーレ3 | fanfare3 | |
-| Jファンファーレ4 | fanfare4 | |
-| Jファンファーレ5 | fanfare5 | |
-| Jファンファーレ6 | fanfare6 | |
-| J宿1 | inn1 | |
-| J宿2 | inn2 | |
-| J戦闘終了1 | victory1 | |
-| J戦闘終了2 | victory2 | |
-| J戦闘終了3 | victory3 | |
-| J戦闘終了4 | victory4 | |
-| J疑惑 | surprise | |
-| J謎 | riddle | |
+| 2003いやしの泉 | spring | 2003Happiness | 2003spring |
+| 2003カジノ三昧 | casino | 2003Research | 2003casino |
+| 2003コロシアム | arena | 2003Piracy | 2003colloseum |
+| 2003サイバーシティ | bustling-city | 2003JoyfulNews | 2003rhinobarcity |
+| 2003スノータウン | snowtown | 2003Lullaby | 2003snowtown |
+| 2003パニック | panic | 2003Warning | 2003panic |
+| 2003マキシマム・バトル | fierce-battle | 2003Pursuit | 2003maximumsbattle |
+| 2003一獲千金の夢 | jackpot | 2003SilentPleasure | 2003dream-catchlotsofmoney |
+| 2003冒険者たち | adventure | 2003Farewell | 2003venturepeople |
+| 2003勇者の凱旋 | triumph | 2003BigPalace | 2003triumphalreturn |
+| 2003古城 | ancient-castle | 2003Glory | 2003oldcastle |
+| 2003地下迷宮 | labyrinth | 2003Fast | 2003undergroundlabyrinth |
+| 2003夢幻の森 | forest | 2003WorldSound | 2003forestoffantasy |
+| 2003夢見心地 | moonlight | 2003Serenity | 2003mooniness |
+| 2003大混戦 | armyclash | 2003Gangster | 2003largeconfoundcombat |
+| 2003大空への翼 | airborne | 2003Fanfares | 2003wingtoskies |
+| 2003大聖堂 | hallowed-halls | 2003Grief | 2003largesaintlyhall |
+| 2003妖精の森 | fairies | 2003WorkingMusic | 2003fairyforest |
+| 2003孤独な旅立ち | lonewolf | 2003Memoirs | 2003lonelyjourney |
+| 2003小さな兵隊のマーチ | march | 2003Parade | 2003marchofsmallsoldiers |
+| 2003山あいの村 | mtn-village | 2003EastStyle | 2003villageofravines |
+| 2003帝国〜エンパイア | empire | 2003AndAgainPleasure | 2003enpire |
+| 2003幼少の記憶 | memories | 2003FairyTale | 2003memoryofinfancy |
+| 2003忍び寄る闇 | foreboding | 2003Threat | 2003approachingdarkness |
+| 2003悠久の時の流れに | eternal | 2003Calm | 2003theeternalflow |
+| 2003悲しみ | sadness | 2003Calm2 | 2003sorrow |
+| 2003戦いの幕開け | intro | 2003DangerousFog | 2003fightopening |
+| 2003教会 | church1 | 2003Church | 2003church |
+| 2003日だまりの村 | village4 | 2003Farmer | 2003villageball |
+| 2003暗黒の祭壇 | evil-temple | 2003GlobalFrustration | 2003altarofdarkness |
+| 2003未開の集落 | strangetown | 2003WitchSong | 2003unexploredvillage |
+| 2003極東の地 | far-east | 2003Flight | 2003fareasternarea |
+| 2003機械要塞 | mecha-base | 2003SadEnd | 2003machinefortress |
+| 2003氷のラビリンス | icecave | 2003Drops | 2003icelabyrinth |
+| 2003決戦の地 | showdown | 2003Battlefield | 2003areaofdecisivebattles |
+| 2003無人の館 | haunted | 2003SilentCrying | 2003unmannedmansion |
+| 2003王宮のパーティー | royal-ball | 2003Dance | 2003courtparty |
+| 2003異次元回廊 | dimension | 2003FastBattle | 2003strangedimensionalcorridor |
+| 2003祝福ワルツ | waltz | 2003Waltz | 2003blessingwaltz |
+| 2003穏やかな風 | interlude | 2003Summer | 2003calmwind |
+| 2003緊迫 | tension | 2003TerribleDream | 2003tension |
+| 2003繰り返される戦い | endless-fight | 2003FastBattle2 | 2003thefightwhichisrepeated |
+| 2003街の賑わい | town-square | 2003Pleasure | 2003towncrowd |
+| 2003街の酒場 | bar | 2003Travel | 2003townbar |
+| 2003記憶の彼方に | memories2 | 2003Morning | 2003onthefarsideofmemories |
+| 2003遺跡探索 | ruins | 2003InfiniteIdea | 2003ruinssearch |
+| 2003邪神との戦い | godslayer | 2003Chaos | 2003wickedgodfight |
+| 2003静寂 | calm | 2003Underwater | 2003calmness |
+| J2003ホルン | horns | 2003Win | J2003horn |
+| Jアイテム | item | | Jitem |
+| Jギャグ1 | mischief1 | | Jgag1 |
+| Jギャグ2 | mischief2 | | Jgag2 |
+| Jファンファーレ1 | fanfare1 | | Jfanfare1 |
+| Jファンファーレ2 | fanfare2 | | Jfanfare2 |
+| Jファンファーレ3 | fanfare3 | | Jfanfare3 |
+| Jファンファーレ4 | fanfare4 | | Jfanfare4 |
+| Jファンファーレ5 | fanfare5 | | Jfanfare5 |
+| Jファンファーレ6 | fanfare6 | | Jfanfare6 |
+| J宿1 | inn1 | | Jinn1 |
+| J宿2 | inn2 | | Jinn2 |
+| J戦闘終了1 | victory1 | | Jaggressiveend1 |
+| J戦闘終了2 | victory2 | | Jaggressiveend2 |
+| J戦闘終了3 | victory3 | | Jaggressiveend3 |
+| J戦闘終了4 | victory4 | | Jaggressiveend4 |
+| J疑惑 | surprise | | Jdoubt |
+| J謎 | riddle | | Jpuzzle |
 | SE2003アラーム | se-alarm | SE2003Ding |
 | SE2003ジャングル | se-jungle | SE2003Jungle |
 | SE2003雑踏 | se-crowd | SE2003People |
