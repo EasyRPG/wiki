@@ -637,64 +637,64 @@ In Russian RTP, this folder contains only one file (Dark6.wav).
 | 吸収2 | absorb2 | | Absorption2 |
 | 噛む | bloodsuck | | Bite |
 | 回復1 | heal1 | | Recovery1 |
-| 回復2 | heal2 | | 
-| 回復3 | heal3 | | 
-| 回復4 | heal4 | | 
-| 回復5 | heal5 | | 
-| 回復6 | heal6 | | 
-| 回復7 | heal7 | | 
-| 回復8 | heal8 | | 
-| 回避1 | evade1 | | 
-| 回避2 | evade2 | | 
-| 地震1 | quake1 | | 
-| 地震2 | quake2 | | 
-| 壁1 | bump1 | | 
-| 壁2 | bump2 | | 
-| 大地1 | earth01 | | 
-| 大地2 | earth02 | | 
-| 大地3 | earth03 | | 
-| 大地4 | earth04 | | 
-| 大地5 | earth05 | | 
-| 大地6 | earth06 | | 
-| 大地7 | earth07 | | 
-| 大地8 | earth08 | | 
-| 大地9 | earth09 | | 
-| 大地10 | earth10 | | 
-| 巻き付き | ensnare | | 
-| 弓1 | bow1 | | 
-| 弓2 | bow2 | | 
-| 戦闘1 | battle1 | |
-| 戦闘2 | battle2 | | 
-| 打撃1 | punch1 | | 
-| 打撃2 | punch2 | | 
-| 打撃3 | punch3 | | 
-| 打撃4 | punch4 | | 
-| 打撃5 | punch5 | | 
-| 打撃6 | punch6 | | 
-| 打撃7 | punch7 | | 
-| 攻撃1 | attack1 | | 
-| 攻撃2 | attack2 | | 
-| 斬る1 | strike01 | | 
-| 斬る10 | strike10 | | 
-| 斬る11 | strike11 | | 
-| 斬る2 | strike02 | | 
-| 斬る3 | strike03 | | 
-| 斬る4 | strike04 | | 
-| 斬る5 | strike05 | | 
-| 斬る6 | strike06 | | 
-| 斬る7 | strike07 | | 
-| 斬る8 | strike08 | | 
-| 斬る9 | strike09 | | 
-| 時計 | clock | | 
-| 暗闇 | night | | 
-| 暗黒1 | dark1 | | 
-| 暗黒2 | dark2 | | 
-| 暗黒3 | dark3 | | 
-| 暗黒4 | dark4 | | 
-| 暗黒5 | dark5 | | 
-| 暗黒6 | dark6 | Dark6 | 
-| 歌 | song | | 
-| 毒 | poison | | 
+| 回復2 | heal2 | | Recovery2 |
+| 回復3 | heal3 | | Recovery3 |
+| 回復4 | heal4 | | Recovery4 |
+| 回復5 | heal5 | | Recovery5 |
+| 回復6 | heal6 | | Recovery6 |
+| 回復7 | heal7 | | Recovery7 |
+| 回復8 | heal8 | | Recovery8 |
+| 回避1 | evade1 | | Evasion1 |
+| 回避2 | evade2 | | Evasion2 |
+| 地震1 | quake1 | | Earthquake1 |
+| 地震2 | quake2 | | Earthquake2 |
+| 壁1 | bump1 | | Wall1 |
+| 壁2 | bump2 | | Wall2 |
+| 大地1 | earth01 | | Earth1 |
+| 大地2 | earth02 | | Earth2 |
+| 大地3 | earth03 | | Earth3 |
+| 大地4 | earth04 | | Earth4 |
+| 大地5 | earth05 | | Earth5 |
+| 大地6 | earth06 | | Earth6 |
+| 大地7 | earth07 | | Earth7 |
+| 大地8 | earth08 | | Earth8 |
+| 大地9 | earth09 | | Earth9 |
+| 大地10 | earth10 | | Earth10 |
+| 巻き付き | ensnare | | Vortex |
+| 弓1 | bow1 | | Bow1 |
+| 弓2 | bow2 | | Bow2 |
+| 戦闘1 | battle1 | | Battle1 |
+| 戦闘2 | battle2 | | Battle2 |
+| 打撃1 | punch1 | | Blow1 |
+| 打撃2 | punch2 | | Blow2 |
+| 打撃3 | punch3 | | Blow3 |
+| 打撃4 | punch4 | | Blow4 |
+| 打撃5 | punch5 | | Blow5 |
+| 打撃6 | punch6 | | Blow6 |
+| 打撃7 | punch7 | | Blow7 |
+| 攻撃1 | attack1 | | Attack1 |
+| 攻撃2 | attack2 | | Attack2 |
+| 斬る1 | strike01 | | Cut1 |
+| 斬る10 | strike10 | | Cut10 |
+| 斬る11 | strike11 | | Cut11 |
+| 斬る2 | strike02 | | Cut2 |
+| 斬る3 | strike03 | | Cut3 |
+| 斬る4 | strike04 | | Cut4 |
+| 斬る5 | strike05 | | Cut5 |
+| 斬る6 | strike06 | | Cut6 |
+| 斬る7 | strike07 | | Cut7 |
+| 斬る8 | strike08 | | Cut8 |
+| 斬る9 | strike09 | | Cut9 |
+| 時計 | clock | | Clock |
+| 暗闇 | night | | Darkness |
+| 暗黒1 | dark1 | | Darkness1 |
+| 暗黒2 | dark2 | | Darkness2 |
+| 暗黒3 | dark3 | | Darkness3 |
+| 暗黒4 | dark4 | | Darkness4 |
+| 暗黒5 | dark5 | | Darkness5 |
+| 暗黒6 | dark6 | Dark6 | Darkness6 |
+| 歌 | song | | Song |
+| 毒 | poison | | Poison |
 | 水1 | water1 | | 
 | 水2 | water2 | | 
 | 水3 | water3 | | 
