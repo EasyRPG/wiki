@@ -454,16 +454,16 @@ Background music. 151 files: 123 MID songs, 18 MID Jingles (J), 10 WAV Sound Eff
 | J戦闘終了4 | victory4 | | Jaggressiveend4 |
 | J疑惑 | surprise | | Jdoubt |
 | J謎 | riddle | | Jpuzzle |
-| SE2003アラーム | se-alarm | SE2003Ding |
-| SE2003ジャングル | se-jungle | SE2003Jungle |
-| SE2003雑踏 | se-crowd | SE2003People |
-| SE2003風 | se-gale | SE2003Winter |
-| SE2003鳥 | se-bird | SE2003Birds |
-| SE地震 | se-quake | SEEarthquake |
-| SE大雨 | se-torrent | SERain2 |
-| SE時計 | se-clock | SEClock |
-| SE海 | se-ocean | SESea |
-| SE雨 | se-rain | SERain |
+| SE2003アラーム | se-alarm | SE2003Ding | SE2003alarm |
+| SE2003ジャングル | se-jungle | SE2003Jungle | SE2003jungle |
+| SE2003雑踏 | se-crowd | SE2003People | SE2003bustle |
+| SE2003風 | se-gale | SE2003Winter | SE2003wind |
+| SE2003鳥 | se-bird | SE2003Birds | SE2003bird |
+| SE地震 | se-quake | SEEarthquake | SEearthquake |
+| SE大雨 | se-torrent | SERain2 | SEheavyrain |
+| SE時計 | se-clock | SEClock | SEclock |
+| SE海 | se-ocean | SESea | SEsea |
+| SE雨 | se-rain | SERain | SErainy |
 | エンディング1 | ending1 | |
 | エンディング2 | ending2 | |
 | エンディング3 | ending3 | |
