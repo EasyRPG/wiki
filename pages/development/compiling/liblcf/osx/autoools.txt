@@ -33,3 +33,12 @@ Build:
 Install:
 
   sudo make install
+  
+  
+**Note: the following extra steps were taken to get the configure step working:**
+
+  brew install icu4c
+
+  export ICU_CFLAGS=-I/usr/local/opt/icu4c/include
+  export ICU_LIBS=-L/usr/local/opt/icu4c/lib
+
