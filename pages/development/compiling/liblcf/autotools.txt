@@ -58,4 +58,4 @@ There is an [[https://aur.archlinux.org/packages/liblcf-git/|AUR package]] avail
 
 Contact with us at https://webchat.freenode.net/?channels=easyrpg
 
-The current build system maintainer is fdelapena
+The current autotools build system maintainer is fdelapena
