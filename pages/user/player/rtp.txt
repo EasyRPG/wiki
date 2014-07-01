@@ -4,7 +4,7 @@ RTP means "RunTime Package" and was intended to have an common asset library (gr
 
 RTP installers are distributed by the RPG Maker vendors in their homepages and can be downloaded for free (but can't be redistributed in other places).
 
-The better games usually don't need any files from the RTP to make them independent of required data installations.
+The better games usually don't need any files from the RTP to make them independent of requiring additional installations.
 
 EasyRPG does not provide a complete RTP yet, however you can use official RPG Maker 2000 and 2003 RTPs in the meanwhile, but it's non-free and can't be redistributed or used for other projects different than RPG Maker.
 
