@@ -6,7 +6,7 @@ RTP installers are distributed by the RPG Maker vendors in their homepages and c
 
 The better games usually don't need any files from the RTP to make them independent of requiring additional installations.
 
-EasyRPG does not provide a complete RTP yet, however you can use official RPG Maker 2000 and 2003 RTPs in the meanwhile, but it's non-free and can't be redistributed or used for other projects different than RPG Maker.
+Because EasyRPG is free (as in freedom) wants to create it's own RTP replacement to be freely modified and distributed. However, EasyRPG does not have a complete RTP yet. Meanwhile you can use official RPG Maker 2000 and 2003 RTPs, but remember they are non-free and can't be redistributed or used for other projects different than RPG Maker.
 
 ===== Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from Tkool web =====
 
