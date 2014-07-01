@@ -1,6 +1,6 @@
 ====== Runtime Package (RTP) ======
 
-The RTP contains graphics and sounds that are used by many games. RTP means "RunTime Package" and was intended to have an common asset library (graphics, music, sounds) shared between games to save some disk space in early distribution days (floppy disks, dial-up modems).
+RTP means "RunTime Package" and was intended to have an common asset library (graphics, music, sounds) shared between games to save some disk space in early distribution days (floppy disks, dial-up modems).
 
 The better games usually don't need any files from the RTP to make them independent of required data installations.
 
