@@ -1,4 +1,4 @@
-====== Building Editor with GNU Build System ======
+====== Building Editor-GTK with GNU Build System ======
 
 ===== Requirements =====
   * Autoconf 2.63 or greater
