@@ -10,6 +10,7 @@
   * zlib
   * boost
   * OpenAL
+  * FluidSynth
   * Ruby
   * Doxygen (optional)
   * [[../liblcf/cmake|liblcf]]
