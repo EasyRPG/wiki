@@ -1,0 +1,48 @@
+====== Building the GCW Zero Toolchain ======
+
+For our [[https://easy-rpg.org/jenkins/|Jenkins build server]] we needed a modified toolchain, that does not depend to be installed in ''/opt''.
+The following instructions have been written along the way and should result in a working toolchain that is suitable to get a working EasyRPG Player build.
+
+First, we need the buildroot from GitHub and change into the directory:
+
+<code bash>
+git clone https://github.com/gcwnow/buildroot.git
+cd buildroot
+</code>
+
+To use the default configuration:
+
+<code bash>
+make gcw0_defconfig
+</code>
+
+**Optionally**, we can use a previously saved config file, just copy it to ''.config''.
+We need to add newly available options then:
+<code bash>
+make oldconfig
+</code>
+
+We configure the packages to be build and available options:
+<code bash>
+make menuconfig
+</code>
+There are also the graphical frontends ''xconfig'', using qt and ''gconfig'', using gtk.
+
+Most of the libraries are not needed, so we disable them to save some time while compiling.
+Needed libraries are ''sdl'', ''sdl_mixer'' and ''icu''.
+
+Now the important step: change the toolchain directory from ''/opt/gcw0-toolchain'' to your desired directory.
+(''BR2_HOST_DIR="/home/jenkins/gcw0-toolchain"'')
+
+To speed up the build further, set the parallel make jobs to the cores of your cpu
+(''BR2_JLEVEL=2'')
+
+To speed up possibly rebuilds, enable ''ccache''.
+(''BR2_CCACHE=y'' and ''BR2_CCACHE_DIR="$(HOME)/.buildroot-ccache"'')
+
+When all things are set up, we can start the build and get something to drink in the meanwhile =)
+<code bash>
+nice -n19 make
+</code>
+
+Afterwards, there should be a new, shiny toolchain in the directory you chose.
