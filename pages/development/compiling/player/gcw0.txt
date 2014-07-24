@@ -1,0 +1,30 @@
+====== Compiling Player for GCW Zero ======
+
+You need to setup the gcw0 buildroot first: Download a precompiled toolchain from [[http://www.gcw-zero.com/develop]].
+
+[[development:gcw0-toolchain#cross-compile-pixman|You need to cross-compile pixman]].
+
+Download Player and liblcf from GitHub:
+
+<code bash>
+git clone --depth=1 https://github.com/EasyRPG/Player.git
+cd Player/libs
+git clone --depth=1 https://github.com/EasyRPG/liblcf.git
+cd ..
+</code>
+
+Change into the ''builds/opendingux'' folder and start the build:
+
+<code bash>
+cd builds/opendingux
+make
+</code>
+
+If no error occured, there will be an EasyRPG executable in the ''gcw-zero'' subdirectory.
+To build an opk ready to deploy to the device:
+
+<code bash>
+cd gcw-zero
+./opk_build.sh
+</code>
+
