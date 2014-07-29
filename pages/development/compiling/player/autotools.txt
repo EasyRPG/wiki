@@ -21,19 +21,22 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 
 ===== Build =====
   * Run:
-
+<code bash>
   ./configure
   make
   sudo make install
+</code>
 ===== RTP support with WINE =====
 
 For most games, you will need to have installed the RTP. To install RTP in non-Windows systems you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [[/user/player/rtp]] to learn how to install the RPG Maker 2000 and 2003 RTPs.
+
+====== Build from Git =====
 
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
   * Do the [[../liblcf/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-
+<code bash>
   sudo apt-get -y install --no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev
   git clone https://github.com/EasyRPG/Player.git
   cd Player
@@ -41,12 +44,13 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   ./configure
   make
   sudo make install
+</code>
 ===== Step by step setup for Fedora =====
 
   * Do the [[../liblcf/autotools]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-
+<code bash>
   sudo yum -y install boost-devel SDL2_mixer-devel pixman-devel libpng-devel
   git clone https://github.com/EasyRPG/Player.git
   cd Player
@@ -54,12 +58,13 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   ./configure
   make
   sudo make install
+</code>
 ===== Installation on Arch Linux =====
 
 There is an [[https://aur.archlinux.org/packages/easyrpg-player-git/|AUR package]] available, you can use your favourite aur helper or download and use makepkg:
-
-  $ packer -S easyrpg-player-git
-
+<code bash>
+  packer -S easyrpg-player-git
+</code>
 If you prefer a manual compilation, here is a screencast of the compilation procedure for liblcf and the player:
 
 https://asciinema.org/a/8393
