@@ -17,16 +17,19 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 ===== Build =====
 
   * Run:
-
+<code bash>
   ./configure --prefix /usr
   make
   sudo make install
+</code>
+
+====== Build from Git ======
 
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-
+<code bash>
   sudo apt-get -y install --no-install-recommends git make automake1.11 libtool g++ libexpat1-dev libicu-dev
   git clone https://github.com/EasyRPG/liblcf.git
   cd liblcf
@@ -34,12 +37,12 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   ./configure --prefix /usr
   make
   sudo make install
-
+</code>
 ===== Step by step setup for Fedora =====
 
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
-
+<code bash>
   sudo yum -y install git automake libtool expat-devel libicu-devel gcc-g++
   git clone https://github.com/EasyRPG/liblcf.git
   cd liblcf
@@ -47,13 +50,13 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   ./configure --prefix /usr
   make
   sudo make install
-
+</code>
 ===== Installation on Arch Linux =====
 
 There is an [[https://aur.archlinux.org/packages/liblcf-git/|AUR package]] available, you can use your favourite aur helper or download and use makepkg:
-
-  $ packer -S liblcf-git
-
+<code bash>
+  packer -S liblcf-git
+</code>
 ===== Additional help =====
 
 Contact with us at https://webchat.freenode.net/?channels=easyrpg
