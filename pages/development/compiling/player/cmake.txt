@@ -4,6 +4,7 @@
   * cmake-2.8 or greater
   * SDL2
   * SDL2_mixer
+  * Speex DSP
   * Freetype
   * Pixman
   * libpng
