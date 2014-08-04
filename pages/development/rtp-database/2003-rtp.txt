@@ -348,7 +348,7 @@ Battle sprites. 115 PNG files. Different sizes.
 | リザード | lizard | MonitorLizard | lizard |
 | リザードマン | lizardman | LizardSoldier | lizardman |
 | リッチ | lich | PowerfulNecromant | lich |
-| リリス | lilith | MultihandsWarrior | lilith |
+| リリス | lillith | MultihandsWarrior | lilith |
 | レイス | wraith | Phantom | spectre |
 | レモラ | remora | SharpFish | flyingfish |
 | ワーウルフ | werewolf | Werwolf | werewolf |
