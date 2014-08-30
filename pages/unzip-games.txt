@@ -19,7 +19,7 @@ Commands for specific encodings:
   cd gamefolder
   convmv --notest -f shiftjis -t utf8 -r *
 
-==== Traditional Chinese (Hong Kong, Macao, Taiwan, etc.) ====
+==== Traditional Chinese (Taiwan, Singapore, Hong Kong, Macao...) ====
 
   LANG=zh_HK 7za x filename.zip
   cd gamefolder
