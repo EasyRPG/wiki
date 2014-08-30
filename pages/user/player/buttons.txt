@@ -6,9 +6,11 @@ Use the arrow keys to move around. Press Enter for actions (selecting menu items
 
 ===== Special Keys =====
 
-  * F2 - Toggle FPS (Renders the current frames per second on screen, default is title bar)
+  * F2 - Toggle FPS (Renders the current frames per second on screen, default is title bar) (EasyRPG Player only)
+  * F4 or Alt+Enter - Fullscreen
   * F5 - Toggle Zoom (1x and 2x)
-  * F4 - Fullscreen
-  * F10 - Take Screenshot (Saved in the game directory)
+  * F9 - Debug window (TestGame mode only)
+  * F10 - Take Screenshot (Saved in the game directory) (EasyRPG Player only)
+  * F11 - Save Game Window (TestGame mode only) (EasyRPG Player only)
   * F12 - Return to Title Screen
-  * CTRL - Walk through walls (TestGame mode only)
+  * CTRL+arrows - Walk through walls (TestGame mode only)
