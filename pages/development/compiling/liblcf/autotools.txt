@@ -18,7 +18,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 
   * Run:
 <code bash>
-  ./configure --prefix /usr
+  ./configure --prefix=/usr
   make
   sudo make install
 </code>
@@ -34,7 +34,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   git clone https://github.com/EasyRPG/liblcf.git
   cd liblcf
   autoreconf -i
-  ./configure --prefix /usr
+  ./configure --prefix=/usr
   make
   sudo make install
 </code>
@@ -47,7 +47,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   git clone https://github.com/EasyRPG/liblcf.git
   cd liblcf
   autoreconf -i
-  ./configure --prefix /usr
+  ./configure --prefix=/usr
   make
   sudo make install
 </code>
