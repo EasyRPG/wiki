@@ -16,7 +16,7 @@ Download Player sources from git:
 
   git clone https://github.com/EasyRPG/Player
 
-Enter to the liblcf Player:
+Enter to the Player folder:
 
   cd Player
 
