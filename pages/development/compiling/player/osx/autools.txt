@@ -1,0 +1,33 @@
+====== Compile Player on Mac OS X with Autotools ======
+
+Build and install liblcf:
+
+https://easy-rpg.org/wiki/development/compiling/liblcf/osx/autoools
+
+Install Homebrew if you don't have installed it:
+
+  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+
+Install requirements with Homebrew:
+
+  brew install autoconf automake gettext libtool pkg-config jpeg libpng libvorbis sdl2 sdl2_mixer pixman freetype zlib boost
+
+Download Player sources from git:
+
+  git clone https://github.com/EasyRPG/Player
+
+Enter to the liblcf Player:
+
+  cd Player
+
+Generate configure script:
+
+  autoreconf -i
+
+Generate Makefile:
+
+  ./configure
+
+Build:
+
+  make -j4
