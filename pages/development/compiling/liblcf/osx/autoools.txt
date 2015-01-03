@@ -8,10 +8,9 @@ Install requirements with Homebrew:
 
   brew install autoconf automake gettext libtool pkg-config expat icu4c
 
-Set up ICU headers and library paths:
+Set up pkgconfig to see expat and icu4c configurations:
 
-  export ICU_CFLAGS=-I/usr/local/opt/icu4c/include
-  export ICU_LIBS=-L/usr/local/opt/icu4c/lib
+  export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:/usr/local/opt/expat/lib/pkgconfig:$PKG_CONFIG_PATH"
 
 Download liblcf sources from git:
 
