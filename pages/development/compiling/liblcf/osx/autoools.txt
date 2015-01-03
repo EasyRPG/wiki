@@ -6,7 +6,12 @@ Install Homebrew if you don't have installed it:
 
 Install requirements with Homebrew:
 
-  brew install autoconf automake gettext libtool pkg-config expat
+  brew install autoconf automake gettext libtool pkg-config expat icu4c
+
+Set up ICU headers and library paths:
+
+  export ICU_CFLAGS=-I/usr/local/opt/icu4c/include
+  export ICU_LIBS=-L/usr/local/opt/icu4c/lib
 
 Download liblcf sources from git:
 
@@ -31,12 +36,3 @@ Build:
 Install:
 
   sudo make install
-  
-  
-**Note: the following extra steps were taken to get the configure step working:**
-
-  brew install icu4c
-
-  export ICU_CFLAGS=-I/usr/local/opt/icu4c/include
-  export ICU_LIBS=-L/usr/local/opt/icu4c/lib
-
