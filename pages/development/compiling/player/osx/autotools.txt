@@ -1,8 +1,8 @@
-====== Compile Player on Mac OS X with Autotools ======
+====== Building Player on Mac OS X with Autotools ======
 
 Build and install liblcf:
 
-https://easy-rpg.org/wiki/development/compiling/liblcf/osx/autoools
+[[../../liblcf/osx/autotools]]
 
 Install Homebrew if you don't have installed it:
 
