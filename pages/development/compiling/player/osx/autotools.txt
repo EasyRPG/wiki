@@ -2,7 +2,7 @@
 
 Build and install liblcf:
 
-[[../../liblcf/osx/autotools]]
+  * [[../../liblcf/osx/autotools]]
 
 Install Homebrew if you don't have installed it:
 
