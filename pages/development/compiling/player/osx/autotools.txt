@@ -4,13 +4,9 @@ Build and install liblcf:
 
   * [[../../liblcf/osx/autotools]]
 
-Install Homebrew if you don't have installed it:
-
-  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-
 Install requirements with Homebrew:
 
-  brew install autoconf automake gettext libtool pkg-config jpeg libpng libvorbis sdl2 sdl2_mixer pixman freetype zlib boost
+  brew install jpeg libpng libvorbis sdl2 sdl2_mixer pixman freetype zlib boost
 
 Download Player sources from git:
 
@@ -31,3 +27,7 @@ Generate Makefile:
 Build:
 
   make -j4
+
+Install:
+
+  sudo make install
