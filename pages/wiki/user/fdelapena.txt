@@ -9,7 +9,7 @@ I live in Costa Rica. I can speak Spanish, Catalan and enough English to be here
 
 I currently maintain the whole dedicated server, web server, project websites (main page, blog, wiki, forums, bugtracker...), project account on GitHub, IRC channel on FreeNode, etc.
 
-I help with project contributions and Linux port and autotools building maintenance.
+I help with project contributions and GNU/Linux port and GNU Autotools building maintenance.
 
 ===== Things I made =====
 
