@@ -6,7 +6,7 @@ Build and install liblcf:
 
 Install requirements with Homebrew:
 
-  brew install jpeg libpng libvorbis sdl2 sdl2_mixer pixman freetype zlib boost
+  brew install jpeg libpng libvorbis sdl2 sdl2_mixer pixman freetype boost
 
 Download Player sources from git:
 
