@@ -37,7 +37,7 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
-  sudo apt-get -y install --no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev
+  sudo apt-get -y install --no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev freetype*
   git clone https://github.com/EasyRPG/Player.git
   cd Player
   autoreconf -i
