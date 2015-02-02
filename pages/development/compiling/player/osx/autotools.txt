@@ -16,6 +16,10 @@ Enter to the Player folder:
 
   cd Player
 
+Set up pkgconfig to see expat and icu4c configurations:
+
+  export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:/usr/local/opt/expat/lib/pkgconfig:$PKG_CONFIG_PATH"
+
 Generate configure script:
 
   autoreconf -i
