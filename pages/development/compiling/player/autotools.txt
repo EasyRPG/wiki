@@ -51,13 +51,13 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
-  sudo dnf -y install boost-devel SDL2_mixer-devel pixman-devel freetype-devel
-  git clone https://github.com/EasyRPG/Player.git
-  cd Player
-  autoreconf -i
-  ./configure
-  make
-  sudo make install
+sudo dnf -y install boost-devel SDL2_mixer-devel pixman-devel freetype-devel
+git clone https://github.com/EasyRPG/Player.git
+cd Player
+autoreconf -i
+./configure
+make
+sudo make install
 </code>
 ===== Installation on Arch Linux =====
 
