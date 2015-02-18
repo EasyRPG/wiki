@@ -22,9 +22,9 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
 ===== Build =====
   * Run:
 <code bash>
-  ./configure
-  make
-  sudo make install
+./configure
+make
+sudo make install
 </code>
 ===== RTP support with WINE =====
 
@@ -37,13 +37,13 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
-  sudo apt-get -y install --no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev
-  git clone https://github.com/EasyRPG/Player.git
-  cd Player
-  autoreconf -i
-  ./configure
-  make
-  sudo make install
+sudo apt-get -y install --no-install-recommends libboost-dev libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev
+git clone https://github.com/EasyRPG/Player.git
+cd Player
+autoreconf -i
+./configure
+make
+sudo make install
 </code>
 ===== Step by step setup for Fedora =====
 
@@ -63,7 +63,7 @@ sudo make install
 
 There is an [[https://aur.archlinux.org/packages/easyrpg-player-git/|AUR package]] available, you can use your favourite aur helper or download and use makepkg:
 <code bash>
-  packer -S easyrpg-player-git
+packer -S easyrpg-player-git
 </code>
 If you prefer a manual compilation, here is a screencast of the compilation procedure for liblcf and the player:
 
