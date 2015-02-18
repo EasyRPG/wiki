@@ -47,7 +47,7 @@ sudo make install
 </code>
 ===== Step by step setup for Fedora =====
 
-  * Do the [[../liblcf/autotools]] setup first
+  * Do the [[../liblcf/autotools#step-by-step-setup-for-fedora]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
