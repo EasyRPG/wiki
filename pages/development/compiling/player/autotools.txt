@@ -33,7 +33,7 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
 ====== Build from Git =====
 
 ===== Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...) =====
-  * Do the [[../liblcf/autotools]] setup first
+  * Do the [[../liblcf/autotools#step-by-step-setup-for-debian-based-distros-gnewsense-trisquel-debian-mint-ubuntu]] setup first
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
