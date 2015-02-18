@@ -37,6 +37,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   ./configure --prefix=/usr
   make
   sudo make install
+  cd ..
 </code>
 ===== Step by step setup for Fedora =====
 
@@ -50,6 +51,7 @@ Run ''autoreconf -i'' to generate the ''configure'' script.
   ./configure --prefix=/usr
   make
   sudo make install
+  cd ..
 </code>
 ===== Installation on Arch Linux =====
 
