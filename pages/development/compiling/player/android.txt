@@ -35,14 +35,14 @@ In your working directory, clone the android-toolchain :
 
 Execute this script :
 	WORKSPACE=$(pwd)
-
+	
 	# Compile easyrpg dependencies
 	ndk-build
 	cp obj/local/armeabi-v7a/*.a libs/armeabi-v7a/
 	wget http://download.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.gz
 	tar xf boost_1_55_0.tar.gz
 	cp -r boost_1_55_0/boost/ include/boost/
-
+	
 	## Compile icu
 	# Native
 	cd $WORKSPACE/jni
@@ -52,18 +52,18 @@ Execute this script :
 	./configure --enable-static --enable-shared=no --enable-tests=no --enable-samples=no --enable-dyload=no --enable-tools --with-data-packaging=static
 	make
 	export ICU_CROSS_BUILD=$PWD
-
+	
 	# Android
 	cd ../../icu4c-53.1/source
-
+	
 	export CPPFLAGS="-I$NDK_ROOT/platforms/android-8/arch-arm/usr/include -I$NDK_ROOT/sources/cxx-stl/stlport/stlport -O3 -fno-short-wchar -DU_USING_ICU_NAMESPACE=0 -DU_GNUC_UTF16_STRING=0 -fno-short-enums -nostdlib"
 	export CXXFLAGS="$CPPFLAGS"
 	export CFLAGS="$CXXFLAGS"
 	export LDFLAGS="-lc -Wl,-rpath-link=$NDK_ROOT/platforms/android-8/arch-arm/usr/lib/ -L $NDK_ROOT/platforms/android-8/arch-arm/usr/lib/"
-
+	
 	chmod u+x configure
 	./configure --with-cross-build=$ICU_CROSS_BUILD --enable-strict=no  --enable-static --enable-shared=no --enable-tests=no --enable-samples=no --enable-dyload=no --enable-tools=no --host=arm-linux-androideabi --with-data-	packaging=static
-
+	
 	mv $NDK_ROOT/platforms/android-8/arch-arm/usr/include/util.h _util.h #To prevent a build error
 	make
 	mv _util.h $NDK_ROOT/platforms/android-8/arch-arm/usr/include/util.h #Back to the original directory
