@@ -1,4 +1,4 @@
-======= How to build/work on the Android Build =======
+======= Building/working on the Android Port =======
 
 Note : We recommend you to put the "android-toolchain" and "player" directories in the same directory.
 
