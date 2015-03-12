@@ -1,0 +1,132 @@
+======= How to build/work on the Android Build =======
+
+Note : We recommend you to put the "android-toolchain" and "player" directories in the same directory.
+
+===== 1) Build the android port =====
+==== a) Install the Android SDK ====
+
+Download et follow the official instructions to install the Android SDK :
+http://developer.android.com/sdk/installing/index.html?pkg=tools
+
+In the SDK directory, execute the "android" file, it displays a GUI. Use it to download the API 10 (or later).
+If you want to launch the application on a Virtual Machine, download the ARM EABI System Image.
+
+Export the SDK directory's path :
+	export SDK_ROOT=/the_sdk_directory_path
+
+==== b) Install the Android NDK ====
+
+To compile the Player's C++ code for Android, you have to compile it with the Android NDK. Download it and follow the official instructions :
+https://developer.android.com/tools/sdk/ndk/index.html
+
+Export the NDK directory's path :
+	export NDK_ROOT=/the_ndk_directory_path
+
+You also have to export the ARM EABI toolchain path in the NDK directory.
+On Linux it should be :
+	export PATH=$NDK_ROOT/toolchains/arm-linux-androideabi-4.8/prebuilt/linux-x86_64/bin:$PATH
+On MacOS it should be :
+	export PATH=$NDK_ROOT/toolchains/arm-linux-androideabi-4.8/prebuilt/darwin-x86_64/bin:$PATH
+
+==== c) Build the Android Toolchain ====
+In your working directory, clone the android-toolchain :
+	git clone https://github.com/Ghabry/easyrpg-android-libs android-toolchain
+	cd android-toolchain
+
+Execute this script :
+	WORKSPACE=$(pwd)
+
+	# Compile easyrpg dependencies
+	ndk-build
+	cp obj/local/armeabi-v7a/*.a libs/armeabi-v7a/
+	wget http://download.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.gz
+	tar xf boost_1_55_0.tar.gz
+	cp -r boost_1_55_0/boost/ include/boost/
+
+	## Compile icu
+	# Native
+	cd $WORKSPACE/jni
+	cp -r icu4c-53.1 icu4c-53.1-native
+	cd icu4c-53.1-native/source
+	chmod u+x configure
+	./configure --enable-static --enable-shared=no --enable-tests=no --enable-samples=no --enable-dyload=no --enable-tools --with-data-packaging=static
+	make
+	export ICU_CROSS_BUILD=$PWD
+
+	# Android
+	cd ../../icu4c-53.1/source
+
+	export CPPFLAGS="-I$NDK_ROOT/platforms/android-8/arch-arm/usr/include -I$NDK_ROOT/sources/cxx-stl/stlport/stlport -O3 -fno-short-wchar -DU_USING_ICU_NAMESPACE=0 -DU_GNUC_UTF16_STRING=0 -fno-short-enums -nostdlib"
+	export CXXFLAGS="$CPPFLAGS"
+	export CFLAGS="$CXXFLAGS"
+	export LDFLAGS="-lc -Wl,-rpath-link=$NDK_ROOT/platforms/android-8/arch-arm/usr/lib/ -L $NDK_ROOT/platforms/android-8/arch-arm/usr/lib/"
+
+	chmod u+x configure
+	./configure --with-cross-build=$ICU_CROSS_BUILD --enable-strict=no  --enable-static --enable-shared=no --enable-tests=no --enable-samples=no --enable-dyload=no --enable-tools=no --host=arm-linux-androideabi --with-data-	packaging=static
+
+	mv $NDK_ROOT/platforms/android-8/arch-arm/usr/include/util.h _util.h #To prevent a build error
+	make
+	mv _util.h $NDK_ROOT/platforms/android-8/arch-arm/usr/include/util.h #Back to the original directory
+	cp lib/*.a $WORKSPACE/libs/armeabi-v7a/
+	
+===== 2) Build the Android Port =====
+Return to your working directory (which should contains the android-toolchain directory)
+
+Export the android-toolchain directory, it should be :
+	export EASYDEV_ANDROID=$(pwd)/android-toolchain
+
+Export the path of the zipalign program in the Android SDK, which depends of the API installed package :
+	export PATH=$PATH:$SDK_ROOT/build-tools/21.1.2/
+
+Create a keystore which will be used later :
+	keytool -genkey -v -keystore easyrpg.keystore -alias nightly -keyalg RSA -keysize 2048 -validity 10000
+Export the path of the generated keystore.
+	export PATH_KEYSTORE=($pwd)/easyrpg.keystore
+And the password you gave when you generated the keystore :
+	export MDP=the_password
+
+Then execute this script :
+	WORKSPACE=$(pwd)
+
+	#Clone of liblcf
+	mkdir -p lib
+	git clone https://github.com/EasyRPG/liblcf lib/liblcf
+
+	cd builds/android
+
+	#Download of timidity
+	git clone https://github.com/Ghabry/timidity_gus.git assets/timidity
+
+	#Configuration
+	GIT_DESCRIBE_VERSION=`git describe | cut -d - -f -2 | sed s/-/./g`
+	GIT_COMMIT_COUNT=`git rev-list HEAD --count`
+	mv AndroidManifest.xml AndroidManifest.orig.xml
+	cat AndroidManifest.orig.xml | sed -e 's/android:versionCode=".*"/android:versionCode="'$GIT_COMMIT_COUNT'"/' | sed -e 's/android:versionName=".*"/android:versionName="'$GIT_DESCRIBE_VERSION'"/' > AndroidManifest.xml
+
+You have to specify the API Target you will use to build the Player, for now we use the API 10, use "android list targets" to know the number associated with installed API. We assume this number is 1 :
+	android update project --path "." --target 1
+
+Build the project :
+	ndk-build
+	ant clean
+	ant release
+
+	cd bin
+	jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore $PATH_KEYSTORE -storepass $MDP SDLActivity-release-unsigned.apk nightly
+	zipalign 4 SDLActivity-release-unsigned.apk EasyRpgPlayerActivity.apk
+
+===== 3) Import the project on Eclipse =====
+==== a) Install the ADT Plugin ====
+	
+Follow the official instructions by Google :
+http://developer.android.com/sdk/installing/installing-adt.html
+Don't forget to specify the previous Android SDK directory path instead of downloading a new one.
+
+==== b) Import the project ====
+
+File->Import-> Android -> "Existing Android Code Into Workspace"
+
+Choose the builds/android directory of the Player's directory as the project root.
+
+Congratulations ! You can now work on the Player's Android port !
+Tu run the program, choose a Virtual Machine with armeabi-v7a CPU, or connect an android device to your computer (don't forget to enable the USB Debugging).
