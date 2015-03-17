@@ -87,11 +87,6 @@ Then execute this script :
 	cd builds/android
 	#Download of timidity
 	git clone https://github.com/Ghabry/timidity_gus.git assets/timidity
-	#Configuration
-	GIT_DESCRIBE_VERSION=`git describe | cut -d - -f -2 | sed s/-/./g`
-	GIT_COMMIT_COUNT=`git rev-list HEAD --count`
-	mv AndroidManifest.xml AndroidManifest.orig.xml
-	cat AndroidManifest.orig.xml | sed -e 's/android:versionCode=".*"/android:versionCode="'$GIT_COMMIT_COUNT'"/' | sed -e 's/android:versionName=".*"/android:versionName="'$GIT_DESCRIBE_VERSION'"/' > AndroidManifest.xml
 
 You have to specify the API Target you will use to build the Player, for now we use the API 10, use "android list targets" to know the number associated with installed API. We assume this number is 1 :
 	android update project --path "." --target 1
