@@ -79,6 +79,10 @@ Export the path of the generated keystore.
 And the password you gave when you generated the keystore :
 	export MDP=the_password
 
+Clone the Player repository :
+	git clone https://github.com/EasyRPG/Player.git
+	cd Player
+
 Then execute this script :
 	WORKSPACE=$(pwd)
 	#Clone of liblcf
