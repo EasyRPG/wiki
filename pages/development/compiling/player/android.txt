@@ -64,7 +64,7 @@ Execute this script :
 	cp lib/*.a $WORKSPACE/libs/armeabi-v7a/
 	
 ===== 2) Build the Android Port =====
-Return to your working directory (which should contains the android-toolchain directory)
+Return to your working directory (which should contain the android-toolchain directory)
 
 Export the android-toolchain directory, it should be :
 	export EASYDEV_ANDROID=$(pwd)/android-toolchain
@@ -75,7 +75,7 @@ Export the path of the zipalign program in the Android SDK, which depends of the
 Create a keystore which will be used later :
 	keytool -genkey -v -keystore easyrpg.keystore -alias nightly -keyalg RSA -keysize 2048 -validity 10000
 Export the path of the generated keystore.
-	export PATH_KEYSTORE=($pwd)/easyrpg.keystore
+	export PATH_KEYSTORE=$(pwd)/easyrpg.keystore
 And the password you gave when you generated the keystore :
 	export MDP=the_password
 
