@@ -59,61 +59,61 @@ Battle animation effects. 54 PNG files. Different sizes.
 
 Vlad’s Russian RTP doesn’t include files that don’t have 2003 prefix. Since it is expected to be installed over Don Miguel’s English RTP
 
-^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^
-| 2003その他1 | misc1 | 2003-Other1 | 2003addition1 |
-| 2003その他2 | misc2 | 2003-Other2 | 2003addition2 |
-| 2003バリア | barrier1 | 2003-Barrier | 2003barrier |
-| 2003ブレス | breath1 | 2003-Poison | 2003breath |
-| 2003光柱 | lightray | 2003-Lines | 2003luminouspillar |
-| 2003冷気 | ice1 | 2003-Cold | 2003coldair |
-| 2003剣 | sword1 | 2003-Sword | 2003sword |
-| 2003吸収 | absorb1 | 2003-Absorption | 2003absorption |
-| 2003回復 | healing1 | 2003-Sun | 2003recovery |
-| 2003大地 | earth1 | 2003-Earth | 2003ground |
-| 2003弓 | bow1 | 2003-Arrow | 2003bow |
-| 2003打撃 | strike | 2003-Hit | 2003shock |
-| 2003斧 | axe1 | 2003-Axe | 2003ax |
-| 2003暗黒 | dark1 | 2003-Dark | 2003dark |
-| 2003槍 | spear1 | 2003-Spear | 2003spear |
-| 2003水 | water1 | 2003-Water | 2003water |
-| 2003治療 | cure1 | 2003-Sphere | 2003remedy |
-| 2003炎 | fire1 | 2003-Fire | 2003flame |
-| 2003爆発 | explode1 | 2003-Explosion | 2003explosive |
-| 2003爪 | claw1 | 2003-Claws | 2003nail |
-| 2003神聖 | holy1 | 2003-Holy | 2003holy |
-| 2003蘇生 | revive1 | 2003-Angel | 2003revival |
-| 2003雷 | bolt1 | 2003-Zip | 2003thunder |
-| 2003鞭 | whip1 | 2003-Whip | 2003rod |
-| 2003風 | wind1 | 2003-Wind | 2003wind |
-| 2003麻痺 | paralyze1 | 2003-Paralysis | 2003paralysis |
-| その他 | misc3 | | addition |
-| バリア | barrier2 | | barrier |
-| ブレス | breath2 | | breath |
-| 上昇 | increase | | rise |
-| 下降 | decrease | | drop |
-| 冷気 | ice2 | | coldair |
-| 剣1 | sword2 | | sword1 |
-| 剣2 | sword3 | | sword2 |
-| 吸収 | absorb2 | | absorption |
-| 回復 | healing2 | | recovery |
-| 大地 | earth2 | | ground |
-| 打撃 | attack | | shock |
-| 斧 | axe2 | | ax |
-| 暗黒 | dark2 | | dark |
-| 槍 | spear2 | | spear |
-| 水 | water2 | | water |
-| 治療 | cure2 | | remedy |
-| 炎1 | fire2 | | flame1 |
-| 炎2 | fire3 | | flame2 |
-| 爆発 | explode2 | | explosive |
-| 爪 | claw2 | | nail |
-| 矢 | bow2 | | bow |
-| 神聖 | holy2 | | holy |
-| 蘇生 | revive2 | | revivial |
-| 雷 | bolt2 | | thunder |
-| 鞭 | whip2 | | rod |
-| 風 | wind2 | | wind |
-| 麻痺 | paralyze2 | | paralysis |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^ Korean (니오팅)
+| 2003その他1 | misc1 | 2003-Other1 | 2003addition1 | 2003기타1 |
+| 2003その他2 | misc2 | 2003-Other2 | 2003addition2 | 2003기타2 |
+| 2003バリア | barrier1 | 2003-Barrier | 2003barrier | 2003베리어 |
+| 2003ブレス | breath1 | 2003-Poison | 2003breath | 2003브레스 |
+| 2003光柱 | lightray | 2003-Lines | 2003luminouspillar | 2003주위의 빛 |
+| 2003冷気 | ice1 | 2003-Cold | 2003coldair | 2003냉기 |
+| 2003剣 | sword1 | 2003-Sword | 2003sword | 2003검 |
+| 2003吸収 | absorb1 | 2003-Absorption | 2003absorption | 2003흡수 |
+| 2003回復 | healing1 | 2003-Sun | 2003recovery | 2003회복 |
+| 2003大地 | earth1 | 2003-Earth | 2003ground | 2003대지 |
+| 2003弓 | bow1 | 2003-Arrow | 2003bow | 2003화살|
+| 2003打撃 | strike | 2003-Hit | 2003shock | 2003타격|
+| 2003斧 | axe1 | 2003-Axe | 2003ax | 2003도끼
+| 2003暗黒 | dark1 | 2003-Dark | 2003dark | 2003암흑 |
+| 2003槍 | spear1 | 2003-Spear | 2003spear | 2003창 |
+| 2003水 | water1 | 2003-Water | 2003water | 2003물 |
+| 2003治療 | cure1 | 2003-Sphere | 2003remedy | 2003치료 |
+| 2003炎 | fire1 | 2003-Fire | 2003flame | 2003화염 |
+| 2003爆発 | explode1 | 2003-Explosion | 2003explosive | 2003폭발 |
+| 2003爪 | claw1 | 2003-Claws | 2003nail | 2003손톱 |
+| 2003神聖 | holy1 | 2003-Holy | 2003holy | 2003신성 |
+| 2003蘇生 | revive1 | 2003-Angel | 2003revival | 2003소생 |
+| 2003雷 | bolt1 | 2003-Zip | 2003thunder | 2003전격 |
+| 2003鞭 | whip1 | 2003-Whip | 2003rod | 2003채찍 |
+| 2003風 | wind1 | 2003-Wind | 2003wind | 2003바람 |
+| 2003麻痺 | paralyze1 | 2003-Paralysis | 2003paralysis | 2003마비 |
+| その他 | misc3 | | addition | 기타 |
+| バリア | barrier2 | | barrier | 베리어 |
+| ブレス | breath2 | | breath | 브레스 |
+| 上昇 | increase | | rise | 상승 |
+| 下降 | decrease | | drop | 하강 |
+| 冷気 | ice2 | | coldair | 냉기 |
+| 剣1 | sword2 | | sword1 | 검1 |
+| 剣2 | sword3 | | sword2 | 검2 |
+| 吸収 | absorb2 | | absorption | 흡수 |
+| 回復 | healing2 | | recovery | 회복 |
+| 大地 | earth2 | | ground | 대지 |
+| 打撃 | attack | | shock | 타격 |
+| 斧 | axe2 | | ax | 도끼 |
+| 暗黒 | dark2 | | dark | 암흑 |
+| 槍 | spear2 | | spear | 창 |
+| 水 | water2 | | water | 물 |
+| 治療 | cure2 | | remedy | 치료 |
+| 炎1 | fire2 | | flame1 | 화염1 |
+| 炎2 | fire3 | | flame2 | 화염2 |
+| 爆発 | explode2 | | explosive | 폭발 |
+| 爪 | claw2 | | nail | 손톱 |
+| 矢 | bow2 | | bow | 화살 |
+| 神聖 | holy2 | | holy | 신성 |
+| 蘇生 | revive2 | | revivial | 소생 |
+| 雷 | bolt2 | | thunder | 전격 |
+| 鞭 | whip2 | | rod | 채찍 |
+| 風 | wind2 | | wind | 바람 |
+| 麻痺 | paralyze2 | | paralysis | 마비 |
 
 ==== Battle2 ====
 
