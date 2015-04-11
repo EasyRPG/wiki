@@ -17,41 +17,41 @@ There is a naming conflict between Russian and English RTP (see the Monster sect
 
 Battle backgrounds. 34 PNG files. 320x240px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^
-| お墓 | graveyard | Grave | grave |
-| お寺 | shrine | Temple | temple |
-| ダンジョン１ | dungeon1 | Cave | donjohn1 |
-| ダンジョン２ | dungeon2 | LavaCave | donjohnQ |
-| ダンジョン３ | dungeon3 | IceCave | donjohnR |
-| ダンジョン４ | dungeon4 | Stalagmites | donjohnS |
-| ダンジョン５ | dungeon5 | Labyrinth | donjohnT |
-| ダンジョン６ | dungeon6 | TrainingHall | donjohnU |
-| 宇宙 | space | Space | space |
-| 山道 | mountain | Mountain | mountainpath |
-| 岩場 | rockbed | Rocks | rocks |
-| 廃墟 | wasteland | Ruins | wasteland |
-| 旧市街 | ghost-town | City | oldurban |
-| 森１ | forest1 | Forest1 | forestP |
-| 森２ | forest2 | Forest2 | forestQ |
-| 橋 | bridge | Bridge | bridge |
-| 毒沼 | swamp | Swamp | poisonswamp |
-| 洋館 | building | InsideCastle | westernstylebuilding |
-| 海 | ocean | Sea | sea |
-| 玉座 | castle | BallSeat | ballseat |
-| 異空間 | strange | SpaceLight | strangespacial |
-| 砂浜 | beach | Beach | sandybeach |
-| 砂漠 | desert | Desert | desert |
-| 神殿 | ruins1 | Sanctuary | sanctuary |
-| 空 | sky | Clouds | empty |
-| 船上 | shipdeck | Ship | onboat |
-| 草原 | plains | Grass | grassyplain |
-| 荒地 | barren | RoughForging | roughforging |
-| 街中 | town | CityHouse | city |
-| 路上 | road | Road | road |
-| 遺跡 | ruins2 | InsidePyramid | ruins |
-| 銭湯 | bath | BathHouse | bathhouse |
-| 闘技場 | arena | CompetitionPlace | competitionplace |
-| 雪原 | snowfield | Snow | snowfield |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^ Korean (니오팅) ^
+| お墓 | graveyard | Grave | grave | 바닥 |
+| お寺 | shrine | Temple | temple | 절 |
+| ダンジョン１ | dungeon1 | Cave | donjohn1 | 던젼１ |
+| ダンジョン２ | dungeon2 | LavaCave | donjohnQ | 던젼２ |
+| ダンジョン３ | dungeon3 | IceCave | donjohnR | 던젼３ |
+| ダンジョン４ | dungeon4 | Stalagmites | donjohnS | 던젼４ |
+| ダンジョン５ | dungeon5 | Labyrinth | donjohnT | 던젼５ |
+| ダンジョン６ | dungeon6 | TrainingHall | donjohnU | 던젼６ |
+| 宇宙 | space | Space | space | 우주 |
+| 山道 | mountain | Mountain | mountainpath | 산길 |
+| 岩場 | rockbed | Rocks | rocks | 바위 |
+| 廃墟 | wasteland | Ruins | wasteland | 폐허 |
+| 旧市街 | ghost-town | City | oldurban | 구시가지 |
+| 森１ | forest1 | Forest1 | forestP | 숲１ |
+| 森２ | forest2 | Forest2 | forestQ | 숲２ |
+| 橋 | bridge | Bridge | bridge | 다리 |
+| 毒沼 | swamp | Swamp | poisonswamp | 독연못 |
+| 洋館 | building | InsideCastle | westernstylebuilding | 양관(서양식집) |
+| 海 | ocean | Sea | sea | 바다 |
+| 玉座 | castle | BallSeat | ballseat | 옥좌 |
+| 異空間 | strange | SpaceLight | strangespacial | 이공간 |
+| 砂浜 | beach | Beach | sandybeach | 사구 |
+| 砂漠 | desert | Desert | desert | 사막 |
+| 神殿 | ruins1 | Sanctuary | sanctuary | 신전 |
+| 空 | sky | Clouds | empty | 하늘 |
+| 船上 | shipdeck | Ship | onboat | 선상 |
+| 草原 | plains | Grass | grassyplain | 초원 |
+| 荒地 | barren | RoughForging | roughforging | 황야 |
+| 街中 | town | CityHouse | city | 길가운데 |
+| 路上 | road | Road | road | 도로 위 |
+| 遺跡 | ruins2 | InsidePyramid | ruins | 유적 |
+| 銭湯 | bath | BathHouse | bathhouse | 공중 목욕탕 |
+| 闘技場 | arena | CompetitionPlace | competitionplace | 투기장 |
+| 雪原 | snowfield | Snow | snowfield | 설원 |
 
 ==== Battle ====
 
