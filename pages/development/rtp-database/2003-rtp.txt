@@ -59,7 +59,7 @@ Battle animation effects. 54 PNG files. Different sizes.
 
 Vlad’s Russian RTP doesn’t include files that don’t have 2003 prefix. Since it is expected to be installed over Don Miguel’s English RTP
 
-^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^ Korean (니오팅)
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Kovnerov Vlad) ^ English (Unknown) ^ Korean (니오팅) ^
 | 2003その他1 | misc1 | 2003-Other1 | 2003addition1 | 2003기타1 |
 | 2003その他2 | misc2 | 2003-Other2 | 2003addition2 | 2003기타2 |
 | 2003バリア | barrier1 | 2003-Barrier | 2003barrier | 2003베리어 |
@@ -72,7 +72,7 @@ Vlad’s Russian RTP doesn’t include files that don’t have 2003 prefix. Sinc
 | 2003大地 | earth1 | 2003-Earth | 2003ground | 2003대지 |
 | 2003弓 | bow1 | 2003-Arrow | 2003bow | 2003화살|
 | 2003打撃 | strike | 2003-Hit | 2003shock | 2003타격|
-| 2003斧 | axe1 | 2003-Axe | 2003ax | 2003도끼
+| 2003斧 | axe1 | 2003-Axe | 2003ax | 2003도끼 |
 | 2003暗黒 | dark1 | 2003-Dark | 2003dark | 2003암흑 |
 | 2003槍 | spear1 | 2003-Spear | 2003spear | 2003창 |
 | 2003水 | water1 | 2003-Water | 2003water | 2003물 |
