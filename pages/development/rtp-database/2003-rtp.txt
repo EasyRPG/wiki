@@ -793,10 +793,10 @@ Tile system for window skinning. 4 PNG files. 160x80px.
 
 System graphics for battles. 4 PNG files. 80x96px.
 
-^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^
-| システム２A | system2a | System2A | systeméQA |
-| システム２B | system2b | System2B | systeméQB |
-| システム２C | system2c | System2C | systeméQC |
+^ Japanese (original) ^ English (RPG Advocate) ^ Russian (Vlad Kovnerov) ^ English (Unknown) ^ Korean (니오팅) ^
+| システム２A | system2a | System2A | systeméQA | 시스템２A |
+| システム２B | system2b | System2B | systeméQB | 시스템２B |
+| システム２C | system2c | System2C | systeméQC | 시스템２C |
 
 ==== Title ====
 
