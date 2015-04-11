@@ -8,6 +8,9 @@ If you know more translation languages or versions, both official or unofficial,
 
 Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2. The RTP package can be downloaded here: http://rpgmaker.su/vbdownloads.php?do=download&downloadid=22
 
+니오팅(RPG Maker Korean Forum)'s Korean RTP package can be downloaded here: http://etude87.tistory.com/161
+in '■ RPG Maker 2003 한글판 RTP (티스토리 계정/분할 압축 파일)' section.
+
 There is a naming conflict between Russian and English RTP (see the Monster section and Dawn1 and Dawn2 in Panorama).
 
 ==== Backdrop ====
