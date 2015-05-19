@@ -22,6 +22,7 @@ Encoding=####
 | Windows-1251    | 1251 | Cyrillic games (full Cyrillic support for Russian and other languages)|
 | Windows-1250    | 1250 | Central European games (mostly Latin Extended A glyphs) |
 | Shift-JIS    | 932     | Japanese games (with Hiragana, Katakana or Kanji) |
+| Big5 | 950 | Traditional Chinese games (Taiwan, Hong Kong) |
 
 Both automatic detection and RPG_RT.ini Encoding value can be overriden by using the ''%%--%%encoding'' command line interface option.
 
