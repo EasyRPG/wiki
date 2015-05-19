@@ -16,7 +16,7 @@ Hosting your own games is quite simple. Just follow these three steps.
 
 == Deploying the Player on your server ==
 
-Grab the archive from TODO and extract it on your server.
+[[https://easy-rpg.org/jenkins/job/player-js/lastSuccessfulBuild/artifact/player-js.tar.gz|Download this archive]] and extract it on your server.
 
 Your server needs support for PHP (most servers support this).
 
