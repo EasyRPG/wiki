@@ -117,9 +117,9 @@ Any size. FIXME Anyways there are not material to do for the RTP replacement.
 
 ==== System ====
 
-160x80 pixels.
+160x80 pixels. See [[development:technical-details:system-graphics|System graphics technical details]] for details.
 
-FIXME [Graphic template will be here]
+{{:development:systemhlp.png|}}
 
 ==== System2 ====
 
