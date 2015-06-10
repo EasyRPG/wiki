@@ -43,6 +43,16 @@ FIXME [description, examples]
 
 Download: http://dl1.rpg-atelier.net/ressourcen2/programme/AutoEnterPatch.exe
 
+==== BetterAEP by Cherry ====
+
+Supports: RM2k v1.07 and RM2k3 v1.08 (distributed as a modified binary)
+
+Skips the title screen (like Auto Enter Patch) and allows to call load menu and exit game.
+
+Stop Parallel Events is modified: when variable 3350 contains the value of 1, it calls a save menu. When variable 3350, it exits the game. When it contains any other value, Stop Parallel Events works as expected.
+
+Download: http://cherrytree.at/cms/download/?did=17
+
 ==== CharExpand Patch by Cherry ====
 
 Allows to use character graphics with arbitrary dimensions, as in newer RPG Maker versions. For this, Charsets must be named %XXYYName.png, where XX is width of one sprite divided by 4, and YY is height of one sprite divided by 4.
@@ -68,6 +78,12 @@ Skips the title screen of RPG Maker, allowing to create custom title screens.
 Similar patch is available for RPG Maker 2000.
 
 Download: http://dl1.rpg-atelier.net/ressourcen2/programme/AutoEnterPatch.exe
+
+==== BetterAEP by Cherry ====
+
+Same as BetterAEP for RPG Maker 2000 (see above).
+
+Download: http://cherrytree.at/cms/download/?did=17
 
 ==== Adapted CharExpand Patch ====
 
