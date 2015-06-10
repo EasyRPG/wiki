@@ -83,6 +83,8 @@ RM2k3, download: http://www.mediafire.com/download/83ihq0oz21ov5l7/CEP%5Bplus+%5
 
 ==== PicsInBattle ====
 
+Supports: RM2k v1.07 and RM2k3 v1.08
+
 This patch allows to show pictures in battle. Patch is available in HPA format for HyperPatcher 2.
 
 By default, pictures are not visible in the battle scene. Even they exist and can be manipulated through calling common events, they will become visible only after the battle ends. This patch allows to see all the pictures during the battle.
