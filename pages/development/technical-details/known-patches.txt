@@ -147,7 +147,7 @@ FIXME [Need examples]
 
 Using custom fonts may be required if your language is not supported.
 
-Cherry’s Font Changer ([[http://dl1.rpg-atelier.net/ressourcen2/programme/chgfont.exe|download]]) allows to do this automatically, but it’s not hard to do in a hex editor either.
+Cherry’s Font Changer ([[http://dl1.rpg-atelier.net/ressourcen2/programme/chgfont.exe|download]]) and [[http://cherrytree.at/cms/download/?did=10|HyperPatcher2]] allow to do this automatically, but it’s not hard to do in a hex editor either.
 
 **Note.** Changing fonts doesn’t always require hacking an exe file. Sometimes games don’t change the font name, and just replace the default font (e. g. Czech game [[https://cs.wikipedia.org/wiki/Broken_Hearts_%28hra%29|Broken Hearts]] comes with its own RMG2000 font).
 
