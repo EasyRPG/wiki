@@ -10,7 +10,8 @@ Unofficial RPG Maker functionality can come in the following forms:
   * manual replacement of values at given offsets (can be done in hex editor, or applied dynamically through QuickPatches in DynRPG)
   * replacement for the audio library, Harmony.dll,
   * DynRPG plugins to be applied by DynRPG,
-  * external utilities called by some other patch.
+  * external utilities called by some other patch,
+  * external utility to apply the patch.
 
 ===== Harmony.dll replacements =====
 
