@@ -8,7 +8,7 @@ Note : We recommend you to put the "android-toolchain" and "player" directories 
 Download et follow the official instructions to install the Android SDK :
 http://developer.android.com/sdk/installing/index.html?pkg=tools
 
-In the SDK directory, execute the "android" file, it displays a GUI. Use it to download the API 10 (or later).
+In the SDK directory, execute the "android" file, it displays a GUI. Use it to download the API 12 (or later).
 If you want to launch the application on a Virtual Machine, download the ARM EABI System Image.
 
 Export the SDK directory's path :
@@ -92,8 +92,9 @@ Then execute this script :
 	#Download of timidity
 	git clone https://github.com/Ghabry/timidity_gus.git assets/timidity
 
-You have to specify the API Target you will use to build the Player, for now we use the API 10, use "android list targets" to know the number associated with installed API. We assume this number is 1 :
+You have to specify the API Target you will use to build the Player, for now we use the API 12, use "android list targets" to know the number associated with installed API. We assume this number is 1 :
 	android update project --path "." --target 1
+NB : We're targeting API 12 (to have gamepad support from SDL lib), but the minimum supported SDK is API 10.
 
 Build the project :
 	ndk-build
