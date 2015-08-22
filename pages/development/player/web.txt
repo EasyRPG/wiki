@@ -2,7 +2,7 @@
 
 EasyRPG supports running games directly inside your web browser.
 
-If you want to test it you can play with a [[https://easy-rpg.org/play/index-pr.html|Demo of our TestGame]].
+If you want to test it you can play with a [[https://easy-rpg.org/play/?game=testgame-2000|Demo of our TestGame]].
 
 ===How does it work===
 
