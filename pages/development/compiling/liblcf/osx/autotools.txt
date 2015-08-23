@@ -1,4 +1,4 @@
-====== Building liblcf on Mac OS X with Autotools ======
+====== Building liblcf on OS X with Autotools ======
 
 Install Homebrew if you don't have installed it:
 
