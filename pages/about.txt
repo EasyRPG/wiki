@@ -28,7 +28,7 @@ The **Player** is an application to run games made with EasyRPG Editor.
 
 Also it can **play RPG Maker 2000 and 2003 games** directly (RPG_RT.exe equivalent). This is the main feature in development currently.
 
-EasyRPG Player is very portable. This allows to play games in a lot of systems: GNU/Linux, Windows, Mac OS X, video game consoles and mobile phones.
+EasyRPG Player is very portable. This allows to play games in a lot of systems: GNU/Linux, Windows, OS X, video game consoles and mobile phones.
 
 
 ===== RTP Replacement =====
