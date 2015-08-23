@@ -1,4 +1,4 @@
-====== Building Player on Mac OS X with Autotools ======
+====== Building Player on OS X with Autotools ======
 
 Build and install liblcf:
 
