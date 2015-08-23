@@ -13,7 +13,7 @@ I help with project contributions and GNU/Linux port and GNU Autotools building 
 
 ===== Things I made =====
 
-I made porting tests of the EasyRPG player to the GP2X and OpenPandora. I made the first PSP port test, too. Also I made port testing of the very first EasyRPG editor (wx based) to Mac OS X.
+I made porting tests of the EasyRPG player to the GP2X and OpenPandora. I made the first PSP port test, too. Also I made port testing of the very first EasyRPG editor (wx based) to OS X.
 
 I made small contributions to the player and liblcf code, as some bugfixes, as the tile map reading bugs, completing undocumented LMT reader parts, implementing XYZ reader, cleaning warnings for GCC and MinGW, making initial project settings for CodeLite IDE, etc.
 
