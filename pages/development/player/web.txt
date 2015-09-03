@@ -29,7 +29,11 @@ You will get the following files:
 
 == Preprocessing steps for games ==
 
-Because of limitations in web browser you must convert all your ''midi'' and ''mp3'' audio files to ogg. To do this run TODO.
+Because of current player for the web is not supporting MIDI playback in browser yet (see [[https://github.com/EasyRPG/Player/issues/560|bug #560]]) you must convert all your ''MIDI'' and ''MP3'' audio files to OGG Vorbis.
+
+To convert MIDI to OGG run FIXME.
+
+To convert MP3 to OGG run FIXME.
 
 == Deploying a game on your server ==
 
