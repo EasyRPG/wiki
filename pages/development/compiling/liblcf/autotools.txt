@@ -30,7 +30,7 @@ sudo make install
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
-sudo apt-get -y install --no-install-recommends git make automake1.11 libtool g++ libexpat1-dev libicu-dev
+sudo apt-get -y install --no-install-recommends git make automake1.11 pkg-config libtool g++ libexpat1-dev libicu-dev
 git clone https://github.com/EasyRPG/liblcf.git
 cd liblcf
 autoreconf -i
