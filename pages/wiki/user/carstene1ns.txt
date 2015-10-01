@@ -8,3 +8,4 @@ I am living in Germany.
 Currently testing git integration…
 Apparently, it does not work, yet.
 Testing again!
+This should be it!
