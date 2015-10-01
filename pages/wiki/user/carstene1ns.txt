@@ -6,3 +6,4 @@ I am living in Germany.
 ===== TODO =====
 
 Currently testing git integration…
+Apparently, it does not work, yet. 
