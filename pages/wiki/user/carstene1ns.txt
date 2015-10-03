@@ -11,3 +11,4 @@ I am living in Germany.
   * maintaining the Arch Linux packages
   * dokuwiki git integration
   * some tools and random scripts (i.e. xyz-thumbnailer)
+  * [[https://github.com/EasyRPG/Player/issues?utf8=%E2%9C%93&q=involves%3Acarstene1ns|participating in the issue tracker]]
