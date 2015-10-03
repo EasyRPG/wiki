@@ -7,4 +7,5 @@ I am living in Germany.
 ===== Work done =====
 
   * some building related improvements
+  * some toolchain building (static linux/emscripten/wii/psp/...)
   * dokuwiki git integration
