@@ -8,4 +8,5 @@ I am living in Germany.
 
   * some building related improvements
   * some toolchain building (static linux/emscripten/wii/psp/...)
+  * maintaining the Arch Linux packages
   * dokuwiki git integration
