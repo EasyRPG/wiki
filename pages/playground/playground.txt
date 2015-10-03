@@ -5,12 +5,4 @@
 
 ...tired of using my user page for working on git integration :/
 
-1
-
-2
-
-3
-
-4
-
-5
+plugin updated!
