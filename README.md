@@ -6,8 +6,8 @@ https://easy-rpg.org/wiki/
 
 ## Tools used
 
-Initial import: https://github.com/hoxu/dokuwiki2git
-Incremental backups: https://github.com/woolfg/dokuwiki-plugin-gitbacked
+* Initial import: https://github.com/hoxu/dokuwiki2git
+* Incremental backups: https://github.com/woolfg/dokuwiki-plugin-gitbacked
 
 ## Contributing
 
