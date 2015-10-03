@@ -3,6 +3,8 @@
 That's me!
 
 I am living in Germany.
-===== TODO =====
 
-Currently testing git integration…done!
+===== Work done =====
+
+  * some building related improvements
+  * dokuwiki git integration
