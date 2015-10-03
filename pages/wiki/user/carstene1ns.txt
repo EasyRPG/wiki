@@ -10,3 +10,4 @@ I am living in Germany.
   * some toolchain building (static linux/emscripten/wii/psp/...)
   * maintaining the Arch Linux packages
   * dokuwiki git integration
+  * some tools and random scripts (i.e. xyz-thumbnailer)
