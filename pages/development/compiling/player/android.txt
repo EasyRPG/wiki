@@ -5,7 +5,7 @@ Note : We recommend you to put the "android-toolchain" and "player" directories 
 ===== 1) Build the android port =====
 ==== a) Install the Android SDK ====
 
-Download et follow the official instructions to install the Android SDK :
+Download and follow the official instructions to install the Android SDK :
 http://developer.android.com/sdk/installing/index.html?pkg=tools
 
 In the SDK directory, execute the "android" file, it displays a GUI. Use it to download the API 12 (or later).
