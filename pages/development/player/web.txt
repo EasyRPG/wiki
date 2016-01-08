@@ -64,7 +64,7 @@ Run ''games/?update'' once. You have to run this each time you change files of t
 
 Now open the ''index.html'' file and your default game should start. To play a different game pass ''?game=folder_name'' to your index file.
 
-==== Technical details about the server side ====
+===== Technical details about the server side =====
 
 The ''index.php'' works as a file finder which allows case-insensitive lookup of files.
 
@@ -72,11 +72,11 @@ Depending on the requested ''file'' it either returns ''404'' or a ''Location''-
 
 This is required because Windows is case-insensitive (and original RPG2k was for Windows) and because the file extensions are not stored. ''Charset/Hero1'' could be ''Hero1.png'', hero1.bmp or ''HeRo1.xyz'', depending on which file exists.
 
-=== Example ===
+==== Example ====
 
 The file ''System/System1'' is requested. The server returns ''Location: games/default/System/System1.png''. The same result is expected for file ''SyStEm/systEM1''.
 
-=== API ===
+==== API ====
 
 Our file finder is stored under ''src/platform/easyrpg-filefinder.php''. In case you want to replace the file finder you only have to fulfill a very simple API.
 
