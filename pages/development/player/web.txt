@@ -29,7 +29,7 @@ You will get the following files:
 
 ==== Preprocessing steps for games ====
 
-Because of current player for the web is not supporting MP3 playback properly in browser yet (there are resampling and buffering issues in SDL_mixer) you should convert ''MP3'' audio files to Ogg Vorbis.
+Because of current player for the web is not supporting MP3 playback properly in browser yet (there are resampling and buffering issues in SDL_mixer) you should convert ''MP3'' audio files to Ogg Vorbis. Also, EasyRPG Player supports existing WAV files but Ogg Vorbis is a lot smaller and worth for the web. Do the same following process for both ''Music'' and ''Sound'' folders and remove unneeded MP3 and WAV files after the conversion.
 
 === MP3 to Ogg Vorbis conversion ===
 
@@ -39,7 +39,7 @@ Because of current player for the web is not supporting MP3 playback properly in
 
   for song in *.mp3; do lame --decode "$song"; done
 
-  * Then, install ''vorbis-tools'' and encode all WAV (including any other existing game WAV files in Music and Sound folders) to Ogg Vorbis. EasyRPG Player supports WAV files but Ogg is a lot smaller and worth for the web.
+  * Then, install ''vorbis-tools'' and encode all WAV to Ogg Vorbis.
 
   oggenc -q-1 *.wav
 
@@ -51,8 +51,7 @@ Because of current player for the web is not supporting MP3 playback properly in
 
   * Then, download [[http://www.rarewares.org/ogg-oggdropxpd.php|oggdropXPd]] (aoTuV version is preferred).
 
-  * Open the oggdropXPd app (it is a square window), select all WAV files from the music folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to -1 (~48 kbps) or -2 (~32 kbps).
-
+  * Open the oggdropXPd app (it is a square window), select all WAV files from the folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to -1 (~48 kbps) or -2 (~32 kbps).
 ==== Deploying a game on your server ====
 
 The following only apply when you use our ''index.php''.
