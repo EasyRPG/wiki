@@ -60,7 +60,7 @@ Your games are expected in subdirectories of the ''games'' directory. The defaul
 
 If your ''games'' directory is not writable for PHP create a ''cache'' folder in ''games'' and give it write permissions. You can skip this step if ''games'' is writable. You can revoke read permission on this folder for world/others.
 
-Run ''games/?update'' once. You have to run this each time you change files of the game. For other games then default use ''games/?update&game=folder_name''.
+Run ''games/?update'' once. You have to run this each time you change files of the game. For other games different than default, use ''games/?update&game=folder_name''.
 
 Now open the ''index.html'' file and your default game should start. To play a different game pass ''?game=folder_name'' to your index file.
 
