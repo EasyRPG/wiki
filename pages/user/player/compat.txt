@@ -1,0 +1,37 @@
+====== Game Compatibility List ======
+
+While most games work out of the box to a certain degree, some may need additional setup or have quirks.
+Especially, custom [[user:player:patches|patches]] that are applied to the interpreter (RPG_RT.exe) itself, are mostly unsupported.
+This list is by no means complete, but merely lists games that have been tried by the EasyRPG developers and users.
+
+===== Games =====
+
+==== G ====
+
+Gray Garden, the
+//Playable//
+
+==== I ====
+
+Ib
+//Completable//
+
+==== O ====
+
+OFF
+//Playable//
+
+==== S ====
+
+Standstill Girl
+//Playable//
+
+==== V ====
+
+Vampires Dawn
+//Playable//, Battle glitches
+
+==== W ====
+
+Wadanohara and the Great Blue Sea
+//Playable//
