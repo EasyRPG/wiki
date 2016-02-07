@@ -19,7 +19,7 @@ Ib
 ==== O ====
 
 OFF
-//Playable//
+//Completable//
 
 ==== S ====
 
