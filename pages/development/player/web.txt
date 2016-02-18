@@ -43,6 +43,8 @@ Because of current player for the web is not supporting MP3 playback properly in
 
   oggenc -q-1 *.wav
 
+Beware of existing MS ADPCM WAV files, they are not supported by oggenc. If you get conversion errors, use ''ffmpeg -i adpcmfile.wav -o pcmfile.wav'' and rename it.
+
 == Windows drag and drop tools option ==
 
   * First, download [[http://www.rarewares.org/mp3-lamedrop.php|LameDropXPd]] based on LAME.
