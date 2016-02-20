@@ -21,6 +21,9 @@ Ib
 OFF
 //Completable//
 
+Oneshot
+//Not supported//, uses voodoo to control the runtime externally.
+
 ==== S ====
 
 Standstill Girl
