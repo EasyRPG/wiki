@@ -1,0 +1,21 @@
+====== Supported Encodings ======
+
+This lists the currently supported encodings of [[https://github.com/EasyRPG/liblcf/blob/master/src/reader_util.cpp|liblcf]].
+
+^ Human readable name ^ Mapping table (ICU) ^ Codepage (iconv) ^
+| Japanese | ibm-943_P15A-2003 | 932 |
+| Korean | windows-949-2000 | 949 |
+| ::: | (needs ibm-1363_P11B-1998) | |
+| Central Europe  | ibm-5346_P100-1998 | 1250 |
+| Cyrillic ((with Euro)) | ibm-5347_P100-1998 | 1251 |
+| Occidental ((with Euro)) | ibm-5348_P100-1997 | 1252 |
+| Greek ((with Euro)) | ibm-5349_P100-1998 | 1253 |
+| Hebrew ((with Euro)) | ibm-9447_P100-2002 | 1255 |
+| Arabic ((with Euro)) ((+ 8 chars)) | ibm-9448_X100-2005 | 1256 |
+| Thai ((with Euro)) | windows-874-2000 | 874 |
+| Chinese simplified | windows-936-2000 | 936 |
+| ::: | (needs ibm-1386_P100-2001) | |
+| Chinese traditional | windows-950-2000 | 950 |
+| ::: | (needs ibm-1373_P100-2002) | |
+| Turkish | ibm-5350_P100-1998 | 1254 |
+| Baltic | ibm-9449_P100-2002 | 1257 |
