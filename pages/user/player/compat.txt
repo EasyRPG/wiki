@@ -6,10 +6,25 @@ This list is by no means complete, but merely lists games that have been tried b
 
 ===== Games =====
 
+==== A ====
+
+AE 
+//Playable//
+
 ==== B ====
 
 Boy Ichiro's Modesty
 //Completable//
+
+==== E ====
+
+Embric of Wulfhammer's Castle
+//Playable//
+
+==== F ====
+
+.flow
+//Playable//
 
 ==== G ====
 
@@ -20,6 +35,11 @@ Gray Garden, the
 
 Ib
 //Completable//
+
+==== M ====
+
+Mimicry Man
+//Playable//
 
 ==== O ====
 
@@ -36,10 +56,15 @@ Standstill Girl
 
 ==== V ====
 
-Vampires Dawn
+Vampires Dawn 1 + 2
 //Playable//, Battle glitches
 
 ==== W ====
 
 Wadanohara and the Great Blue Sea
+//Playable//
+
+==== Y ====
+
+Yume Nikki
 //Playable//
