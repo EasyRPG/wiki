@@ -80,7 +80,7 @@ The file ''System/System1'' is requested. The server returns ''Location: games/d
 
 ==== API ====
 
-Our file finder is stored under ''src/platform/easyrpg-filefinder.php''. In case you want to replace the file finder you only have to fulfill a very simple API.
+Our file finder is stored under ''resources/emscripten/filefinder.php''. In case you want to replace the file finder you only have to fulfill a very simple API.
 
 The directory struture of the ''games'' folder is not part of the API contract. The player only expects that accessing ''games/'' invokes the file finder.
 
