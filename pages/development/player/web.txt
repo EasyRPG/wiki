@@ -2,7 +2,7 @@
 
 EasyRPG supports running games directly inside your web browser.
 
-If you want to test it you can play with a [[https://easy-rpg.org/play/|Demo of our TestGame]]. Try also a working game: [[https://easy-rpg.org/play/?game=ib|Ib]]
+If you want to test it you can play with a [[https://easy-rpg.org/play/|Demo of our TestGame]]. Try also a working game: [[https://easy-rpg.org/play/index-master.html?game=ib|Ib]]
 
 ===== How does it work =====
 
@@ -18,14 +18,15 @@ Hosting your own games is quite simple. Just follow these three steps.
 
 [[https://easy-rpg.org/jenkins/job/player-js/ws/player-js.tar.gz|Download this archive]] and extract it on your server.
 
-Your server needs support for PHP (most servers support this).
-
-You will get the following files:
+You will get the following files and folder:
 
   * index.html
-  * index.js
-  * index.html.mem
-  * games/index.php
+  * index-master.js
+  * index-master.data
+  * index-master.html.mem
+  * games/
+
+Note: if you want to try it locally you need a HTTP server, using ''file:'' protocol locally will not work, install Apache httpd server (or any other) on localhost instead.
 
 ==== Preprocessing steps for games ====
 
@@ -41,7 +42,7 @@ Because of current player for the web is not supporting MP3 playback properly in
 
   * Then, install ''vorbis-tools'' and encode all WAV to Ogg Vorbis.
 
-  oggenc -q-1 *.wav
+  oggenc -q0 *.wav
 
 Beware of existing MS ADPCM WAV files, they are not supported by oggenc. If you get conversion errors, use ''ffmpeg -i adpcmfile.wav -o pcmfile.wav'' and rename it.
 
@@ -53,41 +54,17 @@ Beware of existing MS ADPCM WAV files, they are not supported by oggenc. If you 
 
   * Then, download [[http://www.rarewares.org/ogg-oggdropxpd.php|oggdropXPd]] (aoTuV version is preferred).
 
-  * Open the oggdropXPd app (it is a square window), select all WAV files from the folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to -1 (~48 kbps) or -2 (~32 kbps).
+  * Open the oggdropXPd app (it is a square window), select all WAV files from the folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to 0 (~64 kbps) -1 (~48 kbps) or -2 (~32 kbps).
+
 ==== Deploying a game on your server ====
 
-The following only apply when you use our ''index.php''.
+Because RPG Maker games refer to files without extension and querying the server for every supported extension would be slow, you need to run a small tool to generate a file called 'index.json' (containing an game file list index with extensions) for every game before uploading. The tool is a php script called "indexgen".
 
-Your games are expected in subdirectories of the ''games'' directory. The default game executed is the one in ''games/default''. You can create further games by just putting them in subdirectories of the ''games'' directory. Because of security considerations (directory traversal) your directory name may not contain ''.'', ''\'' or ''cache''.
+If you use Windows you can get the tool in .exe format here: {{:development:player:indexgen.zip|}}
+Unpack ''indexgen.zip'' contents (indexgen.exe and php5.dll) in a game working folder (the folder containing RPG_RT.* files) to generate the ''index.json''. Move ''indexgen.exe'' and ''php5.dll'' to working folders for each game you want to upload and run ''indexgen.exe'' again to generate the ''index.json'' for them. Once finished you can remove (don't upload them, they are unneeded and useless in the server) the ''indexgen.exe'' and ''php5.dll'' from any game folder.
 
-If your ''games'' directory is not writable for PHP create a ''cache'' folder in ''games'' and give it write permissions. You can skip this step if ''games'' is writable. You can revoke read permission on this folder for world/others.
+If you use other operating system, install php-cli and run [[https://github.com/EasyRPG/Player/blob/master/resources/emscripten/indexgen.php|this script]] with ''php path/to/file/indexgen.php'' from the game working folder (the folder containing RPG_RT.* files), for each game you want to upload.
 
-Run ''games/?update'' once. You have to run this each time you change files of the game. For other games different than default, use ''games/?update&game=folder_name''.
+Your games are expected in subdirectories of the ''games'' directory. The default game executed is the one in ''games/default''. You can create further games by just by putting them in subdirectories of the ''games'' directory.
 
 Now open the ''index.html'' file and your default game should start. To play a different game pass ''?game=folder_name'' to your index file.
-
-===== Technical details about the server side =====
-
-The ''index.php'' works as a file finder which allows case-insensitive lookup of files.
-
-Depending on the requested ''file'' it either returns ''404'' or a ''Location''-header to the file on the server.
-
-This is required because Windows is case-insensitive (and original RPG2k was for Windows) and because the file extensions are not stored. ''Charset/Hero1'' could be ''Hero1.png'', hero1.bmp or ''HeRo1.xyz'', depending on which file exists.
-
-==== Example ====
-
-The file ''System/System1'' is requested. The server returns ''Location: games/default/System/System1.png''. The same result is expected for file ''SyStEm/systEM1''.
-
-==== API ====
-
-Our file finder is stored under ''resources/emscripten/filefinder.php''. In case you want to replace the file finder you only have to fulfill a very simple API.
-
-The directory struture of the ''games'' folder is not part of the API contract. The player only expects that accessing ''games/'' invokes the file finder.
-
-The only GET arguments that must be supported are ''game'' and ''file''.
-
-''game'' is the name of the game that is executed.
-
-''file'' is the name of the file the game requests.
-
-When a ''file'' is requested it must return a downloadable representation of the file. How doesn't matter, it can be an ''octet-stream'' or a redirect via ''Location''-header. If the file is not found ''404'' must be returned.
