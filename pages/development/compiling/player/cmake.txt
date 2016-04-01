@@ -8,7 +8,7 @@
   * Pixman
   * libpng
   * zlib
-  * boost
+  * boost (**only for 0.4.1**, later versions don't require boost)
   * OpenAL
   * FluidSynth
   * Ruby
