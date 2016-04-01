@@ -38,9 +38,6 @@ Execute this script :
 	# Compile easyrpg dependencies
 	ndk-build
 	cp obj/local/armeabi-v7a/*.a libs/armeabi-v7a/
-	wget http://download.sourceforge.net/project/boost/boost/1.55.0/boost_1_55_0.tar.gz
-	tar xf boost_1_55_0.tar.gz
-	cp -r boost_1_55_0/boost/ include/boost/
 	## Compile icu
 	# Native
 	cd $WORKSPACE/jni
