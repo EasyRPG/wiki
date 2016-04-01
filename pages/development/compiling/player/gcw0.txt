@@ -2,7 +2,7 @@
 
 You need to setup the gcw0 buildroot first: Download a precompiled toolchain from [[http://www.gcw-zero.com/develop]].
 
-[[development:gcw0-toolchain#cross-compile-pixman|You need to cross-compile pixman]].
+[[development:compiling:toolchains:gcw0#cross-compile-pixman|You need to cross-compile pixman]].
 
 Download Player and liblcf from GitHub:
 
