@@ -6,7 +6,7 @@ Build and install liblcf:
 
 Install requirements with Homebrew:
 
-  brew install jpeg libpng libvorbis sdl2 sdl2_mixer pixman freetype boost
+  brew install libpng libvorbis sdl2 sdl2_mixer pixman freetype
 
 Download Player sources from git:
 
@@ -26,8 +26,7 @@ Generate configure script:
 
 Generate Makefile:
 
-To use the ./configure script, you have to specify the path of boost files, CXXFLAGS and LDFLAGS's values may be different depending on the version of boost.
-  ./configure CXXFLAGS="-I/usr/local/Cellar/boost/1.57.0/include" LDFLAGS="-L/usr/local/Cellar/boost/1.57.0/lib"
+  ./configure
 
 Build:
 
