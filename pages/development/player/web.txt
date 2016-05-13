@@ -1,8 +1,8 @@
 ====== EasyRPG Player for the Web ======
 
-EasyRPG supports running games directly inside your web browser.
+EasyRPG Player supports running games directly inside your web browser.
 
-If you want to test it you can play with a [[https://easy-rpg.org/play/|Demo of our TestGame]]. Try also a working game: [[https://easy-rpg.org/play/index-master.html?game=ib|Ib]]
+If you want to test it you can play with a [[https://easy-rpg.org/play/|Demo of our TestGame]]. Try also a working game: [[https://easy-rpg.org/play/?game=ib|Ib]]
 
 ===== How does it work =====
 
@@ -16,31 +16,26 @@ Hosting your own games is quite simple. Just follow these three steps.
 
 ==== Deploying the Player on your server ====
 
-[[https://easy-rpg.org/jenkins/job/player-js/ws/player-js.tar.gz|Download this archive]] and extract it on your server.
+[[https://easy-rpg.org/jenkins/job/player-js/lastSuccessfulBuild/artifact/player-js.tar.gz|Download this archive]] and extract it on your server.
 
 You will get the following files and folder:
 
   * index.html
-  * index-master.js
-  * index-master.data
-  * index-master.html.mem
+  * index.html.mem
+  * index.js
   * games/
 
 Note: if you want to try it locally you need a HTTP server, using ''file:'' protocol locally will not work, install Apache httpd server (or any other) on localhost instead.
 
 ==== Preprocessing steps for games ====
 
-Because of current player for the web is not supporting MP3 playback properly in browser yet (there are resampling and buffering issues in SDL_mixer) you should convert ''MP3'' audio files to Ogg Vorbis. Also, EasyRPG Player supports existing WAV files but Ogg Vorbis is a lot smaller and worth for the web. Do the same following process for both ''Music'' and ''Sound'' folders and remove unneeded MP3 and WAV files after the conversion.
+EasyRPG Player supports WAV files for music and sounds, but Ogg Vorbis is a lot smaller and worth for the web. Do the same following process for both ''Music'' and ''Sound'' folders and remove unneeded WAV files after the conversion.
 
-=== MP3 to Ogg Vorbis conversion ===
+=== Ogg Vorbis conversion ===
 
 == GNU/Linux command line option ==
 
-  * First, install ''lame'' and decode all MP3 to WAV:
-
-  for song in *.mp3; do lame --decode "$song"; done
-
-  * Then, install ''vorbis-tools'' and encode all WAV to Ogg Vorbis.
+  * Install ''vorbis-tools'' and encode all WAV to Ogg Vorbis.
 
   oggenc -q0 *.wav
 
@@ -48,13 +43,9 @@ Beware of existing MS ADPCM WAV files, they are not supported by oggenc. If you 
 
 == Windows drag and drop tools option ==
 
-  * First, download [[http://www.rarewares.org/mp3-lamedrop.php|LameDropXPd]] based on LAME.
+  * First, download [[http://www.rarewares.org/ogg-oggdropxpd.php|oggdropXPd]] (aoTuV version is preferred).
 
-  * Open the LameDropXPd app (it is a square window), select all MP3 files from the folder, then drag and drop them over the square app window. They will be converted to WAV.
-
-  * Then, download [[http://www.rarewares.org/ogg-oggdropxpd.php|oggdropXPd]] (aoTuV version is preferred).
-
-  * Open the oggdropXPd app (it is a square window), select all WAV files from the folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to 0 (~64 kbps) -1 (~48 kbps) or -2 (~32 kbps).
+  * Then open the oggdropXPd app (it is a square window), select all WAV files from the folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to 0 (~64 kbps) -1 (~48 kbps) or -2 (~32 kbps).
 
 ==== Deploying a game on your server ====
 

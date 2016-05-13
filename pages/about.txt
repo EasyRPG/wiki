@@ -12,7 +12,7 @@ It is inspired on a commercial product called **RPG Maker**.
 
 ===== EasyRPG Editor =====
 
-The Editor is an application with an user interface to design roleplaying games.
+The Editor is an application with a user interface to design roleplaying games.
 
 It consists on:
 
