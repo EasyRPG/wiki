@@ -4,12 +4,16 @@ While most games work out of the box to a certain degree, some may need addition
 Especially, custom [[user:player:patches|patches]] that are applied to the interpreter (RPG_RT.exe) itself, are mostly unsupported.
 This list is by no means complete, but merely lists games that have been tried by the EasyRPG developers and users.
 
+When a game is marked as //completable// means somebody played it with Player and was able to complete it with it.
+
+When a game is marked as //playable// means somebody played it with Player but maybe didn't finish it yet, though it might be completable, it is just unconfirmed.
+
 ===== Games =====
 
 ==== A ====
 
 AE 
-//Playable//
+//Completable//
 
 ==== B ====
 
@@ -62,7 +66,7 @@ Vampires Dawn 1 + 2
 ==== W ====
 
 Wadanohara and the Great Blue Sea
-//Playable//
+//Completable//
 
 ==== Y ====
 
