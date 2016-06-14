@@ -1,6 +1,6 @@
 ====== Installation Guide ======
 
-Get the latest build for your platform from our [[https://easy-rpg.org/jenkins/view/Player/|Jenkins Buildbot]].
+Get the latest build for your platform from our [[https://ci.easyrpg.org/view/Player/|Jenkins Buildbot]].
 
 Extract the binary into the game folder and execute it. It behaves the same as RPG_RT with the exception, that RPG2k and RPG2k3 games are automatically detected, so one executable works for all games (as long as they are supported).
 
