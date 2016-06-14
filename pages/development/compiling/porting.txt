@@ -44,7 +44,7 @@ iconv or ICU are required for converting the text strings to Unicode. ICU is rec
 
 Cross compiling ICU is a bit tricky, get version 56.1 (important!) and do the following steps:
 
-To save 20 MB of library size replace the icudata with ours: [[https://easy-rpg.org/jenkins/job/icudata/lastSuccessfulBuild/artifact/icu/source/data/out/icudata.tar.gz|icudata]]
+To save 20 MB of library size replace the icudata with ours: [[https://ci.easyrpg.org/job/icudata/lastSuccessfulBuild/artifact/icu/source/data/out/icudata.tar.gz|icudata]]
 
 Copy ''icudt56l.dat'' into ''icu/source/data/in/''
 
