@@ -1,6 +1,6 @@
 ====== Building the GCW Zero Toolchain ======
 
-For our [[https://easy-rpg.org/jenkins/|Jenkins build server]] we needed a modified toolchain, that does not depend to be installed in ''/opt''.
+For our [[https://ci.easyrpg.org/|Jenkins build server]] we needed a modified toolchain, that does not depend to be installed in ''/opt''.
 The following instructions have been written along the way and should result in a working toolchain that is suitable to get a working EasyRPG Player build.
 
 //Prerequisites//: I assume you do all the steps in a seperate build directory to not interfere with old toolchains and other stuff. Also you need some development tools installed on your machine, for example ''gcc'', ''make'' and ''subversion''. The buildroot will warn you, when you forgot to install something, though.
