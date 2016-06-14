@@ -620,4 +620,4 @@ Don Miguel added 38 files to his RTP, too:
 
 ==== Extra files replacement proposal ====
 
-Open discussion here: http://easy-rpg.org/forums/viewtopic.php?f=5&t=23
+Open discussion here: https://community.easyrpg.org/t/what-to-do-with-don-miguel-rtp-extras/44
