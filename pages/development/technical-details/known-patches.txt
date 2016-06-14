@@ -21,13 +21,21 @@ Harmony.dll is used for audio playback in RPG Maker 2000 (except Value!) and RPG
 
 ==== Key Patch by Ineluki ====
 
-Supports: RPG Maker 2000 (except Value), RPG Maker 2003 up to version 1.04
+Supports: RPG Maker 2000 up to 1.10 (everything before VALUE!), RPG Maker 2003 up to version 1.04
 
-Executes scripts via the 'Play sound' command, and returns data through the midi ticks. Scripts are stored as sounds with .script.wav extension (the format of .script.wav is similar to INI files). Also, allows to play MP3 files by creating text files with .link.wav extension.
+To work with any other version, game needs to be patched with Force Harmony.
+
+Executes scripts via the 'Play sound' command, and returns data through the midi ticks. Scripts are stored as sounds with .script.wav extension (the format of .script.wav is similar to INI files).
+
+Also, allows to play MP3 (and theoretically also WMA) files by creating text files with .link.wav extension (a feature that was carried over from the older MP3 patch by Ineluki). Since this procedure is not managed by the game engine, music continues to play even if another track is started without correctly terminating the last one.
+
+If FFDShow or something similar is installed, it may spam new symbols to task bar with every new file played until Harmony resets or game is closed.
+
+The Key Patch is able to break system stability when starting a game if it gets prevented by a firewall to monitor key inputs.
 
 Scripts allow to:
   * Get full keyboard input
-  * Get mouse input
+  * Get mouse input (only works correctly in fullscreen)
   * Execute arbitrary programs
   * Execute [[https://msdn.microsoft.com/en-us/library/windows/desktop/dd797790%28v=vs.85%29.aspx|MCI command]]
   * Write information to log
@@ -42,7 +50,7 @@ Games using it: [[http://www.rpg-maker.fr/index.php?page=jeux&id=232|Detectivus 
 
 ==== Auto Enter Patch by Miroku ===
 
-Skips the title screen of RPG Maker, allowing to create custom title screens.
+Skips the title screen of RPG Maker, allowing to create custom title screens. When used, the title screen will still show up, but is confirmed to start a new game instantly. To remove every disturbing detail, title and system graphic should be changed to empty black and the confirmation sound effect needs to be "(OFF)". It is recommended to use Better AEP (see below) instead.
 
 Similar patch is available for RPG Maker 2003.
 
@@ -54,9 +62,9 @@ Download: http://dl1.rpg-atelier.net/ressourcen2/programme/AutoEnterPatch.exe
 
 Supports: RM2k v1.07 and RM2k3 v1.08 (distributed as a modified binary)
 
-Skips the title screen (like Auto Enter Patch) and allows to call load menu and exit game.
+Skips the title screen in a different more efficient way than Auto Enter Patch (see above) and allows to call load menu and exit game.
 
-Stop Parallel Events is modified: when variable 3350 contains the value of 1, it calls a save menu. When variable 3350 contains the value of 2, it exits the game. When it contains any other value, Stop Parallel Events works as expected.
+Stop Parallel Events is modified: When variable 3350 contains the value of 1, it calls a file menu in load mode. When it contains the value of 2, it exits the game. When it contains any other value (such as 0), Stop Parallel Events works normal.
 
 Download: http://cherrytree.at/cms/download/?did=17
 
@@ -105,10 +113,13 @@ Downloaded here: http://www.mediafire.com/download/9y1pq6zpp9ilo51/enterheroname
 
 ==== Destiny Patch by Bananen-Joe ====
 
-Supports: RPG Maker 2000 v. 1.05 and 1.07
+Version 1 Supports: RPG Maker 2000 v. 1.05 (dropped with release of Ver2) and 1.07
 
-Description here: http://www.rpga.info/forum/showthread.php?p=422053#post422053
+Written in Assembler. Implements its own scripting language called DestinyScript for many kinds of data access and manipulation while game is running. Also comes with a patching tool that can adjust some details in the engine (repair broken EnterHeroName function, modify title screen or change order of blitting layers, for example chipset graphics above pictures,...).
 
+1.0.10.0: http://www.rpga.info/forum/showthread.php?t=46000
+
+2.0.1.8: http://www.rpga.info/forum/showthread.php?t=51108
 ===== RPG Maker 2003 patches =====
 
 FIXME
@@ -169,7 +180,7 @@ FIXME [Need examples]
 Cherry’s Hyper Patcher ([[http://dl1.rpg-atelier.net/ressourcen2/programme/hyperp.exe|download]]; supports RPG Maker 2000 v 1.05, RPG Maker 2003 v1.04 and RPG Maker 2003 v1.08) allows to change a number of other things, mostly cosmetic:
 
   * Main:
-    * 'Anderes KS-Design' {?},
+    * Slightly different battle system interface,
     * Hide start logos,
   * Title screen changes:
     * Automatically move cursor to 'Load',
