@@ -2,7 +2,7 @@
 
 EasyRPG Player supports running games directly inside your web browser.
 
-If you want to test it you can play with a [[https://easy-rpg.org/play/|Demo of our TestGame]]. Try also a working game: [[https://easy-rpg.org/play/?game=ib|Ib]]
+If you want to test it you can play with a [[https://easyrpg.org/play/|Demo of our TestGame]]. Try also a working game: [[https://easyrpg.org/play/?game=ib|Ib]]
 
 ===== How does it work =====
 
@@ -16,7 +16,7 @@ Hosting your own games is quite simple. Just follow these three steps.
 
 ==== Deploying the Player on your server ====
 
-[[https://easy-rpg.org/jenkins/job/player-js/lastSuccessfulBuild/artifact/player-js.tar.gz|Download this archive]] and extract it on your server.
+[[https://ci.easyrpg.org/job/player-js/lastSuccessfulBuild/artifact/player-js.tar.gz|Download this archive]] and extract it on your server.
 
 You will get the following files and folder:
 
