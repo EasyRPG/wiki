@@ -10,15 +10,36 @@ When a game is marked as //playable// means somebody played it with Player but m
 
 ===== Games =====
 
+==== # ====
+
+.flow
+//Playable//, needs to specify game engine manually
+
 ==== A ====
 
-AE 
+AE
 //Completable//
+
+Ara Fell
+//Playable//
 
 ==== B ====
 
 Boy Ichiro's Modesty
 //Completable//
+
+==== C ====
+
+Calm Falls
+//Completable//, needs to rename mp3 files
+
+==== D ====
+
+Dhux's Scar
+//Playable//
+
+Dungeoneer: A Beautiful Escape
+//Playable//
 
 ==== E ====
 
@@ -35,6 +56,11 @@ Embric of Wulfhammer's Castle
 Gray Garden, the
 //Playable//
 
+==== H ====
+
+HOME
+//Playable//
+
 ==== I ====
 
 Ib
@@ -45,6 +71,9 @@ Ib
 Mimicry Man
 //Playable//
 
+Monigote Fantasy
+//Playable//
+
 ==== O ====
 
 OFF
@@ -53,15 +82,37 @@ OFF
 Oneshot
 //Not supported//, uses voodoo to control the runtime externally.
 
+==== P ====
+
+Peuteris Grey
+//Playable//, Issues while moving
+
+Pom Get's WiFi
+//Completable//, Battle glitches
+
 ==== S ====
+
+Space Funeral
+//Playable//, Graphical glitches 
 
 Standstill Girl
 //Playable//
 
+==== U ====
+
+Unterwegs in Düsterburg
+//Completable//
+
 ==== V ====
 
-Vampires Dawn 1 + 2
+Vampires Dawn 1
+//Completable//, Battle glitches
+
+Vampires Dawn 2
 //Playable//, Battle glitches
+
+Velsarbor
+//Playable//, graphical glitches, needs special RTP files
 
 ==== W ====
 
@@ -71,4 +122,4 @@ Wadanohara and the Great Blue Sea
 ==== Y ====
 
 Yume Nikki
-//Playable//
+//Playable//, graphical glitches
