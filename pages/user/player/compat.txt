@@ -20,6 +20,9 @@ When a game is marked as //playable// means somebody played it with Player but m
 AE
 //Completable//
 
+Ahriman's Prophecy
+//Playable//
+
 Ara Fell
 //Playable//
 
