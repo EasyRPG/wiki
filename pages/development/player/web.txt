@@ -29,7 +29,9 @@ Note: if you want to try it locally you need a HTTP server, using ''file:'' prot
 
 ==== Preprocessing steps for games ====
 
-EasyRPG Player supports WAV files for music and sounds, but Ogg Vorbis is a lot smaller and worth for the web. Do the same following process for both ''Music'' and ''Sound'' folders and remove unneeded WAV files after the conversion.
+This step is encouraged yet optional, if you just want to test without audio file size optimizations, skip to the "Deploying a game on your server" step below.
+
+EasyRPG Player supports MP3 and WAV files for music and WAV sounds, but Ogg Vorbis is also supported for both and is a lot smaller and worth for the web. Do the same following process for both ''Music'' and ''Sound'' folders and remove unneeded WAV files after the conversion.
 
 === Ogg Vorbis conversion ===
 
