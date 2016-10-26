@@ -5,62 +5,61 @@
 ====EasyRPG Source Code====
 Kind of obvious as you can't compile something you haven't, check [[../../getting-sources|]] for more info.
 
-====Visual C++ 2010/2012====
-You can find Visual Studio 2010 and 2012 on the [[http://www.microsoft.com/visualstudio/en-us/|Microsoft website]].
-Visual Studio Express is the free version.
+====Visual C++ 2015====
+You can find Visual Studio 2015 [[https://www.visualstudio.com/vs/community/|Microsoft website]].
+Visual Studio 2015 Community is the free version.
+
+Older compilers won't work because they don't support C++11. If you have already installed Visual Studio 2015 make sure that you update it to Update 2.
 
 ====Precompiled libraries====
 EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a [[
-https://github.com/Ghabry/easyrpg-win32-libs|git repository]] with needed dependencies (maintained by Ghabry).
+https://github.com/EasyRPG/easyrpg-buildscripts|git repository]] with needed dependencies in the ''windows'' folder.
 
-=== Compiling with Visual Studio 2010 ===
-To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute ''build_vs2010.cmd'' (the Command Prompt can be found in the start menu).
+=== Compiling with Visual Studio 2015 ===
 
-== Compiling with Visual Studio 2012 ==
-''If you compiled using VS2010 you can skip this part.''
+Follow the instructions in the ''README'' file of the windows folder in the buildscripts repo.
 
-To compile open a Visual Studio Command Prompt (32 or 64 bit). The Command Prompt can be found in the start menu.
+== Before compiling ==
 
-The precompiled libraries are only tested with VS2010 and don't compile directly using VS2012. Possible workarounds:
+Create an environment variable EASYDEV_MSVC that points to '''buildscripts/windows/build'''. To create new environment variables enter the "Windows Control Panel" and select "System" (or enter "environment variable" in the search field). Sometimes new environment variables are not detected. Logout and -in again in order to fix this.
 
-  - Install Visual Studio 2010 too and follow the instructions above.
-  - Install the [[https://www.microsoft.com/en-us/download/details.aspx?id=8279|Windows 7.1 SDK]] and compile using ''build_vs2010 windows7.1sdk''
-  - Compile using ''build_vs2010 v110'', the libraries will be incompatible with Windows XP!
-  - Install [[https://www.microsoft.com/de-de/download/details.aspx?id=35774|Visual Studio 2012 Update 1]] and compile using ''build_vs2010 v110_xp'' (XP compatible toolset)
+== Compiling ==
 
-=== After compiling ===
-The resulting files appear in vs2010.
+To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute
 
-You will need to manually add the EASYDEV_MSVC enviroment variable and target the path vs2010 otherwise the EasyRPG solution file can't find the libraries.
-
-To create new environment variables enter the "Windows Control Panel" and select "System" (or enter "environment variable" in the search field). Sometimes new environment variables are not detected. Logout and -in again in order to fix this.
+'''
+powershell .\setup.ps1
+build v140
+'''
 
 ====Used libraries====
 ''If you are using the precompiled libraries you can skip this part.''
 
 If you want to compile by yourself:
 
-  * DirectX SDK (February 2010)
   * expat
   * freetype
-  * libjpeg
-  * libmad
-  * libmikmod
+  * harfbuzz
+  * icu4c
+  * libmodplug
   * libogg
   * libpng
+  * libsndfile
   * libvorbis
   * libvorbisfile (included with libvorbis)
+  * mpg123
   * native_midi (included with SDL_mixer)
-  * Pixman
+  * pixman
   * SDL2
-  * SDL2_mixer (WAV, MOD, MP3, OGG and MID support)
+  * SDL2_mixer
+  * speexdsp
   * zlib
 
 ===== Compiling Player =====
 
 You need to place the [[https://github.com/EasyRPG/liblcf|liblcf]] sources into the player lib/liblcf folder.
 
-Open the solution file in ''player\builds\vs2010'', select "Debug" or "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
+Open the solution file in ''player\builds\vs2015'', select "Debug" or "Release" configuration from the configuration manager pulldown menu and then go to Build->Build solution, or just press Control-F7 to compile it.
 
 The Player executable should be in the folder ''bin''. If you are not using the precompiled libraries, and you have dynamically linked Player, you will need to place the required .dll in the same folder Player.exe is.
 
@@ -71,9 +70,3 @@ The Player executable should be in the folder ''bin''. If you are not using the 
 This usually happens if you link against the wrong visual studio runtime and shouldn't happen if you follow the build instructions mentioned above.
 
 If you got the libraries from other sources make sure that their runtime library (Project Properties -> C++ -> Code generation) is set to "Multithreaded Debug" (/MTd) for debug and "Multithreaded" (/MT) for release. To hide the error go to "Project Properties -> Linker -> Input -> Ignore Specific Default Libraries" and ignore LIBCMT.LIB or LIBCMTD.LIB (ignoring one of them should remove the error but it's recommended to link the libs against the correct library instead!).
-
-==== LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt ====
-
-Press compile again, then linking should succeed, if not:
-
-This error happens because of conflict of two versions of cvtres.exe if you have Visual Studio 2010 and 2012 installed on same PC. To fix it, go to the bin directory of Visual Studio 2010 (usually C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\) and rename cvtres.exe to cvtres0.exe. It will not break the linker of 2010.
