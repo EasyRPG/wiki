@@ -27,13 +27,13 @@ Create an environment variable EASYDEV_MSVC that points to '''buildscripts/windo
 
 To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute
 
-'''
+''
 powershell .\setup.ps1
 build v140
-'''
+''
 
 ====Used libraries====
-''If you are using the precompiled libraries you can skip this part.''
+//If you are using the precompiled libraries you can skip this part.//
 
 If you want to compile by yourself:
 
