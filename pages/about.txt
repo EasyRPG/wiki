@@ -21,7 +21,7 @@ It consists on:
   * Window dialogs to edit map properties, trigger battles every steps on map, etc.
   * Window dialogs to add and manage map **events**, to handle commands for this events, display NPCs, messages etc.
 
-wats this
+
 ===== EasyRPG Player =====
 
 The **Player** is an application to run games made with EasyRPG Editor.
