@@ -10,187 +10,187 @@ If you know more translation languages or versions, both official or unofficial,
 
 Battle backgrounds. 25 PNG files. 320x160px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| ダンジョン1 | Cave1 |
-| ダンジョン2 | LavaCave2 |
-| ダンジョン3 | IceCave3 |
-| ダンジョン4 | Cave4 |
-| ダンジョン5 | BrickCave5 |
-| 宇宙 | Galaxy |
-| 山道 | Canyon |
-| 岩場 | SnowCanyon |
-| 廃墟 | WasteRuins |
-| 森1 | Forest1 |
-| 森2 | Forest2 |
-| 橋 | Bridge |
-| 毒沼 | Swamp |
-| 海 | Sea |
-| 玉座 | Castle |
-| 異空間 | LightSpeed |
-| 砂浜 | SeaBeach |
-| 砂漠 | Desert |
-| 神殿 | Greece |
-| 空 | Sky |
-| 船上 | Ship |
-| 草原 | Grass |
-| 荒地 | WasteLand |
-| 街中 | Town |
-| 雪原 | Snow |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| ダンジョン1 | Cave1 | Dungeon1 |
+| ダンジョン2 | LavaCave2 | Dungeon2 |
+| ダンジョン3 | IceCave3 | Dungeon3 |
+| ダンジョン4 | Cave4 | Dungeon4 |
+| ダンジョン5 | BrickCave5 | Dungeon5 |
+| 宇宙 | Galaxy | Space |
+| 山道 | Canyon | MountainPath |
+| 岩場 | SnowCanyon | RockyArea |
+| 廃墟 | WasteRuins | Ruins |
+| 森1 | Forest1 | Forest1 |
+| 森2 | Forest2 | Forest2 |
+| 橋 | Bridge | Bridge |
+| 毒沼 | Swamp | PoisonSwamp |
+| 海 | Sea | Sea |
+| 玉座 | Castle | Throne |
+| 異空間 | LightSpeed | StrangeSpace |
+| 砂浜 | SeaBeach | SandyBeach |
+| 砂漠 | Desert | Desert |
+| 神殿 | Greece | Shrine |
+| 空 | Sky | Sky |
+| 船上 | Ship | ShipDeck |
+| 草原 | Grass | Grassland |
+| 荒地 | WasteLand | Wasteland |
+| 街中 | Town | Downtown |
+| 雪原 | Snow | Snowfield |
 
 ==== Battle ====
 
 Battle animation effects. 28 PNG files. Different sizes.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| その他 | Etc |
-| バリア | Barrier |
-| ブレス | Poison |
-| 上昇 | Up |
-| 下降 | Down |
-| 冷気 | Cold |
-| 剣1 | Sword1 |
-| 剣2 | Sword2 |
-| 吸収 | Absorption |
-| 回復 | Sun |
-| 大地 | Earth |
-| 打撃 | Hit |
-| 斧 | Axe |
-| 暗黒 | Dark |
-| 槍 | Spear |
-| 水 | Water |
-| 治療 | Sphere |
-| 炎1 | Fire1 |
-| 炎2 | Fire2 |
-| 爆発 | Explosion |
-| 爪 | Fang |
-| 矢 | Arrow |
-| 神聖 | Holy |
-| 蘇生 | Ray |
-| 雷 | Zip |
-| 鞭 | Whip |
-| 風 | Wind |
-| 麻痺 | Paralysis |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| その他 | Etc | Other |
+| バリア | Barrier | Barrier |
+| ブレス | Poison | Breath |
+| 上昇 | Up | Buff |
+| 下降 | Down | Debuff |
+| 冷気 | Cold | Ice |
+| 剣1 | Sword1 | Sword1 |
+| 剣2 | Sword2 | Sword2 |
+| 吸収 | Absorption | Bite |
+| 回復 | Sun | Recovery |
+| 大地 | Earth | Earth |
+| 打撃 | Hit | Blow |
+| 斧 | Axe | Axe |
+| 暗黒 | Dark | Dark |
+| 槍 | Spear | Spear |
+| 水 | Water | Water |
+| 治療 | Sphere | Treatment |
+| 炎1 | Fire1 | Fire1 |
+| 炎2 | Fire2 | Fire2 |
+| 爆発 | Explosion | Explosion |
+| 爪 | Fang | Claw |
+| 矢 | Arrow | Arrow |
+| 神聖 | Holy | Holy |
+| 蘇生 | Ray | Ressurection |
+| 雷 | Zip | Thunder |
+| 鞭 | Whip | Whip |
+| 風 | Wind | Wind |
+| 麻痺 | Paralysis | Paralysis |
 
 ==== CharSet ====
 
 Map sprites. 15 PNG files. 288x256px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| オブジェクト1 | Object1 |
-| オブジェクト2 | Object2 |
-| モンスター1 | Monster1 |
-| モンスター2 | Monster2 |
-| 一般1 | People1 |
-| 一般2 | People7 |
-| 一般3 | People3 |
-| 一般4 | People4 |
-| 一般5 | People5 |
-| 主人公1 | Chara1 |
-| 主人公2 | Chara2 |
-| 主人公3 | Chara3 |
-| 主人公4 | Chara4 |
-| 乗り物 | Vehicle |
-| 動物 | Animal |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| オブジェクト1 | Object1 | Object1 |
+| オブジェクト2 | Object2 | Object2 |
+| モンスター1 | Monster1 | Monster1 |
+| モンスター2 | Monster2 | Monster2 |
+| 一般1 | People1 | People1 |
+| 一般2 | People7 | People2 |
+| 一般3 | People3 | People3 |
+| 一般4 | People4 | People4 |
+| 一般5 | People5 | People5 |
+| 主人公1 | Chara1 | Actor1 |
+| 主人公2 | Chara2 | Actor2 |
+| 主人公3 | Chara3 | Actor3 |
+| 主人公4 | Chara4 | Actor4 |
+| 乗り物 | Vehicle | Vehicles |
+| 動物 | Animal | Animal |
 
 ==== ChipSet ====
 
 Map tile sets. 5 PNG files. 480x256px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| ダンジョン | Dungeon |
-| 内装 | Inner |
-| 基本 | Basis |
-| 外観 | Outline |
-| 船 | Ship |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| ダンジョン | Dungeon | Dungeon |
+| 内装 | Inner | Interior |
+| 基本 | Basis | World |
+| 外観 | Outline | Exterior |
+| 船 | Ship | Ship |
 
 ==== FaceSet ====
 
 Face pictures. 5 PNG files. 192x192px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| モンスター | Monsters |
-| 一般1 | People1 |
-| 一般2 | People2 |
-| 主人公1 | Chara1 |
-| 主人公2 | Chara2 |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| モンスター | Monsters | Monster |
+| 一般1 | People1 | People1 |
+| 一般2 | People2 | People2 |
+| 主人公1 | Chara1 | Actor1 |
+| 主人公2 | Chara2 | Actor2 |
 
 ==== GameOver ====
 
 Game Over scene pictures. 1 PNG file. 320x240px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| ゲームオーバー | GameOver |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| ゲームオーバー | GameOver | Game Over |
 
 ==== Monster ====
 
 Battle sprites. 65 PNG files. Different sizes.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| ヴァンパイア | Vampire |
-| オーク | Hog |
-| ガーゴイル | Gargoyle |
-| キマイラ | Chimera |
-| クラーケン | Octopus |
-| グリフォン | Griphon |
-| ケルベロス | HellHound |
-| こうもり | Bat |
-| ゴースト | Ghost |
-| ゴーレム | Golem |
-| コカトリス | Rooster |
-| ゴブリン | Troll |
-| コボルト | Wolfman |
-| スケルトン | Skeleton |
-| スライム | Slime |
-| ゾンビ | Zombie |
-| ダークエルフ | Darkelf |
-| デーモン | FlyingDemon |
-| ドラゴン | GreenDragon1 |
-| ドラゴンナイト | DragonKnight |
-| トルーパー | DarkRider |
-| トレント | Oak |
-| ハーピー | Harpy |
-| ヒュドラ | Hydra |
-| ブラックナイト | DarkKnight |
-| ホーネット | Bee |
-| マーマン | Aquamen |
-| マミー | Mummy |
-| ミノタウロス | Minotaur |
-| ミミック | OgreChest |
-| メデューサ | Medusa |
-| リザードマン | Lizardmen |
-| リッチ | DarkSpirit |
-| ワーウルフ | Wolf |
-| ワイバーン | BlueDragon |
-| 一般人1 | Boy1 |
-| 一般人2 | Girl2 |
-| 一般人3 | Boy3 |
-| 一般人4 | Girl4 |
-| 一般人5 | Man5 |
-| 一般人6 | Girl6 |
-| 一般人7 | Oldman7 |
-| 一般人8 | Granny |
-| 使い魔 | Imp |
-| 兵士 | Warrior |
-| 大グモ | Spider |
-| 大サソリ | Redscorpion |
-| 大蛇 | Snake |
-| 天使 | Angel |
-| 女王 | Princess |
-| 忍者 | Ninja |
-| 怪魚 | Fish |
-| 戦士1 | Hero1 |
-| 戦士2 | Hero2 |
-| 武者 | Samurai |
-| 死神 | Death |
-| 海賊 | Gnome |
-| 王 | King |
-| 盗賊 | Thief |
-| 鬼火 | FireScull |
-| 魔王 | CloakDemon |
-| 魔神 | Satan |
-| 魔術師1 | Witch1 |
-| 魔術師2 | Witch2 |
-| 龍 | GreenDragon2 |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| ヴァンパイア | Vampire | Vampire |
+| オーク | Hog | Orc |
+| ガーゴイル | Gargoyle | Gargoyle |
+| キマイラ | Chimera | Chimera |
+| クラーケン | Octopus | Kraken |
+| グリフォン | Griphon | Griffon |
+| ケルベロス | HellHound | Cerberus |
+| こうもり | Bat | Bat |
+| ゴースト | Ghost | Ghost |
+| ゴーレム | Golem | Golem |
+| コカトリス | Rooster | Cockatorice |
+| ゴブリン | Troll | Goblin |
+| コボルト | Wolfman | Kobold |
+| スケルトン | Skeleton | Skeleton |
+| スライム | Slime | Slime |
+| ゾンビ | Zombie | Zombie |
+| ダークエルフ | Darkelf | Dark Elf |
+| デーモン | FlyingDemon | Demon |
+| ドラゴン | GreenDragon1 | DragonA |
+| ドラゴンナイト | DragonKnight | Dragon Knight |
+| トルーパー | DarkRider | Knight |
+| トレント | Oak | Treant |
+| ハーピー | Harpy | Harpy |
+| ヒュドラ | Hydra | Hydra |
+| ブラックナイト | DarkKnight | Black Knight |
+| ホーネット | Bee | Hornet |
+| マーマン | Aquamen | Merman |
+| マミー | Mummy | Mummy |
+| ミノタウロス | Minotaur | Minotaur |
+| ミミック | OgreChest | Mimic |
+| メデューサ | Medusa | Medusa |
+| リザードマン | Lizardmen | Lizardman |
+| リッチ | DarkSpirit | Lich |
+| ワーウルフ | Wolf | Werewolf |
+| ワイバーン | BlueDragon | Wyvern |
+| 一般人1 | Boy1 | People1 |
+| 一般人2 | Girl2 | People2 |
+| 一般人3 | Boy3 | People3 |
+| 一般人4 | Girl4 | People4 |
+| 一般人5 | Man5 | People5 |
+| 一般人6 | Girl6 | People6 |
+| 一般人7 | Oldman7 | People7 |
+| 一般人8 | Granny | People8 |
+| 使い魔 | Imp | Familiar |
+| 兵士 | Warrior | Soldier |
+| 大グモ | Spider | Giant Spider |
+| 大サソリ | Redscorpion | Giant Scorpion |
+| 大蛇 | Snake | Snake |
+| 天使 | Angel | Angel |
+| 女王 | Princess | Queen |
+| 忍者 | Ninja | Ninja |
+| 怪魚 | Fish | Monster Fish |
+| 戦士1 | Hero1 | Warrior1 |
+| 戦士2 | Hero2 | Warrior2 |
+| 武者 | Samurai | Warrior |
+| 死神 | Death | Reaper |
+| 海賊 | Gnome | Pirate |
+| 王 | King | King |
+| 盗賊 | Thief | Thief |
+| 鬼火 | FireScull | Wisp |
+| 魔王 | CloakDemon | Demon Lord |
+| 魔神 | Satan | Demon God |
+| 魔術師1 | Witch1 | Magician1 |
+| 魔術師2 | Witch2 | Magician2 |
+| 龍 | GreenDragon2 | DragonB |
 
 ==== Movie ====
 
@@ -200,123 +200,123 @@ Moving pictures. Empty folder.
 
 Background music. 97 files: 75 MID songs, 17 MID Jingles (J), 5 WAV Sound Effects (SE).
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| Jアイテム | Item |
-| Jギャグ1 | Gag1 |
-| Jギャグ2 | Gag2 |
-| Jファンファーレ1 | Fanfare1 |
-| Jファンファーレ2 | Fanfare2 |
-| Jファンファーレ3 | Fanfare3 |
-| Jファンファーレ4 | Fanfare4 |
-| Jファンファーレ5 | Fanfare5 |
-| Jファンファーレ6 | Fanfare6 |
-| J宿1 | Inn1 |
-| J宿2 | Inn2 |
-| J戦闘終了1 | BattleEnd1 |
-| J戦闘終了2 | BattleEnd2 |
-| J戦闘終了3 | BattleEnd3 |
-| J戦闘終了4 | BattleEnd4 |
-| J疑惑 | Doubt |
-| J謎 | Riddle |
-| SE地震 | SEearthquake |
-| SE大雨 | SErain2 |
-| SE時計 | SEclock |
-| SE海 | SEsea |
-| SE雨 | SErain |
-| エンディング1 | Ending1 |
-| エンディング2 | Ending2 |
-| エンディング3 | Ending3 |
-| オープニング1 | Opening1 |
-| オープニング2 | Opening2 |
-| オープニング3 | Opening3 |
-| ゲームオーバー1 | GameOver1 |
-| ゲームオーバー2 | GameOver2 |
-| ゲームオーバー3 | GameOver3 |
-| ゴーストタウン1 | GostTown1 |
-| ゴーストタウン2 | GostTown2 |
-| ダンジョン1 | Dungeon1 |
-| ダンジョン2 | Dungeon2 |
-| ダンジョン3 | Dungeon3 |
-| ダンジョン4 | Dungeon4 |
-| ダンジョン5 | Dungeon5 |
-| ピンチ | Crisis |
-| フィールド1 | Field1 |
-| フィールド2 | Field2 |
-| フィールド3 | Field3 |
-| フィールド4 | Field4 |
-| ボス1 | Boss1 |
-| ボス2 | Boss2 |
-| ボス3 | Boss3 |
-| ボス4 | Boss4 |
-| 乗り物1 | Ride1 |
-| 乗り物2 | Ride2 |
-| 乗り物3 | Ride3 |
-| 別れ1 | Farewell1 |
-| 別れ2 | Farewell2 |
-| 勇者1 | Hero1 |
-| 勇者2 | Hero2 |
-| 動物 | Animal |
-| 勝利 | Get |
-| 城1 | Castle1 |
-| 城2 | Castle2 |
-| 城3 | Castle3 |
-| 塔1 | Tower1 |
-| 塔2 | Tower2 |
-| 塔3 | Tower3 |
-| 妖精1 | Fairy1 |
-| 妖精2 | Fairy2 |
-| 安らぎ1 | Peace1 |
-| 安らぎ2 | Peace2 |
-| 安らぎ3 | Peace3 |
-| 店1 | Shop1 |
-| 店2 | Shop2 |
-| 店3 | Shop3 |
-| 怒り | Anger |
-| 悲しみ | Sad |
-| 戦闘1 | Battle1 |
-| 戦闘2 | Battle2 |
-| 戦闘3 | Battle3 |
-| 探索 | Search |
-| 敗北 | Lose |
-| 教会 | Church |
-| 明るい市場 | Fiesta |
-| 村1 | Village1 |
-| 村2 | Village2 |
-| 村3 | Village3 |
-| 泥棒 | Thief |
-| 活気 | Energy |
-| 町1 | Town1 |
-| 町2 | Town2 |
-| 町3 | Town3 |
-| 神秘1 | Mystery1 |
-| 神秘2 | Mystery2 |
-| 神秘3 | Mystery3 |
-| 秘宝 | Treasure |
-| 船1 | Ship1 |
-| 船2 | Ship2 |
-| 船3 | Ship3 |
-| 試練 | Trial |
-| 闇市 | Dark |
-| 魔王 | Devil |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| Jアイテム | Item | Items |
+| Jギャグ1 | Gag1 | Gag1 |
+| Jギャグ2 | Gag2 | Gag2 |
+| Jファンファーレ1 | Fanfare1 | Fanfare1 |
+| Jファンファーレ2 | Fanfare2 | Fanfare2 |
+| Jファンファーレ3 | Fanfare3 | Fanfare3 |
+| Jファンファーレ4 | Fanfare4 | Fanfare4 |
+| Jファンファーレ5 | Fanfare5 | Fanfare5 |
+| Jファンファーレ6 | Fanfare6 | Fanfare6 |
+| J宿1 | Inn1 | Inn1 |
+| J宿2 | Inn2 | Inn2 |
+| J戦闘終了1 | BattleEnd1 | BattleEnd1 |
+| J戦闘終了2 | BattleEnd2 | BattleEnd2 |
+| J戦闘終了3 | BattleEnd3 | BattleEnd3 |
+| J戦闘終了4 | BattleEnd4 | BattleEnd4 |
+| J疑惑 | Doubt | Suspicion |
+| J謎 | Riddle | Mystery |
+| SE地震 | SEearthquake | Earthquake |
+| SE大雨 | SErain2 | Rain2 |
+| SE時計 | SEclock | Clock |
+| SE海 | SEsea | Sea |
+| SE雨 | SErain | Rain1 |
+| エンディング1 | Ending1 | Ending1 |
+| エンディング2 | Ending2 | Ending2 |
+| エンディング3 | Ending3 | Ending3 |
+| オープニング1 | Opening1 | Opening1 |
+| オープニング2 | Opening2 | Opening2 |
+| オープニング3 | Opening3 | Opening3 |
+| ゲームオーバー1 | GameOver1 | Gameover1 |
+| ゲームオーバー2 | GameOver2 | Gameover2 |
+| ゲームオーバー3 | GameOver3 | Gameover3 |
+| ゴーストタウン1 | GostTown1 | GhostTown1 |
+| ゴーストタウン2 | GostTown2 | GhostTown2 |
+| ダンジョン1 | Dungeon1 | Dungeon1 |
+| ダンジョン2 | Dungeon2 | Dungeon2 |
+| ダンジョン3 | Dungeon3 | Dungeon3 |
+| ダンジョン4 | Dungeon4 | Dungeon4 |
+| ダンジョン5 | Dungeon5 | Dungeon5 |
+| ピンチ | Crisis | Crisis |
+| フィールド1 | Field1 | Field1 |
+| フィールド2 | Field2 | Field2 |
+| フィールド3 | Field3 | Field3 |
+| フィールド4 | Field4 | Field4 |
+| ボス1 | Boss1 | Boss1 |
+| ボス2 | Boss2 | Boss2 |
+| ボス3 | Boss3 | Boss3 |
+| ボス4 | Boss4 | Boss4 |
+| 乗り物1 | Ride1 | Vehicle1 |
+| 乗り物2 | Ride2 | Vehicle2 |
+| 乗り物3 | Ride3 | Vehicle3 |
+| 別れ1 | Farewell1 | Farewell1 |
+| 別れ2 | Farewell2 | Farewell2 |
+| 勇者1 | Hero1 | Hero1 |
+| 勇者2 | Hero2 | Hero2 |
+| 動物 | Animal | Animal |
+| 勝利 | Get | Victory |
+| 城1 | Castle1 | Castle1 |
+| 城2 | Castle2 | Castle2 |
+| 城3 | Castle3 | Castle3 |
+| 塔1 | Tower1 | Tower1 |
+| 塔2 | Tower2 | Tower2 |
+| 塔3 | Tower3 | Tower3 |
+| 妖精1 | Fairy1 | Fairy1 |
+| 妖精2 | Fairy2 | Fairy2 |
+| 安らぎ1 | Peace1 | Peace1 |
+| 安らぎ2 | Peace2 | Peace2 |
+| 安らぎ3 | Peace3 | Peace3 |
+| 店1 | Shop1 | Store1 |
+| 店2 | Shop2 | Store2 |
+| 店3 | Shop3 | Store3 |
+| 怒り | Anger | Anger |
+| 悲しみ | Sad | Sorrow |
+| 戦闘1 | Battle1 | Battle1 |
+| 戦闘2 | Battle2 | Battle2 |
+| 戦闘3 | Battle3 | Battle3 |
+| 探索 | Search | Search |
+| 敗北 | Lose | Defeat |
+| 教会 | Church | Church |
+| 明るい市場 | Fiesta | Marketplace |
+| 村1 | Village1 | Village1 |
+| 村2 | Village2 | Village2 |
+| 村3 | Village3 | Village3 |
+| 泥棒 | Thief | Thief |
+| 活気 | Energy | Energy |
+| 町1 | Town1 | Town1 |
+| 町2 | Town2 | Town2 |
+| 町3 | Town3 | Town3 |
+| 神秘1 | Mystery1 | Mystery1 |
+| 神秘2 | Mystery2 | Mystery2 |
+| 神秘3 | Mystery3 | Mystery3 |
+| 秘宝 | Treasure | Treasure |
+| 船1 | Ship1 | Ship1 |
+| 船2 | Ship2 | Ship2 |
+| 船3 | Ship3 | Ship3 |
+| 試練 | Trial | Trial |
+| 闇市 | Dark | BlackMarket |
+| 魔王 | Devil | Devil |
 
 ==== Panorama ====
 
 Background images for empty map zones. 13 PNG files. Different sizes.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| 夕焼け1 | Dawn1 |
-| 夕焼け2 | Dawn2 |
-| 夜明け1 | Evening1 |
-| 夜明け2 | Evening2 |
-| 夜空1 | Night1 |
-| 夜空2 | Night2 |
-| 宇宙 | Galaxy |
-| 惑星1 | Planet1 |
-| 惑星2 | Planet2 |
-| 惑星3 | Planet3 |
-| 異空間 | Weird |
-| 空1 | Morning1 |
-| 空2 | Morning2 |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| 夕焼け1 | Dawn1 | Sunset1 |
+| 夕焼け2 | Dawn2 | Sunset2 |
+| 夜明け1 | Evening1 | Dawn1 |
+| 夜明け2 | Evening2 | Dawn2 |
+| 夜空1 | Night1 | Night Sky1 |
+| 夜空2 | Night2 | Night Sky2 |
+| 宇宙 | Galaxy | Cosmos1 |
+| 惑星1 | Planet1 | Planet1 |
+| 惑星2 | Planet2 | Planet2 |
+| 惑星3 | Planet3 | Planet3 |
+| 異空間 | Weird | Dimension Rift |
+| 空1 | Morning1 | Sky1 |
+| 空2 | Morning2 | Sky2 |
 
 ==== Picture ====
 
@@ -328,226 +328,226 @@ Foreground sound effects. 206 WAV (PCM) files. Different qualities.
 
 English RTP by Don Miguel misses 3 files, one of them is misnamed, too.
 
-^ Japanese (original) ^ English (Don Miguel) ^
-| アイテム1 | Item1 |
-| アイテム2 | Item2 |
-| あたり1 | Success1 |
-| あたり2 | Success2 |
-| アップ | Up |
-| イヌ | Dog |
-| ウシ | Cow |
-| ウマ | Horse |
-| おたけび | Roar |
-| カーソル1 | Cursor1 |
-| カーソル2 | Cursor2 |
-| ガシャン | Glass |
-| キャンセル1 | Cansel1 |
-| キャンセル2 | Cansel2 |
-| しびれ1 | Numbness1 |
-| しびれ2 | Numbness2 |
-| しびれ3 | Numbness3 |
-| ジャンプ1 | Jump1 |
-| ジャンプ2 | Jump2 |
-| ショット1 | Shot1 |
-| ショット2 | Shot2 |
-| ショット3 | Shot3 |
-| スイッチ1 | Switch1 |
-| スイッチ2 | Switch2 |
-| ダウン | Down |
-| ダメージ1 | Damage1 |
-| ダメージ2 | Damage2 |
-| テレポート1 | Teleport1 |
-| テレポート2 | Teleport2 |
-| トラ | Tiger |
-| にらみ | Power |
-| にわとり | Chicken |
-| ネコ | Cat |
-| ノック | Knock |
-| はずれ1 | Failure1 |
-| はずれ2 | Failure2 |
-| バリア | Barrier |
-| ひつじ | Sheep |
-| ブザー1 | Buzzer1 |
-| ブザー2 | Buzzer2 |
-| フラッシュ1 | Flash1 |
-| フラッシュ2 | Flash2 |
-| フラッシュ3 | Flash3 |
-| ブレス | Breast |
-| モンスター1 | Monster1 |
-| モンスター2 | Monster2 |
-| ライオン | Lion |
-| 冷気1 | Cold1 |
-| 冷気2 | Cold2 |
-| 冷気3 | Cold3 |
-| 冷気4 | Cold4 |
-| 冷気5 | Cold5 |
-| 冷気6 | Cold6 |
-| 冷気7 | Cold7 |
-| 冷気8 | Cold8 |
-| 冷気9 | Cold9 |
-| 冷気10 | Cold10 |
-| 冷気11 | Cold11 |
-| 剣1 | Sword1 |
-| 剣2 | Sword2 |
-| 剣3 | Sword3 |
-| 吸収1 | Absorption1 |
-| 吸収2 | Absorption2 |
-| 噛む | Bite |
-| 回復1 | Recovery1 |
-| 回復2 | Recovery2 |
-| 回復3 | Recovery3 |
-| 回復4 | Recovery4 |
-| 回復5 | Recovery5 |
-| 回復6 | Recovery6 |
-| 回復7 | Recovery7 |
-| 回復8 | Recovery8 |
-| 回避1 | Evasion1 |
-| 回避2 | Evasion2 |
-| 地震1 | Earthquake1 |
-| 地震2 | Earthquake2 |
-| 壁1 | **NOT FOUND** |
-| 壁2 | **NOT FOUND** |
-| 大地1 | Earth1 |
-| 大地2 | Earth2 |
-| 大地3 | Earth3 |
-| 大地4 | Earth4 |
-| 大地5 | Earth5 |
-| 大地6 | Earth6 |
-| 大地7 | Earth7 |
-| 大地8 | Earth8 |
-| 大地9 | Earth9 |
-| 大地10 | Earth10 |
-| 巻き付き | Refer Book |
-| 弓1 | Bow1 |
-| 弓2 | Bow2 |
-| 戦闘1 | Fight1 |
-| 戦闘2 | Fight2 |
-| 打撃1 | Blow1 |
-| 打撃2 | Blow2 |
-| 打撃3 | Blow3 |
-| 打撃4 | Blow4 |
-| 打撃5 | Blow5 |
-| 打撃6 | Blow6 |
-| 打撃7 | Blow7 |
-| 攻撃1 | Attack1 |
-| 攻撃2 | Attack2 |
-| 斬る1 | Kill1 |
-| 斬る2 | Kill2 |
-| 斬る3 | Kill3 |
-| 斬る4 | Kill4 |
-| 斬る5 | Kill5 |
-| 斬る6 | **NOT FOUND** |
-| 斬る7 | Kill7 |
-| 斬る8 | Kill8 |
-| 斬る9 | Kill9 |
-| 斬る10 | Kill10 |
-| 斬る11 | Kill11 |
-| 時計 | Clock |
-| 暗闇 | Darkness |
-| 暗黒1 | Dark1 |
-| 暗黒2 | Dark2 |
-| 暗黒3 | Dark3 |
-| 暗黒4 | Dark4 |
-| 暗黒5 | Dark5 |
-| 暗黒6 | **Kill6** |
-| 歌 | Song |
-| 毒 | Poison |
-| 水1 | Water1 |
-| 水2 | Water2 |
-| 水3 | Water3 |
-| 水4 | Water4 |
-| 水5 | Water5 |
-| 水6 | Water6 |
-| 決定1 | Decision1 |
-| 決定2 | Decision2 |
-| 沈黙 | Silence |
-| 海1 | Sea1 |
-| 海2 | Sea2 |
-| 消滅1 | Annihilation1 |
-| 消滅2 | Annihilation2 |
-| 混乱 | Chaos |
-| 炎1 | Flame1 |
-| 炎2 | Flame2 |
-| 炎3 | Flame3 |
-| 炎4 | Flame4 |
-| 炎5 | Flame5 |
-| 炎6 | Flame6 |
-| 炎7 | Flame7 |
-| 炎8 | Flame8 |
-| 爆発1 | Explosion1 |
-| 爆発2 | Explosion2 |
-| 爆発3 | Explosion3 |
-| 爆発4 | Explosion4 |
-| 爆発5 | Explosion5 |
-| 爆発6 | Explosion6 |
-| 爆発7 | Explosion7 |
-| 睡眠 | Sleep |
-| 砂けむり | Sand Storm |
-| 神聖1 | Holy1 |
-| 神聖2 | Holy2 |
-| 神聖3 | Holy3 |
-| 神聖4 | Holy4 |
-| 神聖5 | Holy5 |
-| 神聖6 | Holy6 |
-| 神聖7 | Holy7 |
-| 神聖8 | Holy8 |
-| 神聖9 | Holy9 |
-| 移動 | Movement |
-| 花粉 | Pollen |
-| 落ちる1 | Fall1 |
-| 落ちる2 | Fall2 |
-| 蘇生1 | Rebirth1 |
-| 蘇生2 | Rebirth2 |
-| 蘇生3 | Rebirth3 |
-| 逃走 | Escape |
-| 鍵 | Key |
-| 鐘 | Bell |
-| 閉める1 | Close1 |
-| 閉める2 | Close2 |
-| 開ける1 | Open1 |
-| 開ける2 | Open2 |
-| 雨1 | Rain1 |
-| 雨2 | Rain2 |
-| 雷1 | Thunder1 |
-| 雷2 | Thunder2 |
-| 雷3 | Thunder3 |
-| 雷4 | Thunder4 |
-| 雷5 | Thunder5 |
-| 雷6 | Thunder6 |
-| 雷7 | Thunder7 |
-| 雷8 | Thunder8 |
-| 雷9 | Thunder9 |
-| 雷10 | Thunder10 |
-| 霧1 | Fog1 |
-| 霧2 | Fog2 |
-| 音波1 | Sonic1 |
-| 音波2 | Sonic2 |
-| 風1 | Wind1 |
-| 風2 | Wind2 |
-| 風3 | Wind3 |
-| 風4 | Wind4 |
-| 風5 | Wind5 |
-| 風6 | Wind6 |
-| 風7 | Wind7 |
-| 風8 | Wind8 |
-| 風9 | Wind9 |
-| 風10 | Wind10 |
-| 風11 | Wind11 |
-| 魔法1 | Wall1 |
-| 魔法2 | Wall2 |
+^ Japanese (original) ^ English (Don Miguel) ^ English (official) ^
+| アイテム1 | Item1 | Item1 |
+| アイテム2 | Item2 | Item2 |
+| あたり1 | Success1 | Chime1 |
+| あたり2 | Success2 | Chime2 |
+| アップ | Up | Buff |
+| イヌ | Dog | Dog |
+| ウシ | Cow | Cow |
+| ウマ | Horse | Horse |
+| おたけび | Roar | Roar |
+| カーソル1 | Cursor1 | Cursor1 |
+| カーソル2 | Cursor2 | Cursor2 |
+| ガシャン | Glass | GlassShatter |
+| キャンセル1 | Cansel1 | Cancel1 |
+| キャンセル2 | Cansel2 | Cancel2 |
+| しびれ1 | Numbness1 | Paralyze1 |
+| しびれ2 | Numbness2 | Paralyze2 |
+| しびれ3 | Numbness3 | Paralyze3 |
+| ジャンプ1 | Jump1 | Jump1 |
+| ジャンプ2 | Jump2 | Jump2 |
+| ショット1 | Shot1 | Shot1 |
+| ショット2 | Shot2 | Shot2 |
+| ショット3 | Shot3 | Shot3 |
+| スイッチ1 | Switch1 | Switch1 |
+| スイッチ2 | Switch2 | Switch2 |
+| ダウン | Down | Debuff |
+| ダメージ1 | Damage1 | Damage1 |
+| ダメージ2 | Damage2 | Damage2 |
+| テレポート1 | Teleport1 | Teleport1 |
+| テレポート2 | Teleport2 | Teleport2 |
+| トラ | Tiger | Tiger |
+| にらみ | Power | Glare |
+| にわとり | Chicken | Chicken |
+| ネコ | Cat | Cat |
+| ノック | Knock | Knock |
+| はずれ1 | Failure1 | Buzzer1 |
+| はずれ2 | Failure2 | Buzzer2 |
+| バリア | Barrier | Barrier |
+| ひつじ | Sheep | Sheep |
+| ブザー1 | Buzzer1 | Buzzer3 |
+| ブザー2 | Buzzer2 | Buzzer4 |
+| フラッシュ1 | Flash1 | Flash1 |
+| フラッシュ2 | Flash2 | Flash2 |
+| フラッシュ3 | Flash3 | Flash3 |
+| ブレス | Breast | Breath |
+| モンスター1 | Monster1 | Monster1 |
+| モンスター2 | Monster2 | Monster2 |
+| ライオン | Lion | Lion |
+| 冷気1 | Cold1 | Ice1 |
+| 冷気2 | Cold2 | Ice2 |
+| 冷気3 | Cold3 | Ice3 |
+| 冷気4 | Cold4 | Ice4 |
+| 冷気5 | Cold5 | Ice5 |
+| 冷気6 | Cold6 | Ice6 |
+| 冷気7 | Cold7 | Ice7 |
+| 冷気8 | Cold8 | Ice8 |
+| 冷気9 | Cold9 | Ice9 |
+| 冷気10 | Cold10 | Ice10 |
+| 冷気11 | Cold11 | Ice11 |
+| 剣1 | Sword1 | Sword1 |
+| 剣2 | Sword2 | Sword2 |
+| 剣3 | Sword3 | Sword3 |
+| 吸収1 | Absorption1 | Absorb1 |
+| 吸収2 | Absorption2 | Absorb2 |
+| 噛む | Bite | Bite |
+| 回復1 | Recovery1 | Recovery1 |
+| 回復2 | Recovery2 | Recovery2 |
+| 回復3 | Recovery3 | Recovery3 |
+| 回復4 | Recovery4 | Recovery4 |
+| 回復5 | Recovery5 | Recovery5 |
+| 回復6 | Recovery6 | Recovery6 |
+| 回復7 | Recovery7 | Recovery7 |
+| 回復8 | Recovery8 | Recovery8 |
+| 回避1 | Evasion1 | Evade1 |
+| 回避2 | Evasion2 | Evade2 |
+| 地震1 | Earthquake1 | Earthquake1 |
+| 地震2 | Earthquake2 | Earthquake2 |
+| 壁1 | **NOT FOUND** | Barrier1 |
+| 壁2 | **NOT FOUND** | Barrier2 |
+| 大地1 | Earth1 | Earth1 |
+| 大地2 | Earth2 | Earth2 |
+| 大地3 | Earth3 | Earth3 |
+| 大地4 | Earth4 | Earth4 |
+| 大地5 | Earth5 | Earth5 |
+| 大地6 | Earth6 | Earth6 |
+| 大地7 | Earth7 | Earth7 |
+| 大地8 | Earth8 | Earth8 |
+| 大地9 | Earth9 | Earth9 |
+| 大地10 | Earth10 | Earth10 |
+| 巻き付き | Refer Book | Ensnare |
+| 弓1 | Bow1 | Bow1 |
+| 弓2 | Bow2 | Bow2 |
+| 戦闘1 | Fight1 | Combat1 |
+| 戦闘2 | Fight2 | Combat2 |
+| 打撃1 | Blow1 | Blow1 |
+| 打撃2 | Blow2 | Blow2 |
+| 打撃3 | Blow3 | Blow3 |
+| 打撃4 | Blow4 | Blow4 |
+| 打撃5 | Blow5 | Blow5 |
+| 打撃6 | Blow6 | Blow6 |
+| 打撃7 | Blow7 | Blow7 |
+| 攻撃1 | Attack1 | Attack1 |
+| 攻撃2 | Attack2 | Attack2 |
+| 斬る1 | Kill1 | Slash1 |
+| 斬る2 | Kill2 | Slash2 |
+| 斬る3 | Kill3 | Slash3 |
+| 斬る4 | Kill4 | Slash4 |
+| 斬る5 | Kill5 | Slash5 |
+| 斬る6 | **NOT FOUND** | Slash6 |
+| 斬る7 | Kill7 | Slash7 |
+| 斬る8 | Kill8 | Slash8 |
+| 斬る9 | Kill9 | Slash9 |
+| 斬る10 | Kill10 | Slash10 |
+| 斬る11 | Kill11 | Slash11 |
+| 時計 | Clock | Clock |
+| 暗闇 | Darkness | Blind |
+| 暗黒1 | Dark1 | Darkness1 |
+| 暗黒2 | Dark2 | Darkness2 |
+| 暗黒3 | Dark3 | Darkness3 |
+| 暗黒4 | Dark4 | Darkness4 |
+| 暗黒5 | Dark5 | Darkness5 |
+| 暗黒6 | **Kill6** | Darkness6 |
+| 歌 | Song | Song |
+| 毒 | Poison | Poison |
+| 水1 | Water1 | Water1 |
+| 水2 | Water2 | Water2 |
+| 水3 | Water3 | Water3 |
+| 水4 | Water4 | Water4 |
+| 水5 | Water5 | Water5 |
+| 水6 | Water6 | Water6 |
+| 決定1 | Decision1 | Decision1 |
+| 決定2 | Decision2 | Decision2 |
+| 沈黙 | Silence | Silence |
+| 海1 | Sea1 | Sea1 |
+| 海2 | Sea2 | Sea2 |
+| 消滅1 | Annihilation1 | Collapse1 |
+| 消滅2 | Annihilation2 | Collapse2 |
+| 混乱 | Chaos | Confusion |
+| 炎1 | Flame1 | Fire1 |
+| 炎2 | Flame2 | Fire2 |
+| 炎3 | Flame3 | Fire3 |
+| 炎4 | Flame4 | Fire4 |
+| 炎5 | Flame5 | Fire5 |
+| 炎6 | Flame6 | Fire6 |
+| 炎7 | Flame7 | Fire7 |
+| 炎8 | Flame8 | Fire8 |
+| 爆発1 | Explosion1 | Explosion1 |
+| 爆発2 | Explosion2 | Explosion2 |
+| 爆発3 | Explosion3 | Explosion3 |
+| 爆発4 | Explosion4 | Explosion4 |
+| 爆発5 | Explosion5 | Explosion5 |
+| 爆発6 | Explosion6 | Explosion6 |
+| 爆発7 | Explosion7 | Explosion7 |
+| 睡眠 | Sleep | Sleep |
+| 砂けむり | Sand Storm | Sandstorm |
+| 神聖1 | Holy1 | Holy1 |
+| 神聖2 | Holy2 | Holy2 |
+| 神聖3 | Holy3 | Holy3 |
+| 神聖4 | Holy4 | Holy4 |
+| 神聖5 | Holy5 | Holy5 |
+| 神聖6 | Holy6 | Holy6 |
+| 神聖7 | Holy7 | Holy7 |
+| 神聖8 | Holy8 | Holy8 |
+| 神聖9 | Holy9 | Holy9 |
+| 移動 | Movement | Move |
+| 花粉 | Pollen | Pollen |
+| 落ちる1 | Fall1 | Fall1 |
+| 落ちる2 | Fall2 | Fall2 |
+| 蘇生1 | Rebirth1 | Raise1 |
+| 蘇生2 | Rebirth2 | Raise2 |
+| 蘇生3 | Rebirth3 | Raise3 |
+| 逃走 | Escape | Escape |
+| 鍵 | Key | Key |
+| 鐘 | Bell | Bell |
+| 閉める1 | Close1 | Close1 |
+| 閉める2 | Close2 | Close2 |
+| 開ける1 | Open1 | Open1 |
+| 開ける2 | Open2 | Open2 |
+| 雨1 | Rain1 | Rain1 |
+| 雨2 | Rain2 | Rain2 |
+| 雷1 | Thunder1 | Thunder1 |
+| 雷2 | Thunder2 | Thunder2 |
+| 雷3 | Thunder3 | Thunder3 |
+| 雷4 | Thunder4 | Thunder4 |
+| 雷5 | Thunder5 | Thunder5 |
+| 雷6 | Thunder6 | Thunder6 |
+| 雷7 | Thunder7 | Thunder7 |
+| 雷8 | Thunder8 | Thunder8 |
+| 雷9 | Thunder9 | Thunder9 |
+| 雷10 | Thunder10 | Thunder10 |
+| 霧1 | Fog1 | Fog1 |
+| 霧2 | Fog2 | Fog2 |
+| 音波1 | Sonic1 | Wave1 |
+| 音波2 | Sonic2 | Wave2 |
+| 風1 | Wind1 | Wind1 |
+| 風2 | Wind2 | Wind2 |
+| 風3 | Wind3 | Wind3 |
+| 風4 | Wind4 | Wind4 |
+| 風5 | Wind5 | Wind5 |
+| 風6 | Wind6 | Wind6 |
+| 風7 | Wind7 | Wind7 |
+| 風8 | Wind8 | Wind8 |
+| 風9 | Wind9 | Wind9 |
+| 風10 | Wind10 | Wind10 |
+| 風11 | Wind11 | Wind11 |
+| 魔法1 | Wall1 | Magic1 |
+| 魔法2 | Wall2 | Magic2 |
 
 ==== System ====
 
 Tile system for window skinning. 1 PNG file. 160x80px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
+^ Japanese (original) ^ English (Don Miguel, official) ^
 | システム | System |
 
 ==== Title ====
 
 Title scene pictures. 4 PNG files. 320x240px.
 
-^ Japanese (original) ^ English (Don Miguel) ^
+^ Japanese (original) ^ English (Don Miguel, official) ^
 | タイトル1 | Title1 |
 | タイトル2 | Title2 |
 | タイトル3 | Title3 |
