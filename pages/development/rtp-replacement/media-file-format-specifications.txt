@@ -141,7 +141,7 @@ Used in the folder:
 
 MIDI Standard Format. There are two versions, the most common is format 1.
 
-We recommend a software to edit .MID files: Winjammer Shareware 3.0 (32 bit). This is an old piece of software. The web of Winjammer Software dissapeared. The trial version only puts "Winjammer Demo" in the name of the tracks. You can get it at thesonicspot.com
+We recommend a software to edit .MID files: Winjammer Shareware 3.0 (32 bit). This is an old piece of software. The web of Winjammer Software dissapeared. The trial version only puts "Winjammer Demo" in the name of the tracks. You can get it at FIXME thesonicspot.com
 
 To make a game loop just put an event controller 111 in the desired position of return when the song ends. If you don't put the 111 event, RPG Maker will loop to the initial position. If you want to disable looping just put the 111 event at the end of the song, to make a silent loop to itself without more events.
 
