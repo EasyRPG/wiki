@@ -20,7 +20,7 @@ The modifications will have the same license as the RTP replacement. If you want
 
 ==== Somebody has violated my rights over my game. Can I claim my rights? ====
 
-Of course, over your own parts. If the person just borrowed the free (libre) material parts of your game (player source code, RTP replacement material or derived works of them), it's legal because the license permits it. But if the person taken your own materials under your rights violating your license, you can claim your rights.
+Of course, over your own parts. If the person just borrowed the free (libre) material parts of your game (player source code, RTP replacement material or derived works of them), it's legal because the license permits it. But if the person has taken your own materials under your rights violating your license, you can claim your rights.
 
 ==== Can I get a full rights from a specific RTP replacement material? ====
 
