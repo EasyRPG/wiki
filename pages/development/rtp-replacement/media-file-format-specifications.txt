@@ -85,13 +85,13 @@ FIXME [Graphic template will be here]
 
 RPG Maker can open 288x256 (8 characters), 72x128 (1 character), 24x32 (1 inanimated character).
 
-{{:development:rtp-replacement:templatetileset.png?400|}}
+FIXME [Graphic template will be here]
 
 ==== ChipSet ====
 
 480x256 pixels. Each tile is 16x16 pixels.
 
-FIXME [Graphic template will be here]
+{{:development:rtp-replacement:templatetileset.png?400|}}
 
 ==== FaceSet ====
 
