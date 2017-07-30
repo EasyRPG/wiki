@@ -59,7 +59,7 @@ Oficially, 480x480 pixels. You can do 480xMultipleOf96 up to 480, for example: 4
 
 If the image height is not a multiple the sprites (a grid of 5 96x96 sprite frames for row) could be shown cut.
 
-FIXME [Graphic template will be here]
+{{:development:rtp-replacement:battle-template.png?400|}}
 
 ==== Battle2 ====
 
