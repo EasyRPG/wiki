@@ -13,7 +13,7 @@ Older compilers won't work because they don't support C++11. If you have already
 
 ====Precompiled libraries====
 EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a [[
-https://github.com/EasyRPG/easyrpg-buildscripts|git repository]] with needed dependencies in the ''windows'' folder.
+https://github.com/EasyRPG/buildscripts|git repository]] with needed dependencies in the ''windows'' folder.
 
 === Compiling with Visual Studio 2015 ===
 

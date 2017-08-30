@@ -27,27 +27,6 @@ You will get the following files and folder:
 
 Note: if you want to try it locally you need a HTTP server, using ''file:'' protocol locally will not work, install Apache httpd server (or any other) on localhost instead.
 
-==== Preprocessing steps for games ====
-
-This step is encouraged yet optional, if you just want to test without audio file size optimizations, skip to the "Deploying a game on your server" step below.
-
-EasyRPG Player supports MP3 and WAV files for music and WAV sounds, but Ogg Vorbis is also supported for both and is a lot smaller and worth for the web. Do the same following process for both ''Music'' and ''Sound'' folders and remove unneeded WAV files after the conversion.
-
-=== Ogg Vorbis conversion ===
-
-== GNU/Linux command line option ==
-
-  * Install ''vorbis-tools'' and encode all WAV to Ogg Vorbis.
-
-  oggenc -q0 *.wav
-
-Beware of existing MS ADPCM WAV files, they are not supported by oggenc. If you get conversion errors, use ''ffmpeg -i adpcmfile.wav -o pcmfile.wav'' and rename it.
-
-== Windows drag and drop tools option ==
-
-  * First, download [[http://www.rarewares.org/ogg-oggdropxpd.php|oggdropXPd]] (aoTuV version is preferred).
-
-  * Then open the oggdropXPd app (it is a square window), select all WAV files from the folder, then drag and drop them over the square oggdropXPd window. They will be converted to Ogg Vorbis. If you want to make smaller Ogg Vorbis files, do secondary mouse button click over the square window to select options and adjust the compression quality option to 0 (~64 kbps) -1 (~48 kbps) or -2 (~32 kbps).
 
 ==== Deploying a game on your server ====
 
