@@ -30,12 +30,10 @@ Note: if you want to try it locally you need a HTTP server, using ''file:'' prot
 
 ==== Deploying a game on your server ====
 
-Because RPG Maker games refer to files without extension and querying the server for every supported extension would be slow, you need to run a small tool to generate a file called 'index.json' (containing an game file list index with extensions) for every game before uploading. The tool is a php script called "indexgen".
+Because RPG Maker games refer to files without extension and querying the server for every supported extension would be slow, you need to run a small tool to generate a file called ''index.json'' (containing an game file list index with extensions) for every game before uploading. The tool is called ''gencache''.
 
-If you use Windows you can get the tool in .exe format here: {{:development:player:indexgen.zip|}}
-Unpack ''indexgen.zip'' contents (indexgen.exe and php5.dll) in a game working folder (the folder containing RPG_RT.* files) to generate the ''index.json''. Move ''indexgen.exe'' and ''php5.dll'' to working folders for each game you want to upload and run ''indexgen.exe'' again to generate the ''index.json'' for them. Once finished you can remove (don't upload them, they are unneeded and useless in the server) the ''indexgen.exe'' and ''php5.dll'' from any game folder.
-
-If you use other operating system, install php-cli and run [[https://github.com/EasyRPG/Player/blob/master/resources/emscripten/indexgen.php|this script]] with ''php path/to/file/indexgen.php'' from the game working folder (the folder containing RPG_RT.* files), for each game you want to upload.
+If you use Windows you can get the tool here: {{https://ci.easyrpg.org/job/tools-win32/lastSuccessfulBuild/artifact/gencache/bin/gencache.exe|gencache for Windows}} {{https://ci.easyrpg.org/job/tools-linux/lastSuccessfulBuild/artifact/gencache.tar.gz|gencache for Linux}}
+Place the gencache executable in a game working folder (the folder containing RPG_RT.* files) to generate the ''index.json''. Move the ''gencache'' executable to working folders for each game you want to upload and run ''gencache'' again to generate the ''index.json'' for them. Once finished you can remove (don't upload it, it's not needed) the ''gencache'' from any game folder.
 
 Your games are expected in subdirectories of the ''games'' directory. The default game executed is the one in ''games/default''. You can create further games by just by putting them in subdirectories of the ''games'' directory.
 
