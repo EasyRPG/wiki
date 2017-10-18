@@ -1,16 +1,16 @@
 ====== Runtime Package (RTP) ======
 
-RTP means "RunTime Package" and was intended to have an common asset library (graphics, music, sounds) shared between games to save some disk space in early distribution days (floppy disks, dial-up modems).
+**R**un**t**ime **P**ackages were intended to be a common asset library of graphics, music, and sounds that games often shared to save on disk space in the early days of computing (where floppy disks and dial-up modems were commonplace). A good way to understand the way it's used is through Microsoft's tools; developers that use Visual Studio often include Visual C++ Redistributables and the .NET Framework, or they have to tell the user to download it from Microsoft's website.
 
-RTP installers are distributed by the RPG Maker vendors in their homepages and can be downloaded for free (but can't be redistributed in other places).
+The installer for the RTP is given out by RPG Maker's vendor at their homepage for anyone to download but not to share.
 
-The better games usually don't need any files from the RTP to make them independent of requiring additional installations.
+The better games often don't use this package to ease the burden of having to install more prerequisites just to get the game working, and because they use original assets that the RTP would have no use replacing. You can use official packages from RPG Maker 2000 and 2003, but they can't be shared around, and they can't be used for projects that weren't made with anything other than RPG Maker (like EasyRPG, unfortunately).
 
-Because EasyRPG is free (as in freedom) wants to create it's own RTP replacement to be freely modified and distributed. However, EasyRPG does not have a complete RTP yet. Meanwhile you can use official RPG Maker 2000 and 2003 RTPs, but remember they are non-free and can't be redistributed or used for other projects different than RPG Maker.
+EasyRPG is free and open-source, so our own RTP replacement (which is incomplete) would need to follow the same share-alike rules of our license.
 
 ===== Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from Tkool web =====
 
-This website is written in Japanese only. Scroll down to the bottom of these files and click over the long blue button to download the RTP files for each as follows:
+The websites linked below are written in Japanese. Scroll down to the bottom of these files and click over the long blue button to download the RTP files.
 
 ==== For the 2000 RTP ====
 
@@ -30,17 +30,17 @@ Depending on the operating system you have to take care on a few steps:
 
 ==== Windows ====
 
-Just install the RTP using the official installer, the Player will automatically find it (by reading the Windows registry).
+IMPORTANT: The official installers encode Japanese text in JIS, not Unicode. You'll need to set your computer's language and/or locale to Japanese before the installation can work properly. <del>You can do this easily using LocaleEmulator: http://i.watashi.me/archives/locale-emulator.html with Windows 7 or later.</del> For legacy Windows (XP/2003) you can use AppLocale: http://www.microsoft.com/en-us/download/details.aspx?id=13209 and still install AppLocale on Windows 7 by running the msi installer with legacy operating system emulation, or by [[http://www.mydigitallife.info/how-to-install-microsoft-applocale-in-windows-7/|following this guide]].
 
-IMPORTANT: Official installers are Japanese only and they are not Unicode. This means you will need to run them in a Windows Japanese environment or the installation won't work properly. <del>You can do this with ease with LocaleEmulator: http://i.watashi.me/archives/locale-emulator.html with Windows 7 or later.</del> For older Windows (XP/2003) you can use AppLocale: http://www.microsoft.com/en-us/download/details.aspx?id=13209 and still install AppLocale on Windows 7 by running the msi installer with legacy operating system emulation or by [[http://www.mydigitallife.info/how-to-install-microsoft-applocale-in-windows-7/|following this guide]]
+Just install the RTP using the official installer, the Player will automatically find it by reading the registry.
 
 ==== GNU/Linux, OS X and other systems ====
 
 === Windows-like RTP setup with WINE ===
 
-EasyRPG Player can read RTP paths from the WINE registry like RPG_RT does from the Windows registry.
+WINE has a registry, and EasyRPG Player can read RTP paths from it much like RPG_RT does for Windows.
 
-To make Player read 2000 and 2003 RTPs, just install them with WINE. Once RTPs are installed you can uninstall WINE, it is only needed for a legal installation.
+Install the RTPs in WINE, and then the Player will automatically find and extract it. You can then optionally uninstall WINE if the RTP was all you installed in it; under WINE, this procedure only ensures a valid install.
 
 Because RTP are Japanese shift JIS encoded and they are not Unicode, you will need to execute them with a different locale if your UNIX default locale is not Japanese. You need to have the ja_JP.UTF-8 locale generated. Check your distribution locale configuration if you need to enable it (can vary between distributions). Once RTPs are installed you can disable this locale again.
 
@@ -60,17 +60,15 @@ By following the instructions below you will be able to install them:
 
 === Manual RTP setup (without WINE) ===
 
-For systems which don't have, don't support or simply don't want to use WINE and its registry to auto detect RTP path:
+For systems that can't (or don't want to) use WINE for its registry auto-detection, you'll need to copy RTP files from a preinstalled RTP manually.
 
-You will need to copy RTP files by hand using your own method, e.g. from a preinstalled RTP.
-
-The RTP is found by EasyRPG Player by reading these environment variables:
+EasyRPG Player reads these environment variables for the packages:
 
   * ''RPG2K_RTP_PATH'': For the RPG2000 RTP
   * ''RPG2K3_RTP_PATH'': For the RPG2003 RTP
-  * ''RPG_RTP_PATH'': For any RTP (fallback if 2k or 2k3 variable is missing)
+  * ''RPG_RTP_PATH'': For any RTP (a fallback if one of the others hasn't been filled in)
 
-If your system does not support environment variables you can place the RTP in the folders ''/data/rtp/2000'' and ''/data/rtp/2003'' instead. 
+If your system does not support environment variables, just place the RTP in the folders ''/data/rtp/2000'' and ''/data/rtp/2003'' instead. 
 
 ==== Wii ====
 

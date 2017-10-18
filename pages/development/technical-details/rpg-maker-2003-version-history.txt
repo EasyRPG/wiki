@@ -1,0 +1,168 @@
+====== RPG Maker 2003 version history ======
+
+Backup from https://web.archive.org/web/20080325201422/http://www.phylomortis.com:80/html/rm2k3vh.html
+
+This changelog does not include official English release patched version, only original Japanese updates.
+
+===== Version 1.09 (January 14, 2004) =====
+
+==== Bug Fixes: ====
+
+  * When magic is reflected by a character with the "reflect" condition, the problem where the proper battle animation would sometimes not play on the new target was corrected.
+  * The problem where damage indication would occur on the fifth frame of the animation when using an item that mimics a skill was corrected.
+  * The problem where "Enable Combo" would not stick after certain battle events were executed was fixed.
+  * The problem where repeatedly changing class would cause the character's stats to drop regardless of class settings was fixed.
+  * The problem where weapon animation was slow or nonexistant in the weapon animation settings screen was corrected.
+  * The problem where the stat bonuses from some equipment would persist after changing class when that equipment was unequipped was fixed.
+
+===== Version 1.08 (September 22, 2003) =====
+
+==== Bug Fixes: ====
+
+  * Fixed the problem where games would randomly crash when a skill was used.
+  * The problem where skills that increased attack power would only do so for one turn was corrected.
+  * The problem where the character battle animations screwed up for characters that had been confused the previous battle was fixed.
+  * When a character is revived in combat, the game should no longer crash if an enemy is killed immediately following.
+  * In battles using the Traditional layout, a defeated enemy's name will now disappear from the monster list immediately instead of at the next targeting prompt.
+
+===== Version 1.07 (July 15, 2003) =====
+
+==== Bug Fixes: ====
+
+  * When using the "two weapons" option, the problem where the damage equation did not scale correctly to large numbers was fixed.
+  * The problem where the game would crash if a confused ally attacks with the long-range weapon animation setting "attack each enemy in turn" was used is now fixed.
+  * If a character had a status ailment that altered attack power coexisting with another status ailment, the damage dealt would not reflect the attack power change. This has been fixed.
+
+===== Version 1.06 (June 24, 2003) =====
+
+==== Changed Feature: ====
+
+  * When a skill is used, any damage value and any enemy deaths associated with it are shown at the end of the animation, regardless of the animation's length.
+
+==== Bug Fixes: ====
+
+  * When a character attacks more than once due to "Enable Combo" and kills a monster, that character will move on to any remaining targets if additional attacks remain.
+  * The problem where save data from games made with version 1.04 or earlier could not be read was corrected.
+  * All MP3 files should be recognized, regardless of ID3 tags or encoding method.
+  * Optimized the program to work with certain MIDI synthesizers.
+  * The problem where sometimes the damage value shown was not equal to the damage actually recorded by the engine was fixed.
+  * If a character with the "two weapons" option uses weapons with different attack power levels and/or attributes, the weapons should now behave independently of each other for purposes of calculating damage.
+  * With regard to "key input processing", the repeat rate for the shift key was changed.
+  * When using "extended" battle animations for your character battle animations, the preview should now show properly in the editor.
+
+===== Version 1.05 (May 13, 2003) =====
+
+==== New Features: ====
+
+  * You can now nest "\n" and "\v", so you could do "\n[\v[1]]" to show the name of the character with ID stored in variable 1.
+  * The picture limit is increased from 40 to 50.
+  * When using "key input processing", it is now possible to disallow input of certain direction keys while allowing others.
+  * "Shift" was added as a possible key for "key input processing".
+  * You can make message text move more quickly by pressing the decision key during play (mirrors the feature that has always existed in test play).
+  * MP3 files can now be used for BGM.
+  * You can now target heroes when using the "show battle animation" battle event command.
+  * MP is now indicated in the "traditional" battle system type.
+  * "Input Number" has been added to the battle event options. No need to use a common event to invoke it now.
+  * You can now speed up the display of character battle animations in the editor so that you can see how they will look in battle more easily.
+  * You can now type in a message to display if an ability misses. For instance, if you use an ability that causes poisoning, but the monster has poison resistance, causing the attack to miss, the term you enter will show.
+
+==== Changed Features: ====
+
+  * The image priority of pictures and battle animations was reversed.
+  * The variance in the number of steps between encounters for a given encounter rate has been reduced.
+
+==== Bug Fixes: ====
+
+  * The problem where "half MP consumption" items were not showing the correct modified MP cost in the menu was corrected.
+  * The problem where a battle event would occur twice when the battle event start condition "number of turns taken by character" was used was corrected.
+  * The problem where a character's ATB gauge would freeze if the battle event start condition "[character] uses the [x] command" removed the character using it, then re-added the character to the party later, was fixed.
+  * Sometimes when the target of a status-removal spell was set to "self", and a monster used it, the status would not be cured and instead change to something random. This has been fixed.
+  * The problem where a battle event with the "[character] uses the [x] command" start condition combined with another start condition would execute even when only the battle command was chosen was fixed.
+
+===== Version 1.04 (March 1, 2003) =====
+
+==== New Features: ====
+
+  * When a monster afflicted with a status ailment is targeted, the name of the highest priority status ailment that monster is afflicted with will appear in a one-line message window at the top of the screen.
+  * During test play, you can now change the value of a variable to a seven-digit number when using the debug screen.
+
+==== Deleted Feature: ====
+
+  * When the feature-set was changed to show battle system messages on one line, the "show parameter increase on level-up" checkbox stopped working. This checkbox has now been deleted.
+
+==== Changed Feature: ====
+
+  * The way attribute damage modifiers for weapons are calculated has been changed as described below:
+    * When a character attacks, the one weapon attribute and the one magic attribute with the highest damage multipliers are chosen from all weapon and magic attributes linked to that attack.
+    * The actual damage multiplier is an average of the two attributes chosen as described above. For instance, if the damage multiplier for the weapon attribute is 200% and the damage multiplier for the magic attribute is 50%, then the actual damage multiplier used is 200% x 50% = 100%.
+    * If one or both of the attributes has a negative damage multiplier (absorption), then the damage multiplier used is the largest of the negative values. For instance, if the damage multiplier for the weapon attribute is 200%, and the damage multiplier for the magic attribute is -50%, then the actual damage multiplier used is -50%.
+
+==== Bug Fixes: ====
+
+  * When using a battle event with the trigger "Monster HP above X% and below Y%", the problem where the triggered event was beginning during the damage animation was fixed.
+  * The problem where there was a delay in the execution of skills or items of the type "Switch ON" has been fixed.
+  * The problem where the wrong hero would receive poison damage if another hero selected his action before the poisoned hero finished his action was fixed.
+  * The problem where sometimes battle events with the trigger "Monster HP above X% and below Y%" that only concerned the first enemy in a group would not execute was corrected.
+  * When a "show picture" event with the option "picture scrolls with map" was used, sometimes a "move picture" event would move the picture to the wrong coordinates, as if the "picture scrolls with map" box hadn't been checked. This problem has been fixed.
+  * The problem where an incorrect number of floppies was required to make a game disk was corrected. This was causing game disks extracted by other means than executing "setup.exe" to become corrupt.
+  * Fixed the problem where a hero afflicted with a status ailment that caused him to attack his allies and equipped with a weapon that inflicts a status ailment had no chance of inflicting that weapon's status ailment on the attacked ally.
+  * Fixed the problem where sometimes the hero would not face the proper direction after a "teleport" event command.
+  * The problem where the use of "Link to Event" type battle commands would freeze the battle is fixed.
+  * Fixed the problem where no more than 999 damage was dealt when using the "% of current HP" option in the "Change Monster HP" event command.
+
+===== Version 1.03 (February 5, 2003) =====
+
+==== New Features: ====
+
+  * In "Alternative" and "Gauge" type battles, the character selected for command entry blinks.
+  * The bouncing numbers for damage in battle are shown more slowly.
+  * In the event command "Enemy Encounter", the ability to select "Background associated with the selected terrain" was added.
+
+==== Bug Fixes: ====
+
+  * The problem where some of the icons on the editor toolbar were not being shown was corrected.
+  * The problem where the battle events with the trigger "Monster HP % between X and Y" were not being executed was fixed.
+  * Fixed the bug where the game would sometimes crash if an enemy was defeated with a skill.
+  * Fixed the bug where if you showed a battle animation on the field with "global scope" and then immediately entered a battle, the game would crash.
+  * Corrected timing for playback of large-sized poses in battle.
+
+===== Version 1.02 (January 15, 2003) =====
+
+==== New Features: ====
+
+  * "Reverse battle animations when attacking from opposite direction" checkbox was added to the "System 2" section of the database. This will flip all non-pose battle animations horizontally when the characters are on the opposite side of the monsters due to back attack or surround attack.
+  * During battle, if a skill or item is used, the name of the skill or item is shown briefly in a one-line message window before it executes.
+
+==== Bug Fixes: ====
+
+  * Corrected the problem in which the level up message was not being shown if the checkbox "show level-up message" in the battle event "Change character level" was checked.
+  * The "change monster MP" battle event now allows the MP to be increased or decreased by up to 9999 rather than 999.
+  * Corrected the problem with the experience curve settings that sometimes made it so that more experience was required to go from level 1 to level 2 than to go from level 2 to level 3.
+  * The problem where sometimes battle events with the trigger "Hero's HP between 0% and 0%" would not execute properly when the chosen hero's HP becomes 0.
+  * The problem where a character with the "two weapons" option would attack twice if unarmed was fixed.
+  * When a game was converted from RPG Maker 2000 to RPG Maker 2003 format, the "move picture" command would lose its transparency setting. This has been fixed.
+  * The problem where the names of the default battle poses would not appear when a RPG Maker 2000 game was converted to RPG Maker 2003 format was corrected.
+  * The problem where a "boomerang-type" animation pattern for a weapon would loop infinitely was corrected.
+  * The problems where events linked to special battle commands would sometimes execute without the appropriate command being chosen was fixed.
+  * The problems with party members added during battle not being able to act were fixed.
+
+===== Version 1.01a (December 28, 2002) =====
+
+==== Bug Fixes: ====
+
+  * The problem where the game would sometimes crash if two skills that targetted an ally were used on successive turns was fixed.
+  * Corrected the problem in which the game would crash if a character or monster with an agility of 1 was afflicted with a status ailment that reduced its agility by half.
+  * Corrected the problem in which the game would sometimes crash if characters afflicted with a status ailment with the action restriction "randomly attack enemies" missed.
+  * The monster behavior precondition "party average level" can now be set from levels 1 to 99.
+  * The problem where a character would sometimes use a skill multiple times if it attacked multiple times on its previous turn was corrected.
+
+===== Version 1.01 (December 19, 2002) =====
+
+==== Bug Fixes: ====
+
+  * The problem where the game would crash if a character not equipped with a weapon attacked was corrected.
+  * The problem where battle animations associated with enemy attacks were not being shown was corrected.
+
+===== Version 1.00 (December 18, 2002) =====
+
+  * Release version
