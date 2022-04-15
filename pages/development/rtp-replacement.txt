@@ -2,20 +2,8 @@
 
 {{indexmenu>./rtp-replacement|nojs dsort}}
 
-Most games made with RPG Maker 2000 and 2003 make use of a media resources library, containing graphics, music and sounds, called "Run-Time Package" (RTP). Those data is often a game dependency, not included with the game data, designed for the common usage of materials. But this data is not free. To make it free (as freedom), we need a free replacement to guarantee the free distribution (if the rest of the game data is free), compatibility and execution of those games.
+Most games made with RPG Maker 2000 and 2003 make use of a media resources library, containing graphics, music and sounds, called "Run-Time Package" (RTP). This data is often a game dependency, not included with the game data, designed for the common usage of materials. But this data is not free. To make it free (as freedom), we need a free replacement to guarantee the free distribution (if the rest of the game data is free), compatibility and execution of those games.
 
-===== Project status =====
-
-RTP documentation tasks to do:
-
-  * Make table for both 2000 and 2003 for characters available on CharSet, FaceSet, Monster, BattleCharSet for an unified costume and design. [fdelapena]
-  * Make table for both 2000 and 2003 for battle animations similar from 2000 to 2003 to not repeat work of replacement (most sprites are almost identical). [fdelapena]
-  * Add to the translation tables other RPG Maker 200X translations (a lot of hours each). [fdelapena] Currently known and pending:
-    * 2003 official Hong Kong Chinese version.
-    * 2003 unofficial Korean version.
-    * 2003 unknown origin FIXME version, used by Brazilian Portuguese distributions.
-    * 2003 unknown origin FIXME variant version with character bugs (SysteméQC/), used in Hellsoft Spanish version and derived (RPGMakerXP.com).
-  * Create an extensive and detailed optimization guide for artist/developers for the materials. [fdelapena]
 
 ===== RTP replacement contributions =====
 
@@ -25,6 +13,3 @@ See [[./rtp-replacement/contributions]].
 
 See [[./rtp-database]]
 
-===== Current maintainers =====
-
-  * ''Francisco de la Peña'' is working on the material management, database and documentation of the project.

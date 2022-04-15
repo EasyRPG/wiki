@@ -1,5 +1,7 @@
 ====== Command Line Arguments =====
 
+This page could be outdated. Check https://easyrpg.org/player/manual/#_options for up to date command line documentation.
+
 ^Argument^Description^
 |''%%--%%battle-test N''|Start a battle test with monster party ''N''.|
 |''%%--%%disable-audio''|Disable audio (in case you prefer your own music).|

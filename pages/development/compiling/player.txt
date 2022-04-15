@@ -1,0 +1,3 @@
+====== Compiling EasyRPG Player ======
+
+{{indexmenu>./player|nojs dsort}}

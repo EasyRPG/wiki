@@ -2,22 +2,24 @@
 
 ===== Understanding RPG Maker 2000 and 2003 =====
 
-We want to interpret these systems, so you need to know how it works first. To study them you need RPG Maker 2000/2003 first. These programs are Japanese only. RPG Maker 2003 reached end of life and there are no trial versions available to download. Hoverver, there are unofficial translations (violating application license) out there. Check your country's law before considering to get any translation for personal/research/educational use.
+To understand these systems, you need to know how it works first. To study them you need to learn about RPG Maker 2000/2003 first. RPG Maker 2000 and 2003 reached end of life in Japan and there are no trial versions available to download. Hovever, there are official English translations currently. There are no evaluation versions of them, but copies are usually cheap when in offer, from https://www.rpgmakerweb.com/, Steam, Humble Bundle and maybe from other stores.
 
 Once you have RPG Maker 2000 or 2003 downloaded you can see how it works: Map editor with database. You can refer to the RPG Maker 200x help files to know more about games are created.
 
-When you create a new project it will be in a new folder, containing this RPG Maker 200x project files:
+When you create a new project it will be in a new folder, containing these RPG Maker 200x project files:
+
   * RPG_RT.exe (game executable)
-  * RPG_RT.ini (configation file)
+  * RPG_RT.ini (configuration file)
   * RPG_RT.ldb (database)
   * RPG_RT.lmt (map and area tree)
   * MapXXXX.lmu (map and area files)
+
 Folders inside project folder are for material data.
 
 ===== Understanding RGSS/RGSS2/RGSS3 =====
 
-Next generation RPG Makers are RPG Maker XP, VX and VX Ace. These RPG Makere are officially translated into English. They feature scripting system, written in Ruby language. Most engine system is available in standard script sources. RGSS means Ruby Game Scripting System.
+Next generation RPG Makers are RPG Maker XP, VX and VX Ace. These RPG Makers are officially translated into English. They feature scripting system, written in Ruby language. Most engine system is available in standard script sources. RGSS means Ruby Game Scripting System. EasyRPG does not plan to support them, there are other open source projects that implemented it.
 
-RPG Maker 200x internals works very closer like RPG Maker XP/VX, so learning and porting RGSS/2 class style to EasyRPG Player is how we are developing. You can press F11 in these rpg makers to open scripts editor.
+RPG Maker 200x internals works in certain form like RPG Maker XP/VX, so checking how these system work. You can press F11 in these rpg makers to open scripts editor. We got inspiration for some design decisions for EasyRPG. However, they are completely different codebases and we have verified game interpreter behavior and most algorithms differ. 
 
-You can get evaluation copies of each from http://rpgmakerweb.com/
+You can get evaluation copies of each from https://www.rpgmakerweb.com/

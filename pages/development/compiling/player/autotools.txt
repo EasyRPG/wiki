@@ -4,13 +4,20 @@
   * g++ or clang
   * make
   * pkg-config
-  * boost (only headers needed) >= 1.48 (**only for 0.4.1**, later versions don't require boost)
   * [[../liblcf/autotools|liblcf]]
   * libpng
   * FreeType
+  * HarfBuzz
   * Pixman
   * SDL2 (or SDL 1.2, discouraged)
   * SDL2_mixer (or SDL_Mixer 1.2, discouraged)
+  * libmpg123
+  * libvorbis
+  * opusfile
+  * libsndfile
+  * libxmp
+  * SpeexDSP
+  * WildMIDI
   * zlib
 
 ===== Requirements for building from git =====
@@ -39,7 +46,7 @@ For most games, you will need to have installed the RTP. To install RTP in non-W
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
-sudo apt-get -y install --no-install-recommends libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev
+sudo apt-get -y install --no-install-recommends libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev libspeexdsp-dev libxmp-dev libwildmidi-dev libopusfile-dev libvorbis-dev libharfbuzz-dev libmpg123-dev libsndfile-dev
 git clone https://github.com/EasyRPG/Player.git
 cd Player
 autoreconf -i
@@ -53,8 +60,7 @@ sudo make install
   * Open the Terminal application
   * Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
 <code bash>
-sudo dnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
-sudo dnf -y install SDL2_mixer-devel pixman-devel libpng-devel libmpg123-devel speexdsp-devel asciidoc
+sudo dnf -y install SDL2_mixer-devel pixman-devel libpng-devel freetype-devel harfbuzz-devel libmpg123-devel libvorbis-devel opusfile-devel wildmidi-devel libxmp-devel libsndfile-devel speexdsp-devel asciidoc
 git clone https://github.com/EasyRPG/Player.git
 cd Player
 autoreconf -i

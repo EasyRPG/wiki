@@ -61,6 +61,4 @@ packer -S liblcf-git
 </code>
 ===== Additional help =====
 
-Contact with us at https://webchat.freenode.net/?channels=easyrpg
-
-The current autotools build system maintainer is fdelapena
+Contact with us at https://easyrpg.org/contact

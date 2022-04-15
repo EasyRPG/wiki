@@ -4,6 +4,10 @@
 
 ===== Translation table =====
 
+Note: this list is not up to date, the complete list is available at the source code:
+
+https://github.com/EasyRPG/Player/blob/master/src/rtp_table.cpp#L20
+
 If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
 
 Vlad Kovnerov's Russian RTP is supposed to be installed over Don Miguel’s RTP for RPG Maker 2000. Thus, most files would appear in two variants (2000 and 2003). However, there is a name conflict: Face1 and Face2 overwrote the Don Miguel’s (non-standard) Face1 and Face2. The RTP package can be downloaded here: http://rpgmaker.su/vbdownloads.php?do=download&downloadid=22

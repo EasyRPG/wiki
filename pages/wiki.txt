@@ -1,0 +1,3 @@
+====== Wiki =====
+
+{{indexmenu>./wiki|nojs dsort}}

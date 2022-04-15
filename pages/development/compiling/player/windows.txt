@@ -1,0 +1,3 @@
+====== Player Windows compiling ======
+
+{{indexmenu>./windows|nojs dsort}}

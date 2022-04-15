@@ -155,6 +155,8 @@ This way you can change an:
 
 FIXME [Need examples]
 
+A custom EXFONT can be used by placing ExFont.bmp/.png in the games main directory. This will override the built-in ExFont.
+
 ==== Changed fonts ====
 
 Using custom fonts may be required if your language is not supported.

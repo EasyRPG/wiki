@@ -6,23 +6,19 @@ The installer for the RTP is given out by RPG Maker's vendor at their homepage f
 
 The better games often don't use this package to ease the burden of having to install more prerequisites just to get the game working, and because they use original assets that the RTP would have no use replacing. You can use official packages from RPG Maker 2000 and 2003, but they can't be shared around, and they can't be used for projects that weren't made with anything other than RPG Maker (like EasyRPG, unfortunately).
 
-EasyRPG is free and open-source, so our own RTP replacement (which is incomplete) would need to follow the same share-alike rules of our license.
+EasyRPG is free and open-source, so our own RTP replacement (which is incomplete) will use a free license allowing modifications to the assets.
 
-===== Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from Tkool web =====
-
-The websites linked below are written in Japanese. Scroll down to the bottom of these files and click over the long blue button to download the RTP files.
+===== Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from RPGMakerweb =====
 
 ==== For the 2000 RTP ====
 
-  - Browse to http://tkool.jp/support/download/rpg2000/rtp
-  - Scroll down to the bottom and click over the long blue botton with the text "RPGツクール2000 RTPのダウンロード"
-  - Download the zip file and open it with your default archive manager.
-  - Inside the archive manager, enter into the folder "RTP¾¯Ä±¯Ìß" (shift JIS not converted to UTF-8).
-  - Inside this folder, select and unpack the file "RPG2000RTP.exe".
+  - Browse to https://www.rpgmakerweb.com/run-time-package to select the RPG Maker 2000 download.
+  - Install the file from the .exe
 
 ==== For the 2003 RTP ====
 
-  - Same as above but replace all 2000 with 2003, including the link: http://tkool.jp/support/download/rpg2003/rtp
+  - Browse to https://www.rpgmakerweb.com/run-time-package to select the RPG Maker 2003 download.
+  - Install the file from the .exe inside the .zip
 
 ===== Operating system specific considerations =====
 
@@ -30,11 +26,9 @@ Depending on the operating system you have to take care on a few steps:
 
 ==== Windows ====
 
-IMPORTANT: The official installers encode Japanese text in JIS, not Unicode. You'll need to set your computer's language and/or locale to Japanese before the installation can work properly. <del>You can do this easily using LocaleEmulator: http://i.watashi.me/archives/locale-emulator.html with Windows 7 or later.</del> For legacy Windows (XP/2003) you can use AppLocale: http://www.microsoft.com/en-us/download/details.aspx?id=13209 and still install AppLocale on Windows 7 by running the msi installer with legacy operating system emulation, or by [[http://www.mydigitallife.info/how-to-install-microsoft-applocale-in-windows-7/|following this guide]].
-
 Just install the RTP using the official installer, the Player will automatically find it by reading the registry.
 
-==== GNU/Linux, OS X and other systems ====
+==== GNU/Linux, macOS and other systems ====
 
 === Windows-like RTP setup with WINE ===
 
@@ -42,25 +36,9 @@ WINE has a registry, and EasyRPG Player can read RTP paths from it much like RPG
 
 Install the RTPs in WINE, and then the Player will automatically find and extract it. You can then optionally uninstall WINE if the RTP was all you installed in it; under WINE, this procedure only ensures a valid install.
 
-Because RTP are Japanese shift JIS encoded and they are not Unicode, you will need to execute them with a different locale if your UNIX default locale is not Japanese. You need to have the ja_JP.UTF-8 locale generated. Check your distribution locale configuration if you need to enable it (can vary between distributions). Once RTPs are installed you can disable this locale again.
-
-By following the instructions below you will be able to install them:
-
- From a terminal window, go to the working folder where RPG2000RTP.exe and RPG2003RTP.exe files have been unpacked, then run:
-  * For RPG Maker 2000 RTP installation:
-
-  LANG=ja_JP.UTF-8 wine RPG2000RTP.exe
-
-  * For RPG Maker 2003 RTP installation:
-
-  LANG=ja_JP.UTF-8 wine RPG2003RTP.exe
-
-  * For both cases, click the Next > buttons several times to finish the RTP installations.
-
-
 === Manual RTP setup (without WINE) ===
 
-For systems that can't (or don't want to) use WINE for its registry auto-detection, you'll need to copy RTP files from a preinstalled RTP manually.
+For systems that can't (or don't want to) use WINE for its registry auto-detection, you'll need to copy RTP files from a preinstalled RTP manually or unpack .exe installers with unar, file-roller or similar frontend supporting 7z/lzma data from executable installers.
 
 EasyRPG Player reads these environment variables for the packages:
 
@@ -69,6 +47,12 @@ EasyRPG Player reads these environment variables for the packages:
   * ''RPG_RTP_PATH'': For any RTP (a fallback if one of the others hasn't been filled in)
 
 If your system does not support environment variables, just place the RTP in the folders ''/data/rtp/2000'' and ''/data/rtp/2003'' instead. 
+
+==== Android ====
+
+You can extract the RTP folders from .exe installers by renaming .exe to .7z and then unpacking the .7z with some free tool like ZArchiver.
+
+Extract the RTP into your sdcard path as explained in the EasyRPG Player app instructions.
 
 ==== Wii ====
 

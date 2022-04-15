@@ -2,9 +2,9 @@
 
 This is the documentation wiki of the EasyRPG project.
 
-  * [[about]]
-  * [[faq]]
-
+  * [[about|About EasyRPG]]
+  * [[faq|Frequently Asked Questions]]
+  * [[unzip-games|Unzip games with specific encodings]]
 ===== Users =====
 
 {{indexmenu>user|nojs dsort}}

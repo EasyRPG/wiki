@@ -4,7 +4,11 @@ Some games are distributed in .zip packages. Lots of these have file names with 
 
 Most zip files are not using Unicode, so they need a special procedure to be unpacked properly.
 
-===== Unpack and convert from GNU/Linux and other UNIX =====
+===== Option 1: Unar =====
+
+''unar'' (from The Unarchiver) automatically detects zip encoding and it's available on most distributions. It also supports rar files.
+
+===== Option 2: p7zip and encoding conversion =====
 
 Requirements:
   * Installed locales for languages to decode.

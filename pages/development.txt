@@ -1,1 +1,5 @@
+====== Development documentation ======
+
+ These sites contain useful information for developing for/with EasyRPG if you are a developer. 
+
 {{indexmenu>development|nojs dsort}}

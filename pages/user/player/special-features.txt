@@ -26,6 +26,6 @@ Encoding=####
 
 Both automatic detection and RPG_RT.ini Encoding value can be overriden by using the ''%%--%%encoding'' command line interface option.
 
-===== Support for Japanese and English RTP =====
+===== Support for all known RTP editions =====
 
-It doesn't matter if you have the Japanese or the English RTP installed. The player will take care of loading the correct files for you, just make sure that the games encoding is set to the correct value.
+It doesn't matter if you have official Japanese, English RTP or unofficial translations installed. The player will take care of loading the correct files for you, just make sure that the games encoding is set to the correct value.

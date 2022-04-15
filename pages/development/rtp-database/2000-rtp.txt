@@ -4,8 +4,11 @@
 
 ===== Translation table =====
 
-If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
+Note: this list is not up to date, the complete list is available at the source code:
 
+https://github.com/EasyRPG/Player/blob/master/src/rtp_table.cpp#L20
+
+If you know more translation languages or versions, both official or unofficial, please say where to get them to add to the table.
 ==== Backdrop ====
 
 Battle backgrounds. 25 PNG files. 320x160px.

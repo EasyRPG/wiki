@@ -12,7 +12,7 @@ This does not mean you transfer your game's copyrights to anyone else! You still
 
 ==== Can I distribute a game I made with RTP replacement material? ====
 
-Yup, but you would need to share the RTP replacement parts including their license(s).
+Yes, but you would need to share the RTP replacement parts including their license(s).
 
 ==== What if I modify RTP replacement material for my game? ====
 
@@ -20,7 +20,7 @@ Then you would have to release it under the same share-alike license. You can on
 
 ==== What rights are protected when I release a game? When does someone violate them? ====
 
-The rights to your own assets. Free and open source components are not entirely yours, and any user who has used those components have not violated your rights. These components can be the EasyRPG Player, RTP replacement material //or derivatives//, and it's within legal bounds because it's permitted by the license. Any user that has taken what is clearly your own original materials could be infringing your rights.
+The rights to your own assets. Free and open source components are not entirely yours, and any user who has used those components have not violated your rights. These components can be the EasyRPG Player, RTP replacement material //or for derivatives if they use the CC BY-SA license//, and it's within legal bounds because it's permitted by the license. Any user that has taken what is clearly your own original materials could be infringing your rights.
 
 ==== Is it possible to have the RTP replacement's share-alike requirement waivered upon request? ====
 
@@ -46,16 +46,13 @@ It's hard to tell; we don't know if they do, and it's difficult to account for t
 
 ==== Can I run games using EasyRPG on this platform or operating system? ====
 
-Probably. EasyRPG Player uses SDL, which itself has been ported to a wide range of platforms. That is the only requirement to getting it working.
+Probably. EasyRPG Player uses SDL on most platforms, which itself has been ported to a wide range of platforms.
 
 ===== About the editor =====
 
 ==== I've modified a game that was made in RPG Maker. Can I save it back to RPG Maker's format? ====
 
-Nope. The editor can only import RPG Maker games to a new, extensible format,
-
-This is because the old format is limited, and games can be made better this way. It also allows us to go beyond what the RPG Maker engines could do. For example, we expect to make individual files for each database entry instead of big files. This makes sharing resources easier for game developers, like so: data/actors/0001.xml (or any other extensible format, XML is just one example).
-
+Yes. EasyRPG Editor allows to load/save in native (LCF) RPG Maker format.
 ==== Will the editor have new features? ====
 
 It's planned, but our main priority is compatibility. That means the editor will get a smaller focus until the player is accurate. The editor's code depends a lot on the player and it needs to be stabilized first.

@@ -1,0 +1,3 @@
+====== User pages ======
+
+{{indexmenu>./user|nojs dsort}}
