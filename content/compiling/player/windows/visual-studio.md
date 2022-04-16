@@ -1,0 +1,72 @@
+---
+title: "Compiling Player on Visual Studio"
+---
+## Things Needed
+
+### EasyRPG Source Code
+
+Kind of obvious as you can't compile something you haven't, check [](..//../getting-sources) for more info.
+
+### Visual C++ 2015
+
+You can find Visual Studio 2015 [Microsoft website](https://www.visualstudio.com/vs/community/). Visual Studio 2015 Community is the free version.
+
+Older compilers won't work because they don't support C++11. If you have already installed Visual Studio 2015 make sure that you update it to Update 2.
+
+### Precompiled libraries
+
+EasyRPG Player needs several libraries for compiling. It would be a bit tedious getting all those libraries one by one, so we have prepared a [git repository](https://github.com/EasyRPG/buildscripts) with needed dependencies in the `windows` folder.
+
+#### Compiling with Visual Studio 2015
+
+Follow the instructions in the `README` file of the windows folder in the buildscripts repo.
+
+##### Before compiling
+
+Create an environment variable EASYDEV_MSVC that points to `'buildscripts/windows/build`'. To create new environment variables enter the "Windows Control Panel" and select "System" (or enter "environment variable" in the search field). Sometimes new environment variables are not detected. Logout and -in again in order to fix this.
+
+##### Compiling
+
+To compile open a Visual Studio Command Prompt (32 or 64 bit) and execute
+
+` powershell .\setup.ps1 build v140 `
+
+### Used libraries
+
+*If you are using the precompiled libraries you can skip this part.*
+
+If you want to compile by yourself:
+
+-   expat
+-   freetype
+-   harfbuzz
+-   icu4c
+-   libmodplug
+-   libogg
+-   libpng
+-   libsndfile
+-   libvorbis
+-   libvorbisfile (included with libvorbis)
+-   mpg123
+-   native_midi (included with SDL_mixer)
+-   pixman
+-   SDL2
+-   SDL2_mixer
+-   speexdsp
+-   zlib
+
+## Compiling Player
+
+You need to place the [liblcf](https://github.com/EasyRPG/liblcf) sources into the player lib/liblcf folder.
+
+Open the solution file in `player\builds\vs2015`, select "Debug" or "Release" configuration from the configuration manager pulldown menu and then go to Build-\>Build solution, or just press Control-F7 to compile it.
+
+The Player executable should be in the folder `bin`. If you are not using the precompiled libraries, and you have dynamically linked Player, you will need to place the required .dll in the same folder Player.exe is.
+
+## Troubleshooting
+
+### "Already defined" linker error
+
+This usually happens if you link against the wrong visual studio runtime and shouldn't happen if you follow the build instructions mentioned above.
+
+If you got the libraries from other sources make sure that their runtime library (Project Properties -\> C++ -\> Code generation) is set to "Multithreaded Debug" (/MTd) for debug and "Multithreaded" (/MT) for release. To hide the error go to "Project Properties -\> Linker -\> Input -\> Ignore Specific Default Libraries" and ignore LIBCMT.LIB or LIBCMTD.LIB (ignoring one of them should remove the error but it's recommended to link the libs against the correct library instead!).

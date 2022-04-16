@@ -1,0 +1,75 @@
+---
+title: "Building liblcf with GNU Build System"
+---
+## Requirements
+
+-   g++ or clang
+-   make
+-   pkg-config
+-   libtool
+-   Expat
+-   ICU
+
+## Requirements for building from git
+
+-   autoconf \>= 2.69
+-   automake \>= 1.11.4
+-   git
+
+Run `autoreconf -i` to generate the `configure` script.
+
+## Build
+
+-   Run:
+
+``` bash
+./configure --prefix=/usr
+make
+sudo make install
+```
+
+# Build from Git
+
+## Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...)
+
+-   Open the Terminal application
+-   Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
+
+``` bash
+sudo apt-get -y install --no-install-recommends git make automake pkg-config libtool g++ libexpat1-dev libicu-dev
+git clone https://github.com/EasyRPG/liblcf.git
+cd liblcf
+autoreconf -i
+./configure --prefix=/usr
+make
+sudo make install
+cd ..
+```
+
+## Step by step setup for Fedora
+
+-   Open the Terminal application
+-   Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
+
+``` bash
+sudo dnf -y install libtool expat-devel libicu-devel gcc-c++
+git clone https://github.com/EasyRPG/liblcf.git
+cd liblcf
+autoreconf -i
+./configure --prefix=/usr
+make
+sudo make install
+cd ..
+```
+
+## Installation on Arch Linux
+
+There is an [AUR package](https://aur.archlinux.org/packages/liblcf-git/) available, you can use your favourite aur helper or download and use makepkg:
+
+``` bash
+packer -S liblcf-git
+```
+
+## Additional help
+
+Contact with us at <https://easyrpg.org/contact>

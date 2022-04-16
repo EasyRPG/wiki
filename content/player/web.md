@@ -1,0 +1,52 @@
+---
+title: "EasyRPG Player for the Web"
+---
+# EasyRPG Player for the Web
+
+EasyRPG Player supports running games directly inside your web browser.
+
+If you want to test it you can play with a [Demo of our TestGame](https://easyrpg.org/play/). Try also a working game: [Ib](https://easyrpg.org/play/?game=ib)
+
+## THIS GUIDE IS OUTDATED
+
+**Please do not follow this guide anymore!**
+
+**[Click here for the up-to-date version](https://easyrpg.org/player/guide/webplayer/)**
+
+## How it works
+
+Web request are asynchronous. This means that all assets like pictures and music must be fetched asynchronously. When the Player wants to display a new graphic it will appear on the desktop versions (Windows, Linux, Android, ...) immediately but on the web it will be invisible while the file is downloaded. Once the downloaded finishes it is replaced with the real image.
+
+In contrast to images and music some files are important to continue execution. When a map file is pending the Player will halt until the file is downloaded. The first halt is while the Logo is displayed on startup, it downloads the database and the maptree here. Download of map files is blocking, too. But this is usually not noticeable because the download is executed while the fade out animation plays (it will stay black when the map downloading takes longer then this).
+
+## Hosting your own games
+
+Hosting your own games is quite simple. Just follow these steps.
+
+### Deploying the Player on your server
+
+[Download this archive](https://ci.easyrpg.org/job/player-js/lastSuccessfulBuild/artifact/player-js.tar.gz) and extract it on your server.
+
+You will get the following files and folder:
+
+-   index.html
+-   index.wasm
+-   index.js
+-   games/
+
+If you want to *try it locally* you need a HTTP server. Just opening the `index.html` in your browser will not work. If you don't have a local webserver the simplest way is installing Python and running `python -m http.server`. Then open `http://localhost:8000/` in your browser and navigate to your directory.
+
+### Deploying a game on your server
+
+Because RPG Maker games refer to files without extension and querying the server for every supported extension would be slow, you need to run a small tool to generate a file called `index.json` (containing an game file list index with extensions) for every game before uploading. The tool is called `gencache`.
+
+You can get the tool here:
+
+-   ![gencache for Windows](https://ci.easyrpg.org/job/tools-win32/lastSuccessfulBuild/artifact/bin/gencache.exe)
+-   ![gencache for Linux](https://ci.easyrpg.org/job/tools-linux/lastSuccessfulBuild/artifact/gencache.tar.gz)
+
+Place the gencache executable in a game working folder (the folder containing RPG_RT.\* files) to generate the `index.json`. Move the `gencache` executable to working folders for each game you want to upload and run `gencache` again to generate the `index.json` for them. Once finished you can remove (don't upload it, it's not needed) the `gencache` from any game folder.
+
+Your games are expected in subdirectories of the `games` directory. The default game executed is the one in `games/default`. You can create further games by just by putting them in subdirectories of the `games` directory.
+
+Now access the `index.html` file and your default game should start. To play a different game pass `?game=folder_name` as part of the URL (query string) to your index file.

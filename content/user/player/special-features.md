@@ -1,0 +1,30 @@
+---
+title: "Special Features"
+---
+This site lists all features that are different to the original RPG_RT.
+
+## Support for games of any language
+
+The original RPG_RT has problems handling games from countries that use characters which are not in the current codepage of the system.
+
+Example: If you life in England your (Windows) system has the codepage for Western European (1252) set. With this codepage it's not possible to play Russian or Japanese games because their characters are not encoded in this codepage. This problem applies to all older applications that are not Unicode aware. Unicode is an encoding that provides a mapping for all characters used in the world.
+
+The EasyRPG Player is of course unicode aware but you have to hint him, what encoding the game uses. The encoding is automatically guessed from database terms tab texts. However, encoding can be overridden by editing the RPG_RT.ini in the game folder and adding the following entry:
+
+`[EasyRPG] Encoding=#### `
+
+\#### must be replaced by a number that specifes the codepage, for example:
+
+| Name             | Number | Use for                                                                |
+|------------------|--------|------------------------------------------------------------------------|
+| Western European | 1252   | English games or games from most western Europe and America countries  |
+| Windows-1251     | 1251   | Cyrillic games (full Cyrillic support for Russian and other languages) |
+| Windows-1250     | 1250   | Central European games (mostly Latin Extended A glyphs)                |
+| Shift-JIS        | 932    | Japanese games (with Hiragana, Katakana or Kanji)                      |
+| Big5             | 950    | Traditional Chinese games (Taiwan, Hong Kong)                          |
+
+Both automatic detection and RPG_RT.ini Encoding value can be overriden by using the `--encoding` command line interface option.
+
+## Support for all known RTP editions
+
+It doesn't matter if you have official Japanese, English RTP or unofficial translations installed. The player will take care of loading the correct files for you, just make sure that the games encoding is set to the correct value.

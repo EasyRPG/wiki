@@ -1,0 +1,99 @@
+---
+title: "Porting guidelines"
+---
+This guide is for cross compiling the Player only. If your target is any Linux flavour it's much easier to just install all dependencies with your package manager...
+
+EasyRPG Player is quite portable application but you will probably encounter some problems in your porting adventure. This article will sum up the common pitfalls you will encounter:
+
+## Library porting
+
+EasyRPG needs at least the following libraries.
+
+-   liblcf (see next section)
+-   freetype
+-   pixman
+-   libpng
+-   zlib
+-   SDL2 and SDL2_mixer (if supported by your platform, read "Porting without SDL support" otherwise)
+
+More dependencies are required when you use the SDL2 backend. This will be explained later.
+
+Cross compiling is usually straight forward for any library via the typical commands:
+
+`./configure --prefix=$PREFIX --host=$TARGET_HOST --disable-shared --enable-static && make && make install`
+
+**zlib** is an exception:
+
+`CHOST=$TARGET_HOST ./configure --static --prefix=$PREFIX`
+
+You should in general know how to do this and fill `$PREFIX` and `$TARGET_HOST` with the correct values. Otherwise this article is not suitable for you ;)
+
+**pixman** supports fast code paths for many platforms. If your platform supports any SIMD you should turn on the appropriate flags during compile time (check the help output).
+
+### Porting liblcf
+
+liblcf is the parser for RPG Maker 2000/2003 files. Make sure the liblcf version matches the same git tag the Player uses (or use the git version if you compile Player from git).
+
+liblcf uses the the following libraries:
+
+-   iconv or ICU
+-   expat (optional)
+
+iconv or ICU are required for converting the text strings to Unicode. ICU is recommended over iconv because it supports automatic codepage detection and will make the life of the user much simpler.
+
+### Porting ICU
+
+Cross compiling ICU is a bit tricky, get version 56.1 (important!) and do the following steps:
+
+To save 20 MB of library size replace the icudata with ours: [icudata](https://ci.easyrpg.org/job/icudata/lastSuccessfulBuild/artifact/icu/source/data/out/icudata.tar.gz)
+
+Copy `icudt56l.dat` into `icu/source/data/in/`
+
+Duplicate now the folder `icu` and name it `icu-native`. The further steps assume now that you have these two folders.
+
+ICU needs a native compilation first because it needs an executable to generate the data lib:
+
+`cd icu-native/source`
+
+`./configure --enable-static --enable-shared=no --enable-tests=no --enable-samples=no --enable-dyload=no --enable-tools --enable-extras=no --enable-icuio=no --with-data-packaging=static`
+
+`make`
+
+`export ICU_CROSS_BUILD=$PWD`
+
+Now cross compile ICU:
+
+`cd icu/source`
+
+`./configure --with-cross-build=$ICU_CROSS_BUILD --enable-strict=no --enable-static --enable-shared=no --enable-tests=no --enable-samples=no --enable-dyload=no --enable-tools=no --enable-extras=no --enable-icuio=no --host=$TARGET_HOST --with-data-packaging=static --prefix=$PREFIX`
+
+''make && make install ''
+
+### Porting SDL
+
+If the target platform is supported by SDL2 you are lucky. You just compile SDL2 and SDL2_mixer now and you are almost done because you can use the SDL backend of the Player.
+
+The SDL2_mixer should be compiled with support for WAV, OGG, MP3 and MIDI. MOD support is useful but not used by many games:
+
+-   OGG: libvorbis or tremor (faster, for embedded hardware)
+-   MP3: libmad or smpeg2. libmad is more stable then smpeg2 (crashes less ;))
+-   MIDI: Timidity or fluidsynth
+-   MOD: modplug or libmikmod. Modplug supports more formats.
+
+If you use a custom makefile to compile the Player make sure to define `USE_SDL`
+
+### Porting without SDL support
+
+Now the fun begins. You have to write a new Ui which extends from the `BaseUi` class.
+
+The important functions are blablabla
+
+blabla AudioInterface
+
+blabla Input
+
+## Additional problems you have to solve
+
+blabla FileFinder and read/write
+
+blabla GameBrowser

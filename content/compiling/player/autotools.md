@@ -1,0 +1,91 @@
+---
+title: "Building Player with GNU Build System"
+---
+## Requirements
+
+-   g++ or clang
+-   make
+-   pkg-config
+-   [liblcf](..//liblcf/autotools)
+-   libpng
+-   FreeType
+-   HarfBuzz
+-   Pixman
+-   SDL2 (or SDL 1.2, discouraged)
+-   SDL2_mixer (or SDL_Mixer 1.2, discouraged)
+-   libmpg123
+-   libvorbis
+-   opusfile
+-   libsndfile
+-   libxmp
+-   SpeexDSP
+-   WildMIDI
+-   zlib
+
+## Requirements for building from git
+
+-   autoconf \>= 2.69
+-   automake \>= 1.11.4
+-   git
+
+Run `autoreconf -i` to generate the `configure` script.
+
+## Build
+
+-   Run:
+
+``` bash
+./configure
+make
+sudo make install
+```
+
+## RTP support with WINE
+
+For most games, you will need to have installed the RTP. To install RTP in non-Windows systems you can use WINE. EasyRPG Player will detect the RTP path from the WINE registry automatically. Will work with original Japanese RTP filenames even when games are created with English RTP translations (Don Miguel, RPG Advocate) and vice-versa. Read [/user/player/rtp](/user/player/rtp) to learn how to install the RPG Maker 2000 and 2003 RTPs.
+
+# Build from Git
+
+## Step by step setup for Debian based distros (gNewSense, Trisquel, Debian, Mint, Ubuntu...)
+
+-   Do the [../liblcf/autotools#step-by-step-setup-for-debian-based-distros-gnewsense-trisquel-debian-mint-ubuntu](..//liblcf/autotools#step-by-step-setup-for-debian-based-distros-gnewsense-trisquel-debian-mint-ubuntu) setup first
+-   Open the Terminal application
+-   Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
+
+``` bash
+sudo apt-get -y install --no-install-recommends libsdl2-mixer-dev libpixman-1-dev libfreetype6-dev libspeexdsp-dev libxmp-dev libwildmidi-dev libopusfile-dev libvorbis-dev libharfbuzz-dev libmpg123-dev libsndfile-dev
+git clone https://github.com/EasyRPG/Player.git
+cd Player
+autoreconf -i
+./configure
+make
+sudo make install
+```
+
+## Step by step setup for Fedora
+
+-   Do the [../liblcf/autotools#step-by-step-setup-for-fedora](..//liblcf/autotools#step-by-step-setup-for-fedora) setup first
+-   Open the Terminal application
+-   Copy the following text and paste it in your terminal window and press the enter key, you will need to enter your password and press again the enter key:
+
+``` bash
+sudo dnf -y install SDL2_mixer-devel pixman-devel libpng-devel freetype-devel harfbuzz-devel libmpg123-devel libvorbis-devel opusfile-devel wildmidi-devel libxmp-devel libsndfile-devel speexdsp-devel asciidoc
+git clone https://github.com/EasyRPG/Player.git
+cd Player
+autoreconf -i
+./configure --enable-fmmidi
+make
+sudo make install
+```
+
+## Installation on Arch Linux
+
+There is an [AUR package](https://aur.archlinux.org/packages/easyrpg-player-git/) available, you can use your favourite aur helper or download and use makepkg:
+
+``` bash
+packer -S easyrpg-player-git
+```
+
+If you prefer a manual compilation, here is a screencast of the compilation procedure for liblcf and the player:
+
+<https://asciinema.org/a/8393>

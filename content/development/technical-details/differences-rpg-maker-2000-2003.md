@@ -1,0 +1,56 @@
+---
+title: "What's new in RPG Maker 2003 that wasn't present in RPG Maker 2000"
+---
+# What's new in RPG Maker 2003 that wasn't present in RPG Maker 2000
+
+Backup from <https://web.archive.org/web/20080323144634/http://www.phylomortis.com/html/rm2k3info.html>
+
+Items marked in bold and in parentheses are changes that have been made to the program through patches. You need the latest version of the program in order to utilize them.
+
+-   Maximum level for heros is 99. Maximum HP is 9999. Maximum experience is 9999999.
+-   **(Variables can now be up to seven digits, making the range -9999999 to 9999999.)**
+-   <s>**(MP3 files can now be used for music.)**</s> This is not true. This is a new feature added in RPG Maker 2000 1.50 and made compatible since RPG Maker 2003 1.05. RPG Maker 2003 1.04 was not supporting MP3.
+-   You can define classes.
+-   Classes are defined the same way as heros, except that you can set a class's default battle commands (explained next). If a hero has a class, it supercedes his natural stats and skill progression.
+-   You can edit a class's default battle commands. When you open the battle command editor, you give your battle command a name and a characteristic. The characteristics are as follows:
+    -   Attack = Attack command
+    -   Skill = Accesses the character's full skill list
+    -   Skill Subset = Accesses only the skills in this subset.
+    -   Defend = Defend
+    -   Item = Use an Item
+    -   Escape = Run Away
+    -   Link to Event = Does nothing by itself. This allows you to link the command to a battle event.
+-   You can assign skills to subsets. To set up a subset, first make a battle command with the same name as the subset you want and select the "Skill Subset" characteristic. So, you could set up a subset called "Summon" and make summon spells that show up when you choose the summon command.
+-   You can now make spells that take a percentage of the character's max MP.
+-   You can decide who can use equipment by hero or by class.
+-   You can make equipment that inflicts bad (or good) status when it's equipped.
+-   You can make equipment that is usable as an item. For example, you could make a sword, that when used as an item, heals the character.
+-   You can make cursed items that can't be unequipped by normal means.
+-   Monster max HP is 99999.
+-   You can set attributes that have a negative damage percentage (absorption). You could make a monster that heals when attacked with fire.
+-   You can make positive status, such as doubling a stat, regenerating HP or MP each turn or step on the map, making all physical attacks miss, or reflecting skill attacks.
+-   There are three battle types. They are:
+    -   Traditional: You must act in the order that characters' ATB bars become full.
+    -   Alternative: Your characters can act in any order, so long as their ATB bars are full.
+    -   Gauge: Same as Alternative, except that instead of a window with hero status at the bottom of the screen, the hero facesets are shown with gauges representing their HP, MP, and ATB guages.
+-   You can now choose which sound effect plays when you walk over damaging terrain.
+-   You can now choose the frequency of Initiative, Back Attack, Surround Attack, and Pincers Attack.
+-   You can now choose which items are displayed on the main menu and in what order.
+-   You can now choose a frame, which is an image that is always displayed on the game screen. Good for action/RPGs.
+-   You can choose the way the numbers and gauges look in battle
+-   Battle backgrounds can now have two layers. Each layer can be set to scroll horizontally or vertically independent of the other, so you could have non-scrolling grass with slowly scrolling clouds in the background.
+-   You can now set a death handler for random encounters. For instance, you could make it so that if the party is defeated, they are returned to the last town and lose half their gold.
+-   <s>You can now display 40 **(50)** pictures at once.</s> Same behavior since RPG Maker 2000 1.50 and RPG Maker 2003 1.05.
+-   Better key processing (Up, Down, Left, Right, Enter, Esc, **(Shift)**, 0-9, +, -, \*, /, .)
+-   When using key input processing and "wait until key pressed", you can now save to a variable the amount of time it took the user to press a key.
+-   A couple of new weather effects, fog and heatwave.
+-   New screen shake effects
+-   Two timers can be running at once
+-   Battle animations can now have 500 frames.
+-   Additional Conditional Braching functions
+-   New battle event commands "Force Flee" and "Enable Combo":
+-   Force Flee allows you to make it certain that the party will flee if they choose to do so. You can also force a monster to flee using this command, regardless of its priority in its action profile.
+-   Enable Combo allows you to set the number of attacks that an "attack" or "skill" type battle command will perform, from 1 to 8. Think "offering" from FF6.
+-   Some commands that were only available out of battle in RM2K can now be called in-battle, including Show Choice and Change Money.
+-   There is a random dungeon generator, though it isn't very good..
+-   You can call [common events in battle](common-events-battle-2003)

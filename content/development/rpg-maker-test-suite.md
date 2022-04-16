@@ -1,0 +1,17 @@
+---
+title: "RPG Maker test suite"
+---
+For a better and faster emulation testing and bug detection, EasyRPG wants a test game containing all possible actions created with RPG Maker 2000 and 2003.
+
+## Project status
+
+In development.
+
+    <vgvgf> "stress" test should be added to the testsuite, including a map with lots of events
+    <vgvgf> a map with lot of parallel events
+    <vgvgf> a map with lots of events with moving routes
+    <vgvgf> a map with lots of events with lots of pages, and else
+
+## Maintainers
+
+Nobody currently.

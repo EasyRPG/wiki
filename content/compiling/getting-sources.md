@@ -1,0 +1,4 @@
+---
+title: "Getting the EasyRPG sources"
+---
+You can find main repositories at <https://github.com/EasyRPG>

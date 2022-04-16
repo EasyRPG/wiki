@@ -1,0 +1,25 @@
+baseURL = '/'
+languageCode = 'en-us'
+title = 'EasyRPG Wiki'
+theme = "hugo-theme-learn"
+
+[params]
+  editURL = "https://github.com/EasyRPG/wiki/edit/master/content/"
+  description = "Documentation for the EasyRPG project"
+  showVisitedLinks = true
+  disableMermaid = true
+  themeVariant = "green"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]] 
+name = "<i class='fab fa-github'></i> Github repo"
+identifier = "ds"
+url = "https://github.com/easyrpg/wiki"
+weight = 10
+
+#[[menu.shortcuts]]
+#name = "<i class='fas fa-tags'></i> Tags"
+#url = "/tags"
+#weight = 30

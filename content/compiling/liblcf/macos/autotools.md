@@ -1,0 +1,38 @@
+---
+title: "Building liblcf on macOS with Autotools"
+---
+Install Homebrew if you don't have installed it:
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+Install requirements with Homebrew:
+
+    brew install autoconf automake gettext libtool pkg-config expat icu4c
+
+Set up pkgconfig to see expat and icu4c configurations:
+
+    export PKG_CONFIG_PATH="/usr/local/opt/icu4c/lib/pkgconfig:/usr/local/opt/expat/lib/pkgconfig:$PKG_CONFIG_PATH"
+
+Download liblcf sources from git:
+
+    git clone https://github.com/EasyRPG/liblcf
+
+Enter to the liblcf fodler:
+
+    cd liblcf
+
+Generate configure script:
+
+    autoreconf -i
+
+Generate Makefile:
+
+    ./configure
+
+Build:
+
+    make -j4
+
+Install:
+
+    sudo make install

@@ -1,0 +1,99 @@
+---
+title: "System graphics technical details"
+---
+# System graphics technical details
+
+This is implemented now in Player.
+
+# take_cheeze's translation
+
+## Basic
+
+![](/development/systemhlp.png)
+
+-   Directory: "System/"
+-   Size: 160(width) x 80(height)
+
+## Detail
+
+-   (x, y): coordinate
+-   (AxB): Size (Optionally "Pattern")
+-   A: Window's wallpaper
+    -   (0,0) (32x32)
+    -   Transparent Color: disabled
+    -   If wallpaper type is TILE it will be tiled from left-top
+-   B: Window Parts
+    -   (32, 0) (32x32)
+    -   0 - x: Frame
+    -   y: Page Cursor Up
+    -   z: Page Cursor Down / Waiting at text
+    -   Transparent Color: enabled
+-   C: Command Cursor
+    -   (64, 0) (32x32 x 2 Pattern)
+    -   0 - x: Frame
+    -   y: Inside
+        -   If wallpaper type is TILE it will be tiled from left-top
+    -   Transparent Color: enabled
+-   D: Shop's equip difference symbol
+    -   (128, 0) (8x8 x 4 Pattern)
+    -   0: up
+    -   1: no difference
+    -   2: down
+    -   3: equipped
+    -   Transparent Color: enabled
+-   E: Menu screen's background
+    -   (0, 32) (16x16)
+    -   Transparent Color: disabled
+    -   Only the left-top 1x1 pixel of this segment will be used
+-   F: Font's shadow
+    -   (16, 32) (16x16)
+    -   Transparent Color, enabled
+    -   Only the left-top 1x1 pixel of this segment will be used
+-   G: Timer character
+    -   (32, 32) (8x16 x 12 character)
+    -   (32, 32) 0 - 9
+    -   (112, 32) separator
+    -   (120, 32) space
+    -   Transparent Color: enabled
+-   H: Airship's shadow
+    -   (128, 32) (16x16 x 2 Pattern)
+    -   Transparent Color: enabled \<-- FIXME really semitransparent
+-   I: Font
+    -   (0, 48) (16x16 x 10) 0 〜 9
+    -   (0, 64) (16x16 x 10) 10 〜 19
+    -   0 〜 19
+    -   Transparent Color: disabled \<-- FIXME disagree, please verify
+
+## Font Color Example
+
+      * 0: Default
+
+      * 0: Enable
+      * 3: Disable
+
+      * 1: Status
+      * 2: Parameter Up
+      * 3: Parameter Down
+      * 1: Money
+
+      * 4: HP Low
+      * 4: MP Low
+
+## Priority
+
+-   There is a priority of how it's rendered.
+-   Lesser the number is drawn front, Greater back.
+
+1.  Window Frame Corner, Cursor Frame Corner
+2.  Window Frame Left/Right
+3.  Window Frame Top/Bottom
+4.  Cursor Frame Top/Bottom/Left/Right
+5.  Cursor Inside
+6.  Window Wallpaper
+
+# Source
+
+-   RPGツクール2000 Official Manual(Japanese)
+-   <http://star.s9.xrea.com/doc/rpgm2k/index.php?inc=data/data/39>
+    -   The image is lost someway, so don't care about it
+    -   (Japanese)

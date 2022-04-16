@@ -1,0 +1,68 @@
+---
+title: "Frequently Asked Questions"
+---
+## Rights and selling
+
+### Is there a catch to selling my game with EasyRPG?
+
+If you're worried about having to share the source code because EasyRPG is open-source, you've been mistaken! Software that's made with open-source compilers *can* be sold without having to share the source code. If that wasn't the case, that would ruin a lot of businesses. Ren'Py is an example of an open-source engine that currently has games being sold on it. Aside from the tutorial, name one game that has its source available.
+
+The free software conditions make it so that when you modify EasyRPG-- *not your game*-- you would have to share whatever changes you made to EasyRPG, and luckily our editor doesn't hold you to that. If you have to modify EasyRPG for your game, you will need to include what you changed along with the game's package (on the web or by retail box).
+
+This does not mean you transfer your game's copyrights to anyone else! You still hold it, because you made it. You're not obligated to release it under the same license.
+
+### Can I distribute a game I made with RTP replacement material?
+
+Yes, but you would need to share the RTP replacement parts including their license(s).
+
+### What if I modify RTP replacement material for my game?
+
+Then you would have to release it under the same share-alike license. You can only get the full rights when your derivative is not actually a derivative. Alternatively, you can look to the public domain or Creative Commons Attribution-licensed materials. The CC BY license only requires attribution (giving credit).
+
+### What rights are protected when I release a game? When does someone violate them?
+
+The rights to your own assets. Free and open source components are not entirely yours, and any user who has used those components have not violated your rights. These components can be the EasyRPG Player, RTP replacement material *or for derivatives if they use the CC BY-SA license*, and it's within legal bounds because it's permitted by the license. Any user that has taken what is clearly your own original materials could be infringing your rights.
+
+### Is it possible to have the RTP replacement's share-alike requirement waivered upon request?
+
+That is up to their author to decide. Get in contact with them, and they can discuss custom licensing with you.
+
+### Can I sell EasyRPG itself?
+
+Yes. Just be sure to include any changes you've made to the source code if any.
+
+### I'm using a modified editor that has no effect on the EasyRPG Player. Is it still possible to distribute my game without having to share the source code of the modified editor?
+
+It's considered good practice to share changes with the community, but you're not obligated to share your changes if the Player's binary doesn't change. You could link to the EasyRPG site that includes the binaries and source; it's typically found at the homepage.
+
+## About the player
+
+### Will this game work with EasyRPG?
+
+We want 100% compatibility with RPG Maker 2000 and 2003 games so that when they run on the original engines, they also run here. Any game or feature in a game that does not work in EasyRPG when it does in RPG Maker should get a respective bug report or feature.
+
+### Will unofficial hacks like Power Mode or DynRPG work with EasyRPG?
+
+It's hard to tell; we don't know if they do, and it's difficult to account for them. We often need help from developers familiar with those hacks or their creators so that we can better focus on getting RPG Maker completely reimplemented.
+
+### Can I run games using EasyRPG on this platform or operating system?
+
+Probably. EasyRPG Player uses SDL on most platforms, which itself has been ported to a wide range of platforms.
+
+## About the editor
+
+### I've modified a game that was made in RPG Maker. Can I save it back to RPG Maker's format?
+
+Yes. EasyRPG Editor allows to load/save in native (LCF) RPG Maker format.
+
+### Will the editor have new features?
+
+It's planned, but our main priority is compatibility. That means the editor will get a smaller focus until the player is accurate. The editor's code depends a lot on the player and it needs to be stabilized first.
+
+## About the goals
+
+### When will the project be completed?
+
+When it finishes. We don't have a timeframe.
+
+If you want the project to be completed sooner, you can contribute! After all, the people most interested in EasyRPG are the ones working to complete it.

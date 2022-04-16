@@ -1,0 +1,10 @@
++++
+title = "Player"
++++
+The Player is the game interpreter of games made with RPG Maker 2000 or 2003 editors. Technically, the player is the replacement of the RPG_RT.exe program executable and runtime interpreter of RPG Maker, distributed with games.
+
+{{% children  %}}
+
+## Project status
+
+Player is alpha now. Can run games partially. Several commands are implemented and working.

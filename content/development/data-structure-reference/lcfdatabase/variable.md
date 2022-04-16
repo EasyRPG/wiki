@@ -1,0 +1,8 @@
+---
+title: "Variable"
+---
+-   Data Type: 2 Dimensional Array
+
+| Index | Detail | Data Type | Default Value | etc. |
+|-------|--------|-----------|---------------|------|
+| 1     | Name   | String    | ""            |      |

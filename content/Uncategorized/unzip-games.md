@@ -1,0 +1,34 @@
+---
+title: "Unzip games with specific encodings"
+---
+Some games are distributed in .zip packages. Lots of these have file names with non-ASCII encoding characters.
+
+Most zip files are not using Unicode, so they need a special procedure to be unpacked properly.
+
+## Option 1: Unar
+
+`unar` (from The Unarchiver) automatically detects zip encoding and it's available on most distributions. It also supports rar files.
+
+## Option 2: p7zip and encoding conversion
+
+Requirements:
+
+-   Installed locales for languages to decode.
+-   `p7zip-full`
+-   `convmv`
+
+Commands for specific encodings:
+
+### Japanese
+
+    LANG=ja_JP 7za x filename.zip
+    cd gamefolder
+    convmv --notest -f shiftjis -t utf8 -r *
+
+### Traditional Chinese (Taiwan, Singapore, Hong Kong, Macao...)
+
+    LANG=zh_HK 7za x filename.zip
+    cd gamefolder
+    convmv --notest -f cp950 -t utf8 -r *
+
+Alternatively, `zh_TW` and other should work fine too.

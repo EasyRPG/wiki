@@ -1,0 +1,243 @@
+---
+title: "Known patches"
+---
+# Known patches
+
+There are many different patches, hacks and other dubious methods to add new functionality to RPG Maker. This page tries to list them.
+
+Unofficial RPG Maker functionality can come in the following forms:
+
+-   modified engine executable, RPG_RT.exe,
+-   IPS file (they can be used to modify the executable by a tool like LunarIPS, or applied dynamically by DynRPG),
+-   HPA file to modify the executable by HyperPatcher2,
+-   manual replacement of values at given offsets (can be done in hex editor, or applied dynamically through QuickPatches in DynRPG)
+-   replacement for the audio library, Harmony.dll,
+-   DynRPG plugins to be applied by DynRPG,
+-   external utilities called by some other patch,
+-   external utility to apply the patch.
+
+## Harmony.dll replacements
+
+Changing harmony.dll allows to do external without modifying the main binary.
+
+Harmony.dll is used for audio playback in RPG Maker 2000 (except Value!) and RPG Maker 2003 up to version 1.04. A patch, Force Harmony, was made to allow using Harmony.dll in newer RPG Maker 2003.
+
+### Key Patch by Ineluki
+
+Supports: RPG Maker 2000 up to 1.10 (everything before VALUE!), RPG Maker 2003 up to version 1.04
+
+To work with any other version, game needs to be patched with Force Harmony.
+
+Executes scripts via the 'Play sound' command, and returns data through the midi ticks. Scripts are stored as sounds with .script.wav extension (the format of .script.wav is similar to INI files).
+
+Also, allows to play MP3 (and theoretically also WMA) files by creating text files with .link.wav extension (a feature that was carried over from the older MP3 patch by Ineluki). Since this procedure is not managed by the game engine, music continues to play even if another track is started without correctly terminating the last one.
+
+If FFDShow or something similar is installed, it may spam new symbols to task bar with every new file played until Harmony resets or game is closed.
+
+The Key Patch is able to break system stability when starting a game if it gets prevented by a firewall to monitor key inputs.
+
+Scripts allow to:
+
+-   Get full keyboard input
+-   Get mouse input (only works correctly in fullscreen)
+-   Execute arbitrary programs
+-   Execute [MCI command](https://msdn.microsoft.com/en-us/library/windows/desktop/dd797790%28v=vs.85%29.aspx)
+-   Write information to log
+
+Since it allows to execute arbitrary exe files, it opened a way for a lot of smaller utilities.
+
+Download: <http://www.rpg2000.4players.de:1061/sonstiges/utils/InelukiKeyPatchv1-2.zip>
+
+Games using it: [Detectivus Scitus](http://www.rpg-maker.fr/index.php?page=jeux&id=232)
+
+## RPG Maker 2000 and 2003 patches
+
+### Auto Enter Patch by Miroku
+
+Skips the title screen of RPG Maker, allowing to create custom title screens. When used, the title screen will still show up, but is confirmed to start a new game instantly. To remove every disturbing detail, title and system graphic should be changed to empty black and the confirmation sound effect needs to be "(OFF)". It is recommended to use Better AEP (see below) instead.
+
+Similar patch is available for RPG Maker 2003.
+
+FIXME \[description, examples\]
+
+Download: <http://dl1.rpg-atelier.net/ressourcen2/programme/AutoEnterPatch.exe>
+
+### BetterAEP by Cherry
+
+Supports: RM2k v1.07 and RM2k3 v1.08 (distributed as a modified binary)
+
+Skips the title screen in a different more efficient way than Auto Enter Patch (see above) and allows to call load menu and exit game.
+
+Stop Parallel Events is modified: When variable 3350 contains the value of 1, it calls a file menu in load mode. When it contains the value of 2, it exits the game. When it contains any other value (such as 0), Stop Parallel Events works normal.
+
+Download: <http://cherrytree.at/cms/download/?did=17>
+
+### PicPointerPatch
+
+Supports: RM2k v1.07 and RM2k3 v1.08 (distributed as IPS patches)
+
+Allows to use the ID of picture stored in a variable.
+
+If N+10000 is entered as a picture ID, the picture ID is read from variable N.
+
+If N+50000 is entered as a picture ID, the picture ID is read from variable N, and the last 4 digits of variable (N+1) replace the last 4 characters of the picture name (for example, if TestTest.png is selected, and N+1 contains 5, then the filename will be Test0005.png).
+
+Download: <http://cherrytree.at/cms/download/?did=19>
+
+### CharExpand Patch by Cherry / Il Segugio
+
+Allows to use character graphics with arbitrary dimensions, as in newer RPG Maker versions. For this, Charsets must be named %XXYYName.png, where XX is width of one sprite divided by 4, and YY is height of one sprite divided by 4.
+
+An adaptation of this script for RPG Maker 2003 v. 1.08 was made by Il Segugio.
+
+RM2k, description and download here: <http://cherrytree.at/cms/lang/en/download/?did=18> RM2k3, description: <http://www.makerando.com/topic/345-charexpand-patch-2k3/> RM2k3, download: <http://www.mediafire.com/download/83ihq0oz21ov5l7/CEP%5Bplus+%5D+-+RPG_RT2k3+v1.08.ips>
+
+### PicsInBattle
+
+Supports: RM2k v1.07 and RM2k3 v1.08
+
+This patch allows to show pictures in battle. Patch is available in HPA format for HyperPatcher 2.
+
+By default, pictures are not visible in the battle scene. Even they exist and can be manipulated through calling common events, they will become visible only after the battle ends. This patch allows to see all the pictures during the battle.
+
+Description and download: <http://cherrytree.at/cms/lang/en/download/?did=14>
+
+## RPG Maker 2000 patches
+
+### Enter Hero Name Patch by Deejee
+
+Supports: RPG Maker 2000 v 1.05 (distributed as modified RPG_RT.exe)
+
+This patch fixed the 'Enter Hero Name' bug (the game freezed when executing this command) introduced in Don Miguel’s English translation.
+
+Downloaded here: <http://www.mediafire.com/download/9y1pq6zpp9ilo51/enterheroname_rpg_rt_exe.zip> (link from <http://dbzugames.forumeiros.com/t68-enter-hero-name-patch-deejee-rpg-maker-2000-v1-05> )
+
+### Destiny Patch by Bananen-Joe
+
+Version 1 Supports: RPG Maker 2000 v. 1.05 (dropped with release of Ver2) and 1.07
+
+Written in Assembler. Implements its own scripting language called DestinyScript for many kinds of data access and manipulation while game is running. Also comes with a patching tool that can adjust some details in the engine (repair broken EnterHeroName function, modify title screen or change order of blitting layers, for example chipset graphics above pictures,...).
+
+1.0.10.0: <http://www.rpga.info/forum/showthread.php?t=46000>
+
+2.0.1.8: <http://www.rpga.info/forum/showthread.php?t=51108>
+
+## RPG Maker 2003 patches
+
+FIXME
+
+### Force Harmony by Bananen-Joe and Cherry
+
+Starting with version 1.05, RPG Maker 2003 doesn’t use Harmony.dll for music playback. The newer code allows to play MP3, but Harmony.dll was used not just for playing music — it was a DLL for executing custom code, as done by Ineluki's Key Patch (see above),
+
+To allow using Ineluki's Key Patch and other Harmony Replacements, this patch changes RPG Maker 2003 v. 1.05 and above to use Harmony.dll. After this, RM2k3 v. 1.05 and above can no longer play MP3, since Harmony.dll doesn’t support MP3 (unless another patch like Disharmony is used).
+
+Download: <http://cherrytree.at/cms/lang/en/download/?did=4>
+
+### DynRPG by Cherry
+
+Supports: RPG Maker 2003 v. 1.08
+
+An ambitious project to create a C++ SDK for RPG Maker 2003. Allows to create many different plugins. Unfortunately, they are Windows-specific.
+
+Description here: <http://rpg-maker.cherrytree.at/dynrpg/>
+
+## Known hacks
+
+Some hacks are not presented as patches, but instead are done by every game creator manually, either with a hex editor, or with a specialised program.
+
+### Changed resources (EXFONT, logos, icons)
+
+The simplest type of hacks involves change of resources using Windows resource editors, such as [Resource Hacker](http://angusj.com/resourcehacker/) (proprietary freeware).
+
+This way you can change an:
+
+-   **EXFONT**, a font containing additional characters available via the \$ sign,
+-   Enterbrain/ASCII logos at the beginning of the game,
+-   application icon.
+
+FIXME \[Need examples\]
+
+A custom EXFONT can be used by placing ExFont.bmp/.png in the games main directory. This will override the built-in ExFont.
+
+### Changed fonts
+
+Using custom fonts may be required if your language is not supported.
+
+Cherry’s Font Changer ([download](http://dl1.rpg-atelier.net/ressourcen2/programme/chgfont.exe)) and [HyperPatcher2](http://cherrytree.at/cms/download/?did=10) allow to do this automatically, but it’s not hard to do in a hex editor either.
+
+**Note.** Changing fonts doesn’t always require hacking an exe file. Sometimes games don’t change the font name, and just replace the default font (e. g. Czech game [Broken Hearts](https://cs.wikipedia.org/wiki/Broken_Hearts_%28hra%29) comes with its own RMG2000 font).
+
+FIXME \[Need description and examples\]
+
+### Changed characters in 'Enter hero name' form
+
+FIXME \[Need description and examples\]
+
+### Text speed change
+
+The [2k3 Hack: The end of your slow text speed woes!](http://rpgmaker.net/tutorials/368/) tutorial on <http://rpgmaker.net> describes how to change the font speed.
+
+FIXME \[Need examples\]
+
+### Additional data
+
+Cherry’s Hyper Patcher ([download](http://dl1.rpg-atelier.net/ressourcen2/programme/hyperp.exe); supports RPG Maker 2000 v 1.05, RPG Maker 2003 v1.04 and RPG Maker 2003 v1.08) allows to change a number of other things, mostly cosmetic:
+
+-   Main:
+    -   Slightly different battle system interface,
+    -   Hide start logos,
+-   Title screen changes:
+    -   Automatically move cursor to 'Load',
+    -   Show 'Load' even when there is no data,
+    -   Swap 'Load' and 'End' functions,
+    -   Show only 2 first entries
+    -   Position of X, Y on the title screen
+    -   Never draw the 'Load' menu in gray
+-   In-game menu changes:
+    -   Hide last items in the RM2k menu (Item, Skill, Equip, Save, Exit; or Item, Skill, Equip, Save; or Item, Skill, Equip; or Item, Skill)
+    -   Change colour of different menu items
+    -   Hide party gold
+-   Load/save menu:
+    -   Hide HP
+    -   Hide level
+
+## External utilities
+
+Sometimes external programs are made to be called through the Ineluki's key patch (or other means?).
+
+FIXME
+
+### PowerPatch Compact by Cherry
+
+Description and download here: <http://cherrytree.at/cms/download/?did=8>
+
+### Save/Load Script by Vampire of Eternal Chaos
+
+Provides programs ExitGame.exe, ExitSaveLoad.exe, Load.exe, Save.exe, SaveCounter.exe, SaveInfo.exe, SaveInfoSet.exe,
+
+According to the documentation, it depends on the following:
+
+-   Ineluki Key Patch
+-   Auto Enter Patch
+-   ScreenEffect script / SFX.exe
+-   AutoHotkey
+
+Download: <http://wombatrpgs.net/downloads.php?view=detail&df_id=40&sid=4f27d18fac38d32dd3a85b9745e04e22>
+
+### Screenshot script by Miroku
+
+Allows to make a screenshot and save it in the Pictures folder (converting to 256 colours).
+
+Download: <http://dl1.rpg-atelier.net/ressourcen2/programme/Effect.exe>
+
+## References
+
+-   <http://www.multimediaxis.de/threads/105858-Liste-der-Patches-Tools-f%C3%BCr-den-RM2k%283%29>
+-   <http://rpgmaker.net/forums/topics/689/>
+-   <http://rpgmaker.net/tutorials/50/>
+-   <http://rpgmaker.su/f2/rpg-maker-2009-ultimate-895/index2>
+-   <http://cherrytree.at/cms/download/?did=8>
+-   <http://rpgmaker.net/forums/topics/689/>
+-   <http://rmrk.net/index.php?topic=32090.0>
+-   <http://cherrytree.at/cms/lang/en/download/?category=5>

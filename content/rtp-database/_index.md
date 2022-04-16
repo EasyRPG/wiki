@@ -1,0 +1,28 @@
+---
+title: "RTP database"
+---
+# RTP database
+
+In order to keep a knowledge about all the RTP data supported by EasyRPG we need to know all about RTP and their distributions.
+
+### The fact
+
+Original RPG Maker 2000 and 2003 RTP packages have **file names in Japanese** (intended for Japan distribution only) and they are not easy to install in non-Japanese Windows operating systems.
+
+The original installers are not Unicode. Only Windows 2000 series were Unicode when RPG Maker 2000 was released, so Japanese programs in SHIFT_JIS or other Windows language versions are not working "out of the box" between old, non-Unicode, Windows versions. Windows XP is the first Windows NT for the mainstream featuring Unicode support but it was too late. Windows 9x were still supported during a couple of years.
+
+### The problem
+
+Fortunately, Don Miguel, the nickname of the unofficial translator of the most famous RPG Maker 2000 version made a **translation of the RTP files** of RPG Maker 2000 into English and became a *de facto* standard for non-Japanese users worldwide. However you need the Japanese RTP to play Japanese RTP-dependent games and the Don's English RTP to play Don's RTP-dependent games.
+
+The increased popularity after the English translation became a mess when 2003 was released. Multiple unofficial translations emerged at once and the difficulties to play RTP dependent games increased.
+
+The main challenge for EasyRPG is to take support of different games (Japanese, English...) using any RTP translation available with the same RTP replacement. This includes possible RTP translation caveats (added, removed files...).
+
+### The solution
+
+Use a common and unique files and a **reference table** passed to the game interpreter to return the correct file referred by the game.
+
+If `RPG_RT.ini` does not have the `FullPackageFlag=1` directive (it means don't use RTP), the EasyRPG interpreter will make use of the RTP replacement. Proposed places: Windows: Similar (not equal) as original RTP registry path. UNIX based: `/usr/share/easyrpg/rtp/` path. Inside of these paths a new file as a little standalone database will indicate to the interpreter which file name string is assigned. See below an example of the tables.
+
+![nojs dsort](indexmenu>rtp-database)

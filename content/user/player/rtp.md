@@ -1,0 +1,60 @@
+---
+title: "Runtime Package (RTP)"
+---
+**R**un**t**ime **P**ackages were intended to be a common asset library of graphics, music, and sounds that games often shared to save on disk space in the early days of computing (where floppy disks and dial-up modems were commonplace). A good way to understand the way it's used is through Microsoft's tools; developers that use Visual Studio often include Visual C++ Redistributables and the .NET Framework, or they have to tell the user to download it from Microsoft's website.
+
+The installer for the RTP is given out by RPG Maker's vendor at their homepage for anyone to download but not to share.
+
+The better games often don't use this package to ease the burden of having to install more prerequisites just to get the game working, and because they use original assets that the RTP would have no use replacing. You can use official packages from RPG Maker 2000 and 2003, but they can't be shared around, and they can't be used for projects that weren't made with anything other than RPG Maker (like EasyRPG, unfortunately).
+
+EasyRPG is free and open-source, so our own RTP replacement (which is incomplete) will use a free license allowing modifications to the assets.
+
+## Get the RPG Maker 2000 RTP and RPG Maker 2003 RTP from RPGMakerweb
+
+### For the 2000 RTP
+
+1.  Browse to <https://www.rpgmakerweb.com/run-time-package> to select the RPG Maker 2000 download.
+2.  Install the file from the .exe
+
+### For the 2003 RTP
+
+1.  Browse to <https://www.rpgmakerweb.com/run-time-package> to select the RPG Maker 2003 download.
+2.  Install the file from the .exe inside the .zip
+
+## Operating system specific considerations
+
+Depending on the operating system you have to take care on a few steps:
+
+### Windows
+
+Just install the RTP using the official installer, the Player will automatically find it by reading the registry.
+
+### GNU/Linux, macOS and other systems
+
+#### Windows-like RTP setup with WINE
+
+WINE has a registry, and EasyRPG Player can read RTP paths from it much like RPG_RT does for Windows.
+
+Install the RTPs in WINE, and then the Player will automatically find and extract it. You can then optionally uninstall WINE if the RTP was all you installed in it; under WINE, this procedure only ensures a valid install.
+
+#### Manual RTP setup (without WINE)
+
+For systems that can't (or don't want to) use WINE for its registry auto-detection, you'll need to copy RTP files from a preinstalled RTP manually or unpack .exe installers with unar, file-roller or similar frontend supporting 7z/lzma data from executable installers.
+
+EasyRPG Player reads these environment variables for the packages:
+
+-   `RPG2K_RTP_PATH`: For the RPG2000 RTP
+-   `RPG2K3_RTP_PATH`: For the RPG2003 RTP
+-   `RPG_RTP_PATH`: For any RTP (a fallback if one of the others hasn't been filled in)
+
+If your system does not support environment variables, just place the RTP in the folders `/data/rtp/2000` and `/data/rtp/2003` instead.
+
+### Android
+
+You can extract the RTP folders from .exe installers by renaming .exe to .7z and then unpacking the .7z with some free tool like ZArchiver.
+
+Extract the RTP into your sdcard path as explained in the EasyRPG Player app instructions.
+
+### Wii
+
+Extract the RTP into `/data/rtp/2000` and `/data/rtp/2003` (SD and USB are supported).

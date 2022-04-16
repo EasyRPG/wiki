@@ -1,0 +1,6 @@
+---
+title: "User documentation"
+---
+These sites contain useful information for using EasyRPG if you are a normal user/gamer.
+
+{{% children %}}

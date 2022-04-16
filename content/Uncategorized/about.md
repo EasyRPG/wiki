@@ -1,0 +1,39 @@
+---
+title: "About EasyRPG"
+---
+EasyRPG is a project to create a free (as in freedom) Role Playing Game (RPG) creation tool.
+
+The project consists on several tools and resources:
+
+-   EasyRPG Editor
+-   EasyRPG Player
+-   RTP Replacement
+
+It is inspired on a commercial product called **RPG Maker**.
+
+## EasyRPG Editor
+
+The Editor is an application with a user interface to design roleplaying games.
+
+It consists on:
+
+-   A main **map editor** window where you can draw tile based maps
+-   A **database** window dialog where you can create or customize your characters, abilities, enemies, terrains, etc.
+-   Window dialogs to edit map properties, trigger battles every steps on map, etc.
+-   Window dialogs to add and manage map **events**, to handle commands for this events, display NPCs, messages etc.
+
+## EasyRPG Player
+
+The **Player** is an application to run games made with EasyRPG Editor.
+
+Also it can **play RPG Maker 2000 and 2003 games** directly (RPG_RT.exe equivalent). This is the main feature in development currently.
+
+EasyRPG Player is very portable. This allows to play games in a lot of systems: GNU/Linux, Windows, macOS, video game consoles and mobile phones.
+
+## RTP Replacement
+
+The original RPG Maker software is not free. RPG Maker includes a shared material **library with graphics and sounds**, used by most games made with this software, called **Run Time Package** (RTP). This material can be distributed only with games made with RPG Maker and only by their customers, so these games are depending on a material distribution only available on Japanese Windows Platforms in the case of RPG Maker 2000 and 2003.
+
+So if you are using RPG Maker and you want to play a game made with RPG Maker 2000 and 2003 which they are depending on RTP files, you need a RTP replacement due to license restrictions in the original RTP.
+
+To learn more about RTP replacement you can visit the [./development/rtp-replacement](/development/rtp-replacement) development page.

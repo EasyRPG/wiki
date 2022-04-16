@@ -1,0 +1,14 @@
+---
+title: "RTP replacement"
+---
+Most games made with RPG Maker 2000 and 2003 make use of a media resources library, containing graphics, music and sounds, called "Run-Time Package" (RTP). This data is often a game dependency, not included with the game data, designed for the common usage of materials. But this data is not free. To make it free (as freedom), we need a free replacement to guarantee the free distribution (if the rest of the game data is free), compatibility and execution of those games.
+
+## RTP replacement contributions
+
+See [./rtp-replacement/contributions](/rtp-replacement/contributions).
+
+## RTP database
+
+See [./rtp-database](/rtp-database)
+
+{{% children %}}

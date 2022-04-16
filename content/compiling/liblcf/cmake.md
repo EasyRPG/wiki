@@ -1,0 +1,17 @@
+---
+title: "Building liblcf with CMake"
+---
+## CMake Requirements
+
+-   make
+-   CMake 2.8 or later
+-   pkg-config
+-   ICU
+-   expat
+
+## Build
+
+-   Run "cmake \${PATH TO liblcf/builds/cmake} && make".
+-   If you want to build it with debug mode pass "-D CMAKE_BUILD_TYPE=Debug" to cmake. Debug mode will generate a file larger than usual.
+
+After this, a liblcf.a file will be generated.

@@ -1,0 +1,13 @@
+---
+title: "Building Editor-GTK with GNU Build System"
+---
+## Requirements
+
+-   Autoconf 2.63 or greater
+-   Automake 1.11 or greater
+-   GTK+ 3.4 or greater
+-   Vala compiler 0.16 or greater
+
+## Build
+
+-   Run `./autogen.sh && make`
