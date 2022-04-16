@@ -1,0 +1,197 @@
+<!doctype html><html lang=en class="js csstransforms3d"><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=generator content="Hugo 0.97.0"><meta name=description content="Documentation for the EasyRPG project"><link rel=icon href=/images/favicon.png type=image/png><title>Migration (2000-2003) :: EasyRPG Wiki</title><link href=/css/nucleus.css?1650076931 rel=stylesheet><link href=/css/fontawesome-all.min.css?1650076931 rel=stylesheet><link href=/css/hybrid.css?1650076931 rel=stylesheet><link href=/css/featherlight.min.css?1650076931 rel=stylesheet><link href=/css/perfect-scrollbar.min.css?1650076931 rel=stylesheet><link href=/css/auto-complete.css?1650076931 rel=stylesheet><link href=/css/atom-one-dark-reasonable.css?1650076931 rel=stylesheet><link href=/css/theme.css?1650076931 rel=stylesheet><link href=/css/tabs.css?1650076931 rel=stylesheet><link href=/css/hugo-theme.css?1650076931 rel=stylesheet><link href=/css/theme-green.css?1650076931 rel=stylesheet><script src=/js/jquery-3.3.1.min.js?1650076931></script><style>:root #header+#content>#left>#rlblock_left{display:none!important}</style></head><body data-url=/rtp-database/migration-2000-2003/><nav id=sidebar class=showVisitedLinks><div id=header-wrapper><div id=header><a id=logo href=/><img src=/logo.png alt="EasyRPG wiki"></a></div><div class=searchbox><label for=search-by><i class="fas fa-search"></i></label>
+<input data-search-input id=search-by type=search placeholder=Search...>
+<span data-search-clear><i class="fas fa-times"></i></span></div><script type=text/javascript src=/js/lunr.min.js?1650076931></script>
+<script type=text/javascript src=/js/auto-complete.js?1650076931></script>
+<script type=text/javascript>var baseurl="/"</script><script type=text/javascript src=/js/search.js?1650076931></script></div><section id=homelinks><ul><li><a class=padding href=/><i class="fas fa-home"></i> Home</a></li></ul></section><div class=highlightable><ul class=topics><li data-nav-id=/compiling/ title=Compiling class=dd-item><a href=/compiling/>Compiling
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/player/ title="Compiling EasyRPG Player" class=dd-item><a href=/compiling/player/>Compiling EasyRPG Player
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/player/android/ title=android class=dd-item><a href=/compiling/player/android/>android
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/osx/autotools/ title="Building Player on OS X with Autotools" class=dd-item><a href=/compiling/player/osx/autotools/>Building Player on OS X with Autotools
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/cmake/ title="Building Player with CMake" class=dd-item><a href=/compiling/player/cmake/>Building Player with CMake
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/autotools/ title="Building Player with GNU Build System" class=dd-item><a href=/compiling/player/autotools/>Building Player with GNU Build System
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/gcw0/ title="Compiling Player for GCW Zero" class=dd-item><a href=/compiling/player/gcw0/>Compiling Player for GCW Zero
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/wii/ title="Compiling Player for Nintendo Wii" class=dd-item><a href=/compiling/player/wii/>Compiling Player for Nintendo Wii
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/psp/ title="Compiling Player for PlayStation Portable" class=dd-item><a href=/compiling/player/psp/>Compiling Player for PlayStation Portable
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/macros/ title=Macros class=dd-item><a href=/compiling/player/macros/>Macros
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/player/macos/ title="Player macOS compiling" class=dd-item><a href=/compiling/player/macos/>Player macOS compiling
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/player/macos/autotools/ title="Building Player on macOS with Autotools" class=dd-item><a href=/compiling/player/macos/autotools/>Building Player on macOS with Autotools
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/compiling/player/windows/ title="Player Windows compiling" class=dd-item><a href=/compiling/player/windows/>Player Windows compiling
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/player/windows/visual-studio/ title="Compiling Player on Visual Studio" class=dd-item><a href=/compiling/player/windows/visual-studio/>Compiling Player on Visual Studio
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/compiling/editor-gtk/ title="Compiling Editor-GTK" class=dd-item><a href=/compiling/editor-gtk/>Compiling Editor-GTK
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/editor-gtk/cmake/ title="Building Editor-GTK with CMake" class=dd-item><a href=/compiling/editor-gtk/cmake/>Building Editor-GTK with CMake
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/editor-gtk/autotools/ title="Building Editor-GTK with GNU Build System" class=dd-item><a href=/compiling/editor-gtk/autotools/>Building Editor-GTK with GNU Build System
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/compiling/liblcf/ title="Compiling liblcf" class=dd-item><a href=/compiling/liblcf/>Compiling liblcf
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/liblcf/osx/autotools/ title="Building liblcf on OS X with Autotools" class=dd-item><a href=/compiling/liblcf/osx/autotools/>Building liblcf on OS X with Autotools
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/liblcf/cmake/ title="Building liblcf with CMake" class=dd-item><a href=/compiling/liblcf/cmake/>Building liblcf with CMake
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/liblcf/autotools/ title="Building liblcf with GNU Build System" class=dd-item><a href=/compiling/liblcf/autotools/>Building liblcf with GNU Build System
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/liblcf/macos/ title="liblcf macOS compiling" class=dd-item><a href=/compiling/liblcf/macos/>liblcf macOS compiling
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/liblcf/macos/autotools/ title="Building liblcf on macOS with Autotools" class=dd-item><a href=/compiling/liblcf/macos/autotools/>Building liblcf on macOS with Autotools
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/compiling/toolchains/ title="Compiling toolchains" class=dd-item><a href=/compiling/toolchains/>Compiling toolchains
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/compiling/toolchains/gcw0/ title="Building the GCW Zero Toolchain" class=dd-item><a href=/compiling/toolchains/gcw0/>Building the GCW Zero Toolchain
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/compiling/getting-sources/ title="Getting the EasyRPG sources" class=dd-item><a href=/compiling/getting-sources/>Getting the EasyRPG sources
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/compiling/porting/ title="Porting guidelines" class=dd-item><a href=/compiling/porting/>Porting guidelines
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/development/ title=Development class=dd-item><a href=/development/>Development
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/getting-started/ title="Getting started" class=dd-item><a href=/development/getting-started/>Getting started
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/ title="LCF data structure reference" class=dd-item><a href=/development/data-structure-reference/>LCF data structure reference
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/data-structure-reference/audio-information/ title="Audio Information" class=dd-item><a href=/development/data-structure-reference/audio-information/>Audio Information
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/data-types/ title=data-types class=dd-item><a href=/development/data-structure-reference/data-types/>data-types
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/lcfdatabase/ title=LcfDataBase class=dd-item><a href=/development/data-structure-reference/lcfdatabase/>LcfDataBase
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/data-structure-reference/lcfdatabase/switch/ title=Switch class=dd-item><a href=/development/data-structure-reference/lcfdatabase/switch/>Switch
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/lcfdatabase/variable/ title=Variable class=dd-item><a href=/development/data-structure-reference/lcfdatabase/variable/>Variable
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/development/data-structure-reference/lcfmaptree/ title=LcfMapTree class=dd-item><a href=/development/data-structure-reference/lcfmaptree/>LcfMapTree
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/lcfmapunit/ title=LcfMapUnit class=dd-item><a href=/development/data-structure-reference/lcfmapunit/>LcfMapUnit
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/data-structure-reference/lcfmapunit/map-event/ title="Map Event" class=dd-item><a href=/development/data-structure-reference/lcfmapunit/map-event/>Map Event
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/data-structure-reference/lcfmapunit/map-event/event-page/ title="Event Page" class=dd-item><a href=/development/data-structure-reference/lcfmapunit/map-event/event-page/>Event Page
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/development/data-structure-reference/lcfsavedata/ title=LcfSaveData class=dd-item><a href=/development/data-structure-reference/lcfsavedata/>LcfSaveData
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/data-structure-reference/lcfsavedata/character/ title=Character class=dd-item><a href=/development/data-structure-reference/lcfsavedata/character/>Character
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/lcfsavedata/preview/ title=Preview class=dd-item><a href=/development/data-structure-reference/lcfsavedata/preview/>Preview
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/data-structure-reference/lcfsavedata/teleport/ title=Teleport class=dd-item><a href=/development/data-structure-reference/lcfsavedata/teleport/>Teleport
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/development/technical-details/ title="RPG Maker technical details" class=dd-item><a href=/development/technical-details/>RPG Maker technical details
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/development/technical-details/common-events-battle-2003/ title="Behavior of Common Events Called in RPG Maker 2003 Battle" class=dd-item><a href=/development/technical-details/common-events-battle-2003/>Behavior of Common Events Called in RPG Maker 2003 Battle
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/technical-details/known-patches/ title="Known patches" class=dd-item><a href=/development/technical-details/known-patches/>Known patches
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/technical-details/rpg-maker-2003-version-history/ title="RPG Maker 2003 version history" class=dd-item><a href=/development/technical-details/rpg-maker-2003-version-history/>RPG Maker 2003 version history
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/technical-details/rpg_rt.exe/ title="RPG_RT.exe technical details" class=dd-item><a href=/development/technical-details/rpg_rt.exe/>RPG_RT.exe technical details
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/technical-details/system-graphics/ title="System graphics technical details" class=dd-item><a href=/development/technical-details/system-graphics/>System graphics technical details
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/technical-details/differences-rpg-maker-2000-2003/ title="What's new in RPG Maker 2003 that wasn't present in RPG Maker 2000" class=dd-item><a href=/development/technical-details/differences-rpg-maker-2000-2003/>What's new in RPG Maker 2003 that wasn't present in RPG Maker 2000
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/development/rpg-maker-test-suite/ title="RPG Maker test suite" class=dd-item><a href=/development/rpg-maker-test-suite/>RPG Maker test suite
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/sample-game/ title="Sample game" class=dd-item><a href=/development/sample-game/>Sample game
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/development/encoding-list/ title="Supported Encodings" class=dd-item><a href=/development/encoding-list/>Supported Encodings
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/editor-gtk/ title=Editor-GTK class=dd-item><a href=/editor-gtk/>Editor-GTK
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/editor-gtk/code-formatting-conventions/ title="Editor-GTK code formatting conventions" class=dd-item><a href=/editor-gtk/code-formatting-conventions/>Editor-GTK code formatting conventions
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/player/ title=Player class=dd-item><a href=/player/>Player
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/player/audio-backend/ title="Audio Backend" class=dd-item><a href=/player/audio-backend/>Audio Backend
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/player/audio-backend/no-audio/ title="No Audio" class=dd-item><a href=/player/audio-backend/no-audio/>No Audio
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/player/code-formatting-conventions/ title="Code Formatting Conventions" class=dd-item><a href=/player/code-formatting-conventions/>Code Formatting Conventions
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/player/web/ title="EasyRPG Player for the Web" class=dd-item><a href=/player/web/>EasyRPG Player for the Web
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/player/scenes/ title=Scenes class=dd-item><a href=/player/scenes/>Scenes
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/player/scenes/logo/ title=Logo class=dd-item><a href=/player/scenes/logo/>Logo
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/player/scenes/title/ title=Title class=dd-item><a href=/player/scenes/title/>Title
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li><li data-nav-id=/rtp-database/ title="RTP database" class="dd-item
+parent"><a href=/rtp-database/>RTP database
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/rtp-database/2000-rtp/ title="2000 RTP" class=dd-item><a href=/rtp-database/2000-rtp/>2000 RTP
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/rtp-database/2003-rtp/ title="2003 RTP" class=dd-item><a href=/rtp-database/2003-rtp/>2003 RTP
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/rtp-database/migration-2000-2003/ title="Migration (2000-2003)" class="dd-item active"><a href=/rtp-database/migration-2000-2003/>Migration (2000-2003)
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/rtp-replacement/ title="RTP replacement" class=dd-item><a href=/rtp-replacement/>RTP replacement
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/rtp-replacement/media-file-format-specifications/ title="Media file format specifications" class=dd-item><a href=/rtp-replacement/media-file-format-specifications/>Media file format specifications
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/rtp-replacement/contributions/ title="RTP replacement contributions" class=dd-item><a href=/rtp-replacement/contributions/>RTP replacement contributions
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/rtp-replacement/correct-transparency/ title="Setting the transparency correctly" class=dd-item><a href=/rtp-replacement/correct-transparency/>Setting the transparency correctly
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/uncategorized/ title=Uncategorized class=dd-item><a href=/uncategorized/>Uncategorized
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/uncategorized/about/ title="About EasyRPG" class=dd-item><a href=/uncategorized/about/>About EasyRPG
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/uncategorized/faq/ title="Frequently Asked Questions" class=dd-item><a href=/uncategorized/faq/>Frequently Asked Questions
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/uncategorized/unzip-games/ title="Unzip games with specific encodings" class=dd-item><a href=/uncategorized/unzip-games/>Unzip games with specific encodings
+<i class="fas fa-check read-icon"></i></a></li></ul></li><li data-nav-id=/user/ title="User documentation" class=dd-item><a href=/user/>User documentation
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/user/player/ title=Player class=dd-item><a href=/user/player/>Player
+<i class="fas fa-check read-icon"></i></a><ul><li data-nav-id=/user/player/buttons/ title="Button mapping" class=dd-item><a href=/user/player/buttons/>Button mapping
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/user/player/command-line/ title="Command Line Arguments" class=dd-item><a href=/user/player/command-line/>Command Line Arguments
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/user/player/compat/ title="Game Compatibility List" class=dd-item><a href=/user/player/compat/>Game Compatibility List
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/user/player/install/ title="Installation Guide" class=dd-item><a href=/user/player/install/>Installation Guide
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/user/player/rtp/ title="Runtime Package (RTP)" class=dd-item><a href=/user/player/rtp/>Runtime Package (RTP)
+<i class="fas fa-check read-icon"></i></a></li><li data-nav-id=/user/player/special-features/ title="Special Features" class=dd-item><a href=/user/player/special-features/>Special Features
+<i class="fas fa-check read-icon"></i></a></li></ul></li></ul></li></ul><section id=shortcuts><h3>More</h3><ul><li><a class=padding href=https://github.com/easyrpg/wiki><i class="fab fa-github"></i> Github repo</a></li></ul></section><section id=prefooter><hr><ul><li><a class=padding href=# data-clear-history-toggle><i class="fas fa-history fa-fw"></i> Clear History</a></li></ul></section><section id=footer><p>Built with <a href=https://github.com/matcornic/hugo-theme-learn><i class="fas fa-heart"></i></a> from <a href=https://getgrav.org>Grav</a> and <a href=https://gohugo.io/>Hugo</a></p></section></div></nav><section id=body><div id=overlay></div><div class="padding highlightable"><div><div id=top-bar><div id=top-github-link><a class=github-link title="Edit this page" href=https://github.com/EasyRPG/wiki/edit/master/content/rtp-database/migration-2000-2003.md target=blank><i class="fas fa-code-branch"></i>
+<span id=top-github-link-text>Edit this page</span></a></div><div id=breadcrumbs itemscope itemtype=http://data-vocabulary.org/Breadcrumb><span id=sidebar-toggle-span><a href=# id=sidebar-toggle data-sidebar-toggle><i class="fas fa-bars"></i></a></span>
+<span id=toc-menu><i class="fas fa-list-alt"></i></span>
+<span class=links><a href=/>EasyRPG wiki</a> > <a href=/rtp-database/>RTP database</a> > Migration (2000-2003)</span></div><div class=progress><div class=wrapper><nav id=TableOfContents><ul><li><a href=#file-changes>File changes</a><ul><li><a href=#backdrop>Backdrop</a></li><li><a href=#battle>Battle</a></li><li><a href=#battle2>Battle2</a></li><li><a href=#battlecharset>BattleCharSet</a></li><li><a href=#battleweapon>BattleWeapon</a></li><li><a href=#charset>CharSet</a></li><li><a href=#chipset>ChipSet</a></li><li><a href=#faceset>FaceSet</a></li><li><a href=#frame>Frame</a></li><li><a href=#gameover>GameOver</a></li><li><a href=#monster>Monster</a></li><li><a href=#movie>Movie</a></li><li><a href=#music>Music</a></li><li><a href=#panorama>Panorama</a></li><li><a href=#picture>Picture</a></li><li><a href=#sound>Sound</a></li><li><a href=#system>System</a></li><li><a href=#system2>System2</a></li><li><a href=#title>Title</a></li></ul></li></ul></nav></div></div></div></div><div id=head-tags></div><div id=body-inner><h1>Migration (2000-2003)</h1><h1 id=migration-2000-2003>Migration (2000-2003)</h1><p>Oficially, the migration between 2000 and 2003 projects is not 100% compatible. You can convert RPG Maker 2000 games into RPG Maker 2003 with the exception of the battles. Battle scenes are different.</p><p>EasyRPG wants to be compatible with both RPG Makers and make battle systems compatible and interchangeable. The monster graphic creation, to be the less work and time consuming possible, should be made with each sprite pose valid for both front and side battles using only one sprite.</p><h2 id=file-changes>File changes</h2><h3 id=backdrop>Backdrop</h3><ul><li>Larger backdrops. Before: 320x160. After: 320x240.</li><li>Redesigned backdrops. Still exists the 25 backdrop of RPG Maker 2000 RTP but same files (*)</li><li>9 new backdrops (new 9 files):</li></ul><pre tabindex=0><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
+</code></pre><pre><code>お墓
+お寺
+ダンジョン６
+旧市街
+洋館
+路上
+遺跡
+銭湯
+闘技場
+</code></pre><p>(*) There is a problem with the number used in 7 file names of files existing in RPG Maker 2000 RTP:</p><table><thead><tr><th>RPG Maker 2000 RTP</th><th>RPG Maker 2003 RTP</th></tr></thead><tbody><tr><td>ダンジョン1</td><td>ダンジョン１</td></tr><tr><td>ダンジョン2</td><td>ダンジョン２</td></tr><tr><td>ダンジョン3</td><td>ダンジョン３</td></tr><tr><td>ダンジョン4</td><td>ダンジョン４</td></tr><tr><td>ダンジョン5</td><td>ダンジョン５</td></tr><tr><td>森1</td><td>森１</td></tr><tr><td>森2</td><td>森２</td></tr></tbody></table><p>These files should report problems as different file names because the character numbers are different. The EasyRPG RTP database will need to take this in consideration.</p><p>The size recommendation for background artists is make pictures in 4:3 proportion with big size, then resize to 320x240. A bigger size whould be fine for the future, in case to work in 640x480 as a own project material repository.</p><h3 id=battle>Battle</h3><ul><li>Same 28 RPG Maker 2000 RTP Battle graphics</li><li>26 new Battle graphics:</li></ul><pre tabindex=0><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
+</code></pre><pre><code>2003その他1
+2003その他2
+2003バリア
+2003ブレス
+2003光柱
+2003冷気
+2003剣
+2003吸収
+2003回復
+2003大地
+2003弓
+2003打撃
+2003斧
+2003暗黒
+2003槍
+2003水
+2003治療
+2003炎
+2003爆発
+2003爪
+2003神聖
+2003蘇生
+2003雷
+2003鞭
+2003風
+2003麻痺
+</code></pre><h3 id=battle2>Battle2</h3><ul><li>New folder, for larger battle animations.</li><li>Empty folder. Nothing to design for RTP replacement or migrate from 2000 RTP.</li></ul><h3 id=battlecharset>BattleCharSet</h3><ul><li>New folder, sprites for allied characters in side battle system.</li><li>64 new files, corresponding to 32 characters available on CharSet.</li></ul><h3 id=battleweapon>BattleWeapon</h3><ul><li>New folder, sprites for weapon used for characters in side battle system.</li><li>1 new file.</li></ul><h3 id=charset>CharSet</h3><ul><li>Same 15 file names, no migration problems between 2000 and 2003.</li><li>New redesign of the same characters, same graphic sizes.</li></ul><h3 id=chipset>ChipSet</h3><ul><li>Same 5 file names, no migration problems between 2000 and 2003.</li><li>New redesign of the same tiles, same graphic sizes.</li></ul><h3 id=faceset>FaceSet</h3><ul><li>Same 5 file names, no migration problems between 2000 and 2003.</li><li>New redesign of the same faces, same graphic sizes.</li></ul><h3 id=frame>Frame</h3><ul><li>New folder, used for frame window and other usages.</li><li>Empty folder. Nothing to design for RTP replacement.</li></ul><h3 id=gameover>GameOver</h3><ul><li>Same 1 file name, no migration problems between 2000 and 2003.</li><li>Same design, same graphic size.</li></ul><h3 id=monster>Monster</h3><ul><li>Officially not compatible between 2000 and 2003.</li><li>85 new file names in 2003.</li><li>35 deleted file names in 2003.</li><li>30 files matching (and equivalent) between 2000 and 2003.</li><li>There are some monsters equivalent in 2003 with different file names (about 10).</li></ul><table><thead><tr><th>2000 RTP</th><th>2003 RTP</th><th>Matching</th><th>Observations</th></tr></thead><tbody><tr><td></td><td>アーリマン</td><td>New file</td><td></td></tr><tr><td></td><td>アスラ</td><td>New file</td><td></td></tr><tr><td></td><td>アナコンダ</td><td>New file</td><td>Similar to old 大蛇</td></tr><tr><td></td><td>アリゲーター</td><td>New file</td><td></td></tr><tr><td></td><td>アンデッドナイト</td><td>New file</td><td></td></tr><tr><td></td><td>イフリート</td><td>New file</td><td></td></tr><tr><td></td><td>インプ</td><td>New file</td><td>Similar to old 使い魔</td></tr><tr><td>ヴァンパイア</td><td>ヴァンパイア</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>ウロボロス</td><td>New file</td><td></td></tr><tr><td></td><td>エルフ</td><td>New file</td><td></td></tr><tr><td></td><td>オーガ</td><td>New file</td><td></td></tr><tr><td>オーク</td><td>オーク</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>オーディン</td><td>New file</td><td>Proposed for nearest to old トルーパー</td></tr><tr><td></td><td>オクトパス</td><td>New file</td><td>Also similar to クラーケン</td></tr><tr><td>ガーゴイル</td><td>ガーゴイル</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>カーバンクル</td><td>New file</td><td></td></tr><tr><td></td><td>カーミラ</td><td>New file</td><td></td></tr><tr><td></td><td>カッパ</td><td>New file</td><td></td></tr><tr><td></td><td>カトブレパス</td><td>New file</td><td></td></tr><tr><td></td><td>ガルーダ</td><td>New file</td><td></td></tr><tr><td>キマイラ</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new キメラ</td></tr><tr><td></td><td>キメラ</td><td>New file</td><td>Similar to old キマイラ</td></tr><tr><td></td><td>グール</td><td>New file</td><td></td></tr><tr><td>クラーケン</td><td>クラーケン</td><td>:-D Same file name</td><td>Also similar to new オクトパス</td></tr><tr><td></td><td>クラブ</td><td>New file</td><td></td></tr><tr><td>グリフォン</td><td>グリフォン</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>グレル</td><td>New file</td><td></td></tr><tr><td></td><td>クロウラー</td><td>New file</td><td></td></tr><tr><td></td><td>ゲイザー</td><td>New file</td><td></td></tr><tr><td></td><td>ケツアルクアトル</td><td>New file</td><td></td></tr><tr><td></td><td>ケットシー</td><td>New file</td><td></td></tr><tr><td>ケルベロス</td><td>ケルベロス</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>ケンタウロス</td><td>New file</td><td></td></tr><tr><td>こうもり</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new バット</td></tr><tr><td></td><td>ゴーゴン</td><td>New file</td><td></td></tr><tr><td>ゴースト</td><td>ゴースト</td><td>:-D Same file name</td><td></td></tr><tr><td>ゴーレム</td><td>ゴーレム</td><td>:-D Same file name</td><td></td></tr><tr><td>コカトリス</td><td>コカトリス</td><td>:-D Same file name</td><td></td></tr><tr><td>ゴブリン</td><td>ゴブリン</td><td>:-D Same file name</td><td></td></tr><tr><td>コボルト</td><td>コボルト</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>サイクロプス</td><td>New file</td><td></td></tr><tr><td></td><td>サタナエル</td><td>New file</td><td></td></tr><tr><td></td><td>サハギン</td><td>New file</td><td>Proposed for nearest to old マーマン</td></tr><tr><td></td><td>サラマンダー</td><td>New file</td><td></td></tr><tr><td></td><td>シャーク</td><td>New file</td><td></td></tr><tr><td></td><td>ジャイアント</td><td>New file</td><td></td></tr><tr><td></td><td>ジャック・オー・ランタン</td><td>New file</td><td></td></tr><tr><td></td><td>シャドウ</td><td>New file</td><td></td></tr><tr><td></td><td>シルフ</td><td>New file</td><td></td></tr><tr><td></td><td>スキュラ</td><td>New file</td><td></td></tr><tr><td>スケルトン</td><td>スケルトン</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>スコーピオン</td><td>New file</td><td>Similar to old 大サソリ</td></tr><tr><td></td><td>スネーク</td><td>New file</td><td></td></tr><tr><td></td><td>スピリッツ</td><td>New file</td><td>Similar to old 鬼火</td></tr><tr><td></td><td>スフィンクス</td><td>New file</td><td></td></tr><tr><td></td><td>スペクター</td><td>New file</td><td></td></tr><tr><td>スライム</td><td>スライム</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>セイレーン</td><td>New file</td><td></td></tr><tr><td></td><td>セラフィム</td><td>New file</td><td>Similar to old 天使</td></tr><tr><td></td><td>センチピード</td><td>New file</td><td></td></tr><tr><td></td><td>ソーサラー</td><td>New file</td><td></td></tr><tr><td>ゾンビ</td><td>ゾンビ</td><td>:-D Same file name</td><td></td></tr><tr><td>ダークエルフ</td><td>ダークエルフ</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>ダークナイト</td><td>New file</td><td>Proposed for nearest to old ブラックナイト</td></tr><tr><td></td><td>タイタン</td><td>New file</td><td></td></tr><tr><td></td><td>タランチュラ</td><td>New file</td><td>Similar to old 大グモ</td></tr><tr><td></td><td>ティアマット</td><td>New file</td><td></td></tr><tr><td>デーモン</td><td>デーモン</td><td>:-D Same file name</td><td></td></tr><tr><td>トルーパー</td><td></td><td>:!: Not in 2003</td><td>:-? The nearest (no horse) is the new オーディン</td></tr><tr><td></td><td>トード</td><td>New file</td><td></td></tr><tr><td>ドラゴン</td><td>ドラゴン</td><td>:-D Same file name</td><td></td></tr><tr><td>ドラゴンナイト</td><td>ドラゴンナイト</td><td>:-D Same file name</td><td></td></tr><tr><td>トレント</td><td>トレント</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>トロール</td><td>New file</td><td></td></tr><tr><td></td><td>ネクロマンサー</td><td>New file</td><td></td></tr><tr><td></td><td>ネペンテス</td><td>New file</td><td></td></tr><tr><td></td><td>バーサーカー</td><td>New file</td><td></td></tr><tr><td>ハーピー</td><td>ハーピー</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>バジリスク</td><td>New file</td><td></td></tr><tr><td></td><td>バット</td><td>New file</td><td>Similar to old こうもり</td></tr><tr><td></td><td>バハムート</td><td>New file</td><td></td></tr><tr><td></td><td>パラサイト</td><td>New file</td><td></td></tr><tr><td></td><td>ビッグフット</td><td>New file</td><td></td></tr><tr><td>ヒュドラ</td><td>ヒュドラ</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>フェニックス</td><td>New file</td><td></td></tr><tr><td></td><td>フェンリル</td><td>New file</td><td></td></tr><tr><td>ブラックナイト</td><td></td><td>:!: Not in 2003</td><td>:-? The nearest (armored) is the new ダークナイト</td></tr><tr><td></td><td>ベヒーモス</td><td>New file</td><td></td></tr><tr><td>ホーネット</td><td>ホーネット</td><td>:-D Same file name</td><td></td></tr><tr><td>マーマン</td><td></td><td>:!: Not in 2003</td><td>:-? The nearest is the new サハギン</td></tr><tr><td>マミー</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new ミイラ男</td></tr><tr><td></td><td>マンティコア</td><td>New file</td><td></td></tr><tr><td></td><td>マンティス</td><td>New file</td><td></td></tr><tr><td></td><td>マンモス</td><td>New file</td><td></td></tr><tr><td></td><td>ミイラ男</td><td>New file</td><td>Similar to old マミー</td></tr><tr><td></td><td>ミドガルズオルム</td><td>New file</td><td></td></tr><tr><td>ミノタウロス</td><td>ミノタウロス</td><td>:-D Same file name</td><td>Axe instead of maze, pay attention with skill names</td></tr><tr><td>ミミック</td><td>ミミック</td><td>:-D Same file name</td><td></td></tr><tr><td>メデューサ</td><td>メデューサ</td><td>:-D Same file name</td><td>Legs instead of fish tail</td></tr><tr><td></td><td>ユニコーン</td><td>New file</td><td></td></tr><tr><td></td><td>ラクシュミ</td><td>New file</td><td></td></tr><tr><td></td><td>ラミア</td><td>New file</td><td></td></tr><tr><td></td><td>リヴァイアサン</td><td>New file</td><td></td></tr><tr><td></td><td>リザード</td><td>New file</td><td></td></tr><tr><td>リザードマン</td><td>リザードマン</td><td>:-D Same file name</td><td></td></tr><tr><td>リッチ</td><td>リッチ</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>リリス</td><td>New file</td><td></td></tr><tr><td></td><td>レイス</td><td>New file</td><td>Proposed for nearest to old 死神</td></tr><tr><td></td><td>レモラ</td><td>New file</td><td>Similar to old 怪魚</td></tr><tr><td>ワーウルフ</td><td>ワーウルフ</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>ワーム</td><td>New file</td><td></td></tr><tr><td></td><td>ワイト</td><td>New file</td><td></td></tr><tr><td>ワイバーン</td><td>ワイバーン</td><td>:-D Same file name</td><td></td></tr><tr><td></td><td>九尾の狐</td><td>New file</td><td></td></tr><tr><td></td><td>朱雀</td><td>New file</td><td></td></tr><tr><td></td><td>玄武</td><td>New file</td><td></td></tr><tr><td></td><td>白虎</td><td>New file</td><td></td></tr><tr><td></td><td>馬</td><td>New file</td><td></td></tr><tr><td></td><td>鬼</td><td>New file</td><td></td></tr><tr><td></td><td>麒麟</td><td>New file</td><td></td></tr><tr><td>一般人1</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: インプ</td></tr><tr><td>一般人2</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: シルフ</td></tr><tr><td>一般人3</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ソーサラー</td></tr><tr><td>一般人4</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: エルフ</td></tr><tr><td>一般人5</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ダークエルフ</td></tr><tr><td>一般人6</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: カーミラ</td></tr><tr><td>一般人7</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: アンデッドナイト</td></tr><tr><td>一般人8</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ラクシュミ</td></tr><tr><td>使い魔</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new インプ</td></tr><tr><td>兵士</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ワイト</td></tr><tr><td>大グモ</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new タランチュラ</td></tr><tr><td>大サソリ</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new スコーピオン</td></tr><tr><td>大蛇</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new アナコンダ</td></tr><tr><td>天使</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new セラフィム</td></tr><tr><td>女王</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ラクシュミ</td></tr><tr><td>忍者</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: シャドウ</td></tr><tr><td>怪魚</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new レモラ</td></tr><tr><td>戦士1</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ダークエルフ</td></tr><tr><td>戦士2</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: カーミラ</td></tr><tr><td>武者</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: オーディン</td></tr><tr><td>死神</td><td></td><td>:!: Not in 2003</td><td>:-? The nearest is the new レイス</td></tr><tr><td>海賊</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: オーガ</td></tr><tr><td>王</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: タイタン</td></tr><tr><td>盗賊</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ケットシー</td></tr><tr><td>鬼火</td><td></td><td>:!: Not in 2003</td><td>:-) Similar to new スピリッツ</td></tr><tr><td>魔王</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ネクロマンサー</td></tr><tr><td>魔神</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: イフリート</td></tr><tr><td>魔術師1</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: ソーサラー</td></tr><tr><td>魔術師2</td><td></td><td>:!: Not in 2003</td><td>:-( Suggested: カーミラ</td></tr><tr><td>龍</td><td>龍</td><td>:-D Same file name</td><td></td></tr></tbody></table><h3 id=movie>Movie</h3><ul><li>Empty folder in both 2000 and 2003 RTPs.</li></ul><h3 id=music>Music</h3><ul><li>Same 28 RPG Maker 2000 RTP Music files</li><li>54 new Music files: 48 normal MID songs, 1 Jingle MID song, 5 WAV Sound Effects:</li></ul><pre tabindex=0><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
+</code></pre><pre><code>2003いやしの泉
+2003カジノ三昧
+2003コロシアム
+2003サイバーシティ
+2003スノータウン
+2003パニック
+2003マキシマム・バトル
+2003一獲千金の夢
+2003冒険者たち
+2003勇者の凱旋
+2003古城
+2003地下迷宮
+2003夢幻の森
+2003夢見心地
+2003大混戦
+2003大空への翼
+2003大聖堂
+2003妖精の森
+2003孤独な旅立ち
+2003小さな兵隊のマーチ
+2003山あいの村
+2003帝国〜エンパイア
+2003幼少の記憶
+2003忍び寄る闇
+2003悠久の時の流れに
+2003悲しみ
+2003戦いの幕開け
+2003教会
+2003日だまりの村
+2003暗黒の祭壇
+2003未開の集落
+2003極東の地
+2003機械要塞
+2003氷のラビリンス
+2003決戦の地
+2003無人の館
+2003王宮のパーティー
+2003異次元回廊
+2003祝福ワルツ
+2003穏やかな風
+2003緊迫
+2003繰り返される戦い
+2003街の賑わい
+2003街の酒場
+2003記憶の彼方に
+2003遺跡探索
+2003邪神との戦い
+2003静寂
+J2003ホルン
+SE2003アラーム
+SE2003ジャングル
+SE2003雑踏
+SE2003風
+SE2003鳥
+</code></pre><h3 id=panorama>Panorama</h3><ul><li>Same 13 file names, no migration problems between 2000 and 2003.</li><li>Same designs, same graphic sizes.</li></ul><h3 id=picture>Picture</h3><ul><li>Empty folder in both 2000 and 2003 RTPs.</li></ul><h3 id=sound>Sound</h3><ul><li>Same 206 file names, no migration problems between 2000 and 2003.</li><li>Same effects, same qualities.</li></ul><h3 id=system>System</h3><ul><li>Same 1 RPG Maker 2000 RTP System graphic.</li><li>3 new System graphics:</li></ul><pre tabindex=0><code class="language-{=html}" data-lang="{=html}">&lt;!-- --&gt;
+</code></pre><pre><code>システムA
+システムB
+システムC
+</code></pre><h3 id=system2>System2</h3><ul><li>New folder, system graphics for new battle style battle system.</li><li>3 new files.</li></ul><h3 id=title>Title</h3><ul><li>Same 4 file names, no migration problems between 2000 and 2003 (and zero problems concerning RTP replacement).</li><li>Almost same designs (only watermark logo version changes), same graphic sizes.</li></ul><footer class=footline></footer></div></div><div id=navigation><a class="nav nav-prev" href=/rtp-database/2003-rtp/ title="2003 RTP"><i class="fa fa-chevron-left"></i></a>
+<a class="nav nav-next" href=/rtp-replacement/ title="RTP replacement" style=margin-right:0><i class="fa fa-chevron-right"></i></a></div></section><div style=left:-1000px;overflow:scroll;position:absolute;top:-1000px;border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px><div style=border:none;box-sizing:content-box;height:200px;margin:0;padding:0;width:200px></div></div><script src=/js/clipboard.min.js?1650076931></script>
+<script src=/js/perfect-scrollbar.min.js?1650076931></script>
+<script src=/js/perfect-scrollbar.jquery.min.js?1650076931></script>
+<script src=/js/jquery.sticky.js?1650076931></script>
+<script src=/js/featherlight.min.js?1650076931></script>
+<script src=/js/highlight.pack.js?1650076931></script>
+<script>hljs.initHighlightingOnLoad()</script><script src=/js/modernizr.custom-3.6.0.js?1650076931></script>
+<script src=/js/learn.js?1650076931></script>
+<script src=/js/hugo-learn.js?1650076931></script></body></html>
