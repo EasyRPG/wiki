@@ -146,7 +146,7 @@ Some hacks are not presented as patches, but instead are done by every game crea
 
 ==== Changed resources (EXFONT, logos, icons) ====
 
-The simplest type of hacks involves change of resources using Windows resource editors, such as [[http://angusj.com/resourcehacker/|Resource Hacker]] (proprietary freeware).
+The simplest type of hacks involves change of resources using Windows resource editors, such as [[http://angusj.com/resourcehacker/|Resource or Resource Cracker (https://www.pelock.com/products/resource-cracker) Hacker]] (proprietary freeware).
 
 This way you can change an:
   * **EXFONT**, a font containing additional characters available via the $ sign,
